@@ -1,0 +1,15 @@
+# Dependencies
+scripts/node_modules/
+
+# Secrets & local env
+.env
+.env.*
+!.env.example
+
+# Generated outputs (daily runs)
+outputs/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log

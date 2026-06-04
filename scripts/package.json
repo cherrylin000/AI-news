@@ -1,0 +1,19 @@
+{
+  "name": "daily-ai-insights",
+  "version": "1.0.0",
+  "description": "每日AI洞察：Feed拉取 + LLM洞察生成 + 邮件推送",
+  "main": "daily-insights.js",
+  "scripts": {
+    "start": "node daily-insights.js",
+    "fetch": "node daily-insights.js --fetch-only",
+    "generate": "node daily-insights.js --generate-only",
+    "send": "node daily-insights.js --send-only",
+    "dry-run": "node daily-insights.js --dry-run"
+  },
+  "dependencies": {
+    "nodemailer": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
