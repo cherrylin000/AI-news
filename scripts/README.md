@@ -3,70 +3,57 @@
 ## 快速开始
 
 ```bash
-cd 长期计划/信息分析洞察计划/scripts
-npm install          # 安装依赖（仅需nodemailer）
+cd scripts
+npm install          # nodemailer 仅 --legacy-smtp 需要
 ```
 
 ## 环境变量配置
 
-创建 `.env` 文件或直接设置环境变量：
+在项目根目录复制 `.env.example` 为 `.env`，或导出环境变量：
 
 ```bash
-# SMTP邮件发送（必填，用于发送邮件）
-export SMTP_HOST=smtp.example.com
-export SMTP_PORT=465
-export SMTP_USER=your@email.com
-export SMTP_PASS=your-password
-export SMTP_FROM=your@email.com        # 可选，默认同SMTP_USER
-
-# LLM API（必填，用于AI洞察生成）
+# LLM（生成洞察，必填）
 export LLM_API_URL=https://api.openai.com/v1/chat/completions
 export LLM_API_KEY=sk-xxxx
-export LLM_MODEL=gpt-4o               # 可选，默认gpt-4o
+export LLM_MODEL=gpt-4o
+
+# 站点（可选，默认 https://cherrylin000.github.io/AI-news）
+export SITE_URL=https://cherrylin000.github.io/AI-news
+
+# follow.it 嵌入代码（第 6 步）
+# export FOLLOWIT_EMBED_HTML='...'
+
+# SMTP（仅 --legacy-smtp）
+# export SMTP_HOST=...
 ```
 
 ## 使用方式
 
 ```bash
-# 完整流程：拉取feed → AI生成洞察 → 生成MD/HTML → 发送邮件
+# 默认：拉取 → 生成 → 发布 site/（不发 SMTP）
 node daily-insights.js
 
-# 仅拉取feed数据（不生成洞察、不发送邮件）
 node daily-insights.js --fetch-only
-
-# 仅生成洞察（从已保存的feed数据，不发送邮件）
-node daily-insights.js --generate-only
-
-# 仅发送邮件（从已生成的HTML/MD文件）
-node daily-insights.js --send-only
-
-# 完整流程但不实际发送邮件（dry run）
+node daily-insights.js --generate-only   # 含发布 site/
+node daily-insights.js --send-only         # 从 outputs 加载并发布 site/
+node daily-insights.js --legacy-smtp       # 额外 SMTP 群发（需配置 recipients）
 node daily-insights.js --dry-run
 ```
 
-也可以用npm scripts：
+npm scripts：`start` / `fetch` / `generate` / `send` / `dry-run` / `legacy-smtp`
 
-```bash
-npm start       # 完整流程
-npm run fetch   # 仅拉取
-npm run generate # 仅生成
-npm run send    # 仅发送
-npm run dry-run # 试运行
-```
+## 站点输出（`../site/`）
 
-## 调整收件人
+| 文件 | 说明 |
+|------|------|
+| `index.html` | 预览页 + 订阅区 |
+| `latest.html` | 当日邮件 HTML |
+| `feed.xml` | RSS（follow.it 绑定） |
+| `archive/YYYY-MM-DD.html` | 历史归档 |
 
-编辑 `daily-insights.js` 顶部的 `CONFIG.recipients` 数组：
+## 调整收件人（仅 --legacy-smtp）
 
-```javascript
-recipients: [
-  { name: '车厘子桑', address: 'lhy960423@outlook.com' },
-  { name: 'Frank Zhu', address: 'frank.zhu@kln.com' },
-  // 新增收件人：
-  // { name: '新同事', address: 'new@example.com' },
-  // 删除不想发的直接注释或删掉对应行即可
-],
-```
+编辑 `CONFIG.recipients`；日常订阅请用 follow.it，无需维护名单。
 
 ## 其他可调配置
 

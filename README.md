@@ -21,6 +21,8 @@ node daily-insights.js --generate-only
 
 详见 [scripts/README.md](scripts/README.md)。
 
-## 订阅
+## 订阅（follow.it）
 
-站点与 RSS 订阅功能搭建中，完成后预览页将发布在 GitHub Pages。
+- 预览页：`https://cherrylin000.github.io/AI-news/`（需先开启 GitHub Pages，见路线图第 5 步）
+- RSS：`https://cherrylin000.github.io/AI-news/feed.xml`
+- 默认不再 SMTP 群发；恢复旧行为：`npm run legacy-smtp`（需在脚本中配置 `recipients`）

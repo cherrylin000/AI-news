@@ -1,14 +1,15 @@
 {
   "name": "daily-ai-insights",
   "version": "1.0.0",
-  "description": "每日AI洞察：Feed拉取 + LLM洞察生成 + 邮件推送",
+  "description": "每日AI洞察：Feed拉取 + LLM生成 + GitHub Pages/RSS 发布",
   "main": "daily-insights.js",
   "scripts": {
     "start": "node daily-insights.js",
     "fetch": "node daily-insights.js --fetch-only",
     "generate": "node daily-insights.js --generate-only",
     "send": "node daily-insights.js --send-only",
-    "dry-run": "node daily-insights.js --dry-run"
+    "dry-run": "node daily-insights.js --dry-run",
+    "legacy-smtp": "node daily-insights.js --legacy-smtp"
   },
   "dependencies": {
     "nodemailer": "^7.0.0"
