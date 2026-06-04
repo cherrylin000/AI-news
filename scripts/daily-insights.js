@@ -775,6 +775,12 @@ function escapeXml(str) {
     .replace(/'/g, '&apos;');
 }
 
+/** CDATA 安全包裹（用于 RSS 内嵌完整 HTML 邮件正文） */
+function wrapCdata(str) {
+  if (!str) return '';
+  return String(str).replace(/\]\]>/g, ']]]]><![CDATA[>');
+}
+
 // ======================== 站点发布（GitHub Pages + RSS） ========================
 
 function toRssPubDate(dateStr) {
@@ -825,18 +831,22 @@ function generateRssXml(items) {
   const itemXml = items
     .map((item) => {
       const desc = item.description || '';
+      const fullHtml = item.contentHtml || '';
+      const encodedBlock = fullHtml
+        ? `\n      <content:encoded><![CDATA[${wrapCdata(fullHtml)}]]></content:encoded>`
+        : '';
       return `    <item>
       <title>${escapeXml(item.title)}</title>
       <link>${escapeXml(item.link)}</link>
       <guid isPermaLink="true">${escapeXml(item.guid)}</guid>
       <pubDate>${escapeXml(item.pubDate)}</pubDate>
-      <description><![CDATA[${desc}]]></description>
+      <description><![CDATA[${wrapCdata(desc)}]]></description>${encodedBlock}
     </item>`;
     })
     .join('\n');
 
   return `<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>AI洞察日报</title>
     <link>${escapeXml(channelLink)}</link>
@@ -932,19 +942,22 @@ function publishSite(insights, date, htmlContent) {
   fs.writeFileSync(path.join(CONFIG.repoRoot, '.nojekyll'), '', 'utf-8');
   if (fs.existsSync(legacyIndexPath)) fs.unlinkSync(legacyIndexPath);
 
-  const itemLink = `${CONFIG.siteUrl}${CONFIG.assetsUrlPath}/archive/${date}.html`;
+  const itemLink = `${CONFIG.siteUrl}${CONFIG.assetsUrlPath}/latest.html`;
+  const archiveLink = `${CONFIG.siteUrl}${CONFIG.assetsUrlPath}/archive/${date}.html`;
   const title = `AI洞察日报 | ${date} | ${insights.title_cn || insights.title_en}`;
   const summary = buildRssSummary(insights, date);
-  const descriptionHtml = `<p>${escapeHtml(summary).replace(/&lt;br&gt;/g, '<br>')}</p><p><a href="${itemLink}">在网页查看完整预览</a></p>`;
+  // description：邮件客户端摘要；contentHtml：与 latest.html 相同的完整邮件 HTML（供 follow.it Full stories）
+  const descriptionHtml = `<p>${escapeHtml(summary).replace(/&lt;br&gt;/g, '<br>')}</p><p><a href="${archiveLink}">归档链接</a></p>`;
 
   let items = loadFeedItems().filter((item) => item.date !== date);
   items.unshift({
     date,
     title,
     link: itemLink,
-    guid: itemLink,
+    guid: `${CONFIG.siteUrl}${CONFIG.assetsUrlPath}/digest/${date}.html`,
     pubDate: toRssPubDate(date),
     description: descriptionHtml,
+    contentHtml: htmlContent,
   });
   saveFeedItems(items);
   fs.writeFileSync(feedPath, generateRssXml(items), 'utf-8');

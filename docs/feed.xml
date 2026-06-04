@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>AI洞察日报</title>
     <link>https://cherrylin000.github.io/AI-news/</link>
@@ -9,10 +9,170 @@
     <atom:link href="https://cherrylin000.github.io/AI-news/docs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>AI洞察日报 | 2026-06-04 | AI每日洞察：扩展智能、工作流与市场研究</title>
-      <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-06-04.html</link>
-      <guid isPermaLink="true">https://cherrylin000.github.io/AI-news/docs/archive/2026-06-04.html</guid>
+      <link>https://cherrylin000.github.io/AI-news/docs/latest.html</link>
+      <guid isPermaLink="true">https://cherrylin000.github.io/AI-news/docs/digest/2026-06-04.html</guid>
       <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
-      <description><![CDATA[<p>2026-06-04 | AI每日洞察：扩展智能、工作流与市场研究<br><br>AI Daily Insights: Scaling Intelligence, Workflows, and Market Research<br><br>今日洞察揭示了一个明显趋势：AI正超越原始模型性能，聚焦于实用工作流、代理能力和实际应用。从Claude Code的工作流升级到Codex的企业功能，再到Listen Labs的市场研究自动化，重点是通过可用工具和系统扩展智能。<br><br>---<br><br>• Thariq: 工作流是Claude Code自技能和子代理以来最大的能力升级，支持非技术任务。<br>• Claude: 法律解释是最古老的工作之一；Legora利用Claude将其带入新时代，押注模型发布将提升整体水平。<br>• Sam Altman: 美国应通过开发最佳模型、确保安全以及为可信防御者提供网络工具来引领AI发展。<br>• Thibault Sottiaux: Codex现在支持托管和分享网站、改进的插件和技能，以及在文档、幻灯片、表格中的视觉注释。</p><p><a href="https://cherrylin000.github.io/AI-news/docs/archive/2026-06-04.html">在网页查看完整预览</a></p>]]></description>
+      <description><![CDATA[<p>2026-06-04 | AI每日洞察：扩展智能、工作流与市场研究<br><br>AI Daily Insights: Scaling Intelligence, Workflows, and Market Research<br><br>今日洞察揭示了一个明显趋势：AI正超越原始模型性能，聚焦于实用工作流、代理能力和实际应用。从Claude Code的工作流升级到Codex的企业功能，再到Listen Labs的市场研究自动化，重点是通过可用工具和系统扩展智能。<br><br>---<br><br>• Thariq: 工作流是Claude Code自技能和子代理以来最大的能力升级，支持非技术任务。<br>• Claude: 法律解释是最古老的工作之一；Legora利用Claude将其带入新时代，押注模型发布将提升整体水平。<br>• Sam Altman: 美国应通过开发最佳模型、确保安全以及为可信防御者提供网络工具来引领AI发展。<br>• Thibault Sottiaux: Codex现在支持托管和分享网站、改进的插件和技能，以及在文档、幻灯片、表格中的视觉注释。</p><p><a href="https://cherrylin000.github.io/AI-news/docs/archive/2026-06-04.html">归档链接</a></p>]]></description>
+      <content:encoded><![CDATA[<!DOCTYPE html><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body style="margin:0; padding:20px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+<table width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
+<tbody><tr>
+<td>
+<table width="720" cellpadding="20" cellspacing="0" align="center" bgcolor="#ffffff" style="border:1px solid #e5e7eb; border-radius:8px;">
+<tbody>
+
+<!-- Header -->
+<tr>
+<td bgcolor="#f8fafc" style="border-bottom:3px solid #6366f1; padding:24px;">
+<h1 style="margin:0; font-size:26px; color:#111827;">📅 2026-06-04 | AI每日洞察：扩展智能、工作流与市场研究</h1>
+<p style="margin:8px 0 0 0; color:#6b7280; font-size:15px;">AI Daily Insights: Scaling Intelligence, Workflows, and Market Research</p>
+</td>
+</tr>
+<tr>
+<td style="padding:24px 20px;">
+<h2 style="margin:0 0 16px 0; font-size:20px; color:#6366f1; padding-left:14px; border-left:4px solid #6366f1;">📱 X / Twitter</h2>
+<h3 style="margin:20px 0 12px 0; font-size:17px; color:#111827;">Thariq (Claude Code @anthropicai)</h3>
+<table width="100%" cellpadding="16" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px;">
+<tbody><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0;">
+<tbody><tr><td style="padding-left:14px;">
+<p style="margin:0; color:#333333; font-size:14px; line-height:1.7;">Workflows are the biggest upgrade to Claude Code’s capabilities since skills and subagents, enabling non-technical tasks.</p>
+</td></tr></tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px;">
+<tbody><tr><td style="padding-left:14px;">
+<p style="margin:0; color:#333333; font-size:14px; line-height:1.7;">工作流是Claude Code自技能和子代理以来最大的能力升级，支持非技术任务。</p>
+</td></tr></tbody>
+</table>
+<p style="margin:12px 0 0 0;"><a href="https://x.com/trq212/status/2061907538741006796" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 style="margin:20px 0 12px 0; font-size:17px; color:#111827;">Claude (Anthropic)</h3>
+<table width="100%" cellpadding="16" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px;">
+<tbody><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0;">
+<tbody><tr><td style="padding-left:14px;">
+<p style="margin:0; color:#333333; font-size:14px; line-height:1.7;">Interpreting law is one of the oldest jobs; Legora uses Claude to bring it into the next era, betting on model releases raising the tide.</p>
+</td></tr></tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px;">
+<tbody><tr><td style="padding-left:14px;">
+<p style="margin:0; color:#333333; font-size:14px; line-height:1.7;">法律解释是最古老的工作之一；Legora利用Claude将其带入新时代，押注模型发布将提升整体水平。</p>
+</td></tr></tbody>
+</table>
+<p style="margin:12px 0 0 0;"><a href="https://x.com/claudeai/status/2061829558999912680" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 style="margin:20px 0 12px 0; font-size:17px; color:#111827;">Sam Altman (OpenAI)</h3>
+<table width="100%" cellpadding="16" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px;">
+<tbody><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0;">
+<tbody><tr><td style="padding-left:14px;">
+<p style="margin:0; color:#333333; font-size:14px; line-height:1.7;">The US should lead on AI by developing the best models, ensuring safety, and equipping trusted defenders with cyber tools.</p>
+</td></tr></tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px;">
+<tbody><tr><td style="padding-left:14px;">
+<p style="margin:0; color:#333333; font-size:14px; line-height:1.7;">美国应通过开发最佳模型、确保安全以及为可信防御者提供网络工具来引领AI发展。</p>
+</td></tr></tbody>
+</table>
+<p style="margin:12px 0 0 0;"><a href="https://x.com/sama/status/2061973280655904815" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 style="margin:20px 0 12px 0; font-size:17px; color:#111827;">Thibault Sottiaux (Codex & ChatGPT @OpenAI)</h3>
+<table width="100%" cellpadding="16" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px;">
+<tbody><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0;">
+<tbody><tr><td style="padding-left:14px;">
+<p style="margin:0; color:#333333; font-size:14px; line-height:1.7;">Codex now allows hosting and sharing websites, improved plugins and skills, and visual annotations in docs, slides, sheets.</p>
+</td></tr></tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px;">
+<tbody><tr><td style="padding-left:14px;">
+<p style="margin:0; color:#333333; font-size:14px; line-height:1.7;">Codex现在支持托管和分享网站、改进的插件和技能，以及在文档、幻灯片、表格中的视觉注释。</p>
+</td></tr></tbody>
+</table>
+<p style="margin:12px 0 0 0;"><a href="https://x.com/thsottiaux/status/2061876999564791952" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 style="margin:20px 0 12px 0; font-size:17px; color:#111827;">Thibault Sottiaux (Codex & ChatGPT @OpenAI)</h3>
+<table width="100%" cellpadding="16" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px;">
+<tbody><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0;">
+<tbody><tr><td style="padding-left:14px;">
+<p style="margin:0; color:#333333; font-size:14px; line-height:1.7;">ChatGPT is synonymous with AI, soon synonymous with agents; much to build.</p>
+</td></tr></tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px;">
+<tbody><tr><td style="padding-left:14px;">
+<p style="margin:0; color:#333333; font-size:14px; line-height:1.7;">ChatGPT已成为AI的代名词，很快将成为代理的代名词；还有很多要构建。</p>
+</td></tr></tbody>
+</table>
+<p style="margin:12px 0 0 0;"><a href="https://x.com/thsottiaux/status/2062057881424506950" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td style="padding:0 20px 24px 20px;">
+<h2 style="margin:0 0 16px 0; font-size:20px; color:#6366f1; padding-left:14px; border-left:4px solid #6366f1;">🎙️ Podcasts</h2>
+<h3 style="margin:20px 0 12px 0; font-size:17px; color:#111827;">Training Data: Knowing What Your Customers Want, All the Time: Listen Labs&#039; Alfred Wahlforss</h3>
+<table width="100%" cellpadding="16" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px;">
+<tbody><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0;">
+<tbody><tr><td style="padding-left:14px;">
+<p style="margin:0; color:#333333; font-size:14px; line-height:1.7;">Listen Labs uses AI agents to conduct thousands of voice interviews simultaneously, building profiles and simulating customer responses to help companies know what to build.</p>
+</td></tr></tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px;">
+<tbody><tr><td style="padding-left:14px;">
+<p style="margin:0; color:#333333; font-size:14px; line-height:1.7;">Listen Labs使用AI代理同时进行数千次语音访谈，建立用户档案并模拟客户反应，帮助公司知道该构建什么。</p>
+</td></tr></tbody>
+</table>
+<p style="margin:12px 0 0 0;"><a href="https://www.youtube.com/watch?v=Rumft-rsEu4" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td style="padding:0 20px 24px 20px;">
+<h2 style="margin:0 0 16px 0; font-size:20px; color:#f59e0b;">⚡ Quick Hits | 快讯速览</h2>
+<table width="100%" cellpadding="0" cellspacing="0" style="border:1px solid #e5e7eb; border-radius:8px; overflow:hidden;">
+<tbody>
+<tr bgcolor="#f59e0b">
+<th style="padding:12px 14px; text-align:left; color:#ffffff; font-size:14px; font-weight:600;">Builder</th>
+<th style="padding:12px 14px; text-align:left; color:#ffffff; font-size:14px; font-weight:600;">Insight</th>
+<th style="padding:12px 14px; text-align:left; color:#ffffff; font-size:14px; font-weight:600;">洞察</th>
+</tr>
+<tr bgcolor="#ffffff">
+<td style="padding:12px 14px; color:#333333; font-size:14px;"><strong>Sam Altman</strong><br>(OpenAI)</td>
+<td style="padding:12px 14px; color:#333333; font-size:14px;">Quotes Ecclesiastes 9:10 for inspiration on hard days.</td>
+<td style="padding:12px 14px; color:#333333; font-size:14px;">引用传道书9:10在艰难日子中寻求灵感。</td>
+</tr>
+<tr bgcolor="#ffffff">
+<td style="padding:12px 14px; color:#333333; font-size:14px;"><strong>Peter Steinberger</strong><br>(OpenClaw + OpenAI)</td>
+<td style="padding:12px 14px; color:#333333; font-size:14px;">Privileged to work with Microsoft to bring claws to enterprises.</td>
+<td style="padding:12px 14px; color:#333333; font-size:14px;">很荣幸与微软合作，将claws带入企业。</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="padding:0 20px 24px 20px;">
+<h2 style="margin:0 0 16px 0; font-size:22px; color:#dc2626;">🔥 Today's Top Takeaway</h2>
+<div style="background:#fef2f2; border:2px solid #dc2626; padding:16px; border-radius:8px;">
+<p style="margin:0; font-weight:600; color:#991b1b; font-size:18px;">AI Platforms Shift from Model Capability to Workflow and Application</p><p style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;">Today&#039;s insights reveal a clear trend: AI is moving beyond raw model performance to focus on practical workflows, agentic capabilities, and real-world applications. From Claude Code&#039;s workflow upgrades to Codex&#039;s enterprise features and Listen Labs&#039; market research automation, the emphasis is on scaling intelligence through usable tools and systems.</p><p style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>Key Points:</strong><br><br><strong>1. Workflow as the New Frontier:</strong> Thariq highlights workflows as the biggest upgrade to Claude Code, enabling non-technical tasks and expanding AI&#039;s reach.<br><strong>2. Enterprise AI Adoption Accelerates:</strong> Codex now supports website hosting, improved plugins, and visual annotations, making AI more accessible for business users.<br><strong>3. AI-Driven Market Research Scales:</strong> Listen Labs uses AI agents to conduct thousands of interviews, building profiles and simulating customer responses to guide product development.<br></p><p style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>Implications:</strong><br><br><strong>1. Democratization of AI Tools:</strong> Workflows and improved interfaces lower the barrier for non-technical users to leverage AI for complex tasks.<br><strong>2. Shift from Build to Know:</strong> As AI makes building easier, the competitive advantage shifts to understanding what to build, as emphasized by Listen Labs.<br></p><p style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>Bottom line:</strong> The AI industry is maturing: the focus is no longer just on model size or capability, but on building workflows, tools, and applications that make AI useful for real-world tasks. The winners will be those who can integrate AI into practical, scalable systems.</p><p style="margin-top:16px; font-weight:600; color:#991b1b; font-size:18px;">AI平台从模型能力转向工作流与应用</p><p style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;">今日洞察揭示了一个明显趋势：AI正超越原始模型性能，聚焦于实用工作流、代理能力和实际应用。从Claude Code的工作流升级到Codex的企业功能，再到Listen Labs的市场研究自动化，重点是通过可用工具和系统扩展智能。</p><p style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>关键要点：</strong><br><br><strong>1. 工作流成为新前沿:</strong> Thariq强调工作流是Claude Code的最大升级，支持非技术任务，扩展了AI的覆盖范围。<br><strong>2. 企业AI采用加速:</strong> Codex现在支持网站托管、改进的插件和视觉注释，使AI对商业用户更易用。<br><strong>3. AI驱动的市场研究规模化:</strong> Listen Labs使用AI代理进行数千次访谈，建立档案并模拟客户反应，指导产品开发。<br></p><p style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>启示：</strong><br><br><strong>1. AI工具民主化:</strong> 工作流和改进的界面降低了非技术用户利用AI完成复杂任务的门槛。<br><strong>2. 从构建转向认知:</strong> 随着AI使构建更容易，竞争优势转向理解该构建什么，正如Listen Labs所强调的。<br></p><p style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>总结：</strong>AI行业正在成熟：焦点不再仅仅是模型规模或能力，而是构建使AI对实际任务有用的工作流、工具和应用。赢家将是那些能将AI集成到实用、可扩展系统中的人。</p>
+</div>
+</td>
+</tr>
+<tr>
+<td style="padding:20px; text-align:center; border-top:1px solid #e5e7eb;">
+<p style="margin:0; color:#9ca3af; font-size:13px;">共6条高价值洞察</p>
+</td>
+</tr>
+
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</body></html>]]></content:encoded>
     </item>
   </channel>
 </rss>
