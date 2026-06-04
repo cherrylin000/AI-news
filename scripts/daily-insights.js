@@ -878,6 +878,7 @@ function generateLandingPage(insights, date) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="follow.it-verification-code" content="7x2tqZ67JyGA5AQ8h9Za"/>
   <title>AI洞察日报 | ${escapeHtml(date)}</title>
   <link rel="alternate" type="application/rss+xml" title="AI洞察日报" href="${CONFIG.siteUrl}${CONFIG.assetsUrlPath}/feed.xml">
   <style>
