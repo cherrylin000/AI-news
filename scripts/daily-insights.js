@@ -23,6 +23,30 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
+/** 从项目根目录加载 .env（不覆盖已存在的系统环境变量） */
+function loadEnvFile() {
+  const envPath = path.join(__dirname, '..', '.env');
+  if (!fs.existsSync(envPath)) return;
+  const content = fs.readFileSync(envPath, 'utf-8');
+  for (const line of content.split(/\r?\n/)) {
+    const trimmed = line.trim();
+    if (!trimmed || trimmed.startsWith('#')) continue;
+    const eq = trimmed.indexOf('=');
+    if (eq <= 0) continue;
+    const key = trimmed.slice(0, eq).trim();
+    let value = trimmed.slice(eq + 1).trim();
+    if (
+      (value.startsWith('"') && value.endsWith('"')) ||
+      (value.startsWith("'") && value.endsWith("'"))
+    ) {
+      value = value.slice(1, -1);
+    }
+    if (process.env[key] === undefined) process.env[key] = value;
+  }
+}
+
+loadEnvFile();
+
 // ======================== 配置区 ========================
 
 const CONFIG = {
@@ -60,7 +84,7 @@ const CONFIG = {
   llm: {
     apiUrl: process.env.LLM_API_URL || 'https://api.openai.com/v1/chat/completions',
     apiKey: process.env.LLM_API_KEY || '',
-    model: process.env.LLM_MODEL || 'gpt-4o',
+    model: process.env.LLM_MODEL || 'deepseek-v4-flash',
   },
 
   // 输出目录

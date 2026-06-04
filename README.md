@@ -21,6 +21,12 @@ node daily-insights.js --generate-only
 
 详见 [scripts/README.md](scripts/README.md)。
 
+## 密钥与在线运行
+
+- 本地：在项目根目录 `.env` 填写 `LLM_API_KEY`（勿提交）
+- 云端：在 GitHub **Settings → Secrets and variables → Actions** 配置同名变量
+- 完整步骤：[docs/SECRETS.md](docs/SECRETS.md)
+
 ## 订阅（follow.it）
 
 - 预览页：`https://cherrylin000.github.io/AI-news/`（需先开启 GitHub Pages，见路线图第 5 步）

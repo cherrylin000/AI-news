@@ -9,13 +9,15 @@ npm install          # nodemailer 仅 --legacy-smtp 需要
 
 ## 环境变量配置
 
-在项目根目录复制 `.env.example` 为 `.env`，或导出环境变量：
+在项目根目录（`AI news/.env`，与 `scripts/` 同级）复制 `.env.example` 为 `.env` 并填写密钥。脚本启动时会**自动读取**该文件。
+
+也可在终端手动导出环境变量：
 
 ```bash
 # LLM（生成洞察，必填）
 export LLM_API_URL=https://api.openai.com/v1/chat/completions
 export LLM_API_KEY=sk-xxxx
-export LLM_MODEL=gpt-4o
+export LLM_MODEL=deepseek-v4-flash
 
 # 站点（可选，默认 https://cherrylin000.github.io/AI-news）
 export SITE_URL=https://cherrylin000.github.io/AI-news

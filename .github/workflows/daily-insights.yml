@@ -1,0 +1,51 @@
+name: Daily AI Insights
+
+on:
+  schedule:
+    - cron: '0 8 * * *'
+      timezone: Asia/Shanghai
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-insights
+  cancel-in-progress: false
+
+jobs:
+  generate-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        working-directory: scripts
+        run: npm install --no-audit --no-fund
+
+      - name: Generate insights and publish site
+        working-directory: scripts
+        env:
+          LLM_API_URL: ${{ secrets.LLM_API_URL }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+          SITE_URL: https://cherrylin000.github.io/AI-news
+        run: node daily-insights.js
+
+      - name: Commit and push site
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/
+          if git diff --staged --quiet; then
+            echo "No site changes to commit."
+          else
+            git commit -m "chore(site): daily insights $(date -u +%Y-%m-%d)"
+            git push
+          fi
