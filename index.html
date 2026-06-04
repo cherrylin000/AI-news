@@ -16,8 +16,88 @@
     section { background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 20px; margin-bottom: 20px; }
     section h2 { margin: 0 0 16px; font-size: 1.1rem; color: #6366f1; }
     .preview-frame { width: 100%; min-height: 720px; border: 1px solid #e5e7eb; border-radius: 8px; background: #fff; }
-    .subscribe-placeholder { background: #f8fafc; border: 1px dashed #cbd5e1; border-radius: 8px; padding: 16px; font-size: 0.9rem; line-height: 1.6; }
-    .subscribe-placeholder code { background: #e2e8f0; padding: 2px 6px; border-radius: 4px; }
+    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview {
+      display: flex !important;
+      flex-direction: column !important;
+      justify-content: center !important;
+      margin-top: 30px !important;
+      padding: clamp(17px, 5%, 40px) clamp(17px, 7%, 50px) !important;
+      max-width: none !important;
+      border-radius: 6px !important;
+      box-shadow: 0 5px 25px rgba(34, 60, 47, 0.25) !important;
+    }
+    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview,
+    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview * {
+      box-sizing: border-box !important;
+    }
+    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-heading {
+      width: 100% !important;
+    }
+    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-heading h5 {
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+    }
+    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field {
+      margin-top: 20px !important;
+      width: 100% !important;
+    }
+    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field input {
+      width: 100% !important;
+      height: 40px !important;
+      border-radius: 6px !important;
+      border: 2px solid #e9e8e8 !important;
+      background-color: #fff;
+      outline: none !important;
+      color: #000000 !important;
+      font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Noto Sans SC", sans-serif !important;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      text-align: center;
+    }
+    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field input::placeholder {
+      color: #000000 !important;
+      opacity: 1 !important;
+    }
+    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field input:-ms-input-placeholder {
+      color: #000000 !important;
+    }
+    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-input-field input::-ms-input-placeholder {
+      color: #000000 !important;
+    }
+    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-submit-button {
+      margin-top: 10px !important;
+      width: 100% !important;
+    }
+    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-submit-button button {
+      width: 100% !important;
+      height: 40px !important;
+      border: 0 !important;
+      border-radius: 6px !important;
+      line-height: 0px !important;
+    }
+    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview .preview-submit-button button:hover {
+      cursor: pointer !important;
+    }
+    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .powered-by-line {
+      color: #231f20 !important;
+      font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Noto Sans SC", sans-serif !important;
+      font-size: 13px !important;
+      font-weight: 400 !important;
+      line-height: 25px !important;
+      text-align: center !important;
+      text-decoration: none !important;
+      display: flex !important;
+      width: 100% !important;
+      justify-content: center !important;
+      align-items: center !important;
+      margin-top: 10px !important;
+    }
+    .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .powered-by-line img {
+      margin-left: 10px !important;
+      height: 1.13em !important;
+      max-height: 1.13em !important;
+    }
     footer { text-align: center; color: #9ca3af; font-size: 0.85rem; }
     footer a { color: #6366f1; }
   </style>
@@ -39,10 +119,23 @@
 
     <section id="subscribe">
       <h2>✉️ 订阅每日邮件</h2>
-      <div class="subscribe-placeholder">
-  <p><strong>邮件订阅</strong>：第 6 步将在 follow.it 获取嵌入代码，并写入环境变量 <code>FOLLOWIT_EMBED_HTML</code> 或替换本占位区。</p>
-  <p>RSS 地址（供 follow.it 绑定）：<br><a href="https://cherrylin000.github.io/AI-news/docs/feed.xml">https://cherrylin000.github.io/AI-news/docs/feed.xml</a></p>
-</div>
+      <div class="followit--follow-form-container" attr-a attr-b attr-c attr-d attr-e attr-f>
+        <form action="https://api.follow.it/subscription-form/TzlSU3pEOE5pMHFaRzlsSlRkdEtOVUxheHpraGU4bDRtZDNZV0pVSEFMdTk4WUo2TVp6RngvS1IwUFI1TE9paHV1Z0NMeVVyNlRjRHR3R1krNENjWlhNNmpBamxRY1RHZHlzTEk0ODRKNzcyL3VVYklKN0NWZ2o1R1Q4bytoOFN8VUJmYjlnZWpicHBtZlNnNjYyZXc2eEZUOWZheW5ZYkVqaUN2S2cxVEt0Yz0=/8" method="post">
+          <div class="form-preview" style="background-color: rgb(255, 255, 255); position: relative; border-style: solid; border-width: 1px; border-color: rgb(204, 204, 204);">
+            <div class="preview-heading">
+              <h5 style="font-family: Arial; font-weight: bold; color: rgb(0, 0, 0); font-size: 16px; text-align: center; text-transform: none !important;">开启邮件订阅</h5>
+            </div>
+            <div class="preview-input-field">
+              <input type="email" name="email" required placeholder="输入你的邮箱地址" spellcheck="false" style="font-family: Arial; font-weight: normal; color: rgb(0, 0, 0); font-size: 14px; text-align: center; background-color: rgb(255, 255, 255); text-transform: none !important;">
+            </div>
+            <div class="preview-submit-button">
+              <button type="submit" style="font-family: Arial; font-weight: bold; color: rgb(255, 255, 255); font-size: 16px; text-align: center; background-color: rgb(0, 0, 0); text-transform: none !important;">订阅</button>
+            </div>
+          </div>
+        </form>
+        <a href="https://follow.it" class="powered-by-line">Powered by <img src="https://follow.it/images/colored-logo.svg" alt="follow.it" height="17"></a>
+      </div>
+      <p style="margin:12px 0 0;font-size:0.85rem;color:#6b7280;">也可通过 <a href="https://cherrylin000.github.io/AI-news/docs/feed.xml">RSS</a> 订阅</p>
     </section>
 
     <footer>
