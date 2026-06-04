@@ -7,7 +7,8 @@
 ```
 scripts/          # 主脚本（daily-insights.js）
 outputs/          # 本地生成产物（不提交到 Git）
-site/             # GitHub Pages 站点（后续步骤添加）
+index.html        # GitHub Pages 首页（部署选根目录 /）
+docs/             # 邮件预览 latest.html、feed.xml、归档（勿放 index.html）
 ```
 
 ## 本地运行

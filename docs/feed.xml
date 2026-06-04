@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI洞察日报</title>
+    <link>https://cherrylin000.github.io/AI-news/</link>
+    <description>每日 AI Builder 洞察摘要（中英双语）</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 04 Jun 2026 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://cherrylin000.github.io/AI-news/docs/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>AI洞察日报 | 2026-06-04 | AI每日洞察：扩展智能、工作流与市场研究</title>
+      <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-06-04.html</link>
+      <guid isPermaLink="true">https://cherrylin000.github.io/AI-news/docs/archive/2026-06-04.html</guid>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[<p>2026-06-04 | AI每日洞察：扩展智能、工作流与市场研究<br><br>AI Daily Insights: Scaling Intelligence, Workflows, and Market Research<br><br>今日洞察揭示了一个明显趋势：AI正超越原始模型性能，聚焦于实用工作流、代理能力和实际应用。从Claude Code的工作流升级到Codex的企业功能，再到Listen Labs的市场研究自动化，重点是通过可用工具和系统扩展智能。<br><br>---<br><br>• Thariq: 工作流是Claude Code自技能和子代理以来最大的能力升级，支持非技术任务。<br>• Claude: 法律解释是最古老的工作之一；Legora利用Claude将其带入新时代，押注模型发布将提升整体水平。<br>• Sam Altman: 美国应通过开发最佳模型、确保安全以及为可信防御者提供网络工具来引领AI发展。<br>• Thibault Sottiaux: Codex现在支持托管和分享网站、改进的插件和技能，以及在文档、幻灯片、表格中的视觉注释。</p><p><a href="https://cherrylin000.github.io/AI-news/docs/archive/2026-06-04.html">在网页查看完整预览</a></p>]]></description>
+    </item>
+  </channel>
+</rss>

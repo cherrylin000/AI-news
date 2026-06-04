@@ -58,10 +58,10 @@
 
 1. 仓库 **Settings** → **Pages**
 2. **Build and deployment** → Source: **Deploy from a branch**
-3. Branch: **`main`**，Folder: **`/site`**
+3. Branch: **`main`**，Folder: **`/ (root)`**（首页 `index.html` 在根目录；`docs/` 仅放邮件预览与 RSS）
 4. 保存后等待 1～3 分钟，访问：<https://cherrylin000.github.io/AI-news/>
 
-首次需先成功运行一次 Actions（或本地生成后提交 `site/`），页面才有完整内容。
+首次需先成功运行一次 Actions（或本地生成后提交 `docs/`），页面才有完整内容。
 
 ---
 
@@ -73,7 +73,7 @@ npm install
 node daily-insights.js --generate-only
 ```
 
-脚本会自动读取上级目录的 **`.env`**。成功时终端有 `🌐 站点已发布`，并更新 `site/` 目录。
+脚本会自动读取上级目录的 **`.env`**。成功时终端有 `🌐 站点已发布`，并更新 `docs/` 目录。
 
 ---
 
@@ -83,6 +83,6 @@ node daily-insights.js --generate-only
 |--|------|----------------|
 | 密钥来源 | `.env` | Repository Secrets |
 | 触发 | 手动 `node daily-insights.js` | 每天 8:00 或手动 Run workflow |
-| 站点更新 | 本地 `site/` | Actions 自动 commit `site/` 并 push |
+| 站点更新 | 本地 `docs/` | Actions 自动 commit `docs/` 并 push |
 
 两者可使用**同一个** DeepSeek Key，但务必使用**轮换后的新 Key**，且仅存在于 `.env` 与 Secrets 两处。

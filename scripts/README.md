@@ -32,26 +32,26 @@ export SITE_URL=https://cherrylin000.github.io/AI-news
 ## 使用方式
 
 ```bash
-# 默认：拉取 → 生成 → 发布 site/（不发 SMTP）
+# 默认：拉取 → 生成 → 发布 docs/（不发 SMTP）
 node daily-insights.js
 
 node daily-insights.js --fetch-only
-node daily-insights.js --generate-only   # 含发布 site/
-node daily-insights.js --send-only         # 从 outputs 加载并发布 site/
+node daily-insights.js --generate-only   # 含发布 docs/
+node daily-insights.js --send-only         # 从 outputs 加载并发布 docs/
 node daily-insights.js --legacy-smtp       # 额外 SMTP 群发（需配置 recipients）
 node daily-insights.js --dry-run
 ```
 
 npm scripts：`start` / `fetch` / `generate` / `send` / `dry-run` / `legacy-smtp`
 
-## 站点输出（`../site/`）
+## 站点输出
 
-| 文件 | 说明 |
+| 路径 | 说明 |
 |------|------|
-| `index.html` | 预览页 + 订阅区 |
-| `latest.html` | 当日邮件 HTML |
-| `feed.xml` | RSS（follow.it 绑定） |
-| `archive/YYYY-MM-DD.html` | 历史归档 |
+| `../index.html` | 首页：预览 iframe + 订阅区（Pages 选根目录 `/`） |
+| `../docs/latest.html` | 当日邮件 HTML |
+| `../docs/feed.xml` | RSS（follow.it 绑定） |
+| `../docs/archive/YYYY-MM-DD.html` | 历史归档 |
 
 ## 调整收件人（仅 --legacy-smtp）
 

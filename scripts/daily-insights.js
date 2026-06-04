@@ -4,10 +4,10 @@
  * 每日AI洞察 - Feed拉取 + 洞察生成 + 站点发布（GitHub Pages / RSS）
  *
  * 用法:
- *   node daily-insights.js                  # 拉取→生成→发布 site/（默认不发 SMTP）
+ *   node daily-insights.js                  # 拉取→生成→发布 docs/（默认不发 SMTP）
  *   node daily-insights.js --fetch-only     # 仅拉取 feed
- *   node daily-insights.js --generate-only  # 生成并发布 site/
- *   node daily-insights.js --send-only      # 从 outputs 加载并发布 site/
+ *   node daily-insights.js --generate-only  # 生成并发布 docs/
+ *   node daily-insights.js --send-only      # 从 outputs 加载并发布 docs/
  *   node daily-insights.js --legacy-smtp    # 在上述流程后 SMTP 群发给 recipients
  *   node daily-insights.js --dry-run        # 完整流程；若带 --legacy-smtp 则只模拟发信
  *
@@ -60,8 +60,10 @@ const CONFIG = {
   // 📧 仅在使用 --legacy-smtp 时群发（日常订阅请用 follow.it + site/feed.xml）
   recipients: [],
 
-  // GitHub Pages 站点（用于预览页与 RSS）
-  siteDir: path.join(__dirname, '..', 'site'),
+  // GitHub Pages：首页在仓库根 index.html；邮件/RSS 在 docs/ 避免冲突
+  repoRoot: path.join(__dirname, '..'),
+  assetsDir: path.join(__dirname, '..', 'docs'),
+  assetsUrlPath: '/docs',
   siteUrl: (process.env.SITE_URL || 'https://cherrylin000.github.io/AI-news').replace(/\/$/, ''),
   feedMaxItems: 60,
 
@@ -799,7 +801,7 @@ function buildRssSummary(insights, date) {
 }
 
 function loadFeedItems() {
-  const feedItemsPath = path.join(CONFIG.siteDir, 'feed-items.json');
+  const feedItemsPath = path.join(CONFIG.assetsDir, 'feed-items.json');
   if (!fs.existsSync(feedItemsPath)) return [];
   try {
     const data = JSON.parse(fs.readFileSync(feedItemsPath, 'utf-8'));
@@ -810,7 +812,7 @@ function loadFeedItems() {
 }
 
 function saveFeedItems(items) {
-  const feedItemsPath = path.join(CONFIG.siteDir, 'feed-items.json');
+  const feedItemsPath = path.join(CONFIG.assetsDir, 'feed-items.json');
   fs.writeFileSync(
     feedItemsPath,
     JSON.stringify(items.slice(0, CONFIG.feedMaxItems), null, 2),
@@ -841,7 +843,7 @@ function generateRssXml(items) {
     <description>每日 AI Builder 洞察摘要（中英双语）</description>
     <language>zh-CN</language>
     <lastBuildDate>${escapeXml(items[0]?.pubDate || new Date().toUTCString())}</lastBuildDate>
-    <atom:link href="${escapeXml(`${CONFIG.siteUrl}/feed.xml`)}" rel="self" type="application/rss+xml"/>
+    <atom:link href="${escapeXml(`${CONFIG.siteUrl}${CONFIG.assetsUrlPath}/feed.xml`)}" rel="self" type="application/rss+xml"/>
 ${itemXml}
   </channel>
 </rss>
@@ -853,7 +855,7 @@ function getSubscribeEmbedHtml() {
   if (custom && custom.trim()) return custom.trim();
   return `<div class="subscribe-placeholder">
   <p><strong>邮件订阅</strong>：第 6 步将在 follow.it 获取嵌入代码，并写入环境变量 <code>FOLLOWIT_EMBED_HTML</code> 或替换本占位区。</p>
-  <p>RSS 地址（供 follow.it 绑定）：<br><a href="${CONFIG.siteUrl}/feed.xml">${CONFIG.siteUrl}/feed.xml</a></p>
+  <p>RSS 地址（供 follow.it 绑定）：<br><a href="${CONFIG.siteUrl}${CONFIG.assetsUrlPath}/feed.xml">${CONFIG.siteUrl}${CONFIG.assetsUrlPath}/feed.xml</a></p>
 </div>`;
 }
 
@@ -867,7 +869,7 @@ function generateLandingPage(insights, date) {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AI洞察日报 | ${escapeHtml(date)}</title>
-  <link rel="alternate" type="application/rss+xml" title="AI洞察日报" href="${CONFIG.siteUrl}/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="AI洞察日报" href="${CONFIG.siteUrl}${CONFIG.assetsUrlPath}/feed.xml">
   <style>
     * { box-sizing: border-box; }
     body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Noto Sans SC", sans-serif; background: #f1f5f9; color: #111827; }
@@ -894,9 +896,9 @@ function generateLandingPage(insights, date) {
 
     <section>
       <h2>📧 今日邮件预览</h2>
-      <iframe class="preview-frame" src="latest.html" title="今日洞察邮件预览"></iframe>
-      <p style="margin:12px 0 0;font-size:0.85rem;"><a href="latest.html" target="_blank" rel="noopener">在新标签页打开完整预览</a>
-        · <a href="archive/${date}.html" target="_blank" rel="noopener">归档链接</a></p>
+      <iframe class="preview-frame" src="docs/latest.html" title="今日洞察邮件预览"></iframe>
+      <p style="margin:12px 0 0;font-size:0.85rem;"><a href="docs/latest.html" target="_blank" rel="noopener">在新标签页打开完整预览</a>
+        · <a href="docs/archive/${date}.html" target="_blank" rel="noopener">归档链接</a></p>
     </section>
 
     <section id="subscribe">
@@ -905,7 +907,7 @@ function generateLandingPage(insights, date) {
     </section>
 
     <footer>
-      <p><a href="feed.xml">RSS Feed</a> · 由 <a href="https://github.com/cherrylin000/AI-news">AI-news</a> 自动生成</p>
+      <p><a href="docs/feed.xml">RSS Feed</a> · 由 <a href="https://github.com/cherrylin000/AI-news">AI-news</a> 自动生成</p>
     </footer>
   </div>
 </body>
@@ -914,21 +916,23 @@ function generateLandingPage(insights, date) {
 }
 
 function publishSite(insights, date, htmlContent) {
-  const archiveDir = path.join(CONFIG.siteDir, 'archive');
-  ensureDir(CONFIG.siteDir);
+  const archiveDir = path.join(CONFIG.assetsDir, 'archive');
+  ensureDir(CONFIG.assetsDir);
   ensureDir(archiveDir);
 
-  const latestPath = path.join(CONFIG.siteDir, 'latest.html');
+  const latestPath = path.join(CONFIG.assetsDir, 'latest.html');
   const archivePath = path.join(archiveDir, `${date}.html`);
-  const indexPath = path.join(CONFIG.siteDir, 'index.html');
-  const feedPath = path.join(CONFIG.siteDir, 'feed.xml');
+  const indexPath = path.join(CONFIG.repoRoot, 'index.html');
+  const feedPath = path.join(CONFIG.assetsDir, 'feed.xml');
+  const legacyIndexPath = path.join(CONFIG.assetsDir, 'index.html');
 
   fs.writeFileSync(latestPath, htmlContent, 'utf-8');
   fs.writeFileSync(archivePath, htmlContent, 'utf-8');
   fs.writeFileSync(indexPath, generateLandingPage(insights, date), 'utf-8');
-  fs.writeFileSync(path.join(CONFIG.siteDir, '.nojekyll'), '', 'utf-8');
+  fs.writeFileSync(path.join(CONFIG.repoRoot, '.nojekyll'), '', 'utf-8');
+  if (fs.existsSync(legacyIndexPath)) fs.unlinkSync(legacyIndexPath);
 
-  const itemLink = `${CONFIG.siteUrl}/archive/${date}.html`;
+  const itemLink = `${CONFIG.siteUrl}${CONFIG.assetsUrlPath}/archive/${date}.html`;
   const title = `AI洞察日报 | ${date} | ${insights.title_cn || insights.title_en}`;
   const summary = buildRssSummary(insights, date);
   const descriptionHtml = `<p>${escapeHtml(summary).replace(/&lt;br&gt;/g, '<br>')}</p><p><a href="${itemLink}">在网页查看完整预览</a></p>`;
@@ -945,10 +949,10 @@ function publishSite(insights, date, htmlContent) {
   saveFeedItems(items);
   fs.writeFileSync(feedPath, generateRssXml(items), 'utf-8');
 
-  console.log(`\n🌐 站点已发布: ${CONFIG.siteDir}`);
-  console.log(`   预览页: ${CONFIG.siteUrl}/`);
-  console.log(`   邮件预览: ${CONFIG.siteUrl}/latest.html`);
-  console.log(`   RSS: ${CONFIG.siteUrl}/feed.xml`);
+  console.log(`\n🌐 站点已发布`);
+  console.log(`   首页: ${CONFIG.siteUrl}/`);
+  console.log(`   邮件预览: ${CONFIG.siteUrl}${CONFIG.assetsUrlPath}/latest.html`);
+  console.log(`   RSS: ${CONFIG.siteUrl}${CONFIG.assetsUrlPath}/feed.xml`);
 }
 
 // ======================== 邮件发送（--legacy-smtp） ========================
@@ -1099,7 +1103,7 @@ async function main() {
   }
 
   if (generateOnly) {
-    console.log('\n✅ --generate-only 完成（已更新 site/）');
+    console.log('\n✅ --generate-only 完成（已更新 docs/）');
     return;
   }
 
