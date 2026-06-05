@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>AI洞察日报</title>
+    <title>每日AI洞察</title>
     <link>https://cherrylin000.github.io/AI-news/</link>
     <description>每日 AI Builder 洞察摘要（中英双语）</description>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 05 Jun 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://cherrylin000.github.io/AI-news/docs/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>AI洞察日报 | 2026-06-05 | AI可靠性、个人智能与智能体容器化：来自构建者社区的关键洞察</title>
+      <title>每日AI洞察 | 2026-06-05</title>
       <link>https://cherrylin000.github.io/AI-news/docs/latest.html</link>
       <guid isPermaLink="true">https://cherrylin000.github.io/AI-news/docs/digest/2026-06-05.html</guid>
       <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
@@ -180,7 +180,7 @@
 </body></html>]]></content:encoded>
     </item>
     <item>
-      <title>AI洞察日报 | 2026-06-04 | AI每日洞察：扩展智能、工作流与市场研究</title>
+      <title>每日AI洞察 | 2026-06-04 | AI每日洞察：扩展智能、工作流与市场研究</title>
       <link>https://cherrylin000.github.io/AI-news/docs/latest.html</link>
       <guid isPermaLink="true">https://cherrylin000.github.io/AI-news/docs/digest/2026-06-04.html</guid>
       <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>

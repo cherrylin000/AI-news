@@ -48,6 +48,8 @@
 | `LLM_API_URL` | 建议 | `https://api.deepseek.com/chat/completions` |
 | `LLM_MODEL` | 建议 | `deepseek-v4-flash` |
 
+follow.it 订阅表单请**直接写入根目录 `index.html`**（`<!-- ai-news:dynamic-end -->` 之后）；脚本与 Actions 只更新动态区，不会覆盖订阅嵌入代码。
+
 4. 保存后，在 **Actions** 页选择 **Daily AI Insights** → **Run workflow** 手动试跑。
 
 定时任务：每天 **北京时间 8:00**（workflow 内 `Asia/Shanghai`）。

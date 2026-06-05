@@ -22,8 +22,7 @@ export LLM_MODEL=deepseek-v4-flash
 # 站点（可选，默认 https://cherrylin000.github.io/AI-news）
 export SITE_URL=https://cherrylin000.github.io/AI-news
 
-# follow.it 嵌入代码（第 6 步）
-# export FOLLOWIT_EMBED_HTML='...'
+# follow.it 订阅表单：写入根目录 index.html（<!-- ai-news:dynamic-end --> 之后）
 
 # SMTP（仅 --legacy-smtp）
 # export SMTP_HOST=...
@@ -48,7 +47,7 @@ npm scripts：`start` / `fetch` / `generate` / `send` / `dry-run` / `legacy-smtp
 
 | 路径 | 说明 |
 |------|------|
-| `../index.html` | 首页：预览 iframe + 订阅区（Pages 选根目录 `/`） |
+| `../index.html` | 首页：脚本只更新标记内动态区；订阅区人工维护（Pages 选根目录 `/`） |
 | `../docs/latest.html` | 当日邮件 HTML |
 | `../docs/feed.xml` | RSS（follow.it 绑定） |
 | `../docs/archive/YYYY-MM-DD.html` | 历史归档 |

@@ -14,8 +14,10 @@
  * 环境变量:
  *   LLM_API_URL / LLM_API_KEY / LLM_MODEL   - 生成洞察（必填）
  *   SITE_URL                                - 站点根 URL（默认 https://cherrylin000.github.io/AI-news）
- *   FOLLOWIT_EMBED_HTML                     - follow.it 订阅表单嵌入 HTML（第 6 步填入）
  *   SMTP_*                                  - 仅 --legacy-smtp 时需要
+ *
+ * index.html 中 <!-- ai-news:dynamic-start/end --> 之间由脚本每日更新；
+ * 订阅区（follow.it 嵌入）在标记之外，需人工维护，脚本不会覆盖。
  */
 
 const https = require('https');
@@ -57,7 +59,7 @@ const CONFIG = {
     blogs: 'https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-blogs.json',
   },
 
-  // 📧 仅在使用 --legacy-smtp 时群发（日常订阅请用 follow.it + site/feed.xml）
+  // 📧 仅在使用 --legacy-smtp 时群发（日常订阅请用 follow.it + docs/feed.xml）
   recipients: [],
 
   // GitHub Pages：首页在仓库根 index.html；邮件/RSS 在 docs/ 避免冲突
@@ -68,7 +70,7 @@ const CONFIG = {
   feedMaxItems: 60,
 
   // 邮件主题模板
-  emailSubject: (date, title) => `AI洞察日报 | ${date} | ${title}`,
+  emailSubject: (date) => `每日AI洞察 | ${date}`,
 
   // SMTP配置（通过环境变量或直接填写）
   smtp: {
@@ -869,7 +871,7 @@ function generateRssXml(items) {
   return `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>AI洞察日报</title>
+    <title>每日AI洞察</title>
     <link>${escapeXml(channelLink)}</link>
     <description>每日 AI Builder 洞察摘要（中英双语）</description>
     <language>zh-CN</language>
@@ -881,18 +883,72 @@ ${itemXml}
 `;
 }
 
-function getSubscribeEmbedHtml() {
-  const custom = process.env.FOLLOWIT_EMBED_HTML;
-  if (custom && custom.trim()) return custom.trim();
-  return `<div class="subscribe-placeholder">
-  <p><strong>邮件订阅</strong>：第 6 步将在 follow.it 获取嵌入代码，并写入环境变量 <code>FOLLOWIT_EMBED_HTML</code> 或替换本占位区。</p>
-  <p>RSS 地址（供 follow.it 绑定）：<br><a href="${CONFIG.siteUrl}${CONFIG.assetsUrlPath}/feed.xml">${CONFIG.siteUrl}${CONFIG.assetsUrlPath}/feed.xml</a></p>
-</div>`;
+const LANDING_DYNAMIC_START = '<!-- ai-news:dynamic-start -->';
+const LANDING_DYNAMIC_END = '<!-- ai-news:dynamic-end -->';
+
+function getDynamicLandingBody(insights, date) {
+  const title = insights.title_cn || insights.title_en || '每日AI洞察';
+  return `    <header>
+      <h1>📅 每日AI洞察</h1>
+      <p>${escapeHtml(date)} · ${escapeHtml(title)}</p>
+      <p style="margin-top:8px;font-size:0.85rem;">下方为今日邮件预览；订阅后由 follow.it 每日推送。</p>
+    </header>
+
+    <section>
+      <h2>📧 今日邮件预览</h2>
+      <iframe class="preview-frame" src="docs/latest.html" title="今日洞察邮件预览"></iframe>
+      <p style="margin:12px 0 0;font-size:0.85rem;"><a href="docs/latest.html" target="_blank" rel="noopener">在新标签页打开完整预览</a>
+        · <a href="docs/archive/${date}.html" target="_blank" rel="noopener">归档链接</a></p>
+    </section>`;
+}
+
+function findSubscribePreserveStart(html, headerIdx, footerIdx) {
+  const markers = [
+    html.indexOf('<section id="subscribe">'),
+    html.indexOf('class="followit--follow-form-container"'),
+    html.indexOf('class="subscribe-placeholder"'),
+  ].filter((i) => i >= 0 && i < footerIdx);
+  if (markers.length === 0) return footerIdx;
+
+  const idx = Math.min(...markers);
+  const styleBefore = html.lastIndexOf('<style>', idx);
+  if (styleBefore > headerIdx && html.slice(styleBefore, idx).includes('followit')) {
+    return styleBefore;
+  }
+  return idx;
+}
+
+function patchLandingPageTitle(html, date) {
+  return html.replace(/<title>[^<]*<\/title>/, `<title>每日AI洞察 | ${escapeHtml(date)}</title>`);
+}
+
+function updateLandingPage(existingHtml, insights, date) {
+  const dynamicBody = getDynamicLandingBody(insights, date);
+  let html = patchLandingPageTitle(existingHtml, date);
+
+  if (html.includes(LANDING_DYNAMIC_START) && html.includes(LANDING_DYNAMIC_END)) {
+    const pattern = new RegExp(
+      `${LANDING_DYNAMIC_START}[\\s\\S]*?${LANDING_DYNAMIC_END}`
+    );
+    return html.replace(pattern, `${LANDING_DYNAMIC_START}\n${dynamicBody}\n    ${LANDING_DYNAMIC_END}`);
+  }
+
+  const headerIdx = html.indexOf('<header>');
+  const footerIdx = html.indexOf('<footer>');
+  if (headerIdx === -1 || footerIdx === -1 || headerIdx >= footerIdx) {
+    console.warn('⚠️ index.html 结构异常，将整页重写（订阅区需手动恢复）');
+    return generateLandingPage(insights, date);
+  }
+
+  const preserveStart = findSubscribePreserveStart(html, headerIdx, footerIdx);
+  const headPart = html.slice(0, headerIdx);
+  const preserved = html.slice(preserveStart);
+  console.log('ℹ️ 已为 index.html 注入动态区标记，订阅区保持不变');
+  return `${headPart}${LANDING_DYNAMIC_START}\n${dynamicBody}\n    ${LANDING_DYNAMIC_END}\n\n${preserved}`;
 }
 
 function generateLandingPage(insights, date) {
-  const title = insights.title_cn || insights.title_en || 'AI洞察日报';
-  const subscribeHtml = getSubscribeEmbedHtml();
+  const dynamicBody = getDynamicLandingBody(insights, date);
 
   return `<!DOCTYPE html>
 <html lang="zh-CN">
@@ -900,8 +956,8 @@ function generateLandingPage(insights, date) {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="follow.it-verification-code" content="7x2tqZ67JyGA5AQ8h9Za"/>
-  <title>AI洞察日报 | ${escapeHtml(date)}</title>
-  <link rel="alternate" type="application/rss+xml" title="AI洞察日报" href="${CONFIG.siteUrl}${CONFIG.assetsUrlPath}/feed.xml">
+  <title>每日AI洞察 | ${escapeHtml(date)}</title>
+  <link rel="alternate" type="application/rss+xml" title="每日AI洞察" href="${CONFIG.siteUrl}${CONFIG.assetsUrlPath}/feed.xml">
   <style>
     * { box-sizing: border-box; }
     body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Noto Sans SC", sans-serif; background: #f1f5f9; color: #111827; }
@@ -920,23 +976,14 @@ function generateLandingPage(insights, date) {
 </head>
 <body>
   <div class="wrap">
-    <header>
-      <h1>📅 AI洞察日报</h1>
-      <p>${escapeHtml(date)} · ${escapeHtml(title)}</p>
-      <p style="margin-top:8px;font-size:0.85rem;">下方为今日邮件预览；订阅后由 follow.it 每日推送（含退订入口）。</p>
-    </header>
+    ${LANDING_DYNAMIC_START}
+${dynamicBody}
+    ${LANDING_DYNAMIC_END}
 
-    <section>
-      <h2>📧 今日邮件预览</h2>
-      <iframe class="preview-frame" src="docs/latest.html" title="今日洞察邮件预览"></iframe>
-      <p style="margin:12px 0 0;font-size:0.85rem;"><a href="docs/latest.html" target="_blank" rel="noopener">在新标签页打开完整预览</a>
-        · <a href="docs/archive/${date}.html" target="_blank" rel="noopener">归档链接</a></p>
-    </section>
-
-    <section id="subscribe">
-      <h2>✉️ 订阅每日邮件</h2>
-      ${subscribeHtml}
-    </section>
+    <div class="subscribe-placeholder">
+      <p><strong>邮件订阅</strong>：请在 follow.it 获取嵌入代码，粘贴到本占位区（脚本不会修改此区域）。</p>
+      <p>RSS 地址（供 follow.it 绑定）：<br><a href="${CONFIG.siteUrl}${CONFIG.assetsUrlPath}/feed.xml">${CONFIG.siteUrl}${CONFIG.assetsUrlPath}/feed.xml</a></p>
+    </div>
 
     <footer>
       <p><a href="docs/feed.xml">RSS Feed</a> · 由 <a href="https://github.com/cherrylin000/AI-news">AI-news</a> 自动生成</p>
@@ -947,6 +994,14 @@ function generateLandingPage(insights, date) {
 `;
 }
 
+function writeLandingPage(insights, date) {
+  const indexPath = path.join(CONFIG.repoRoot, 'index.html');
+  const html = fs.existsSync(indexPath)
+    ? updateLandingPage(fs.readFileSync(indexPath, 'utf-8'), insights, date)
+    : generateLandingPage(insights, date);
+  fs.writeFileSync(indexPath, html, 'utf-8');
+}
+
 function publishSite(insights, date, htmlContent) {
   const archiveDir = path.join(CONFIG.assetsDir, 'archive');
   ensureDir(CONFIG.assetsDir);
@@ -954,19 +1009,18 @@ function publishSite(insights, date, htmlContent) {
 
   const latestPath = path.join(CONFIG.assetsDir, 'latest.html');
   const archivePath = path.join(archiveDir, `${date}.html`);
-  const indexPath = path.join(CONFIG.repoRoot, 'index.html');
   const feedPath = path.join(CONFIG.assetsDir, 'feed.xml');
   const legacyIndexPath = path.join(CONFIG.assetsDir, 'index.html');
 
   fs.writeFileSync(latestPath, htmlContent, 'utf-8');
   fs.writeFileSync(archivePath, htmlContent, 'utf-8');
-  fs.writeFileSync(indexPath, generateLandingPage(insights, date), 'utf-8');
+  writeLandingPage(insights, date);
   fs.writeFileSync(path.join(CONFIG.repoRoot, '.nojekyll'), '', 'utf-8');
   if (fs.existsSync(legacyIndexPath)) fs.unlinkSync(legacyIndexPath);
 
   const itemLink = `${CONFIG.siteUrl}${CONFIG.assetsUrlPath}/latest.html`;
   const archiveLink = `${CONFIG.siteUrl}${CONFIG.assetsUrlPath}/archive/${date}.html`;
-  const title = `AI洞察日报 | ${date} | ${insights.title_cn || insights.title_en}`;
+  const title = `每日AI洞察 | ${date}`;
   const summary = buildRssSummary(insights, date);
   // description：邮件客户端摘要；contentHtml：与 latest.html 相同的完整邮件 HTML（供 follow.it Full stories）
   const descriptionHtml = `<p>${escapeHtml(summary).replace(/&lt;br&gt;/g, '<br>')}</p><p><a href="${archiveLink}">归档链接</a></p>`;
@@ -1009,7 +1063,7 @@ async function sendEmails(htmlContent, mdContent, date, title) {
   }
 
   const transporter = nodemailer.createTransport(CONFIG.smtp);
-  const subject = CONFIG.emailSubject(date, title);
+  const subject = CONFIG.emailSubject(date);
 
   console.log(`📧 开始发送邮件，共${CONFIG.recipients.length}位收件人...`);
   console.log(`📧 主题: ${subject}`);

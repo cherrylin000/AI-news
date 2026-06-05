@@ -43,6 +43,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # 站点产物：根 index.html + docs/（latest、feed、archive）；勿提交已废弃的 site/
           git add docs/ index.html .nojekyll
           if git diff --staged --quiet; then
             echo "No site changes to commit."
