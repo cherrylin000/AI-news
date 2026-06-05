@@ -125,7 +125,7 @@ function fetchJson(url) {
 }
 
 /** LLM API调用 */
-async function callLLM(messages, temperature = 0.3) {
+async function callLLM(messages, temperature = 0.3, maxTokens = 8192) {
   if (!CONFIG.llm.apiKey) {
     throw new Error('未配置LLM_API_KEY，无法生成洞察。请设置环境变量 LLM_API_KEY');
   }
@@ -134,7 +134,8 @@ async function callLLM(messages, temperature = 0.3) {
     model: CONFIG.llm.model,
     messages,
     temperature,
-    max_tokens: 4096,
+    max_tokens: maxTokens,
+    response_format: { type: 'json_object' },
   });
 
   return new Promise((resolve, reject) => {
@@ -161,7 +162,10 @@ async function callLLM(messages, temperature = 0.3) {
           if (json.error) {
             reject(new Error(`LLM API错误: ${json.error.message || JSON.stringify(json.error)}`));
           } else {
-            resolve(json.choices[0].message.content);
+            resolve({
+              content: json.choices[0].message.content,
+              finishReason: json.choices[0].finish_reason,
+            });
           }
         } catch (e) {
           reject(new Error(`LLM响应解析失败: ${data.substring(0, 200)}`));
@@ -284,7 +288,8 @@ async function generateInsights(filteredData) {
 3. 每条洞察必须包含：英文原文摘要 + 中文翻译 + 原文链接
 4. 必须从feed数据中提取真实的英文原文，禁止自行翻译生成英文
 5. 最后生成一条Today's Top Takeaway（中英双语），综合当日核心趋势
-6. 输出严格遵循JSON格式
+6. 输出严格遵循JSON格式，不要输出markdown代码块
+7. 每条 en_summary / cn_summary 控制在 80 字以内，takeaway 各要点保持简洁
 
 输出JSON格式：
 {
@@ -297,8 +302,7 @@ async function generateInsights(filteredData) {
         "role": "职位/公司",
         "en_summary": "英文摘要（从原文提炼）",
         "cn_summary": "中文翻译",
-        "url": "原文链接",
-        "original_text": "推文原文"
+        "url": "原文链接"
       }
     ],
     "podcasts": [
@@ -341,26 +345,43 @@ async function generateInsights(filteredData) {
 
 ${material}`;
 
-  const response = await callLLM([
-    { role: 'system', content: systemPrompt },
-    { role: 'user', content: userPrompt },
-  ], 0.3);
+  const attempts = [
+    { maxTokens: 8192, label: '首次' },
+    { maxTokens: 16384, label: '加长输出重试' },
+  ];
 
-  // 解析JSON（兼容markdown代码块包裹）
-  let jsonStr = response.trim();
-  if (jsonStr.startsWith('```')) {
-    jsonStr = jsonStr.replace(/^```(?:json)?\n?/, '').replace(/\n?```$/, '');
+  let lastError;
+  for (const attempt of attempts) {
+    console.log(`🤖 LLM 请求（${attempt.label}，max_tokens=${attempt.maxTokens}）...`);
+    const { content, finishReason } = await callLLM([
+      { role: 'system', content: systemPrompt },
+      { role: 'user', content: userPrompt },
+    ], 0.3, attempt.maxTokens);
+
+    if (finishReason === 'length') {
+      console.warn(`⚠️ LLM 输出可能被截断（finish_reason=length）`);
+    }
+
+    let jsonStr = content.trim();
+    if (jsonStr.startsWith('```')) {
+      jsonStr = jsonStr.replace(/^```(?:json)?\n?/, '').replace(/\n?```$/, '');
+    }
+
+    try {
+      const insights = JSON.parse(jsonStr);
+      console.log(`✅ 洞察生成完成: ${insights.insights?.x?.length || 0}条X, ${insights.insights?.podcasts?.length || 0}条播客, ${insights.insights?.blogs?.length || 0}条博客`);
+      return insights;
+    } catch (e) {
+      lastError = e;
+      console.error(`❌ LLM输出JSON解析失败（${attempt.label}），原始输出前500字符:`);
+      console.error(jsonStr.substring(0, 500));
+      if (attempt !== attempts[attempts.length - 1]) {
+        console.log('🔄 将用更大 max_tokens 重试...');
+      }
+    }
   }
 
-  try {
-    const insights = JSON.parse(jsonStr);
-    console.log(`✅ 洞察生成完成: ${insights.insights?.x?.length || 0}条X, ${insights.insights?.podcasts?.length || 0}条播客, ${insights.insights?.blogs?.length || 0}条博客`);
-    return insights;
-  } catch (e) {
-    console.error('❌ LLM输出JSON解析失败，原始输出前500字符:');
-    console.error(jsonStr.substring(0, 500));
-    throw new Error('LLM输出格式错误，请重试或调整prompt');
-  }
+  throw new Error(`LLM输出格式错误: ${lastError?.message || 'JSON 无法解析'}，请重试或调整 prompt`);
 }
 
 function buildMaterialForLLM(filteredData) {
