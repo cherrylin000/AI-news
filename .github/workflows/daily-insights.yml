@@ -2,7 +2,7 @@ name: Daily AI Insights
 
 on:
   schedule:
-    - cron: '0 8 * * *'
+    - cron: '17 6 * * *'
       timezone: Asia/Shanghai
   workflow_dispatch:
 

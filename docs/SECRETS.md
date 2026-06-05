@@ -52,7 +52,7 @@ follow.it 订阅表单请**直接写入根目录 `index.html`**（`<!-- ai-news:
 
 4. 保存后，在 **Actions** 页选择 **Daily AI Insights** → **Run workflow** 手动试跑。
 
-定时任务：每天 **北京时间 8:00**（workflow 内 `Asia/Shanghai`）。
+定时任务：每天 **北京时间 6:17**（workflow 内 `Asia/Shanghai`，避开整点以减轻 Actions 排队延迟）。
 
 ---
 
@@ -84,7 +84,7 @@ node daily-insights.js --generate-only
 | | 本地 | GitHub Actions |
 |--|------|----------------|
 | 密钥来源 | `.env` | Repository Secrets |
-| 触发 | 手动 `node daily-insights.js` | 每天 8:00 或手动 Run workflow |
+| 触发 | 手动 `node daily-insights.js` | 每天 6:17 或手动 Run workflow |
 | 站点更新 | 本地 `docs/` | Actions 自动 commit `docs/` 并 push |
 
 两者可使用**同一个** DeepSeek Key，但务必使用**轮换后的新 Key**，且仅存在于 `.env` 与 Secrets 两处。
