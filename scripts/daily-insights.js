@@ -557,24 +557,65 @@ function generateMarkdown(insights, date) {
 
 // ======================== HTML生成 ========================
 
-function generateHTML(insights, date) {
-  const dateCN = date.replace(/(\d{4})-(\d{2})-(\d{2})/, (_, y, m, d) => `${y}年${parseInt(m)}月${parseInt(d)}日`);
+function getEmailResponsiveStyles() {
+  return `<style type="text/css">
+  .email-body { margin: 0; padding: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Noto Sans SC', sans-serif; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+  .email-container { max-width: 720px; width: 100%; border: 1px solid #e5e7eb; border-radius: 8px; }
+  .email-h1 { margin: 0; font-size: 26px; color: #111827; line-height: 1.35; }
+  .email-subtitle { margin: 8px 0 0 0; color: #6b7280; font-size: 15px; line-height: 1.5; }
+  .email-h2 { margin: 0 0 16px 0; font-size: 20px; color: #6366f1; padding-left: 14px; border-left: 4px solid #6366f1; line-height: 1.4; }
+  .email-h2-warn { margin: 0 0 16px 0; font-size: 22px; color: #f59e0b; line-height: 1.4; }
+  .email-h2-hot { margin: 0 0 16px 0; font-size: 22px; color: #dc2626; line-height: 1.4; }
+  .email-h3 { margin: 20px 0 12px 0; font-size: 17px; color: #111827; line-height: 1.4; }
+  .email-text { margin: 0; color: #333333; font-size: 14px; line-height: 1.7; }
+  .email-link { color: #6366f1; text-decoration: none; font-size: 13px; }
+  .email-takeaway-title { margin: 0; font-weight: 600; color: #991b1b; font-size: 18px; line-height: 1.4; }
+  .email-takeaway-block { margin-top: 12px; padding: 8px; background: #fee2e2; border-radius: 4px; color: #333333; font-size: 14px; line-height: 1.7; }
+  @media only screen and (max-width: 620px) {
+    .email-body { padding: 10px !important; }
+    .email-container { width: 100% !important; max-width: 100% !important; }
+    .email-header { padding: 16px 12px !important; }
+    .email-section { padding: 16px 12px !important; }
+    .email-section-tight { padding: 0 12px 16px 12px !important; }
+    .email-footer { padding: 14px 12px !important; }
+    .email-h1 { font-size: 18px !important; }
+    .email-subtitle { font-size: 13px !important; }
+    .email-h2 { font-size: 16px !important; padding-left: 10px !important; margin-bottom: 12px !important; }
+    .email-h2-warn { font-size: 17px !important; }
+    .email-h2-hot { font-size: 17px !important; }
+    .email-h3 { font-size: 15px !important; margin: 14px 0 8px 0 !important; }
+    .email-text { font-size: 13px !important; line-height: 1.65 !important; }
+    .email-link { font-size: 12px !important; }
+    .email-card { padding: 12px !important; }
+    .email-card-inner { padding-left: 8px !important; }
+    .email-takeaway-title { font-size: 15px !important; }
+    .email-takeaway-block { font-size: 13px !important; padding: 6px !important; }
+    .email-footer-text { font-size: 12px !important; }
+    .quick-hits-table th { display: none !important; }
+    .quick-hits-table tr.quick-hits-row { display: block !important; margin-bottom: 12px !important; border-bottom: 1px solid #e5e7eb !important; }
+    .quick-hits-table tr.quick-hits-row td { display: block !important; width: 100% !important; box-sizing: border-box !important; padding: 8px 12px !important; }
+  }
+</style>`;
+}
 
+function generateHTML(insights, date) {
   let html = `<!DOCTYPE html><html><head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+${getEmailResponsiveStyles()}
 </head>
-<body style="margin:0; padding:20px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+<body class="email-body" style="margin:0; padding:20px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Noto Sans SC', sans-serif;">
 <table width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
 <tbody><tr>
 <td>
-<table width="720" cellpadding="20" cellspacing="0" align="center" bgcolor="#ffffff" style="border:1px solid #e5e7eb; border-radius:8px;">
+<table class="email-container" width="100%" cellpadding="0" cellspacing="0" align="center" bgcolor="#ffffff" style="max-width:720px; width:100%; border:1px solid #e5e7eb; border-radius:8px;">
 <tbody>
 
 <!-- Header -->
 <tr>
-<td bgcolor="#f8fafc" style="border-bottom:3px solid #6366f1; padding:24px;">
-<h1 style="margin:0; font-size:26px; color:#111827;">📅 ${date} | ${insights.title_cn}</h1>
-<p style="margin:8px 0 0 0; color:#6b7280; font-size:15px;">${insights.title_en}</p>
+<td class="email-header" bgcolor="#f8fafc" style="border-bottom:3px solid #6366f1; padding:24px;">
+<h1 class="email-h1" style="margin:0; font-size:26px; color:#111827; line-height:1.35;">📅 ${escapeHtml(date)} | ${escapeHtml(insights.title_cn)}</h1>
+<p class="email-subtitle" style="margin:8px 0 0 0; color:#6b7280; font-size:15px;">${escapeHtml(insights.title_en)}</p>
 </td>
 </tr>`;
 
@@ -583,24 +624,24 @@ function generateHTML(insights, date) {
   if (xItems.length > 0) {
     html += `
 <tr>
-<td style="padding:24px 20px;">
-<h2 style="margin:0 0 16px 0; font-size:20px; color:#6366f1; padding-left:14px; border-left:4px solid #6366f1;">📱 X / Twitter</h2>`;
+<td class="email-section" style="padding:24px 20px;">
+<h2 class="email-h2" style="margin:0 0 16px 0; font-size:20px; color:#6366f1; padding-left:14px; border-left:4px solid #6366f1;">📱 X / Twitter</h2>`;
     for (const item of xItems) {
       html += `
-<h3 style="margin:20px 0 12px 0; font-size:17px; color:#111827;">${item.builder} (${item.role})</h3>
-<table width="100%" cellpadding="16" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px;">
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:17px; color:#111827;">${escapeHtml(item.builder)} (${escapeHtml(item.role)})</h3>
+<table class="email-card" width="100%" cellpadding="16" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px;">
 <tbody><tr><td>
 <table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0;">
-<tbody><tr><td style="padding-left:14px;">
-<p style="margin:0; color:#333333; font-size:14px; line-height:1.7;">${escapeHtml(item.en_summary)}</p>
+<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">${escapeHtml(item.en_summary)}</p>
 </td></tr></tbody>
 </table>
 <table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px;">
-<tbody><tr><td style="padding-left:14px;">
-<p style="margin:0; color:#333333; font-size:14px; line-height:1.7;">${escapeHtml(item.cn_summary)}</p>
+<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">${escapeHtml(item.cn_summary)}</p>
 </td></tr></tbody>
 </table>
-<p style="margin:12px 0 0 0;"><a href="${item.url}" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
+<p style="margin:12px 0 0 0;"><a class="email-link" href="${escapeHtml(item.url)}" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
 </td></tr></tbody></table>`;
     }
     html += `
@@ -613,24 +654,24 @@ function generateHTML(insights, date) {
   if (podItems.length > 0) {
     html += `
 <tr>
-<td style="padding:0 20px 24px 20px;">
-<h2 style="margin:0 0 16px 0; font-size:20px; color:#6366f1; padding-left:14px; border-left:4px solid #6366f1;">🎙️ Podcasts</h2>`;
+<td class="email-section-tight" style="padding:0 20px 24px 20px;">
+<h2 class="email-h2" style="margin:0 0 16px 0; font-size:20px; color:#6366f1; padding-left:14px; border-left:4px solid #6366f1;">🎙️ Podcasts</h2>`;
     for (const item of podItems) {
       html += `
-<h3 style="margin:20px 0 12px 0; font-size:17px; color:#111827;">${escapeHtml(item.name)}: ${escapeHtml(item.episode)}</h3>
-<table width="100%" cellpadding="16" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px;">
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:17px; color:#111827;">${escapeHtml(item.name)}: ${escapeHtml(item.episode)}</h3>
+<table class="email-card" width="100%" cellpadding="16" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px;">
 <tbody><tr><td>
 <table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0;">
-<tbody><tr><td style="padding-left:14px;">
-<p style="margin:0; color:#333333; font-size:14px; line-height:1.7;">${escapeHtml(item.en_summary)}</p>
+<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">${escapeHtml(item.en_summary)}</p>
 </td></tr></tbody>
 </table>
 <table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px;">
-<tbody><tr><td style="padding-left:14px;">
-<p style="margin:0; color:#333333; font-size:14px; line-height:1.7;">${escapeHtml(item.cn_summary)}</p>
+<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">${escapeHtml(item.cn_summary)}</p>
 </td></tr></tbody>
 </table>
-<p style="margin:12px 0 0 0;"><a href="${item.url}" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
+<p style="margin:12px 0 0 0;"><a class="email-link" href="${escapeHtml(item.url)}" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
 </td></tr></tbody></table>`;
     }
     html += `
@@ -643,24 +684,24 @@ function generateHTML(insights, date) {
   if (blogItems.length > 0) {
     html += `
 <tr>
-<td style="padding:0 20px 24px 20px;">
-<h2 style="margin:0 0 16px 0; font-size:20px; color:#6366f1; padding-left:14px; border-left:4px solid #6366f1;">📝 Official Blogs</h2>`;
+<td class="email-section-tight" style="padding:0 20px 24px 20px;">
+<h2 class="email-h2" style="margin:0 0 16px 0; font-size:20px; color:#6366f1; padding-left:14px; border-left:4px solid #6366f1;">📝 Official Blogs</h2>`;
     for (const item of blogItems) {
       html += `
-<h3 style="margin:20px 0 12px 0; font-size:17px; color:#111827;">${escapeHtml(item.name)}: ${escapeHtml(item.title)}</h3>
-<table width="100%" cellpadding="16" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px;">
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:17px; color:#111827;">${escapeHtml(item.name)}: ${escapeHtml(item.title)}</h3>
+<table class="email-card" width="100%" cellpadding="16" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px;">
 <tbody><tr><td>
 <table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0;">
-<tbody><tr><td style="padding-left:14px;">
-<p style="margin:0; color:#333333; font-size:14px; line-height:1.7;">${escapeHtml(item.en_summary)}</p>
+<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">${escapeHtml(item.en_summary)}</p>
 </td></tr></tbody>
 </table>
 <table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px;">
-<tbody><tr><td style="padding-left:14px;">
-<p style="margin:0; color:#333333; font-size:14px; line-height:1.7;">${escapeHtml(item.cn_summary)}</p>
+<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">${escapeHtml(item.cn_summary)}</p>
 </td></tr></tbody>
 </table>
-<p style="margin:12px 0 0 0;"><a href="${item.url}" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
+<p style="margin:12px 0 0 0;"><a class="email-link" href="${escapeHtml(item.url)}" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
 </td></tr></tbody></table>`;
     }
     html += `
@@ -673,9 +714,9 @@ function generateHTML(insights, date) {
   if (quickHits.length > 0) {
     html += `
 <tr>
-<td style="padding:0 20px 24px 20px;">
-<h2 style="margin:0 0 16px 0; font-size:20px; color:#f59e0b;">⚡ Quick Hits | 快讯速览</h2>
-<table width="100%" cellpadding="0" cellspacing="0" style="border:1px solid #e5e7eb; border-radius:8px; overflow:hidden;">
+<td class="email-section-tight" style="padding:0 20px 24px 20px;">
+<h2 class="email-h2-warn" style="margin:0 0 16px 0; font-size:20px; color:#f59e0b;">⚡ Quick Hits | 快讯速览</h2>
+<table class="quick-hits-table" width="100%" cellpadding="0" cellspacing="0" style="border:1px solid #e5e7eb; border-radius:8px; overflow:hidden;">
 <tbody>
 <tr bgcolor="#f59e0b">
 <th style="padding:12px 14px; text-align:left; color:#ffffff; font-size:14px; font-weight:600;">Builder</th>
@@ -684,10 +725,10 @@ function generateHTML(insights, date) {
 </tr>`;
     for (const q of quickHits) {
       html += `
-<tr bgcolor="#ffffff">
-<td style="padding:12px 14px; color:#333333; font-size:14px;"><strong>${escapeHtml(q.builder)}</strong><br>(${escapeHtml(q.company)})</td>
-<td style="padding:12px 14px; color:#333333; font-size:14px;">${escapeHtml(q.en)}</td>
-<td style="padding:12px 14px; color:#333333; font-size:14px;">${escapeHtml(q.cn)}</td>
+<tr class="quick-hits-row" bgcolor="#ffffff">
+<td class="email-text" style="padding:12px 14px; color:#333333; font-size:14px;"><strong>${escapeHtml(q.builder)}</strong><br>(${escapeHtml(q.company)})</td>
+<td class="email-text" style="padding:12px 14px; color:#333333; font-size:14px;">${escapeHtml(q.en)}</td>
+<td class="email-text" style="padding:12px 14px; color:#333333; font-size:14px;">${escapeHtml(q.cn)}</td>
 </tr>`;
     }
     html += `
@@ -702,53 +743,53 @@ function generateHTML(insights, date) {
   if (tw) {
     html += `
 <tr>
-<td style="padding:0 20px 24px 20px;">
-<h2 style="margin:0 0 16px 0; font-size:22px; color:#dc2626;">🔥 Today's Top Takeaway</h2>
+<td class="email-section-tight" style="padding:0 20px 24px 20px;">
+<h2 class="email-h2-hot" style="margin:0 0 16px 0; font-size:22px; color:#dc2626;">🔥 Today's Top Takeaway</h2>
 <div style="background:#fef2f2; border:2px solid #dc2626; padding:16px; border-radius:8px;">
-<p style="margin:0; font-weight:600; color:#991b1b; font-size:18px;">${escapeHtml(tw.title_en)}</p>`;
+<p class="email-takeaway-title" style="margin:0; font-weight:600; color:#991b1b; font-size:18px;">${escapeHtml(tw.title_en)}</p>`;
 
     if (tw.overview_en) {
-      html += `<p style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;">${escapeHtml(tw.overview_en)}</p>`;
+      html += `<p class="email-takeaway-block" style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;">${escapeHtml(tw.overview_en)}</p>`;
     }
     if (tw.key_points_en?.length) {
-      html += `<p style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>Key Points:</strong><br><br>`;
+      html += `<p class="email-takeaway-block" style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>Key Points:</strong><br><br>`;
       tw.key_points_en.forEach((p, i) => {
         html += `<strong>${i + 1}. ${escapeHtml(p.title)}:</strong> ${escapeHtml(p.content)}<br>`;
       });
       html += `</p>`;
     }
     if (tw.implications_en?.length) {
-      html += `<p style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>Implications:</strong><br><br>`;
+      html += `<p class="email-takeaway-block" style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>Implications:</strong><br><br>`;
       tw.implications_en.forEach((p, i) => {
         html += `<strong>${i + 1}. ${escapeHtml(p.title)}:</strong> ${escapeHtml(p.content)}<br>`;
       });
       html += `</p>`;
     }
     if (tw.bottom_line_en) {
-      html += `<p style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>Bottom line:</strong> ${escapeHtml(tw.bottom_line_en)}</p>`;
+      html += `<p class="email-takeaway-block" style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>Bottom line:</strong> ${escapeHtml(tw.bottom_line_en)}</p>`;
     }
 
-    html += `<p style="margin-top:16px; font-weight:600; color:#991b1b; font-size:18px;">${escapeHtml(tw.title_cn)}</p>`;
+    html += `<p class="email-takeaway-title" style="margin-top:16px; font-weight:600; color:#991b1b; font-size:18px;">${escapeHtml(tw.title_cn)}</p>`;
 
     if (tw.overview_cn) {
-      html += `<p style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;">${escapeHtml(tw.overview_cn)}</p>`;
+      html += `<p class="email-takeaway-block" style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;">${escapeHtml(tw.overview_cn)}</p>`;
     }
     if (tw.key_points_cn?.length) {
-      html += `<p style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>关键要点：</strong><br><br>`;
+      html += `<p class="email-takeaway-block" style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>关键要点：</strong><br><br>`;
       tw.key_points_cn.forEach((p, i) => {
         html += `<strong>${i + 1}. ${escapeHtml(p.title)}:</strong> ${escapeHtml(p.content)}<br>`;
       });
       html += `</p>`;
     }
     if (tw.implications_cn?.length) {
-      html += `<p style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>启示：</strong><br><br>`;
+      html += `<p class="email-takeaway-block" style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>启示：</strong><br><br>`;
       tw.implications_cn.forEach((p, i) => {
         html += `<strong>${i + 1}. ${escapeHtml(p.title)}:</strong> ${escapeHtml(p.content)}<br>`;
       });
       html += `</p>`;
     }
     if (tw.bottom_line_cn) {
-      html += `<p style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>总结：</strong>${escapeHtml(tw.bottom_line_cn)}</p>`;
+      html += `<p class="email-takeaway-block" style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>总结：</strong>${escapeHtml(tw.bottom_line_cn)}</p>`;
     }
 
     html += `
@@ -761,8 +802,8 @@ function generateHTML(insights, date) {
   const totalCount = xItems.length + podItems.length + blogItems.length;
   html += `
 <tr>
-<td style="padding:20px; text-align:center; border-top:1px solid #e5e7eb;">
-<p style="margin:0; color:#9ca3af; font-size:13px;">共${totalCount}条高价值洞察</p>
+<td class="email-footer" style="padding:20px; text-align:center; border-top:1px solid #e5e7eb;">
+<p class="email-footer-text" style="margin:0; color:#9ca3af; font-size:13px;">共${totalCount}条高价值洞察</p>
 </td>
 </tr>
 
@@ -1179,11 +1220,9 @@ async function main() {
       process.exit(1);
     }
     insights = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
-    const htmlPath = path.join(outputDir, `${today}_email.html`);
-    const mdPath = path.join(outputDir, `${today}_${insights.title_en.replace(/[^a-zA-Z0-9\s]/g, '').trim().substring(0, 60).replace(/\s+/g, ' ')}.md`);
-    htmlContent = fs.readFileSync(htmlPath, 'utf-8');
-    mdContent = fs.readFileSync(mdPath, 'utf-8');
-    console.log(`📂 已加载洞察和邮件内容`);
+    mdContent = generateMarkdown(insights, today);
+    htmlContent = generateHTML(insights, today);
+    console.log(`📂 已加载洞察数据，并按当前模板重新生成 MD/HTML`);
   }
 
   // 发布 GitHub Pages 站点与 RSS（有洞察数据时）
