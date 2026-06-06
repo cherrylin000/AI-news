@@ -33,6 +33,7 @@ jobs:
       - name: Generate insights and publish site
         working-directory: scripts
         env:
+          TZ: Asia/Shanghai
           LLM_API_URL: ${{ secrets.LLM_API_URL }}
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_MODEL: ${{ secrets.LLM_MODEL }}

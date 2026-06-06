@@ -14,6 +14,7 @@
  * 环境变量:
  *   LLM_API_URL / LLM_API_KEY / LLM_MODEL   - 生成洞察（必填）
  *   SITE_URL                                - 站点根 URL（默认 https://cherrylin000.github.io/AI-news）
+ *   TIME_ZONE / TZ                          - 发布日期时区（默认 Asia/Shanghai）
  *   SMTP_*                                  - 仅 --legacy-smtp 时需要
  *
  * index.html 中 <!-- ai-news:dynamic-start/end --> 之间由脚本每日更新；
@@ -1164,6 +1165,7 @@ async function main() {
   ensureDir(outputDir);
 
   console.log(`\n🚀 每日AI洞察 - ${today}`);
+  console.log(`🕒 发布日期时区: ${CONFIG.timeZone}`);
   console.log(`📁 输出目录: ${outputDir}\n`);
 
   let feeds, insights, mdContent, htmlContent;
