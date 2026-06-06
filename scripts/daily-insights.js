@@ -839,23 +839,16 @@ function escapeXml(str) {
     .replace(/'/g, '&apos;');
 }
 
-/** CDATA 安全包裹（用于 RSS 内嵌 HTML 内容） */
+/** CDATA 安全包裹（用于 RSS 内嵌完整 HTML 邮件正文） */
 function wrapCdata(str) {
   if (!str) return '';
   return String(str).replace(/\]\]>/g, ']]]]><![CDATA[>');
 }
 
-/** RSS content:encoded 应使用 HTML 片段，避免阅读器误判完整文档为无效内容。 */
-function toFeedHtmlFragment(html) {
-  if (!html) return '';
-  const bodyMatch = String(html).match(/<body\b[^>]*>([\s\S]*?)<\/body>/i);
-  return bodyMatch ? bodyMatch[1].trim() : String(html).trim();
-}
-
 // ======================== 站点发布（GitHub Pages + RSS） ========================
 
-function toRssPubDate(dateStr) {
-  return new Date(`${dateStr}T08:00:00+08:00`).toUTCString();
+function toRssPubDate(date = new Date()) {
+  return date.toUTCString();
 }
 
 function buildRssSummary(insights, date) {
@@ -902,9 +895,9 @@ function generateRssXml(items) {
   const itemXml = items
     .map((item) => {
       const desc = item.description || '';
-      const feedHtml = toFeedHtmlFragment(item.contentHtml || '');
-      const encodedBlock = feedHtml
-        ? `\n      <content:encoded><![CDATA[${wrapCdata(feedHtml)}]]></content:encoded>`
+      const fullHtml = item.contentHtml || '';
+      const encodedBlock = fullHtml
+        ? `\n      <content:encoded><![CDATA[${wrapCdata(fullHtml)}]]></content:encoded>`
         : '';
       return `    <item>
       <title>${escapeXml(item.title)}</title>
@@ -1066,7 +1059,6 @@ function publishSite(insights, date, htmlContent) {
   fs.writeFileSync(path.join(CONFIG.repoRoot, '.nojekyll'), '', 'utf-8');
   if (fs.existsSync(legacyIndexPath)) fs.unlinkSync(legacyIndexPath);
 
-  const itemLink = `${CONFIG.siteUrl}${CONFIG.assetsUrlPath}/latest.html`;
   const archiveLink = `${CONFIG.siteUrl}${CONFIG.assetsUrlPath}/archive/${date}.html`;
   const title = `每日AI洞察 | ${date}`;
   const summary = buildRssSummary(insights, date);
@@ -1077,9 +1069,9 @@ function publishSite(insights, date, htmlContent) {
   items.unshift({
     date,
     title,
-    link: itemLink,
-    guid: `${CONFIG.siteUrl}${CONFIG.assetsUrlPath}/digest/${date}.html`,
-    pubDate: toRssPubDate(date),
+    link: archiveLink,
+    guid: archiveLink,
+    pubDate: toRssPubDate(),
     description: descriptionHtml,
     contentHtml: htmlContent,
   });
