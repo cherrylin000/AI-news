@@ -5,15 +5,259 @@
     <link>https://cherrylin000.github.io/AI-news/</link>
     <description>每日 AI Builder 洞察摘要（中英双语）</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 06 Jun 2026 08:12:36 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2026 23:18:55 GMT</lastBuildDate>
     <atom:link href="https://cherrylin000.github.io/AI-news/docs/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>每日AI洞察 | 2026-06-07</title>
+      <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-06-07.html</link>
+      <guid isPermaLink="true">https://cherrylin000.github.io/AI-news/docs/archive/2026-06-07.html</guid>
+      <pubDate>Sat, 06 Jun 2026 23:18:55 GMT</pubDate>
+      <description><![CDATA[<p>2026-06-07 | AI编程代理与开发者工具：限额提升、记忆优化与民主化<br><br>AI Coding Agents &amp; Developer Tools: Scaling Limits, Memory, and Democratization<br><br>今日动态突出了AI辅助编程的关键趋势：使用限额提升、内存优化以提高效率，以及尽管自动化进步但人类工程师的持续需求。软件开发的民主化正推动潜在开发者激增。<br><br>---<br><br>• Boris Cherny: Claude Cowork使用限额下个月翻倍。如果你一直在存一个大而乱的项目，现在是时候了。<br>• Thibault Sottiaux: 更好的记忆=更短的提示=每个token更多的效用。<br>• Aaron Levie: 编程是AI自动化的巅峰，但仍需人类工程师监督。代理让人们做更多，但不会取代人类。<br>• Guillermo Rauch: 使用Skills API让你的所有代理和平台更智能。把它看作是代理能力和可扩展性的npm注册表。免费且开放。</p><p><a href="https://cherrylin000.github.io/AI-news/docs/archive/2026-06-07.html">归档链接</a></p>]]></description>
+      <content:encoded><![CDATA[<!DOCTYPE html><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+  .email-body { margin: 0; padding: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Noto Sans SC', sans-serif; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+  .email-container { max-width: 720px; width: 100%; border: 1px solid #e5e7eb; border-radius: 8px; }
+  .email-h1 { margin: 0; font-size: 26px; color: #111827; line-height: 1.35; }
+  .email-subtitle { margin: 8px 0 0 0; color: #6b7280; font-size: 15px; line-height: 1.5; }
+  .email-h2 { margin: 0 0 16px 0; font-size: 20px; color: #6366f1; padding-left: 14px; border-left: 4px solid #6366f1; line-height: 1.4; }
+  .email-h2-warn { margin: 0 0 16px 0; font-size: 22px; color: #f59e0b; line-height: 1.4; }
+  .email-h2-hot { margin: 0 0 16px 0; font-size: 22px; color: #dc2626; line-height: 1.4; }
+  .email-h3 { margin: 20px 0 12px 0; font-size: 17px; color: #111827; line-height: 1.4; }
+  .email-text { margin: 0; color: #333333; font-size: 14px; line-height: 1.7; }
+  .email-link { color: #6366f1; text-decoration: none; font-size: 13px; }
+  .email-takeaway-title { margin: 0; font-weight: 600; color: #991b1b; font-size: 18px; line-height: 1.4; }
+  .email-takeaway-block { margin-top: 12px; padding: 8px; background: #fee2e2; border-radius: 4px; color: #333333; font-size: 14px; line-height: 1.7; }
+  @media only screen and (max-width: 620px) {
+    .email-body { padding: 10px !important; }
+    .email-container { width: 100% !important; max-width: 100% !important; }
+    .email-header { padding: 16px 12px !important; }
+    .email-section { padding: 16px 12px !important; }
+    .email-section-tight { padding: 0 12px 16px 12px !important; }
+    .email-footer { padding: 14px 12px !important; }
+    .email-h1 { font-size: 18px !important; }
+    .email-subtitle { font-size: 13px !important; }
+    .email-h2 { font-size: 16px !important; padding-left: 10px !important; margin-bottom: 12px !important; }
+    .email-h2-warn { font-size: 17px !important; }
+    .email-h2-hot { font-size: 17px !important; }
+    .email-h3 { font-size: 15px !important; margin: 14px 0 8px 0 !important; }
+    .email-text { font-size: 13px !important; line-height: 1.65 !important; }
+    .email-link { font-size: 12px !important; }
+    .email-card { padding: 12px !important; }
+    .email-card-inner { padding-left: 8px !important; }
+    .email-takeaway-title { font-size: 15px !important; }
+    .email-takeaway-block { font-size: 13px !important; padding: 6px !important; }
+    .email-footer-text { font-size: 12px !important; }
+    .quick-hits-table th { display: none !important; }
+    .quick-hits-table tr.quick-hits-row { display: block !important; margin-bottom: 12px !important; border-bottom: 1px solid #e5e7eb !important; }
+    .quick-hits-table tr.quick-hits-row td { display: block !important; width: 100% !important; box-sizing: border-box !important; padding: 8px 12px !important; }
+  }
+</style>
+</head>
+<body class="email-body" style="margin:0; padding:20px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Noto Sans SC', sans-serif;">
+<table width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
+<tbody><tr>
+<td>
+<table class="email-container" width="100%" cellpadding="0" cellspacing="0" align="center" bgcolor="#ffffff" style="max-width:720px; width:100%; border:1px solid #e5e7eb; border-radius:8px;">
+<tbody>
+
+<!-- Header -->
+<tr>
+<td class="email-header" bgcolor="#f8fafc" style="border-bottom:3px solid #6366f1; padding:24px;">
+<h1 class="email-h1" style="margin:0; font-size:26px; color:#111827; line-height:1.35;">📅 2026-06-07 | AI编程代理与开发者工具：限额提升、记忆优化与民主化</h1>
+<p class="email-subtitle" style="margin:8px 0 0 0; color:#6b7280; font-size:15px;">AI Coding Agents &amp; Developer Tools: Scaling Limits, Memory, and Democratization</p>
+</td>
+</tr>
+<tr>
+<td class="email-section" style="padding:24px 20px;">
+<h2 class="email-h2" style="margin:0 0 16px 0; font-size:20px; color:#6366f1; padding-left:14px; border-left:4px solid #6366f1;">📱 X / Twitter</h2>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:17px; color:#111827;">Boris Cherny (Claude Code @anthropicai)</h3>
+<table class="email-card" width="100%" cellpadding="16" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px;">
+<tbody><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0;">
+<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">Claude Cowork usage limits doubled for the next month. If you’ve been saving up a big messy project, now’s the time.</p>
+</td></tr></tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px;">
+<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">Claude Cowork使用限额下个月翻倍。如果你一直在存一个大而乱的项目，现在是时候了。</p>
+</td></tr></tbody>
+</table>
+<p style="margin:12px 0 0 0;"><a class="email-link" href="https://x.com/bcherny/status/2063028954546733462" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:17px; color:#111827;">Thibault Sottiaux (Codex &amp; ChatGPT @OpenAI)</h3>
+<table class="email-card" width="100%" cellpadding="16" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px;">
+<tbody><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0;">
+<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">Better memory = Shorter prompts = More utility per token.</p>
+</td></tr></tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px;">
+<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">更好的记忆=更短的提示=每个token更多的效用。</p>
+</td></tr></tbody>
+</table>
+<p style="margin:12px 0 0 0;"><a class="email-link" href="https://x.com/thsottiaux/status/2062966625733861752" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:17px; color:#111827;">Aaron Levie (CEO @box)</h3>
+<table class="email-card" width="100%" cellpadding="16" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px;">
+<tbody><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0;">
+<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">Coding is pinnacle of AI automation but needs human engineers to oversee. Agents let people do more, but don&#039;t replace them.</p>
+</td></tr></tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px;">
+<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">编程是AI自动化的巅峰，但仍需人类工程师监督。代理让人们做更多，但不会取代人类。</p>
+</td></tr></tbody>
+</table>
+<p style="margin:12px 0 0 0;"><a class="email-link" href="https://x.com/levie/status/2063055332545540096" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:17px; color:#111827;">Guillermo Rauch (@vercel CEO)</h3>
+<table class="email-card" width="100%" cellpadding="16" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px;">
+<tbody><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0;">
+<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">Use the Skills API to make all your agents and platforms smarter. Think of it as the npm registry for agent capabilities and extensibility. Free and open.</p>
+</td></tr></tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px;">
+<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">使用Skills API让你的所有代理和平台更智能。把它看作是代理能力和可扩展性的npm注册表。免费且开放。</p>
+</td></tr></tbody>
+</table>
+<p style="margin:12px 0 0 0;"><a class="email-link" href="https://x.com/rauchg/status/2062951924677128455" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:17px; color:#111827;">Ryo Lu (Design @Cursor_ai)</h3>
+<table class="email-card" width="100%" cellpadding="16" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px;">
+<tbody><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0;">
+<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">Designing in code is now as easy as click, chat, hold shift to multi-select. Works best with Composer 2.5.</p>
+</td></tr></tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px;">
+<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">用代码设计现在像点击、聊天、按住Shift多选一样简单。与Composer 2.5配合最佳。</p>
+</td></tr></tbody>
+</table>
+<p style="margin:12px 0 0 0;"><a class="email-link" href="https://x.com/ryolu_/status/2063038983408615435" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-section-tight" style="padding:0 20px 24px 20px;">
+<h2 class="email-h2" style="margin:0 0 16px 0; font-size:20px; color:#6366f1; padding-left:14px; border-left:4px solid #6366f1;">🎙️ Podcasts</h2>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:17px; color:#111827;">AI &amp; I by Every: The SaaS Apocalypse Is a Goldmine With Figma’s Matt Colyer</h3>
+<table class="email-card" width="100%" cellpadding="16" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px;">
+<tbody><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0;">
+<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">The number of developers will grow from 30 million to a billion due to AI democratization. SaaS apocalypse is actually a goldmine.</p>
+</td></tr></tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px;">
+<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">由于AI民主化，开发者数量将从3000万增长到10亿。SaaS末日实际上是金矿。</p>
+</td></tr></tbody>
+</table>
+<p style="margin:12px 0 0 0;"><a class="email-link" href="https://www.youtube.com/watch?v=kYKebKB3-d0" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-section-tight" style="padding:0 20px 24px 20px;">
+<h2 class="email-h2-warn" style="margin:0 0 16px 0; font-size:20px; color:#f59e0b;">⚡ Quick Hits | 快讯速览</h2>
+<table class="quick-hits-table" width="100%" cellpadding="0" cellspacing="0" style="border:1px solid #e5e7eb; border-radius:8px; overflow:hidden;">
+<tbody>
+<tr bgcolor="#f59e0b">
+<th style="padding:12px 14px; text-align:left; color:#ffffff; font-size:14px; font-weight:600;">Builder</th>
+<th style="padding:12px 14px; text-align:left; color:#ffffff; font-size:14px; font-weight:600;">Insight</th>
+<th style="padding:12px 14px; text-align:left; color:#ffffff; font-size:14px; font-weight:600;">洞察</th>
+</tr>
+<tr class="quick-hits-row" bgcolor="#ffffff">
+<td class="email-text" style="padding:12px 14px; color:#333333; font-size:14px;"><strong>Matt Turck</strong><br>(FirstMarkCap)</td>
+<td class="email-text" style="padding:12px 14px; color:#333333; font-size:14px;">VC horror stories about founders: founder chose higher valuation over VC value-add.</td>
+<td class="email-text" style="padding:12px 14px; color:#333333; font-size:14px;">VC关于创始人的恐怖故事：创始人选择更高估值而非VC的增值能力。</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td class="email-section-tight" style="padding:0 20px 24px 20px;">
+<h2 class="email-h2-hot" style="margin:0 0 16px 0; font-size:22px; color:#dc2626;">🔥 Today's Top Takeaway</h2>
+<div style="background:#fef2f2; border:2px solid #dc2626; padding:16px; border-radius:8px;">
+<p class="email-takeaway-title" style="margin:0; font-weight:600; color:#991b1b; font-size:18px;">AI Agents in Code: Scaling, Memory &amp; Human Oversight</p><p class="email-takeaway-block" style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;">Today&#039;s feed highlights key trends in AI-assisted coding: usage limit increases, memory optimization for better efficiency, and the enduring need for human engineers despite automation advances. Democratization of software development is driving a surge in potential developers.</p><p class="email-takeaway-block" style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>Key Points:</strong><br><br><strong>1. Claude Cowork Limits Doubled:</strong> Claude&#039;s usage limits for complex tasks have been doubled for the next month, indicating scaling efforts for large projects.<br><strong>2. Memory Reduces Prompt Length:</strong> Better memory systems reduce prompt length, increasing token utility and agent efficiency.<br><strong>3. Human Oversight Remains Crucial:</strong> Even with advanced AI coding agents, human engineers are still needed for effective oversight, as coding is the most automatable yet still requires validation.<br></p><p class="email-takeaway-block" style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>Implications:</strong><br><br><strong>1. Developer Democratization:</strong> AI tools are driving a massive increase in potential developers, from millions to billions, reshaping the software industry.<br><strong>2. Agent Extensibility:</strong> Skills API and similar platforms enable modular agent capabilities, akin to package managers, fostering innovation.<br></p><p class="email-takeaway-block" style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>Bottom line:</strong> AI coding agents are scaling rapidly, but human engineers remain essential. The focus is on improving memory, usability, and extensibility, while the developer base expands dramatically.</p><p class="email-takeaway-title" style="margin-top:16px; font-weight:600; color:#991b1b; font-size:18px;">AI代理在编程中的应用：扩展、记忆与人类监督</p><p class="email-takeaway-block" style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;">今日动态突出了AI辅助编程的关键趋势：使用限额提升、内存优化以提高效率，以及尽管自动化进步但人类工程师的持续需求。软件开发的民主化正推动潜在开发者激增。</p><p class="email-takeaway-block" style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>关键要点：</strong><br><br><strong>1. Claude Cowork限额翻倍:</strong> Claude针对复杂任务的使用限额下个月翻倍，表明对大型项目的扩展努力。<br><strong>2. 内存减少提示长度:</strong> 更好的内存系统减少提示长度，提高token效用和代理效率。<br><strong>3. 人类监督仍然关键:</strong> 即使有先进的AI编程代理，仍然需要人类工程师进行有效监督，因为编程是最可自动化的但仍需要验证。<br></p><p class="email-takeaway-block" style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>启示：</strong><br><br><strong>1. 开发者民主化:</strong> AI工具正在推动潜在开发者数量从数百万激增至数十亿，重塑软件行业。<br><strong>2. 代理可扩展性:</strong> Skills API等平台实现模块化代理能力，类似包管理器，促进创新。<br></p><p class="email-takeaway-block" style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>总结：</strong>AI编程代理正在快速扩展，但人类工程师仍然必不可少。重点在于改进内存、可用性和可扩展性，同时开发者基础急剧扩大。</p>
+</div>
+</td>
+</tr>
+<tr>
+<td class="email-footer" style="padding:20px; text-align:center; border-top:1px solid #e5e7eb;">
+<p class="email-footer-text" style="margin:0; color:#9ca3af; font-size:13px;">共6条高价值洞察</p>
+</td>
+</tr>
+
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</body></html>]]></content:encoded>
+    </item>
     <item>
       <title>每日AI洞察 | 2026-06-06</title>
       <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-06-06.html?followit=20260606-3</link>
       <guid isPermaLink="true">https://cherrylin000.github.io/AI-news/docs/archive/2026-06-06.html?followit=20260606-3</guid>
       <pubDate>Sat, 06 Jun 2026 08:12:36 GMT</pubDate>
       <description><![CDATA[<p>2026-06-06 | AI自我改进与科学发现加速<br><br>AI Self-Improvement and Scientific Discovery Accelerate<br><br>今日洞察显示：顶尖实验室中AI正编写大多数自身代码并自主进行科学发现，同时平台聚焦记忆升级和信任作为关键差异点。工程团队正解耦代理组件以应对模型快速迭代。<br><br>---<br><br>• Alex Albert: Anthropic超80%代码由Claude编写；工程师产出提升8倍；开放任务成功率6个月内从26%跃升至76%。<br>• Sam Altman: ChatGPT记忆功能重大升级今日推出，可更好地保持长期上下文。<br>• Claude: Anton Osika：AI中最被低估的护城河是信任，而赢得信任需要技艺、关心和执着。</p><p><a href="https://cherrylin000.github.io/AI-news/docs/archive/2026-06-06.html">归档链接</a></p>]]></description>
-      <content:encoded><![CDATA[<table width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
+      <content:encoded><![CDATA[<!DOCTYPE html><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+  .email-body { margin: 0; padding: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Noto Sans SC', sans-serif; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+  .email-container { max-width: 720px; width: 100%; border: 1px solid #e5e7eb; border-radius: 8px; }
+  .email-h1 { margin: 0; font-size: 26px; color: #111827; line-height: 1.35; }
+  .email-subtitle { margin: 8px 0 0 0; color: #6b7280; font-size: 15px; line-height: 1.5; }
+  .email-h2 { margin: 0 0 16px 0; font-size: 20px; color: #6366f1; padding-left: 14px; border-left: 4px solid #6366f1; line-height: 1.4; }
+  .email-h2-warn { margin: 0 0 16px 0; font-size: 22px; color: #f59e0b; line-height: 1.4; }
+  .email-h2-hot { margin: 0 0 16px 0; font-size: 22px; color: #dc2626; line-height: 1.4; }
+  .email-h3 { margin: 20px 0 12px 0; font-size: 17px; color: #111827; line-height: 1.4; }
+  .email-text { margin: 0; color: #333333; font-size: 14px; line-height: 1.7; }
+  .email-link { color: #6366f1; text-decoration: none; font-size: 13px; }
+  .email-takeaway-title { margin: 0; font-weight: 600; color: #991b1b; font-size: 18px; line-height: 1.4; }
+  .email-takeaway-block { margin-top: 12px; padding: 8px; background: #fee2e2; border-radius: 4px; color: #333333; font-size: 14px; line-height: 1.7; }
+  @media only screen and (max-width: 620px) {
+    .email-body { padding: 10px !important; }
+    .email-container { width: 100% !important; max-width: 100% !important; }
+    .email-header { padding: 16px 12px !important; }
+    .email-section { padding: 16px 12px !important; }
+    .email-section-tight { padding: 0 12px 16px 12px !important; }
+    .email-footer { padding: 14px 12px !important; }
+    .email-h1 { font-size: 18px !important; }
+    .email-subtitle { font-size: 13px !important; }
+    .email-h2 { font-size: 16px !important; padding-left: 10px !important; margin-bottom: 12px !important; }
+    .email-h2-warn { font-size: 17px !important; }
+    .email-h2-hot { font-size: 17px !important; }
+    .email-h3 { font-size: 15px !important; margin: 14px 0 8px 0 !important; }
+    .email-text { font-size: 13px !important; line-height: 1.65 !important; }
+    .email-link { font-size: 12px !important; }
+    .email-card { padding: 12px !important; }
+    .email-card-inner { padding-left: 8px !important; }
+    .email-takeaway-title { font-size: 15px !important; }
+    .email-takeaway-block { font-size: 13px !important; padding: 6px !important; }
+    .email-footer-text { font-size: 12px !important; }
+    .quick-hits-table th { display: none !important; }
+    .quick-hits-table tr.quick-hits-row { display: block !important; margin-bottom: 12px !important; border-bottom: 1px solid #e5e7eb !important; }
+    .quick-hits-table tr.quick-hits-row td { display: block !important; width: 100% !important; box-sizing: border-box !important; padding: 8px 12px !important; }
+  }
+</style>
+</head>
+<body class="email-body" style="margin:0; padding:20px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Noto Sans SC', sans-serif;">
+<table width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
 <tbody><tr>
 <td>
 <table class="email-container" width="100%" cellpadding="0" cellspacing="0" align="center" bgcolor="#ffffff" style="max-width:720px; width:100%; border:1px solid #e5e7eb; border-radius:8px;">
@@ -177,7 +421,8 @@
 </tbody></table>
 </td>
 </tr>
-</tbody></table>]]></content:encoded>
+</tbody></table>
+</body></html>]]></content:encoded>
     </item>
     <item>
       <title>每日AI洞察 | 2026-06-05</title>
@@ -185,7 +430,50 @@
       <guid isPermaLink="true">https://cherrylin000.github.io/AI-news/docs/archive/2026-06-05.html</guid>
       <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[<p>2026-06-05 | AI自我改进与科学发现加速<br><br>AI Self-Improvement and Scientific Discovery Accelerate<br><br>今日洞察显示：顶尖实验室中AI正编写大多数自身代码并自主进行科学发现，同时平台聚焦记忆升级和信任作为关键差异点。工程团队正解耦代理组件以应对模型快速迭代。<br><br>---<br><br>• Alex Albert: Anthropic超80%代码由Claude编写；工程师产出提升8倍；开放任务成功率6个月内从26%跃升至76%。<br>• Sam Altman: ChatGPT记忆功能重大升级今日推出，可更好地保持长期上下文。<br>• Claude: Anton Osika：AI中最被低估的护城河是信任，而赢得信任需要技艺、关心和执着。</p><p><a href="https://cherrylin000.github.io/AI-news/docs/archive/2026-06-05.html">归档链接</a></p>]]></description>
-      <content:encoded><![CDATA[<table width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
+      <content:encoded><![CDATA[<!DOCTYPE html><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+  .email-body { margin: 0; padding: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Noto Sans SC', sans-serif; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+  .email-container { max-width: 720px; width: 100%; border: 1px solid #e5e7eb; border-radius: 8px; }
+  .email-h1 { margin: 0; font-size: 26px; color: #111827; line-height: 1.35; }
+  .email-subtitle { margin: 8px 0 0 0; color: #6b7280; font-size: 15px; line-height: 1.5; }
+  .email-h2 { margin: 0 0 16px 0; font-size: 20px; color: #6366f1; padding-left: 14px; border-left: 4px solid #6366f1; line-height: 1.4; }
+  .email-h2-warn { margin: 0 0 16px 0; font-size: 22px; color: #f59e0b; line-height: 1.4; }
+  .email-h2-hot { margin: 0 0 16px 0; font-size: 22px; color: #dc2626; line-height: 1.4; }
+  .email-h3 { margin: 20px 0 12px 0; font-size: 17px; color: #111827; line-height: 1.4; }
+  .email-text { margin: 0; color: #333333; font-size: 14px; line-height: 1.7; }
+  .email-link { color: #6366f1; text-decoration: none; font-size: 13px; }
+  .email-takeaway-title { margin: 0; font-weight: 600; color: #991b1b; font-size: 18px; line-height: 1.4; }
+  .email-takeaway-block { margin-top: 12px; padding: 8px; background: #fee2e2; border-radius: 4px; color: #333333; font-size: 14px; line-height: 1.7; }
+  @media only screen and (max-width: 620px) {
+    .email-body { padding: 10px !important; }
+    .email-container { width: 100% !important; max-width: 100% !important; }
+    .email-header { padding: 16px 12px !important; }
+    .email-section { padding: 16px 12px !important; }
+    .email-section-tight { padding: 0 12px 16px 12px !important; }
+    .email-footer { padding: 14px 12px !important; }
+    .email-h1 { font-size: 18px !important; }
+    .email-subtitle { font-size: 13px !important; }
+    .email-h2 { font-size: 16px !important; padding-left: 10px !important; margin-bottom: 12px !important; }
+    .email-h2-warn { font-size: 17px !important; }
+    .email-h2-hot { font-size: 17px !important; }
+    .email-h3 { font-size: 15px !important; margin: 14px 0 8px 0 !important; }
+    .email-text { font-size: 13px !important; line-height: 1.65 !important; }
+    .email-link { font-size: 12px !important; }
+    .email-card { padding: 12px !important; }
+    .email-card-inner { padding-left: 8px !important; }
+    .email-takeaway-title { font-size: 15px !important; }
+    .email-takeaway-block { font-size: 13px !important; padding: 6px !important; }
+    .email-footer-text { font-size: 12px !important; }
+    .quick-hits-table th { display: none !important; }
+    .quick-hits-table tr.quick-hits-row { display: block !important; margin-bottom: 12px !important; border-bottom: 1px solid #e5e7eb !important; }
+    .quick-hits-table tr.quick-hits-row td { display: block !important; width: 100% !important; box-sizing: border-box !important; padding: 8px 12px !important; }
+  }
+</style>
+</head>
+<body class="email-body" style="margin:0; padding:20px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Noto Sans SC', sans-serif;">
+<table width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
 <tbody><tr>
 <td>
 <table class="email-container" width="100%" cellpadding="0" cellspacing="0" align="center" bgcolor="#ffffff" style="max-width:720px; width:100%; border:1px solid #e5e7eb; border-radius:8px;">
@@ -349,7 +637,8 @@
 </tbody></table>
 </td>
 </tr>
-</tbody></table>]]></content:encoded>
+</tbody></table>
+</body></html>]]></content:encoded>
     </item>
     <item>
       <title>每日AI洞察 | 2026-06-04 | AI每日洞察：扩展智能、工作流与市场研究</title>
@@ -357,7 +646,11 @@
       <guid isPermaLink="true">https://cherrylin000.github.io/AI-news/docs/archive/2026-06-04.html</guid>
       <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
       <description><![CDATA[<p>2026-06-04 | AI每日洞察：扩展智能、工作流与市场研究<br><br>AI Daily Insights: Scaling Intelligence, Workflows, and Market Research<br><br>今日洞察揭示了一个明显趋势：AI正超越原始模型性能，聚焦于实用工作流、代理能力和实际应用。从Claude Code的工作流升级到Codex的企业功能，再到Listen Labs的市场研究自动化，重点是通过可用工具和系统扩展智能。<br><br>---<br><br>• Thariq: 工作流是Claude Code自技能和子代理以来最大的能力升级，支持非技术任务。<br>• Claude: 法律解释是最古老的工作之一；Legora利用Claude将其带入新时代，押注模型发布将提升整体水平。<br>• Sam Altman: 美国应通过开发最佳模型、确保安全以及为可信防御者提供网络工具来引领AI发展。<br>• Thibault Sottiaux: Codex现在支持托管和分享网站、改进的插件和技能，以及在文档、幻灯片、表格中的视觉注释。</p><p><a href="https://cherrylin000.github.io/AI-news/docs/archive/2026-06-04.html">归档链接</a></p>]]></description>
-      <content:encoded><![CDATA[<table width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
+      <content:encoded><![CDATA[<!DOCTYPE html><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body style="margin:0; padding:20px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+<table width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
 <tbody><tr>
 <td>
 <table width="720" cellpadding="20" cellspacing="0" align="center" bgcolor="#ffffff" style="border:1px solid #e5e7eb; border-radius:8px;">
@@ -511,7 +804,8 @@
 </tbody></table>
 </td>
 </tr>
-</tbody></table>]]></content:encoded>
+</tbody></table>
+</body></html>]]></content:encoded>
     </item>
   </channel>
 </rss>
