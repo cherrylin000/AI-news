@@ -4,7 +4,7 @@
 
 ```bash
 cd scripts
-npm install          # nodemailer 仅 --legacy-smtp 需要
+npm install          # nodemailer 用于 --send-newsletter / --legacy-smtp
 ```
 
 ## 环境变量配置
@@ -22,10 +22,14 @@ export LLM_MODEL=deepseek-v4-flash
 # 站点（可选，默认 https://cherrylin000.github.io/AI-news）
 export SITE_URL=https://cherrylin000.github.io/AI-news
 
-# follow.it 订阅表单：写入根目录 index.html（<!-- ai-news:dynamic-end --> 之后）
-
-# SMTP（仅 --legacy-smtp）
-# export SMTP_HOST=...
+# Brevo SMTP（可选；用于自动发送完整邮件正文）
+export SMTP_HOST=smtp-relay.brevo.com
+export SMTP_PORT=587
+export SMTP_USER=your-brevo-smtp-login
+export SMTP_PASS=your-brevo-smtp-key
+export SMTP_FROM=verified-sender@example.com
+export SMTP_FROM_NAME=AI洞察日报
+export NEWSLETTER_RECIPIENTS='Alice <alice@example.com>, bob@example.com'
 ```
 
 ## 使用方式
@@ -37,7 +41,8 @@ node daily-insights.js
 node daily-insights.js --fetch-only
 node daily-insights.js --generate-only   # 含发布 docs/
 node daily-insights.js --send-only         # 从 outputs 加载并发布 docs/
-node daily-insights.js --legacy-smtp       # 额外 SMTP 群发（需配置 recipients）
+node daily-insights.js --send-newsletter   # 额外 SMTP 群发（需配置 NEWSLETTER_RECIPIENTS）
+node daily-insights.js --legacy-smtp       # 兼容旧参数，等同于 --send-newsletter
 node daily-insights.js --dry-run
 ```
 
@@ -49,12 +54,21 @@ npm scripts：`start` / `fetch` / `generate` / `send` / `dry-run` / `legacy-smtp
 |------|------|
 | `../index.html` | 首页：脚本只更新标记内动态区；订阅区人工维护（Pages 选根目录 `/`） |
 | `../docs/latest.html` | 当日邮件 HTML |
-| `../docs/feed.xml` | RSS（follow.it 绑定） |
+| `../docs/feed.xml` | RSS Feed |
 | `../docs/archive/YYYY-MM-DD.html` | 历史归档 |
 
-## 调整收件人（仅 --legacy-smtp）
+## 调整收件人（--send-newsletter）
 
-编辑 `CONFIG.recipients`；日常订阅请用 follow.it，无需维护名单。
+设置 `NEWSLETTER_RECIPIENTS` 环境变量或 GitHub Secret。支持以下格式：
+
+```text
+alice@example.com,bob@example.com
+Alice <alice@example.com>; Bob <bob@example.com>
+[
+  {"name":"Alice","email":"alice@example.com"},
+  {"name":"Bob","address":"bob@example.com"}
+]
+```
 
 ## 其他可调配置
 
@@ -84,4 +98,4 @@ npm scripts：`start` / `fetch` / `generate` / `send` / `dry-run` / `legacy-smtp
 如果暂时没有SMTP服务器，可以：
 1. 用 `--dry-run` 或 `--generate-only` 生成文件
 2. HTML和MD文件已保存，可手动发送或通过其他工具推送
-3. 未来可对接Coze API通过agent邮件能力发送
+3. 配置 Brevo SMTP 后用 `--send-newsletter` 自动群发完整正文

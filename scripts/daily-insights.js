@@ -8,13 +8,15 @@
  *   node daily-insights.js --fetch-only     # 仅拉取 feed
  *   node daily-insights.js --generate-only  # 生成并发布 docs/
  *   node daily-insights.js --send-only      # 从 outputs 加载并发布 docs/
+ *   node daily-insights.js --send-newsletter # 在上述流程后通过 SMTP 群发正文
  *   node daily-insights.js --legacy-smtp    # 在上述流程后 SMTP 群发给 recipients
  *   node daily-insights.js --dry-run        # 完整流程；若带 --legacy-smtp 则只模拟发信
  *
  * 环境变量:
  *   LLM_API_URL / LLM_API_KEY / LLM_MODEL   - 生成洞察（必填）
  *   SITE_URL                                - 站点根 URL（默认 https://cherrylin000.github.io/AI-news）
- *   SMTP_*                                  - 仅 --legacy-smtp 时需要
+ *   TIME_ZONE / TZ                          - 发布日期时区（默认 Asia/Shanghai）
+ *   SMTP_* / NEWSLETTER_RECIPIENTS          - 使用 --send-newsletter / --legacy-smtp 时需要
  *
  * index.html 中 <!-- ai-news:dynamic-start/end --> 之间由脚本每日更新；
  * 订阅区（follow.it 嵌入）在标记之外，需人工维护，脚本不会覆盖。
@@ -49,6 +51,57 @@ function loadEnvFile() {
 
 loadEnvFile();
 
+function parseBoolean(value, fallback = false) {
+  if (value === undefined || value === '') return fallback;
+  return ['1', 'true', 'yes', 'on'].includes(String(value).trim().toLowerCase());
+}
+
+function parseRecipients(value) {
+  const raw = String(value || '').trim();
+  if (!raw) return [];
+
+  try {
+    const parsed = JSON.parse(raw);
+    if (Array.isArray(parsed)) {
+      return parsed
+        .map((item) => {
+          if (typeof item === 'string') return parseRecipientToken(item);
+          if (item?.address) return { name: item.name || item.address, address: item.address };
+          if (item?.email) return { name: item.name || item.email, address: item.email };
+          return null;
+        })
+        .filter(Boolean);
+    }
+  } catch {
+    // 普通逗号/换行列表会走下面的解析逻辑。
+  }
+
+  return raw
+    .split(/[\n,;]+/)
+    .map((token) => parseRecipientToken(token))
+    .filter(Boolean);
+}
+
+function parseRecipientToken(token) {
+  const trimmed = String(token || '').trim();
+  if (!trimmed) return null;
+  const match = trimmed.match(/^(.*?)\s*<([^>]+)>$/);
+  if (match) {
+    const name = match[1].trim().replace(/^"|"$/g, '');
+    const address = match[2].trim();
+    return { name: name || address, address };
+  }
+  return { name: trimmed, address: trimmed };
+}
+
+function formatMailbox(name, address) {
+  const mailbox = String(address || '').trim();
+  if (!mailbox) return '';
+  const displayName = String(name || '').trim();
+  if (!displayName) return mailbox;
+  return `"${displayName.replace(/"/g, '\\"')}" <${mailbox}>`;
+}
+
 // ======================== 配置区 ========================
 
 const CONFIG = {
@@ -59,14 +112,15 @@ const CONFIG = {
     blogs: 'https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-blogs.json',
   },
 
-  // 📧 仅在使用 --legacy-smtp 时群发（日常订阅请用 follow.it + docs/feed.xml）
-  recipients: [],
+  // 📧 使用 --send-newsletter / --legacy-smtp 时群发，收件人来自 NEWSLETTER_RECIPIENTS
+  recipients: parseRecipients(process.env.NEWSLETTER_RECIPIENTS || ''),
 
   // GitHub Pages：首页在仓库根 index.html；邮件/RSS 在 docs/ 避免冲突
   repoRoot: path.join(__dirname, '..'),
   assetsDir: path.join(__dirname, '..', 'docs'),
   assetsUrlPath: '/docs',
   siteUrl: (process.env.SITE_URL || 'https://cherrylin000.github.io/AI-news').replace(/\/$/, ''),
+  timeZone: process.env.TIME_ZONE || process.env.TZ || 'Asia/Shanghai',
   feedMaxItems: 60,
 
   // 邮件主题模板
@@ -75,14 +129,17 @@ const CONFIG = {
   // SMTP配置（通过环境变量或直接填写）
   smtp: {
     host: process.env.SMTP_HOST || '',
-    port: parseInt(process.env.SMTP_PORT || '465'),
-    secure: true,
+    port: parseInt(process.env.SMTP_PORT || '587'),
+    secure: parseBoolean(process.env.SMTP_SECURE, parseInt(process.env.SMTP_PORT || '587') === 465),
+    requireTLS: parseBoolean(process.env.SMTP_REQUIRE_TLS, true),
     auth: {
       user: process.env.SMTP_USER || '',
       pass: process.env.SMTP_PASS || '',
     },
   },
   fromAddress: process.env.SMTP_FROM || process.env.SMTP_USER || '',
+  fromName: process.env.SMTP_FROM_NAME || 'AI洞察日报',
+  replyTo: process.env.SMTP_REPLY_TO || '',
 
   // LLM API配置（用于AI洞察生成）
   llm: {
@@ -182,10 +239,14 @@ async function callLLM(messages, temperature = 0.3, maxTokens = 8192) {
 
 /** 格式化日期 */
 function formatDate(date) {
-  const y = date.getFullYear();
-  const m = String(date.getMonth() + 1).padStart(2, '0');
-  const d = String(date.getDate()).padStart(2, '0');
-  return `${y}-${m}-${d}`;
+  const parts = new Intl.DateTimeFormat('en-CA', {
+    timeZone: CONFIG.timeZone,
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  }).formatToParts(date);
+  const byType = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+  return `${byType.year}-${byType.month}-${byType.day}`;
 }
 
 /** 确保目录存在 */
@@ -839,10 +900,17 @@ function escapeXml(str) {
     .replace(/'/g, '&apos;');
 }
 
-/** CDATA 安全包裹（用于 RSS 内嵌完整 HTML 邮件正文） */
+/** CDATA 安全包裹（用于 RSS 内嵌 HTML 内容） */
 function wrapCdata(str) {
   if (!str) return '';
   return String(str).replace(/\]\]>/g, ']]]]><![CDATA[>');
+}
+
+/** RSS content:encoded 应使用 HTML 片段，避免阅读器误判完整文档为无效内容。 */
+function toFeedHtmlFragment(html) {
+  if (!html) return '';
+  const bodyMatch = String(html).match(/<body\b[^>]*>([\s\S]*?)<\/body>/i);
+  return bodyMatch ? bodyMatch[1].trim() : String(html).trim();
 }
 
 // ======================== 站点发布（GitHub Pages + RSS） ========================
@@ -895,9 +963,9 @@ function generateRssXml(items) {
   const itemXml = items
     .map((item) => {
       const desc = item.description || '';
-      const fullHtml = item.contentHtml || '';
-      const encodedBlock = fullHtml
-        ? `\n      <content:encoded><![CDATA[${wrapCdata(fullHtml)}]]></content:encoded>`
+      const feedHtml = toFeedHtmlFragment(item.contentHtml || '');
+      const encodedBlock = feedHtml
+        ? `\n      <content:encoded><![CDATA[${wrapCdata(feedHtml)}]]></content:encoded>`
         : '';
       return `    <item>
       <title>${escapeXml(item.title)}</title>
@@ -1104,9 +1172,11 @@ async function sendEmails(htmlContent, mdContent, date, title) {
 
   const transporter = nodemailer.createTransport(CONFIG.smtp);
   const subject = CONFIG.emailSubject(date);
+  const from = formatMailbox(CONFIG.fromName, CONFIG.fromAddress || CONFIG.smtp.auth.user);
 
   console.log(`📧 开始发送邮件，共${CONFIG.recipients.length}位收件人...`);
   console.log(`📧 主题: ${subject}`);
+  console.log(`📧 发件人: ${from}`);
 
   const results = [];
   for (let i = 0; i < CONFIG.recipients.length; i++) {
@@ -1115,8 +1185,9 @@ async function sendEmails(htmlContent, mdContent, date, title) {
 
     try {
       const info = await transporter.sendMail({
-        from: CONFIG.fromAddress || CONFIG.smtp.auth.user,
+        from,
         to: `"${recipient.name}" <${recipient.address}>`,
+        replyTo: CONFIG.replyTo || undefined,
         subject,
         html: htmlContent,
         attachments: [
@@ -1157,12 +1228,14 @@ async function main() {
   const sendOnly = args.includes('--send-only');
   const dryRun = args.includes('--dry-run');
   const legacySmtp = args.includes('--legacy-smtp');
+  const sendNewsletter = args.includes('--send-newsletter') || legacySmtp;
 
   const today = formatDate(new Date());
   const outputDir = path.join(CONFIG.outputBaseDir, today.substring(0, 4), today.substring(5, 7));
   ensureDir(outputDir);
 
   console.log(`\n🚀 每日AI洞察 - ${today}`);
+  console.log(`🕒 发布日期时区: ${CONFIG.timeZone}`);
   console.log(`📁 输出目录: ${outputDir}\n`);
 
   let feeds, insights, mdContent, htmlContent;
@@ -1236,24 +1309,31 @@ async function main() {
 
   if (dryRun) {
     console.log('\n🏃 --dry-run 模式');
-    if (legacySmtp) {
+    if (sendNewsletter) {
       console.log(`📧 若启用 SMTP，将发送给 ${CONFIG.recipients.length} 位收件人:`);
       CONFIG.recipients.forEach((r) => console.log(`   - ${r.name} <${r.address}>`));
     } else {
-      console.log('📬 默认不发 SMTP；订阅由 follow.it + feed.xml 处理。');
+      console.log('📬 默认不发 SMTP。');
     }
     return;
   }
 
-  if (legacySmtp) {
+  if (sendNewsletter) {
+    const hasAnyNewsletterConfig = CONFIG.recipients.length > 0 || CONFIG.smtp.host || CONFIG.smtp.auth.user || CONFIG.smtp.auth.pass;
+    if (!hasAnyNewsletterConfig) {
+      console.log('\n📬 未配置 SMTP/NEWSLETTER_RECIPIENTS，跳过邮件群发。');
+      console.log('   配好 Brevo 后，设置 SMTP_* 与 NEWSLETTER_RECIPIENTS secrets 即可自动发送。');
+      return;
+    }
     if (CONFIG.recipients.length === 0) {
-      console.error('❌ --legacy-smtp 需要先在 CONFIG.recipients 中配置收件人');
+      console.error('❌ --send-newsletter 需要设置 NEWSLETTER_RECIPIENTS');
       process.exit(1);
     }
-    await sendEmails(htmlContent, mdContent, today, insights.title_cn || insights.title_en);
+    const ok = await sendEmails(htmlContent, mdContent, today, insights.title_cn || insights.title_en);
+    if (!ok) process.exit(1);
   } else {
-    console.log('\n📬 已跳过 SMTP 群发（用户通过网页订阅 / follow.it）。');
-    console.log('   若需恢复旧版群发: node daily-insights.js --legacy-smtp');
+    console.log('\n📬 已跳过 SMTP 群发。');
+    console.log('   若需群发正文: node daily-insights.js --send-newsletter');
   }
 
   console.log('\n✅ 全部流程完成！');

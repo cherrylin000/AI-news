@@ -9,6 +9,7 @@
     "generate": "node daily-insights.js --generate-only",
     "send": "node daily-insights.js --send-only",
     "dry-run": "node daily-insights.js --dry-run",
+    "send-newsletter": "node daily-insights.js --send-newsletter",
     "legacy-smtp": "node daily-insights.js --legacy-smtp"
   },
   "dependencies": {
