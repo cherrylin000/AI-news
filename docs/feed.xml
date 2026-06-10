@@ -5,8 +5,170 @@
     <link>https://cherrylin000.github.io/AI-news/</link>
     <description>每日 AI Builder 洞察摘要（中英双语）</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 09 Jun 2026 23:45:04 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 23:51:29 GMT</lastBuildDate>
     <atom:link href="https://cherrylin000.github.io/AI-news/docs/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>每日AI洞察 | 2026-06-11</title>
+      <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-06-11.html</link>
+      <guid isPermaLink="true">https://cherrylin000.github.io/AI-news/docs/archive/2026-06-11.html</guid>
+      <pubDate>Wed, 10 Jun 2026 23:51:29 GMT</pubDate>
+      <description><![CDATA[<p>2026-06-11 | Claude Fable 5：AI协作的新纪元<br><br>Claude Fable 5: A New Era of AI Collaboration<br><br>Anthropic的Claude Fable 5被誉为重大突破，将AI从编程代理转变为具有判断力和品味的协作伙伴。同时，实际经验表明AI自动化不会减少人类工作，反而增加对它的需求。<br><br>---<br><br>• Andrej Karpathy: Claude Fable 5是重大进步，让软件开发如同水龙头般便利。杰文斯悖论：软件越容易创造，需求越旺盛。<br>• Boris Cherny: Fable 5是自Opus 4.5以来最大飞跃，从编程代理进化为思考与设计伙伴，具备判断力和品味。首个无需提示就能系统调试的模型。<br>• Alex Albert: Fable 5标志性转变：模型感觉像协作伙伴而非工具。建议使用更大型任务、高努力模式，提供目标而非具体任务。<br>• Claude: Claude Fable 5今日全面可用。Claude Mythos 5（相同模型，解除限制）仅限Glasswing合作伙伴。</p><p><a href="https://cherrylin000.github.io/AI-news/docs/archive/2026-06-11.html">归档链接</a></p>]]></description>
+      <content:encoded><![CDATA[<table width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
+<tbody><tr>
+<td>
+<table class="email-container" width="100%" cellpadding="0" cellspacing="0" align="center" bgcolor="#ffffff" style="max-width:720px; width:100%; border:1px solid #e5e7eb; border-radius:8px;">
+<tbody>
+
+<!-- Header -->
+<tr>
+<td class="email-header" bgcolor="#f8fafc" style="border-bottom:3px solid #6366f1; padding:24px;">
+<h1 class="email-h1" style="margin:0; font-size:26px; color:#111827; line-height:1.35;">📅 2026-06-11 | Claude Fable 5：AI协作的新纪元</h1>
+<p class="email-subtitle" style="margin:8px 0 0 0; color:#6b7280; font-size:15px;">Claude Fable 5: A New Era of AI Collaboration</p>
+</td>
+</tr>
+<tr>
+<td class="email-section" style="padding:24px 20px;">
+<h2 class="email-h2" style="margin:0 0 16px 0; font-size:20px; color:#6366f1; padding-left:14px; border-left:4px solid #6366f1;">📱 X / Twitter</h2>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:17px; color:#111827;">Andrej Karpathy (AI Researcher)</h3>
+<table class="email-card" width="100%" cellpadding="16" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px;">
+<tbody><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0;">
+<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">Claude Fable 5 is a major step forward, qualitatively and qualitatively, making software development feel like a tap. Jevons paradox: demand for software grows as it gets easier.</p>
+</td></tr></tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px;">
+<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">Claude Fable 5是重大进步，让软件开发如同水龙头般便利。杰文斯悖论：软件越容易创造，需求越旺盛。</p>
+</td></tr></tbody>
+</table>
+<p style="margin:12px 0 0 0;"><a class="email-link" href="https://x.com/karpathy/status/2064409694761054332" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:17px; color:#111827;">Boris Cherny (Builder @bcherny)</h3>
+<table class="email-card" width="100%" cellpadding="16" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px;">
+<tbody><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0;">
+<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">Fable 5 is the biggest step up since Opus 4.5. It evolved from coding agent to thought and design partner, with judgment and taste. First model to debug methodically without prompting.</p>
+</td></tr></tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px;">
+<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">Fable 5是自Opus 4.5以来最大飞跃，从编程代理进化为思考与设计伙伴，具备判断力和品味。首个无需提示就能系统调试的模型。</p>
+</td></tr></tbody>
+</table>
+<p style="margin:12px 0 0 0;"><a class="email-link" href="https://x.com/bcherny/status/2064431111154053187" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:17px; color:#111827;">Alex Albert (Research @AnthropicAI)</h3>
+<table class="email-card" width="100%" cellpadding="16" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px;">
+<tbody><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0;">
+<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">Fable 5 marks a step-change: model feels like something to collaborate with, not just a tool to direct. Use bigger tasks, xhigh effort, and provide objectives not tasks.</p>
+</td></tr></tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px;">
+<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">Fable 5标志性转变：模型感觉像协作伙伴而非工具。建议使用更大型任务、高努力模式，提供目标而非具体任务。</p>
+</td></tr></tbody>
+</table>
+<p style="margin:12px 0 0 0;"><a class="email-link" href="https://x.com/alexalbert__/status/2064394410004304003" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:17px; color:#111827;">Claude (Official Account @AnthropicAI)</h3>
+<table class="email-card" width="100%" cellpadding="16" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px;">
+<tbody><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0;">
+<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">Claude Fable 5 is available everywhere today. Claude Mythos 5 (same model, lifted safeguards) restricted to Glasswing partners.</p>
+</td></tr></tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px;">
+<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">Claude Fable 5今日全面可用。Claude Mythos 5（相同模型，解除限制）仅限Glasswing合作伙伴。</p>
+</td></tr></tbody>
+</table>
+<p style="margin:12px 0 0 0;"><a class="email-link" href="https://x.com/claudeai/status/2064394160522559632" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:17px; color:#111827;">Alex Albert (Research @AnthropicAI)</h3>
+<table class="email-card" width="100%" cellpadding="16" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px;">
+<tbody><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0;">
+<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">Tips: Give bigger tasks, use xhigh/high effort, rework instructions to avoid stale patterns, move from tasks to objectives using /loop and /goal.</p>
+</td></tr></tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px;">
+<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">使用建议：给予更大任务，使用极高/高努力，重写提示避免陈旧模式，从任务转向目标，使用/loop和/goal。</p>
+</td></tr></tbody>
+</table>
+<p style="margin:12px 0 0 0;"><a class="email-link" href="https://x.com/alexalbert__/status/2064467657483829441" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-section-tight" style="padding:0 20px 24px 20px;">
+<h2 class="email-h2" style="margin:0 0 16px 0; font-size:20px; color:#6366f1; padding-left:14px; border-left:4px solid #6366f1;">🎙️ Podcasts</h2>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:17px; color:#111827;">AI &amp; I by Every: We Automated Everything With AI and Tripled Our Headcount</h3>
+<table class="email-card" width="100%" cellpadding="16" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px;">
+<tbody><tr><td>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0;">
+<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">Despite heavy AI use, human workload increased. Since GPT-3, Every grew from 4 to 30 people. The more autonomous agents get, the less valuable they become.</p>
+</td></tr></tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px;">
+<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">尽管大量使用AI，人类工作量反而增加。自GPT-3以来，Every从4人增至30人。代理越自主，价值越低。</p>
+</td></tr></tbody>
+</table>
+<p style="margin:12px 0 0 0;"><a class="email-link" href="https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-section-tight" style="padding:0 20px 24px 20px;">
+<h2 class="email-h2-warn" style="margin:0 0 16px 0; font-size:20px; color:#f59e0b;">⚡ Quick Hits | 快讯速览</h2>
+<table class="quick-hits-table" width="100%" cellpadding="0" cellspacing="0" style="border:1px solid #e5e7eb; border-radius:8px; overflow:hidden;">
+<tbody>
+<tr bgcolor="#f59e0b">
+<th style="padding:12px 14px; text-align:left; color:#ffffff; font-size:14px; font-weight:600;">Builder</th>
+<th style="padding:12px 14px; text-align:left; color:#ffffff; font-size:14px; font-weight:600;">Insight</th>
+<th style="padding:12px 14px; text-align:left; color:#ffffff; font-size:14px; font-weight:600;">洞察</th>
+</tr>
+<tr class="quick-hits-row" bgcolor="#ffffff">
+<td class="email-text" style="padding:12px 14px; color:#333333; font-size:14px;"><strong>Thibault Sottiaux</strong><br>(Codex &amp; ChatGPT @OpenAI)</td>
+<td class="email-text" style="padding:12px 14px; color:#333333; font-size:14px;">Claiming 1% royalty for an AI-generated tweet?</td>
+<td class="email-text" style="padding:12px 14px; color:#333333; font-size:14px;">声称对AI生成的推文收取1%版税？</td>
+</tr>
+<tr class="quick-hits-row" bgcolor="#ffffff">
+<td class="email-text" style="padding:12px 14px; color:#333333; font-size:14px;"><strong>Claude</strong><br>(Anthropic)</td>
+<td class="email-text" style="padding:12px 14px; color:#333333; font-size:14px;">Mythos 5 soon available for broader trusted access in cybersecurity and biomed.</td>
+<td class="email-text" style="padding:12px 14px; color:#333333; font-size:14px;">Mythos 5即将面向更广泛的信任合作伙伴开放，用于网络安全和生物医学。</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td class="email-section-tight" style="padding:0 20px 24px 20px;">
+<h2 class="email-h2-hot" style="margin:0 0 16px 0; font-size:22px; color:#dc2626;">🔥 Today's Top Takeaway</h2>
+<div style="background:#fef2f2; border:2px solid #dc2626; padding:16px; border-radius:8px;">
+<p class="email-takeaway-title" style="margin:0; font-weight:600; color:#991b1b; font-size:18px;">Claude Fable 5: From Tool to Partner, and the Paradox of Automation</p><p class="email-takeaway-block" style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;">Anthropic&#039;s Claude Fable 5 is hailed as a major breakthrough, transforming AI from a coding agent into a collaborative partner with judgment and taste. Meanwhile, real-world experience shows that AI automation doesn&#039;t reduce human work—it increases demand for it.</p><p class="email-takeaway-block" style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>Key Points:</strong><br><br><strong>1. Fable 5 as a Step Change:</strong> Multiple experts (Karpathy, Cherny, Albert) confirm Fable 5 is the biggest advance since Opus 4.5, enabling long problem-solving and feeling like a collaboration partner.<br><strong>2. Shift in Interaction Paradigm:</strong> Users should provide objectives, not tasks, and let the model use its own judgment. Tips include using xhigh effort and rewriting old prompts.<br><strong>3. Automation Paradox:</strong> At Every, despite automating everything, headcount tripled from 4 to 30. Agents become less valuable the further they get from humans—human oversight remains critical.<br><strong>4. Mythos 5 for Specialized Use:</strong> A safeguards-lifted version, Mythos 5, is available for cybersecurity and biomedical research through trusted access.<br></p><p class="email-takeaway-block" style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>Implications:</strong><br><br><strong>1. For Developers:</strong> Adopt a higher-level view: shift from writing code to defining objectives and letting AI explore solutions. Rework prompts and workflows to avoid constraining the model.<br><strong>2. For Organizations:</strong> Expect AI to increase human workload in the short term as new possibilities open up. Plan for scaling human teams alongside AI agents.<br><strong>3. For AI Safety:</strong> The balance between capability and safeguards remains delicate. Mythos shows that for critical domains, lifted constraints can unlock immense value, but require trusted access.<br></p><p class="email-takeaway-block" style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>Bottom line:</strong> Claude Fable 5 marks a new frontier in AI collaboration, but the paradox persists: automation fuels human demand rather than replacing it. Embrace the partnership, rethink workflows, and prepare for a future where AI amplifies ambition.</p><p class="email-takeaway-title" style="margin-top:16px; font-weight:600; color:#991b1b; font-size:18px;">Claude Fable 5：从工具到伙伴，与自动化的悖论</p><p class="email-takeaway-block" style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;">Anthropic的Claude Fable 5被誉为重大突破，将AI从编程代理转变为具有判断力和品味的协作伙伴。同时，实际经验表明AI自动化不会减少人类工作，反而增加对它的需求。</p><p class="email-takeaway-block" style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>关键要点：</strong><br><br><strong>1. Fable 5的阶跃变化:</strong> 多位专家（Karpathy、Cherny、Albert）确认Fable 5是自Opus 4.5以来最大进步，能处理长时难题，感觉像协作伙伴。<br><strong>2. 交互范式转变:</strong> 用户应提供目标而非任务，让模型自行判断。建议使用极高努力模式并重写旧提示。<br><strong>3. 自动化悖论:</strong> 在Every，尽管自动化了一切，员工数从4人增至30人。代理离人类越远，价值越低——人类监督仍至关重要。<br><strong>4. Mythos 5用于专业领域:</strong> 解除限制的Mythos 5版本通过信任访问用于网络安全和生物医学研究。<br></p><p class="email-takeaway-block" style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>启示：</strong><br><br><strong>1. 对开发者:</strong> 采取更高层次的视角：从编写代码转向定义目标，让AI探索解决方案。重写提示和工作流以避免限制模型。<br><strong>2. 对组织:</strong> 短期内AI将增加人类工作量，因为新的可能性打开。计划与AI代理一起扩展人类团队。<br><strong>3. 对AI安全:</strong> 能力与安全之间的平衡仍然微妙。Mythos表明，在关键领域解除限制可以释放巨大价值，但需要可信访问。<br></p><p class="email-takeaway-block" style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>总结：</strong>Claude Fable 5标志着AI协作的新前沿，但悖论依然存在：自动化激发了人类需求而非取代它。拥抱伙伴关系，重新思考工作流程，为AI放大雄心的未来做好准备。</p>
+</div>
+</td>
+</tr>
+<tr>
+<td class="email-footer" style="padding:20px; text-align:center; border-top:1px solid #e5e7eb;">
+<p class="email-footer-text" style="margin:0; color:#9ca3af; font-size:13px;">共6条高价值洞察</p>
+</td>
+</tr>
+
+</tbody></table>
+</td>
+</tr>
+</tbody></table>]]></content:encoded>
+    </item>
     <item>
       <title>每日AI洞察 | 2026-06-10</title>
       <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-06-10.html</link>
