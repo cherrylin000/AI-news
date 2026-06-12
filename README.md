@@ -139,6 +139,7 @@ flowchart LR
 ```powershell
 cd scripts
 node daily-insights.js --generate-only          # 只生成站点，不发邮件
-node daily-insights.js --buttondown-draft       # 创建 Buttondown 草稿
+node daily-insights.js --buttondown-draft       # 完整流程 + 创建 Buttondown 草稿
+node daily-insights.js --preview                # 同日测版式：复用缓存，不重拉 Feed
 node daily-insights.js --send-buttondown        # 真发给订阅者
 ```

@@ -7,7 +7,10 @@
  *   node daily-insights.js                  # 拉取→生成→发布 docs/（默认不发 SMTP）
  *   node daily-insights.js --fetch-only     # 仅拉取 feed
  *   node daily-insights.js --generate-only  # 生成并发布 docs/
- *   node daily-insights.js --send-only      # 从 outputs 加载并发布 docs/
+ *   node daily-insights.js --send-only      # 从 outputs 加载并发布 docs/（同 --reuse）
+ *   node daily-insights.js --reuse          # 跳过 Feed+LLM，用今日 _insights.json 重渲染模板
+ *   node daily-insights.js --preview        # 同 --reuse，并更新 docs/ + 创建 Buttondown 草稿
+ *   node daily-insights.js --refresh        # 强制重拉 Feed + 重跑 LLM（忽略今日缓存）
  *   node daily-insights.js --send-buttondown # 通过 Buttondown API 向订阅者群发正文（推荐）
  *   node daily-insights.js --buttondown-draft # 同上，但只创建草稿（测试用）
  *   node daily-insights.js --send-newsletter  # 通过 SMTP 群发（备选）
@@ -660,27 +663,29 @@ const EMAIL_FONT_FAMILY =
 /** 用于 HTML style="" 属性（内部用单引号包字体名，避免属性断裂） */
 const EMAIL_FONT_INLINE =
   "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Noto Sans SC', sans-serif";
+const EMAIL_LAYOUT_WIDTH = 720;
+/** 邮件正文块级元素共用：流式宽度 + 强制换行（兼容 Buttondown 归档页窄容器） */
+const EMAIL_WRAP_STYLE = 'word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;';
 
 function getEmailResponsiveStyles() {
   return `<style type="text/css">
   html, body { width: 100% !important; margin: 0 !important; }
-  .email-body { margin: 0; padding: 0; font-family: ${EMAIL_FONT_FAMILY}; background-color: #f1f5f9; color: #111827; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-  .email-outer-wrap { width: 100% !important; min-width: 100% !important; }
-  .email-center-td { width: 100% !important; }
-  .email-shrink-wrap { margin: 0 auto !important; }
-  .email-container { width: 720px; max-width: 720px; border: 1px solid #e5e7eb; border-radius: 12px; text-align: left !important; }
-  .email-content { text-align: left !important; }
-  .email-h1 { margin: 0; font-size: 24px; color: #111827; line-height: 1.35; text-align: left; font-weight: 700; }
-  .email-subtitle { margin: 6px 0 0 0; color: #6b7280; font-size: 15px; line-height: 1.5; text-align: left; }
-  .email-h2 { margin: 0 0 14px 0; font-size: 17px; color: #6366f1; line-height: 1.4; text-align: left; font-weight: 600; padding-left: 14px; border-left: 4px solid #6366f1; }
+  .email-body { margin: 0; padding: 0; font-family: ${EMAIL_FONT_FAMILY}; background-color: #ffffff; color: #111827; text-align: center; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+  .email-container { width: 100% !important; max-width: ${EMAIL_LAYOUT_WIDTH}px !important; border: 1px solid #e5e7eb; border-radius: 12px; text-align: left !important; box-sizing: border-box !important; overflow: visible !important; margin: 0 auto !important; }
+  .email-content { text-align: left !important; max-width: 100% !important; box-sizing: border-box !important; }
+  .email-h1 { margin: 0; font-size: 24px; color: #111827; line-height: 1.35; text-align: left; font-weight: 700; word-wrap: break-word !important; overflow-wrap: break-word !important; }
+  .email-subtitle { margin: 6px 0 0 0; color: #6b7280; font-size: 15px; line-height: 1.5; text-align: left; word-wrap: break-word !important; overflow-wrap: break-word !important; }
+  .email-h2 { margin: 0 0 14px 0; font-size: 17px; color: #6366f1; line-height: 1.4; text-align: left; font-weight: 600; padding-left: 14px; border-left: 4px solid #6366f1; word-wrap: break-word !important; overflow-wrap: break-word !important; }
   .email-h2-warn { margin: 0 0 14px 0; font-size: 17px; color: #f59e0b; line-height: 1.4; text-align: left; font-weight: 600; }
   .email-h2-hot { margin: 0 0 14px 0; font-size: 18px; color: #dc2626; line-height: 1.4; text-align: left; font-weight: 600; }
-  .email-h3 { margin: 14px 0 10px 0; font-size: 16px; color: #111827; line-height: 1.4; text-align: left; font-weight: 600; }
-  .email-text { margin: 0; color: #333333; font-size: 14px; line-height: 1.7; text-align: left; }
+  .email-h3 { margin: 14px 0 10px 0; font-size: 16px; color: #111827; line-height: 1.4; text-align: left; font-weight: 600; word-wrap: break-word !important; overflow-wrap: break-word !important; }
+  .email-text { margin: 0; color: #333333; font-size: 14px; line-height: 1.7; text-align: left; word-wrap: break-word !important; overflow-wrap: break-word !important; word-break: break-word !important; }
   .email-link { color: #6366f1; text-decoration: none; font-size: 13px; }
-  .email-card-inner { text-align: left; padding-left: 14px; }
-  .email-takeaway-title { margin: 0; font-weight: 600; color: #991b1b; font-size: 17px; line-height: 1.4; text-align: left; }
-  .email-takeaway-block { margin-top: 10px; padding: 8px; background: #fee2e2; border-radius: 4px; color: #333333; font-size: 14px; line-height: 1.7; text-align: left; }
+  .email-card { width: 100% !important; max-width: 100% !important; box-sizing: border-box !important; }
+  .email-card-inner { text-align: left; max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important; overflow-wrap: break-word !important; }
+  .email-takeaway-wrap { width: 100% !important; max-width: 100% !important; box-sizing: border-box !important; }
+  .email-takeaway-title { margin: 0; font-weight: 600; color: #991b1b; font-size: 17px; line-height: 1.4; text-align: left; word-wrap: break-word !important; overflow-wrap: break-word !important; }
+  .email-takeaway-block { width: 100% !important; max-width: 100% !important; margin-top: 10px; color: #333333; font-size: 14px; line-height: 1.7; text-align: left; box-sizing: border-box !important; word-wrap: break-word !important; overflow-wrap: break-word !important; }
   @media only screen and (max-width: 620px) {
     .email-body { padding: 0 8px 12px !important; }
     .email-container { width: 100% !important; max-width: 100% !important; }
@@ -697,12 +702,64 @@ function getEmailResponsiveStyles() {
     .email-text { font-size: 13px !important; line-height: 1.65 !important; }
     .email-link { font-size: 12px !important; }
     .email-card { padding: 12px !important; }
-    .email-card-inner { padding-left: 8px !important; }
     .email-takeaway-title { font-size: 15px !important; }
-    .email-takeaway-block { font-size: 13px !important; padding: 6px !important; }
+    .email-takeaway-block { font-size: 13px !important; }
+    .email-takeaway-block td { padding: 6px !important; }
     .email-footer-text { font-size: 12px !important; }
   }
 </style>`;
+}
+
+/** 粉色内容块：与 email-card 一样用 width=100% 表格，保证与 X/Twitter 卡片同宽 */
+function appendTakeawayPinkBlock(parts, html, isFirst) {
+  const marginTop = isFirst ? 'margin-top:0' : 'margin-top:10px';
+  parts.push(`<table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="${marginTop}; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; ${EMAIL_WRAP_STYLE}">${html}</td></tr></tbody></table>`);
+}
+
+function renderTakeawayLangBlocks(tw, lang) {
+  const isEn = lang === 'en';
+  const title = isEn ? tw.title_en : tw.title_cn;
+  const overview = isEn ? tw.overview_en : tw.overview_cn;
+  const keyPoints = isEn ? tw.key_points_en : tw.key_points_cn;
+  const implications = isEn ? tw.implications_en : tw.implications_cn;
+  const bottomLine = isEn ? tw.bottom_line_en : tw.bottom_line_cn;
+  const labels = isEn
+    ? { key: 'Key Points:', impl: 'Implications:', bottom: 'Bottom line:' }
+    : { key: '关键要点：', impl: '启示：', bottom: '总结：' };
+
+  const parts = [];
+  const titleMargin = isEn ? 'margin:0' : 'margin-top:14px';
+  parts.push(`<p class="email-takeaway-title" style="${titleMargin}; font-weight:600; color:#991b1b; font-size:17px; text-align:left; ${EMAIL_WRAP_STYLE}">${escapeHtml(title)}</p>`);
+
+  let isFirst = true;
+  if (overview) {
+    appendTakeawayPinkBlock(parts, escapeHtml(overview), isFirst);
+    isFirst = false;
+  }
+  if (keyPoints?.length) {
+    let html = `<strong>${labels.key}</strong><br><br>`;
+    keyPoints.forEach((p, i) => {
+      html += `<strong>${i + 1}. ${escapeHtml(p.title)}:</strong> ${escapeHtml(p.content)}<br>`;
+    });
+    appendTakeawayPinkBlock(parts, html, isFirst);
+    isFirst = false;
+  }
+  if (implications?.length) {
+    let html = `<strong>${labels.impl}</strong><br><br>`;
+    implications.forEach((p, i) => {
+      html += `<strong>${i + 1}. ${escapeHtml(p.title)}:</strong> ${escapeHtml(p.content)}<br>`;
+    });
+    appendTakeawayPinkBlock(parts, html, isFirst);
+    isFirst = false;
+  }
+  if (bottomLine) {
+    const html = isEn
+      ? `<strong>${labels.bottom}</strong> ${escapeHtml(bottomLine)}`
+      : `<strong>${labels.bottom}</strong>${escapeHtml(bottomLine)}`;
+    appendTakeawayPinkBlock(parts, html, isFirst);
+  }
+  return parts.join('');
 }
 
 function generateHTML(insights, date) {
@@ -712,24 +769,16 @@ function generateHTML(insights, date) {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ${getEmailResponsiveStyles()}
 </head>
-<body class="email-body" style="margin:0; padding:0; width:100%; font-family:${EMAIL_FONT_INLINE}; background-color:#f1f5f9; color:#111827;">
-<table class="email-outer-wrap" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#f1f5f9" role="presentation" style="width:100%; min-width:100%; background-color:#f1f5f9;">
-<tbody><tr>
-<td class="email-center-td" align="center" valign="top" bgcolor="#f1f5f9" style="padding:16px 12px;">
-<center>
-<!-- Gmail/Outlook：无宽度收缩包裹表 + align=center 才能块级居中 -->
-<table class="email-shrink-wrap" cellpadding="0" cellspacing="0" border="0" align="center" role="presentation">
-<tbody><tr>
-<td align="center">
-<!--[if mso]><table width="720" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td><![endif]-->
-<table class="email-container" width="720" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" role="presentation" style="width:720px; max-width:720px; border:1px solid #e5e7eb; border-radius:12px; text-align:left;">
+<body class="email-body" style="margin:0; padding:0; width:100%; font-family:${EMAIL_FONT_INLINE}; background-color:#ffffff; color:#111827; text-align:center;">
+<!--[if mso]><table width="${EMAIL_LAYOUT_WIDTH}" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td><![endif]-->
+<table class="email-container" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" role="presentation" style="width:100%; max-width:${EMAIL_LAYOUT_WIDTH}px; margin:0 auto; border:1px solid #e5e7eb; border-radius:12px; text-align:left; box-sizing:border-box;">
 <tbody>
 
 <!-- Header -->
 <tr>
-<td class="email-header email-content" bgcolor="#f8fafc" style="border-bottom:3px solid #6366f1; padding:16px 20px; text-align:left;">
-<h1 class="email-h1" style="margin:0; font-size:24px; color:#111827; line-height:1.35; text-align:left;">📅 ${escapeHtml(date)} | ${escapeHtml(insights.title_cn)}</h1>
-<p class="email-subtitle" style="margin:6px 0 0 0; color:#6b7280; font-size:15px; text-align:left;">${escapeHtml(insights.title_en)}</p>
+<td class="email-header email-content" bgcolor="#f8fafc" style="border-bottom:3px solid #6366f1; padding:16px 20px; text-align:left; ${EMAIL_WRAP_STYLE}">
+<h1 class="email-h1" style="margin:0; font-size:24px; color:#111827; line-height:1.35; text-align:left; ${EMAIL_WRAP_STYLE}">📅 ${escapeHtml(date)} | ${escapeHtml(insights.title_cn)}</h1>
+<p class="email-subtitle" style="margin:6px 0 0 0; color:#6b7280; font-size:15px; text-align:left; ${EMAIL_WRAP_STYLE}">${escapeHtml(insights.title_en)}</p>
 </td>
 </tr>`;
 
@@ -742,17 +791,17 @@ ${getEmailResponsiveStyles()}
 <h2 class="email-h2" style="margin:0 0 14px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">📱 X / Twitter</h2>`;
     for (const item of xItems) {
       html += `
-<h3 class="email-h3" style="margin:14px 0 10px 0; font-size:16px; color:#111827; text-align:left;">${escapeHtml(item.builder)} (${escapeHtml(item.role)})</h3>
-<table class="email-card" width="100%" cellpadding="14" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px;">
-<tbody><tr><td style="text-align:left;">
-<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0;">
-<tbody><tr><td class="email-card-inner" style="text-align:left; padding-left:14px;">
-<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7; text-align:left;">${escapeHtml(item.en_summary)}</p>
+<h3 class="email-h3" style="margin:14px 0 10px 0; font-size:16px; color:#111827; text-align:left; ${EMAIL_WRAP_STYLE}">${escapeHtml(item.builder)} (${escapeHtml(item.role)})</h3>
+<table class="email-card" width="100%" cellpadding="14" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="text-align:left; ${EMAIL_WRAP_STYLE}">
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0; width:100%; max-width:100%;">
+<tbody><tr><td class="email-card-inner" style="text-align:left; ${EMAIL_WRAP_STYLE}">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7; text-align:left; ${EMAIL_WRAP_STYLE}">${escapeHtml(item.en_summary)}</p>
 </td></tr></tbody>
 </table>
-<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px;">
-<tbody><tr><td class="email-card-inner" style="text-align:left; padding-left:14px;">
-<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7; text-align:left;">${escapeHtml(item.cn_summary)}</p>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px; width:100%; max-width:100%;">
+<tbody><tr><td class="email-card-inner" style="text-align:left; ${EMAIL_WRAP_STYLE}">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7; text-align:left; ${EMAIL_WRAP_STYLE}">${escapeHtml(item.cn_summary)}</p>
 </td></tr></tbody>
 </table>
 <p style="margin:10px 0 0 0; text-align:left;"><a class="email-link" href="${escapeHtml(item.url)}" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
@@ -772,17 +821,17 @@ ${getEmailResponsiveStyles()}
 <h2 class="email-h2" style="margin:0 0 14px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">🎙️ Podcasts</h2>`;
     for (const item of podItems) {
       html += `
-<h3 class="email-h3" style="margin:14px 0 10px 0; font-size:16px; color:#111827; text-align:left;">${escapeHtml(item.name)}: ${escapeHtml(item.episode)}</h3>
-<table class="email-card" width="100%" cellpadding="14" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px;">
-<tbody><tr><td style="text-align:left;">
-<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0;">
-<tbody><tr><td class="email-card-inner" style="text-align:left; padding-left:14px;">
-<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7; text-align:left;">${escapeHtml(item.en_summary)}</p>
+<h3 class="email-h3" style="margin:14px 0 10px 0; font-size:16px; color:#111827; text-align:left; ${EMAIL_WRAP_STYLE}">${escapeHtml(item.name)}: ${escapeHtml(item.episode)}</h3>
+<table class="email-card" width="100%" cellpadding="14" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="text-align:left; ${EMAIL_WRAP_STYLE}">
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0; width:100%; max-width:100%;">
+<tbody><tr><td class="email-card-inner" style="text-align:left; ${EMAIL_WRAP_STYLE}">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7; text-align:left; ${EMAIL_WRAP_STYLE}">${escapeHtml(item.en_summary)}</p>
 </td></tr></tbody>
 </table>
-<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px;">
-<tbody><tr><td class="email-card-inner" style="text-align:left; padding-left:14px;">
-<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7; text-align:left;">${escapeHtml(item.cn_summary)}</p>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px; width:100%; max-width:100%;">
+<tbody><tr><td class="email-card-inner" style="text-align:left; ${EMAIL_WRAP_STYLE}">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7; text-align:left; ${EMAIL_WRAP_STYLE}">${escapeHtml(item.cn_summary)}</p>
 </td></tr></tbody>
 </table>
 <p style="margin:10px 0 0 0; text-align:left;"><a class="email-link" href="${escapeHtml(item.url)}" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
@@ -802,17 +851,17 @@ ${getEmailResponsiveStyles()}
 <h2 class="email-h2" style="margin:0 0 14px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">📝 Official Blogs</h2>`;
     for (const item of blogItems) {
       html += `
-<h3 class="email-h3" style="margin:14px 0 10px 0; font-size:16px; color:#111827; text-align:left;">${escapeHtml(item.name)}: ${escapeHtml(item.title)}</h3>
-<table class="email-card" width="100%" cellpadding="14" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px;">
-<tbody><tr><td style="text-align:left;">
-<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0;">
-<tbody><tr><td class="email-card-inner" style="text-align:left; padding-left:14px;">
-<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7; text-align:left;">${escapeHtml(item.en_summary)}</p>
+<h3 class="email-h3" style="margin:14px 0 10px 0; font-size:16px; color:#111827; text-align:left; ${EMAIL_WRAP_STYLE}">${escapeHtml(item.name)}: ${escapeHtml(item.title)}</h3>
+<table class="email-card" width="100%" cellpadding="14" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="text-align:left; ${EMAIL_WRAP_STYLE}">
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0; width:100%; max-width:100%;">
+<tbody><tr><td class="email-card-inner" style="text-align:left; ${EMAIL_WRAP_STYLE}">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7; text-align:left; ${EMAIL_WRAP_STYLE}">${escapeHtml(item.en_summary)}</p>
 </td></tr></tbody>
 </table>
-<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px;">
-<tbody><tr><td class="email-card-inner" style="text-align:left; padding-left:14px;">
-<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7; text-align:left;">${escapeHtml(item.cn_summary)}</p>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px; width:100%; max-width:100%;">
+<tbody><tr><td class="email-card-inner" style="text-align:left; ${EMAIL_WRAP_STYLE}">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7; text-align:left; ${EMAIL_WRAP_STYLE}">${escapeHtml(item.cn_summary)}</p>
 </td></tr></tbody>
 </table>
 <p style="margin:10px 0 0 0; text-align:left;"><a class="email-link" href="${escapeHtml(item.url)}" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
@@ -823,62 +872,18 @@ ${getEmailResponsiveStyles()}
 </tr>`;
   }
 
-  // Top Takeaway
+  // Top Takeaway（保留红框+粉色块；外层 table width=100% 与 X/Twitter email-card 同宽）
   const tw = insights.takeaway;
   if (tw) {
     html += `
 <tr>
 <td class="email-section-tight email-content" style="padding:0 20px 20px 20px; text-align:left;">
 <h2 class="email-h2-hot" style="margin:0 0 14px 0; font-size:18px; color:#dc2626; text-align:left;">🔥 Today's Top Takeaway</h2>
-<div class="email-takeaway-wrap" style="background:#fef2f2; border:2px solid #dc2626; padding:14px; border-radius:8px; text-align:left;">
-<p class="email-takeaway-title" style="margin:0; font-weight:600; color:#991b1b; font-size:17px; text-align:left;">${escapeHtml(tw.title_en)}</p>`;
-
-    if (tw.overview_en) {
-      html += `<p class="email-takeaway-block" style="margin-top:10px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7; text-align:left;">${escapeHtml(tw.overview_en)}</p>`;
-    }
-    if (tw.key_points_en?.length) {
-      html += `<p class="email-takeaway-block" style="margin-top:10px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7; text-align:left;"><strong>Key Points:</strong><br><br>`;
-      tw.key_points_en.forEach((p, i) => {
-        html += `<strong>${i + 1}. ${escapeHtml(p.title)}:</strong> ${escapeHtml(p.content)}<br>`;
-      });
-      html += `</p>`;
-    }
-    if (tw.implications_en?.length) {
-      html += `<p class="email-takeaway-block" style="margin-top:10px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7; text-align:left;"><strong>Implications:</strong><br><br>`;
-      tw.implications_en.forEach((p, i) => {
-        html += `<strong>${i + 1}. ${escapeHtml(p.title)}:</strong> ${escapeHtml(p.content)}<br>`;
-      });
-      html += `</p>`;
-    }
-    if (tw.bottom_line_en) {
-      html += `<p class="email-takeaway-block" style="margin-top:10px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7; text-align:left;"><strong>Bottom line:</strong> ${escapeHtml(tw.bottom_line_en)}</p>`;
-    }
-
-    html += `<p class="email-takeaway-title" style="margin-top:14px; font-weight:600; color:#991b1b; font-size:17px; text-align:left;">${escapeHtml(tw.title_cn)}</p>`;
-
-    if (tw.overview_cn) {
-      html += `<p class="email-takeaway-block" style="margin-top:10px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7; text-align:left;">${escapeHtml(tw.overview_cn)}</p>`;
-    }
-    if (tw.key_points_cn?.length) {
-      html += `<p class="email-takeaway-block" style="margin-top:10px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7; text-align:left;"><strong>关键要点：</strong><br><br>`;
-      tw.key_points_cn.forEach((p, i) => {
-        html += `<strong>${i + 1}. ${escapeHtml(p.title)}:</strong> ${escapeHtml(p.content)}<br>`;
-      });
-      html += `</p>`;
-    }
-    if (tw.implications_cn?.length) {
-      html += `<p class="email-takeaway-block" style="margin-top:10px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7; text-align:left;"><strong>启示：</strong><br><br>`;
-      tw.implications_cn.forEach((p, i) => {
-        html += `<strong>${i + 1}. ${escapeHtml(p.title)}:</strong> ${escapeHtml(p.content)}<br>`;
-      });
-      html += `</p>`;
-    }
-    if (tw.bottom_line_cn) {
-      html += `<p class="email-takeaway-block" style="margin-top:10px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7; text-align:left;"><strong>总结：</strong>${escapeHtml(tw.bottom_line_cn)}</p>`;
-    }
-
-    html += `
-</div>
+<table class="email-takeaway-wrap" width="100%" cellpadding="14" cellspacing="0" bgcolor="#fef2f2" style="border:2px solid #dc2626; border-radius:8px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="text-align:left; ${EMAIL_WRAP_STYLE}">
+${renderTakeawayLangBlocks(tw, 'en')}
+${renderTakeawayLangBlocks(tw, 'cn')}
+</td></tr></tbody></table>
 </td>
 </tr>`;
   }
@@ -894,13 +899,6 @@ ${getEmailResponsiveStyles()}
 
 </tbody></table>
 <!--[if mso]></td></tr></table><![endif]-->
-</td>
-</tr>
-</tbody></table>
-</center>
-</td>
-</tr>
-</tbody></table>
 </body></html>`;
 
   return html;
@@ -1398,17 +1396,39 @@ async function sendEmails(htmlContent, mdContent, date, title) {
 
 // ======================== 主流程 ========================
 
+function getTodayInsightsPath(outputDir, date) {
+  return path.join(outputDir, `${date}_insights.json`);
+}
+
+function loadTodayInsights(outputDir, date) {
+  const jsonPath = getTodayInsightsPath(outputDir, date);
+  if (!fs.existsSync(jsonPath)) {
+    console.error(`❌ 未找到今日洞察缓存: ${jsonPath}`);
+    console.log('💡 请先完整跑一遍: node daily-insights.js');
+    console.log('   或强制重拉 Feed: node daily-insights.js --refresh');
+    process.exit(1);
+  }
+  const insights = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
+  console.log(`📂 复用今日缓存（跳过 Feed + LLM）: ${jsonPath}`);
+  return insights;
+}
+
 async function main() {
   const args = process.argv.slice(2);
   const fetchOnly = args.includes('--fetch-only');
   const generateOnly = args.includes('--generate-only');
-  const sendOnly = args.includes('--send-only');
+  const preview = args.includes('--preview');
+  const forceRefresh = args.includes('--refresh') || args.includes('--force-refresh');
+  const reuse =
+    !forceRefresh &&
+    (args.includes('--send-only') || args.includes('--reuse') || preview);
   const dryRun = args.includes('--dry-run');
   const legacySmtp = args.includes('--legacy-smtp');
   const sendNewsletter = args.includes('--send-newsletter') || legacySmtp;
-  const sendButtondown = args.includes('--send-buttondown') || args.includes('--buttondown-draft');
-  const buttondownDraft = args.includes('--buttondown-draft');
-  const forceButtondown = args.includes('--force-buttondown');
+  const buttondownDraft = args.includes('--buttondown-draft') || preview;
+  const forceButtondown = args.includes('--force-buttondown') || preview;
+  const sendButtondown =
+    args.includes('--send-buttondown') || buttondownDraft;
 
   const today = formatDate(new Date());
   const outputDir = path.join(CONFIG.outputBaseDir, today.substring(0, 4), today.substring(5, 7));
@@ -1416,22 +1436,17 @@ async function main() {
 
   console.log(`\n🚀 每日AI洞察 - ${today}`);
   console.log(`🕒 发布日期时区: ${CONFIG.timeZone}`);
-  console.log(`📁 输出目录: ${outputDir}\n`);
+  console.log(`📁 输出目录: ${outputDir}`);
+  if (reuse) console.log('♻️  模式: 复用今日 insights 缓存');
+  if (preview) console.log('👀 模式: 预览（重渲染 + 更新 docs + Buttondown 草稿）');
+  if (forceRefresh) console.log('🔄 模式: 强制刷新 Feed + LLM');
+  console.log('');
 
   let feeds, insights, mdContent, htmlContent;
 
-  // Step 1: 拉取Feed
-  if (!sendOnly) {
+  // Step 1: 拉取Feed（--reuse / --preview 时跳过）
+  if (!reuse) {
     feeds = await fetchFeeds();
-  } else {
-    // 从已保存的raw feeds加载
-    const rawPath = path.join(outputDir, `${today}_raw_feeds.json`);
-    if (!fs.existsSync(rawPath)) {
-      console.error(`❌ 未找到今日feed数据: ${rawPath}`);
-      process.exit(1);
-    }
-    feeds = JSON.parse(fs.readFileSync(rawPath, 'utf-8'));
-    console.log(`📂 已加载Feed数据: ${rawPath}`);
   }
 
   if (fetchOnly) {
@@ -1439,8 +1454,8 @@ async function main() {
     return;
   }
 
-  // Step 2: 筛选 + AI生成洞察
-  if (!sendOnly) {
+  // Step 2: 筛选 + AI生成洞察（复用模式从 JSON 加载）
+  if (!reuse) {
     const filtered = filterFeeds(feeds);
     console.log(`🔍 筛选结果: ${filtered.tweets.length}条推文(>=${CONFIG.filter.minLikes}赞), ${filtered.podcasts.length}期播客, ${filtered.blogs.length}篇博客`);
 
@@ -1465,16 +1480,10 @@ async function main() {
     fs.writeFileSync(jsonPath, JSON.stringify(insights, null, 2), 'utf-8');
     console.log(`📄 JSON已保存: ${jsonPath}`);
   } else {
-    // 从已保存的文件加载
-    const jsonPath = path.join(outputDir, `${today}_insights.json`);
-    if (!fs.existsSync(jsonPath)) {
-      console.error(`❌ 未找到今日洞察数据: ${jsonPath}`);
-      process.exit(1);
-    }
-    insights = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
+    insights = loadTodayInsights(outputDir, today);
     mdContent = generateMarkdown(insights, today);
     htmlContent = generateHTML(insights, today);
-    console.log(`📂 已加载洞察数据，并按当前模板重新生成 MD/HTML`);
+    console.log('📄 已按当前邮件模板重新生成 MD/HTML');
   }
 
   // 发布 GitHub Pages 站点与 RSS（有洞察数据时）
@@ -1484,6 +1493,9 @@ async function main() {
 
   if (generateOnly) {
     console.log('\n✅ --generate-only 完成（已更新 docs/）');
+    if (preview) {
+      console.log('💡 --preview 通常无需再加 --generate-only；若要仅更新本站预览可用: --reuse --generate-only');
+    }
     return;
   }
 

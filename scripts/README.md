@@ -40,13 +40,32 @@ node daily-insights.js
 
 node daily-insights.js --fetch-only
 node daily-insights.js --generate-only   # 含发布 docs/
-node daily-insights.js --send-only         # 从 outputs 加载并发布 docs/
+node daily-insights.js --send-only         # 从 outputs 加载并发布 docs/（同 --reuse）
+node daily-insights.js --reuse             # 跳过 Feed+LLM，用今日 _insights.json 重渲染邮件模板
+node daily-insights.js --preview           # 同 --reuse，并更新 docs/ + 创建 Buttondown 草稿（同日反复测版式用）
+node daily-insights.js --refresh           # 强制重拉 Feed + 重跑 LLM（忽略今日缓存）
 node daily-insights.js --send-newsletter   # 额外 SMTP 群发（需配置 NEWSLETTER_RECIPIENTS）
 node daily-insights.js --legacy-smtp       # 兼容旧参数，等同于 --send-newsletter
 node daily-insights.js --dry-run
 ```
 
-npm scripts：`start` / `fetch` / `generate` / `send` / `dry-run` / `legacy-smtp`
+npm scripts：`start` / `fetch` / `generate` / `send` / `reuse` / `preview` / `dry-run` / `legacy-smtp`
+
+### 同日反复测试邮件版式
+
+当天已成功跑过完整流程后，`outputs/每日洞察/YYYY/MM/YYYY-MM-DD_insights.json` 已存在，**不必再拉 Feed**：
+
+```bash
+# 只更新本站预览 docs/latest.html
+node daily-insights.js --reuse --generate-only
+
+# 更新本站 + 创建 Buttondown 草稿（推荐）
+node daily-insights.js --preview
+# 或
+npm run preview
+```
+
+若要重新拉 Feed、让 LLM 重生成内容：`node daily-insights.js --refresh`
 
 ## 站点输出
 

@@ -8,6 +8,8 @@
     "fetch": "node daily-insights.js --fetch-only",
     "generate": "node daily-insights.js --generate-only",
     "send": "node daily-insights.js --send-only",
+    "reuse": "node daily-insights.js --reuse",
+    "preview": "node daily-insights.js --preview",
     "dry-run": "node daily-insights.js --dry-run",
     "send-newsletter": "node daily-insights.js --send-newsletter",
     "legacy-smtp": "node daily-insights.js --legacy-smtp",
