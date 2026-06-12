@@ -1058,13 +1058,44 @@ function findSubscribePreserveStart(html, headerIdx, footerIdx) {
   return idx;
 }
 
-function patchLandingPageTitle(html, date) {
-  return html.replace(/<title>[^<]*<\/title>/, `<title>每日AI洞察 | ${escapeHtml(date)}</title>`);
+const LANDING_DESCRIPTION =
+  '从 X、播客、官方博客筛选高价值 AI 构建者信息，每日一封邮件直达全文。';
+
+function getLandingHeadMeta(date) {
+  const pageTitle = `每日AI洞察 | ${date}`;
+  const ogImage = `${CONFIG.siteUrl}/og-image.png`;
+  return `  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <meta name="description" content="${escapeHtml(LANDING_DESCRIPTION)}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="${escapeHtml(pageTitle)}">
+  <meta property="og:description" content="${escapeHtml(LANDING_DESCRIPTION)}">
+  <meta property="og:url" content="${escapeHtml(`${CONFIG.siteUrl}/`)}">
+  <meta property="og:image" content="${escapeHtml(ogImage)}">
+  <meta property="og:image:width" content="210">
+  <meta property="og:image:height" content="210">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="${escapeHtml(pageTitle)}">
+  <meta name="twitter:description" content="${escapeHtml(LANDING_DESCRIPTION)}">
+  <meta name="twitter:image" content="${escapeHtml(ogImage)}">`;
+}
+
+function patchLandingPageMeta(html, date) {
+  const pageTitle = `每日AI洞察 | ${escapeHtml(date)}`;
+  html = html.replace(/<title>[^<]*<\/title>/, `<title>${pageTitle}</title>`);
+  html = html.replace(
+    /<meta property="og:title" content="[^"]*">/,
+    `<meta property="og:title" content="${pageTitle}">`
+  );
+  html = html.replace(
+    /<meta name="twitter:title" content="[^"]*">/,
+    `<meta name="twitter:title" content="${pageTitle}">`
+  );
+  return html;
 }
 
 function updateLandingPage(existingHtml, insights, date) {
   const dynamicBody = getDynamicLandingBody(insights, date);
-  let html = patchLandingPageTitle(existingHtml, date);
+  let html = patchLandingPageMeta(existingHtml, date);
 
   if (html.includes(LANDING_DYNAMIC_START) && html.includes(LANDING_DYNAMIC_END)) {
     const pattern = new RegExp(
@@ -1096,6 +1127,7 @@ function generateLandingPage(insights, date) {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>每日AI洞察 | ${escapeHtml(date)}</title>
+${getLandingHeadMeta(date)}
   <link rel="alternate" type="application/rss+xml" title="每日AI洞察" href="${CONFIG.siteUrl}${CONFIG.assetsUrlPath}/feed.xml">
   <style>
     * { box-sizing: border-box; }
