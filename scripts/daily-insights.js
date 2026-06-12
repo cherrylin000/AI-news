@@ -1027,9 +1027,11 @@ function getDynamicLandingBody(_insights, date) {
   const archiveUrl = CONFIG.buttondown.archiveUrl;
   return `    <header>
       <h1>📅 每日AI洞察</h1>
-      <p style="margin-top:8px;font-size:0.85rem;">下方为今日邮件预览；订阅后由 Buttondown 每日推送完整正文。</p>
-      <p style="margin-top:8px;font-size:0.85rem;">回顾往日内容：点击查看<a class="header-plain-link" href="${escapeHtml(archiveUrl)}" target="_blank" rel="noopener">往期 AI 洞察</a>（需🪜）</p>
-      <p style="margin-top:4px;font-size:0.85rem;">订阅每日推送：点击开始<a class="header-plain-link" href="#subscribe">邮件订阅</a></p>
+      <p class="header-intro">从 X、播客、官方博客等渠道追踪 AI 领域的顶级建设者——研究人员、创始人、产品经理和实际从事建设工作的一线工程师——并提供他们观点的精选总结。每日一封中英双语邮件，面向想订阅、阅读、了解 AI 最新趋势的读者。</p>
+      <p class="header-intro">新闻来源于 GitHub 作者 <a class="header-plain-link" href="https://github.com/zarazhangrui" target="_blank" rel="noopener">Zara Zhang</a> 的开源项目 <a class="header-plain-link" href="https://github.com/zarazhangrui/follow-builders" target="_blank" rel="noopener">follow-builders</a>，她提出了「Follow builders, not influencers」的理念：关注那些构建产品并拥有原创观点的人，而非那些只会复述信息的自媒体网红。</p>
+      <p class="header-meta">下方为今日邮件预览；订阅后由 Buttondown 每日推送完整正文。</p>
+      <p class="header-meta">回顾往日内容：点击查看<a class="header-plain-link" href="${escapeHtml(archiveUrl)}" target="_blank" rel="noopener">往期 AI 洞察</a></p>
+      <p class="header-meta">订阅每日推送：点击开始<a class="header-plain-link" href="#subscribe">邮件订阅</a></p>
     </header>
 
     <section>
@@ -1060,7 +1062,7 @@ function findSubscribePreserveStart(html, headerIdx, footerIdx) {
 
 const LANDING_TITLE = '每日AI洞察';
 const LANDING_DESCRIPTION =
-  '从 X、播客、官方博客筛选高价值 AI 构建者信息，每日一封邮件直达全文。';
+  '从 X、播客、官方博客追踪 AI 领域顶级建设者，每日一封中英双语邮件，精选总结研究人员、创始人、产品经理与一线工程师的原创观点。';
 
 function getLandingHeadMeta() {
   const ogImage = `${CONFIG.siteUrl}/og-image.png`;
@@ -1121,8 +1123,9 @@ ${getLandingHeadMeta()}
     .wrap { max-width: 800px; margin: 0 auto; padding: 24px 16px 48px; }
     header { background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 24px; margin-bottom: 20px; border-bottom: 3px solid #6366f1; }
     header h1 { margin: 0 0 8px; font-size: 1.5rem; }
-    header p { margin: 0; color: #6b7280; font-size: 0.95rem; }
-    header a.header-plain-link { color: #6366f1; text-decoration: underline; }
+    header p.header-intro { margin: 12px 0 0; color: #111827; font-size: 0.95rem; line-height: 1.65; }
+    header p.header-meta { margin: 16px 0 0; color: #6b7280; font-size: 0.85rem; line-height: 1.65; }
+    header a.header-plain-link { color: #6366f1; text-decoration: underline; font-weight: 400; }
     header a.header-plain-link:hover { color: #4f46e5; }
     section { background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 20px; margin-bottom: 20px; }
     section h2 { margin: 0 0 16px; font-size: 1.1rem; color: #6366f1; }
