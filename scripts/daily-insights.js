@@ -1029,7 +1029,7 @@ function getDynamicLandingBody(_insights, date) {
       <h1>📅 每日AI洞察</h1>
       <p class="header-intro">从 X、播客、官方博客等渠道追踪 AI 领域的顶级建设者——研究人员、创始人、产品经理和实际从事建设工作的一线工程师——并提供他们观点的精选总结。每日一封中英双语邮件，面向想订阅、阅读、了解 AI 最新趋势的读者。</p>
       <p class="header-intro">新闻来源于 GitHub 作者 <a class="header-plain-link" href="https://github.com/zarazhangrui" target="_blank" rel="noopener">Zara Zhang</a> 的开源项目 <a class="header-plain-link" href="https://github.com/zarazhangrui/follow-builders" target="_blank" rel="noopener">follow-builders</a>，她提出了「Follow builders, not influencers」的理念：关注那些构建产品并拥有原创观点的人，而非那些只会复述信息的自媒体网红。</p>
-      <p class="header-meta">下方为今日邮件预览；订阅后由 Buttondown 每日推送完整正文。</p>
+      <p class="header-meta">下方为今日邮件预览；订阅后每天早上自动推送中英双语AI洞察摘要，访问原文链接需挂🪜。</p>
       <p class="header-meta">回顾往日内容：点击查看<a class="header-plain-link" href="${escapeHtml(archiveUrl)}" target="_blank" rel="noopener">往期 AI 洞察</a></p>
       <p class="header-meta">订阅每日推送：点击开始<a class="header-plain-link" href="#subscribe">邮件订阅</a></p>
     </header>
@@ -1065,7 +1065,7 @@ const LANDING_DESCRIPTION =
   '从 X、播客、官方博客追踪 AI 领域顶级建设者，每日一封中英双语邮件，精选总结研究人员、创始人、产品经理与一线工程师的原创观点。';
 
 function getLandingHeadMeta() {
-  const ogImage = `${CONFIG.siteUrl}/og-image.png`;
+  const ogImage = `${CONFIG.siteUrl}/icon.svg`;
   return `  <link rel="icon" href="icon.svg" type="image/svg+xml">
   <meta name="description" content="${escapeHtml(LANDING_DESCRIPTION)}">
   <meta property="og:type" content="website">
@@ -1073,8 +1073,8 @@ function getLandingHeadMeta() {
   <meta property="og:description" content="${escapeHtml(LANDING_DESCRIPTION)}">
   <meta property="og:url" content="${escapeHtml(`${CONFIG.siteUrl}/`)}">
   <meta property="og:image" content="${escapeHtml(ogImage)}">
-  <meta property="og:image:width" content="210">
-  <meta property="og:image:height" content="210">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="1024">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="${escapeHtml(LANDING_TITLE)}">
   <meta name="twitter:description" content="${escapeHtml(LANDING_DESCRIPTION)}">
