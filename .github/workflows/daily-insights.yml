@@ -38,17 +38,9 @@ jobs:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_MODEL: ${{ secrets.LLM_MODEL }}
           SITE_URL: https://cherrylin000.github.io/AI-news
-          SMTP_HOST: ${{ secrets.SMTP_HOST }}
-          SMTP_PORT: ${{ secrets.SMTP_PORT }}
-          SMTP_SECURE: ${{ secrets.SMTP_SECURE }}
-          SMTP_REQUIRE_TLS: ${{ secrets.SMTP_REQUIRE_TLS }}
-          SMTP_USER: ${{ secrets.SMTP_USER }}
-          SMTP_PASS: ${{ secrets.SMTP_PASS }}
-          SMTP_FROM: ${{ secrets.SMTP_FROM }}
-          SMTP_FROM_NAME: ${{ secrets.SMTP_FROM_NAME }}
-          SMTP_REPLY_TO: ${{ secrets.SMTP_REPLY_TO }}
-          NEWSLETTER_RECIPIENTS: ${{ secrets.NEWSLETTER_RECIPIENTS }}
-        run: node daily-insights.js --send-newsletter
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+          BUTTONDOWN_MODE: send
+        run: node daily-insights.js --send-buttondown
 
       - name: Commit and push site
         run: |
@@ -56,6 +48,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           # 站点产物：根 index.html + docs/（latest、feed、archive）；勿提交已废弃的 site/
           git add docs/ index.html .nojekyll
+          git add docs/buttondown-state.json 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "No site changes to commit."
           else

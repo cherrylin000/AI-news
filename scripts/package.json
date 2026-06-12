@@ -10,7 +10,9 @@
     "send": "node daily-insights.js --send-only",
     "dry-run": "node daily-insights.js --dry-run",
     "send-newsletter": "node daily-insights.js --send-newsletter",
-    "legacy-smtp": "node daily-insights.js --legacy-smtp"
+    "legacy-smtp": "node daily-insights.js --legacy-smtp",
+    "buttondown-draft": "node daily-insights.js --buttondown-draft",
+    "buttondown-send": "node daily-insights.js --send-buttondown"
   },
   "dependencies": {
     "nodemailer": "^7.0.0"

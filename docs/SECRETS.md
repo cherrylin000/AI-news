@@ -48,7 +48,15 @@
 | `LLM_API_URL` | 建议 | `https://api.deepseek.com/chat/completions` |
 | `LLM_MODEL` | 建议 | `deepseek-v4-flash` |
 
-follow.it 订阅表单请**直接写入根目录 `index.html`**（`<!-- ai-news:dynamic-end -->` 之后）；脚本与 Actions 只更新动态区，不会覆盖订阅嵌入代码。
+邮件订阅改用 **Buttondown**：完整配置见 [docs/BUTTONDOWN.md](BUTTONDOWN.md)。
+
+在 GitHub Secrets 中额外添加：
+
+| Secret 名称 | 必填 | 值 |
+|-------------|------|-----|
+| `BUTTONDOWN_API_KEY` | ✅（发信时） | Buttondown → Settings → API 创建的密钥 |
+
+首页订阅表单在根目录 `index.html`（`<!-- ai-news:dynamic-end -->` 之后）；把 `YOUR_BUTTONDOWN_USERNAME` 换成你的用户名。脚本只更新动态区，不会覆盖订阅区。
 
 4. 保存后，在 **Actions** 页选择 **Daily AI Insights** → **Run workflow** 手动试跑。
 
