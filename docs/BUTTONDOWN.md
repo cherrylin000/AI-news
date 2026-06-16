@@ -110,12 +110,14 @@ node daily-insights.js --send-buttondown --force-buttondown
 
 ## 对齐与样式说明
 
-脚本发信时使用 API 字段 **`template: "naked"`**（可用环境变量 `BUTTONDOWN_TEMPLATE` 覆盖）。
+Buttondown API 已不再接受创建邮件时的 `template` 字段（会返回 `422 extra_forbidden`）。请在 Newsletter 后台固定模板：
+
+Buttondown → **Settings → Email → Template** → 选 **Naked**
 
 - **Modern**（Buttondown 默认）：会套一层主题外壳，正文常被强制**左对齐**，你在 HTML 里写 `text-align:center` 可能无效。
 - **Naked**：只发送我们自己的完整 HTML，居中/字体由 `daily-insights.js` 控制，**一般不必在后台再调对齐**。
 
-若仍想改 Newsletter 默认模板：Buttondown → **Settings → Email → Template** → 选 **Naked**。
+环境变量 `BUTTONDOWN_TEMPLATE` 仍用于脚本本地正文处理（如是否插入 `buttondown-editor-mode` 注释），但**不会**再写入 API 请求。
 
 ---
 
