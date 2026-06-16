@@ -5,8 +5,167 @@
     <link>https://cherrylin000.github.io/AI-news/</link>
     <description>每日 AI Builder 洞察摘要（中英双语）</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 12 Jun 2026 23:55:21 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 01:43:15 GMT</lastBuildDate>
     <atom:link href="https://cherrylin000.github.io/AI-news/docs/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>每日AI洞察 | 2026-06-16</title>
+      <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-06-16.html</link>
+      <guid isPermaLink="true">https://cherrylin000.github.io/AI-news/docs/archive/2026-06-16.html</guid>
+      <pubDate>Tue, 16 Jun 2026 01:43:15 GMT</pubDate>
+      <description><![CDATA[<p>2026-06-16 | AI每日洞察：智能体、架构与地缘政治<br><br>AI Daily: Agents, Architecture, and Geopolitics<br><br>今日洞察突显从生成式AI向能够学习并复利人类/AI资本的智能体系统转变。地缘政治风险推动开放模型，而AI工厂和星链等基础设施重塑行业。<br><br>---<br><br>• Amjad Masad: 这是企业AI中最鼓舞人心的正和愿景。<br>• Thibault Sottiaux: Codex可以看到并设置自己的目标。这是元提示的泛化，让智能体根据你的意图自主设定任务。<br>• Aaron Levie: 真正的机会是构建一个学习循环，让人力资本和代币资本复利。企业的未来是跨人类和AI的复利学习。<br>• Aaron Levie: 开源权重模型胜出，因为模型撤回风险成为现实。美国在模型层的监管刺激了主权AI，削弱了美国领导地位。</p><p><a href="https://cherrylin000.github.io/AI-news/docs/archive/2026-06-16.html">归档链接</a></p>]]></description>
+      <content:encoded><![CDATA[<!--[if mso]><table width="720" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td><![endif]-->
+<table class="email-container" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" role="presentation" style="width:100%; max-width:720px; margin:0 auto; border:1px solid #e5e7eb; border-radius:12px; text-align:left; box-sizing:border-box;">
+<tbody>
+
+<!-- Header -->
+<tr>
+<td class="email-header email-content" bgcolor="#f8fafc" style="border-bottom:3px solid #6366f1; padding:16px 20px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<h1 class="email-h1" style="margin:0; font-size:24px; color:#111827; line-height:1.35; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">📅 2026-06-16 | AI每日洞察：智能体、架构与地缘政治</h1>
+<p class="email-subtitle" style="margin:6px 0 0 0; color:#6b7280; font-size:15px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">AI Daily: Agents, Architecture, and Geopolitics</p>
+</td>
+</tr>
+<tr>
+<td class="email-section email-content" style="padding:16px 20px; text-align:left;">
+<h2 class="email-h2" style="margin:0 0 14px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">📱 X / Twitter</h2>
+<h3 class="email-h3" style="margin:14px 0 10px 0; font-size:16px; color:#111827; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Amjad Masad (CEO @Replit)</h3>
+<table class="email-card" width="100%" cellpadding="14" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0; width:100%; max-width:100%;">
+<tbody><tr><td class="email-card-inner" style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">This is the most inspiring positive-sum vision for AI in the enterprise.</p>
+</td></tr></tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px; width:100%; max-width:100%;">
+<tbody><tr><td class="email-card-inner" style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">这是企业AI中最鼓舞人心的正和愿景。</p>
+</td></tr></tbody>
+</table>
+<p style="margin:10px 0 0 0; text-align:left;"><a class="email-link" href="https://x.com/amasad/status/2066195933969412098" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:14px 0 10px 0; font-size:16px; color:#111827; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Thibault Sottiaux (Codex &amp; ChatGPT @OpenAI)</h3>
+<table class="email-card" width="100%" cellpadding="14" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0; width:100%; max-width:100%;">
+<tbody><tr><td class="email-card-inner" style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Codex can see and set its own /goal. A generalization of meta prompting, letting the agent set its own task based on your intent.</p>
+</td></tr></tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px; width:100%; max-width:100%;">
+<tbody><tr><td class="email-card-inner" style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Codex可以看到并设置自己的目标。这是元提示的泛化，让智能体根据你的意图自主设定任务。</p>
+</td></tr></tbody>
+</table>
+<p style="margin:10px 0 0 0; text-align:left;"><a class="email-link" href="https://x.com/thsottiaux/status/2066270561081454989" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:14px 0 10px 0; font-size:16px; color:#111827; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Aaron Levie (CEO @Box)</h3>
+<table class="email-card" width="100%" cellpadding="14" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0; width:100%; max-width:100%;">
+<tbody><tr><td class="email-card-inner" style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">The real opportunity is building a learning loop where human capital and token capital compound. The future of the firm is compounding learning across people and AI.</p>
+</td></tr></tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px; width:100%; max-width:100%;">
+<tbody><tr><td class="email-card-inner" style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">真正的机会是构建一个学习循环，让人力资本和代币资本复利。企业的未来是跨人类和AI的复利学习。</p>
+</td></tr></tbody>
+</table>
+<p style="margin:10px 0 0 0; text-align:left;"><a class="email-link" href="https://x.com/levie/status/2066237607244427761" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:14px 0 10px 0; font-size:16px; color:#111827; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Aaron Levie (CEO @Box)</h3>
+<table class="email-card" width="100%" cellpadding="14" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0; width:100%; max-width:100%;">
+<tbody><tr><td class="email-card-inner" style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Open weights models win as model pull-back risk becomes real. US regulation at model layer incentivizes sovereign AI, reducing US leadership.</p>
+</td></tr></tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px; width:100%; max-width:100%;">
+<tbody><tr><td class="email-card-inner" style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">开源权重模型胜出，因为模型撤回风险成为现实。美国在模型层的监管刺激了主权AI，削弱了美国领导地位。</p>
+</td></tr></tbody>
+</table>
+<p style="margin:10px 0 0 0; text-align:left;"><a class="email-link" href="https://x.com/levie/status/2066167615618466060" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:14px 0 10px 0; font-size:16px; color:#111827; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Garry Tan (President &amp; CEO @Y Combinator)</h3>
+<table class="email-card" width="100%" cellpadding="14" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0; width:100%; max-width:100%;">
+<tbody><tr><td class="email-card-inner" style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">The next generation changing the world will be those adept at making long-running, multi-stage, multi-team agent tasks work at high volume across personal and work lives.</p>
+</td></tr></tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px; width:100%; max-width:100%;">
+<tbody><tr><td class="email-card-inner" style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">改变世界的下一代将精通于让长时间、多阶段、多团队的代理任务在个人和工作中大规模运作。</p>
+</td></tr></tbody>
+</table>
+<p style="margin:10px 0 0 0; text-align:left;"><a class="email-link" href="https://x.com/garrytan/status/2066269412391637050" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:14px 0 10px 0; font-size:16px; color:#111827; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Guillermo Rauch (CEO @Vercel)</h3>
+<table class="email-card" width="100%" cellpadding="14" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0; width:100%; max-width:100%;">
+<tbody><tr><td class="email-card-inner" style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Starlink-enabled flight: greatest advancement to air travel since the Wright brothers.</p>
+</td></tr></tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px; width:100%; max-width:100%;">
+<tbody><tr><td class="email-card-inner" style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">星链赋能航班：自莱特兄弟以来航空旅行的最大进步。</p>
+</td></tr></tbody>
+</table>
+<p style="margin:10px 0 0 0; text-align:left;"><a class="email-link" href="https://x.com/rauchg/status/2066315273947500699" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-section-tight email-content" style="padding:0 20px 20px 20px; text-align:left;">
+<h2 class="email-h2" style="margin:0 0 14px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">🎙️ Podcasts</h2>
+<h3 class="email-h3" style="margin:14px 0 10px 0; font-size:16px; color:#111827; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Training Data: LIVE: Jensen Huang on Building the Dynamo of the Intelligence Age</h3>
+<table class="email-card" width="100%" cellpadding="14" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0; width:100%; max-width:100%;">
+<tbody><tr><td class="email-card-inner" style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">AI factory is the largest infrastructure build out. Generative AI becomes thinking AI, enabling reasoning, tool use, and eventually robotics.</p>
+</td></tr></tbody>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px; width:100%; max-width:100%;">
+<tbody><tr><td class="email-card-inner" style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">AI工厂是最大的基础设施建设。生成式AI变成思考型AI，实现推理、工具使用，最终实现机器人技术。</p>
+</td></tr></tbody>
+</table>
+<p style="margin:10px 0 0 0; text-align:left;"><a class="email-link" href="https://www.youtube.com/watch?v=2UpQbeAZuqA" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-section-tight email-content" style="padding:0 20px 20px 20px; text-align:left;">
+<h2 class="email-h2-hot" style="margin:0 0 14px 0; font-size:18px; color:#dc2626; text-align:left;">🔥 Today's Top Takeaway</h2>
+<table class="email-takeaway-wrap" width="100%" cellpadding="14" cellspacing="0" bgcolor="#fef2f2" style="border:2px solid #dc2626; border-radius:8px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-takeaway-title" style="margin:0; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">The Era of Agentic Learning and Open Innovation</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Today&#039;s insights highlight a shift from generative AI to agentic systems that learn and compound human/AI capital. Geopolitical risks push open models, while infrastructure like AI factories and Starlink reshape industries.</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Key Points:</strong><br><br><strong>1. Agent Autonomy:</strong> Codex can set its own goals, generalizing meta prompting for autonomous task execution.<br><strong>2. Learning Loops:</strong> The firm&#039;s advantage comes from compounding learning loops between humans and AI, not model selection.<br><strong>3. Open Models Rise:</strong> Model pull-back risks incentivize open weights and sovereign AI development, challenging US dominance.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Implications:</strong><br><br><strong>1. Focus on Architecture:</strong> Businesses should build agentic systems that capture unique IP and institutional knowledge, enabling model switching without losing expertise.<br><strong>2. Geopolitical Strategy:</strong> US must consider downstream effects of model-level regulation, fostering open-source innovation to maintain leadership.<br><strong>3. Infrastructure Investment:</strong> AI factories and connectivity (e.g., Starlink) are critical enablers for next-gen agentic applications.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Bottom line:</strong> The future belongs to those who build learning loops between humans and AI, leverage open models, and invest in agentic infrastructure.</td></tr></tbody></table>
+<p class="email-takeaway-title" style="margin-top:14px; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">智能体学习与开放创新的时代</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">今日洞察突显从生成式AI向能够学习并复利人类/AI资本的智能体系统转变。地缘政治风险推动开放模型，而AI工厂和星链等基础设施重塑行业。</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>关键要点：</strong><br><br><strong>1. 智能体自主性:</strong> Codex可自主设定目标，泛化元提示以实现自治任务执行。<br><strong>2. 学习循环:</strong> 企业优势来自人类与AI之间的复利学习循环，而非模型选择。<br><strong>3. 开放模型崛起:</strong> 模型撤回风险激励开源权重和主权AI发展，挑战美国主导地位。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>启示：</strong><br><br><strong>1. 关注架构:</strong> 企业应构建能够捕获独特IP和机构知识的智能体系统，实现模型切换而不丢失专业知识。<br><strong>2. 地缘政治策略:</strong> 美国需考虑模型层监管的连锁反应，促进开源创新以维持领导地位。<br><strong>3. 基础设施投资:</strong> AI工厂和连接性（如星链）是下一代智能体应用的关键赋能者。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>总结：</strong>未来属于那些构建人类与AI学习循环、利用开放模型并投资于智能体基础设施的人。</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-footer email-content" style="padding:16px; text-align:left; border-top:1px solid #e5e7eb;">
+<p class="email-footer-text" style="margin:0; color:#9ca3af; font-size:13px;">共7条高价值洞察</p>
+</td>
+</tr>
+
+</tbody></table>
+<!--[if mso]></td></tr></table><![endif]-->]]></content:encoded>
+    </item>
     <item>
       <title>每日AI洞察 | 2026-06-13</title>
       <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-06-13.html</link>
