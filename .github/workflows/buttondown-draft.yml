@@ -1,0 +1,42 @@
+name: Buttondown Draft Preview
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: '洞察日期 (YYYY-MM-DD)，默认今天'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  create-draft:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+          package-manager-cache: false
+
+      - name: Install dependencies
+        working-directory: scripts
+        run: npm install --no-audit --no-fund
+
+      - name: Rebuild insights from archive and create Buttondown draft
+        working-directory: scripts
+        env:
+          TZ: Asia/Shanghai
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+          BUTTONDOWN_MODE: draft
+          SITE_URL: https://cherrylin000.github.io/AI-news
+        run: |
+          DATE="${{ github.event.inputs.date }}"
+          if [ -z "$DATE" ]; then DATE=$(TZ=Asia/Shanghai date +%F); fi
+          node rebuild-insights-from-archive.js "$DATE" || true
+          node daily-insights.js --reuse --buttondown-draft --force-buttondown
