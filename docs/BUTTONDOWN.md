@@ -132,7 +132,8 @@ Buttondown → **Settings → Email → Template** → 选 **Naked**
 **Q：发信失败？**  
 - 检查 API Key 是否正确、是否写入 Secrets  
 - 新账号有时需先在 Buttondown 后台手动发一封测试邮件  
-- 查看 Actions 日志里的 `Buttondown API 4xx` 错误详情
+- 查看 Actions 日志里的 `Buttondown API 4xx` 错误详情  
+- 若出现 `422 ... "loc":["body","payload","template"]`：说明请求里带了已废弃的 `template` 字段，请升级到最新脚本，并在 Buttondown 后台将 Email Template 设为 **Naked**
 
 **Q：想改发信时间？**  
 改 `.github/workflows/daily-insights.yml` 里的 `cron` 即可。
