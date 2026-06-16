@@ -105,7 +105,7 @@ flowchart LR
    - 拉取 [follow-builders](https://github.com/zarazhangrui/follow-builders) 中心化 Feed  
    - 调用 LLM 生成当日洞察（中英双语）  
    - 更新 `docs/latest.html`、`docs/feed.xml`、`docs/archive/`、首页 `index.html` 动态预览区  
-   - 通过 **Buttondown API** 向订阅者发送完整 HTML 正文（Newsletter 模板需设为 **Naked**）  
+   - 通过 **Buttondown API** 向订阅者发送完整 HTML 正文  
 5. **Commit and push site** — 将 `docs/`、`index.html`、`.nojekyll`、`docs/buttondown-state.json` 提交回 `main`，供 GitHub Pages 展示  
 
 首页 **「📬 邮件订阅」** 区块在 `<!-- ai-news:dynamic-end -->` 之后，由人工维护；工作流**不会覆盖** Buttondown 订阅表单。

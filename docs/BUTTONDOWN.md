@@ -110,14 +110,38 @@ node daily-insights.js --send-buttondown --force-buttondown
 
 ## 对齐与样式说明
 
-Buttondown API 已不再接受创建邮件时的 `template` 字段（会返回 `422 extra_forbidden`）。请在 Newsletter 后台固定模板：
+Buttondown API 已不再接受创建邮件时的 `template` 字段（会返回 `422 extra_forbidden`）。**修复 PR 合并后直接重跑 Action 即可发信，不必在后台找 Naked。**
 
-Buttondown → **Settings → Email → Template** → 选 **Naked**
+### 后台里有什么？
 
-- **Modern**（Buttondown 默认）：会套一层主题外壳，正文常被强制**左对齐**，你在 HTML 里写 `text-align:center` 可能无效。
-- **Naked**：只发送我们自己的完整 HTML，居中/字体由 `daily-insights.js` 控制，**一般不必在后台再调对齐**。
+2026 年 1 月 Buttondown 改版后，邮件样式入口为：
 
-环境变量 `BUTTONDOWN_TEMPLATE` 仍用于脚本本地正文处理（如是否插入 `buttondown-editor-mode` 注释），但**不会**再写入 API 请求。
+**Settings → Email design**（左侧导航，或 `https://buttondown.com/你的用户名/settings/email`）
+
+该页面通常只有 **Classic** 和 **Modern** 两个主题，**没有 Naked 选项**——这是正常的。
+
+- **Naked** 在 Buttondown 里是**付费功能**（[Naked mode 文档](https://docs.buttondown.com/naked-mode)），主要用于**写单封邮件时**编辑器右上角的模式下拉（Markdown / Fancy / Naked），不是 Settings 里的全局开关。
+- 我们以前是通过 API 每封邮件传 `template: "naked"` 绕过 UI；该字段废弃后，邮件会使用 Newsletter **默认模板**（多为 Modern）。
+
+### 排版会受影响吗？
+
+脚本仍会发送完整 HTML 正文，并自动插入 `{{ unsubscribe_url }}` 退订链接。多数情况下用 **Modern** 即可正常阅读；若发现居中/字体被外层主题破坏，再考虑：
+
+1. 在 **Email design** 里试 **Classic**（更简洁）
+2. 或通过 Newsletter API 把默认模板设为 `naked`（需 API Key，见下方）
+
+```bash
+# 列出 newsletter id 后 PATCH（id 形如 nl_xxx）
+curl -s -H "Authorization: Token $BUTTONDOWN_API_KEY" \
+  https://api.buttondown.com/v1/newsletters | jq '.results[0].id'
+
+curl -X PATCH "https://api.buttondown.com/v1/newsletters/nl_你的ID" \
+  -H "Authorization: Token $BUTTONDOWN_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"template":"naked"}'
+```
+
+环境变量 `BUTTONDOWN_TEMPLATE` 仍用于脚本本地正文处理，但**不会**写入创建邮件的 API 请求。
 
 ---
 
@@ -133,7 +157,7 @@ Buttondown → **Settings → Email → Template** → 选 **Naked**
 - 检查 API Key 是否正确、是否写入 Secrets  
 - 新账号有时需先在 Buttondown 后台手动发一封测试邮件  
 - 查看 Actions 日志里的 `Buttondown API 4xx` 错误详情  
-- 若出现 `422 ... "loc":["body","payload","template"]`：说明请求里带了已废弃的 `template` 字段，请升级到最新脚本，并在 Buttondown 后台将 Email Template 设为 **Naked**
+- 若出现 `422 ... "loc":["body","payload","template"]`：请确认 `main` 已合并 PR #8（移除废弃的 `template` 字段），然后 **Run workflow** 重跑；**不需要**在后台找 Naked
 
 **Q：想改发信时间？**  
 改 `.github/workflows/daily-insights.yml` 里的 `cron` 即可。

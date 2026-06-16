@@ -1313,7 +1313,7 @@ async function sendViaButtondown(htmlContent, date, options = {}) {
   console.log(`\n📬 Buttondown：创建邮件（status=${status}）`);
   console.log(`   主题: ${subject}`);
   if (template !== 'naked') {
-    console.log(`   提示: 邮件模板请在 Buttondown → Settings → Email → Template 设为 ${template}（API 已不再接受 per-email template 字段）`);
+    console.log(`   提示: 邮件将使用 Newsletter 默认模板（可在 Settings → Email design 查看 Classic/Modern）`);
   }
 
   try {
