@@ -151,12 +151,15 @@ const CONFIG = {
   // Buttondown API（--send-buttondown）
   buttondown: {
     apiKey: process.env.BUTTONDOWN_API_KEY || '',
+    apiBaseUrl: 'https://api.buttondown.com/v1',
     apiUrl: 'https://api.buttondown.com/v1/emails',
+    newslettersUrl: 'https://api.buttondown.com/v1/newsletters',
+    newsletterId: process.env.BUTTONDOWN_NEWSLETTER_ID || '',
     mode: (process.env.BUTTONDOWN_MODE || 'send').toLowerCase(),
     username: process.env.BUTTONDOWN_USERNAME || 'cherrylin000',
     archiveUrl: (process.env.BUTTONDOWN_ARCHIVE_URL || '').replace(/\/$/, '') ||
       `https://buttondown.com/${process.env.BUTTONDOWN_USERNAME || 'cherrylin000'}/archive`,
-    // naked = 不用 Buttondown 外层主题（Modern 会强制左对齐）；见 api-emails-template
+    // naked = 正文即邮件，无 Buttondown Modern 外层 masthead/边框
     template: process.env.BUTTONDOWN_TEMPLATE || 'naked',
   },
 
@@ -670,44 +673,58 @@ const EMAIL_WRAP_STYLE = 'word-wrap:break-word; overflow-wrap:break-word; word-b
 function getEmailResponsiveStyles() {
   return `<style type="text/css">
   html, body { width: 100% !important; margin: 0 !important; }
-  .email-body { margin: 0; padding: 0; font-family: ${EMAIL_FONT_FAMILY}; background-color: #ffffff; color: #111827; text-align: center; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-  .email-container { width: 100% !important; max-width: ${EMAIL_LAYOUT_WIDTH}px !important; border: 1px solid #e5e7eb; border-radius: 12px; text-align: left !important; box-sizing: border-box !important; overflow: visible !important; margin: 0 auto !important; }
+  .email-body { margin: 0; padding: 0; font-family: ${EMAIL_FONT_FAMILY}; background-color: #ffffff; color: #111827; text-align: left; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+  .email-container { width: 100% !important; max-width: ${EMAIL_LAYOUT_WIDTH}px !important; border: none; text-align: left !important; box-sizing: border-box !important; overflow: visible !important; margin: 0 auto !important; }
   .email-content { text-align: left !important; max-width: 100% !important; box-sizing: border-box !important; }
   .email-h1 { margin: 0; font-size: 24px; color: #111827; line-height: 1.35; text-align: left; font-weight: 700; word-wrap: break-word !important; overflow-wrap: break-word !important; }
-  .email-subtitle { margin: 6px 0 0 0; color: #6b7280; font-size: 15px; line-height: 1.5; text-align: left; word-wrap: break-word !important; overflow-wrap: break-word !important; }
-  .email-h2 { margin: 0 0 14px 0; font-size: 17px; color: #6366f1; line-height: 1.4; text-align: left; font-weight: 600; padding-left: 14px; border-left: 4px solid #6366f1; word-wrap: break-word !important; overflow-wrap: break-word !important; }
-  .email-h2-warn { margin: 0 0 14px 0; font-size: 17px; color: #f59e0b; line-height: 1.4; text-align: left; font-weight: 600; }
-  .email-h2-hot { margin: 0 0 14px 0; font-size: 18px; color: #dc2626; line-height: 1.4; text-align: left; font-weight: 600; }
-  .email-h3 { margin: 14px 0 10px 0; font-size: 16px; color: #111827; line-height: 1.4; text-align: left; font-weight: 600; word-wrap: break-word !important; overflow-wrap: break-word !important; }
-  .email-text { margin: 0; color: #333333; font-size: 14px; line-height: 1.7; text-align: left; word-wrap: break-word !important; overflow-wrap: break-word !important; word-break: break-word !important; }
-  .email-link { color: #6366f1; text-decoration: none; font-size: 13px; }
-  .email-card { width: 100% !important; max-width: 100% !important; box-sizing: border-box !important; }
-  .email-card-inner { text-align: left; max-width: 100% !important; box-sizing: border-box !important; word-wrap: break-word !important; overflow-wrap: break-word !important; }
+  .email-subtitle { margin: 8px 0 0 0; color: #6b7280; font-size: 15px; line-height: 1.5; text-align: left; word-wrap: break-word !important; overflow-wrap: break-word !important; }
+  .email-h2 { margin: 0 0 16px 0; font-size: 17px; color: #6366f1; line-height: 1.4; text-align: left; font-weight: 600; padding-left: 14px; border-left: 4px solid #6366f1; word-wrap: break-word !important; overflow-wrap: break-word !important; }
+  .email-h2-warn { margin: 0 0 16px 0; font-size: 17px; color: #f59e0b; line-height: 1.4; text-align: left; font-weight: 600; }
+  .email-h2-hot { margin: 0 0 16px 0; font-size: 18px; color: #dc2626; line-height: 1.4; text-align: left; font-weight: 600; }
+  .email-h3 { margin: 20px 0 12px 0; font-size: 16px; color: #111827; line-height: 1.45; text-align: left; font-weight: 600; word-wrap: break-word !important; overflow-wrap: break-word !important; }
+  .email-text { margin: 0 0 14px 0; color: #333333; font-size: 15px; line-height: 1.75; text-align: left; word-wrap: break-word !important; overflow-wrap: break-word !important; word-break: break-word !important; }
+  .email-text-last { margin-bottom: 0 !important; }
+  .email-link { color: #6366f1; text-decoration: none; font-size: 14px; }
+  .email-item { width: 100% !important; max-width: 100% !important; box-sizing: border-box !important; }
+  .email-item-body { text-align: left; padding: 0 0 20px 0; border-bottom: 1px solid #e5e7eb; ${EMAIL_WRAP_STYLE} }
   .email-takeaway-wrap { width: 100% !important; max-width: 100% !important; box-sizing: border-box !important; }
-  .email-takeaway-title { margin: 0; font-weight: 600; color: #991b1b; font-size: 17px; line-height: 1.4; text-align: left; word-wrap: break-word !important; overflow-wrap: break-word !important; }
-  .email-takeaway-block { width: 100% !important; max-width: 100% !important; margin-top: 10px; color: #333333; font-size: 14px; line-height: 1.7; text-align: left; box-sizing: border-box !important; word-wrap: break-word !important; overflow-wrap: break-word !important; }
+  .email-takeaway-title { margin: 0; font-weight: 600; color: #991b1b; font-size: 17px; line-height: 1.45; text-align: left; word-wrap: break-word !important; overflow-wrap: break-word !important; }
+  .email-takeaway-block { width: 100% !important; max-width: 100% !important; margin-top: 12px; color: #333333; font-size: 15px; line-height: 1.75; text-align: left; box-sizing: border-box !important; word-wrap: break-word !important; overflow-wrap: break-word !important; }
   @media only screen and (max-width: 620px) {
-    .email-body { padding: 0 8px 12px !important; }
-    .email-container { width: 100% !important; max-width: 100% !important; }
-    .email-header { padding: 14px 12px !important; }
-    .email-section { padding: 14px 12px !important; }
-    .email-section-tight { padding: 0 12px 14px 12px !important; }
-    .email-footer { padding: 12px !important; }
-    .email-h1 { font-size: 20px !important; }
-    .email-subtitle { font-size: 14px !important; }
-    .email-h2 { font-size: 16px !important; padding-left: 10px !important; margin-bottom: 12px !important; }
-    .email-h2-warn { font-size: 16px !important; }
-    .email-h2-hot { font-size: 17px !important; }
-    .email-h3 { font-size: 15px !important; margin: 12px 0 8px 0 !important; }
-    .email-text { font-size: 13px !important; line-height: 1.65 !important; }
-    .email-link { font-size: 12px !important; }
-    .email-card { padding: 12px !important; }
-    .email-takeaway-title { font-size: 15px !important; }
-    .email-takeaway-block { font-size: 13px !important; }
-    .email-takeaway-block td { padding: 6px !important; }
-    .email-footer-text { font-size: 12px !important; }
+    .email-body { padding: 0 !important; }
+    .email-container { width: 100% !important; max-width: 100% !important; border: none !important; border-radius: 0 !important; }
+    .email-header { padding: 18px 16px 16px !important; }
+    .email-section { padding: 4px 16px 8px !important; }
+    .email-section-tight { padding: 0 16px 8px !important; }
+    .email-footer { padding: 16px !important; }
+    .email-h1 { font-size: 21px !important; line-height: 1.4 !important; }
+    .email-subtitle { font-size: 15px !important; margin-top: 10px !important; }
+    .email-h2 { font-size: 17px !important; padding-left: 12px !important; margin-bottom: 18px !important; }
+    .email-h2-warn { font-size: 17px !important; }
+    .email-h2-hot { font-size: 18px !important; }
+    .email-h3 { font-size: 16px !important; margin: 22px 0 14px 0 !important; line-height: 1.5 !important; }
+    .email-text { font-size: 16px !important; line-height: 1.8 !important; margin-bottom: 16px !important; }
+    .email-link { font-size: 14px !important; }
+    .email-item-body { padding-bottom: 22px !important; }
+    .email-takeaway-wrap td { padding: 14px !important; }
+    .email-takeaway-title { font-size: 16px !important; }
+    .email-takeaway-block { font-size: 16px !important; line-height: 1.8 !important; margin-top: 14px !important; }
+    .email-takeaway-block td { padding: 10px !important; }
+    .email-footer-text { font-size: 13px !important; }
   }
 </style>`;
+}
+
+/** 单条洞察：扁平结构，避免 card 套 table 再套 table */
+function renderInsightItemBlock(titleHtml, enSummary, cnSummary, url) {
+  return `
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; ${EMAIL_WRAP_STYLE}">${titleHtml}</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; ${EMAIL_WRAP_STYLE}">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; ${EMAIL_WRAP_STYLE}">${escapeHtml(enSummary)}</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; ${EMAIL_WRAP_STYLE}">${escapeHtml(cnSummary)}</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="${escapeHtml(url)}" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>`;
 }
 
 /** 粉色内容块：与 email-card 一样用 width=100% 表格，保证与 X/Twitter 卡片同宽 */
@@ -769,9 +786,9 @@ function generateHTML(insights, date) {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ${getEmailResponsiveStyles()}
 </head>
-<body class="email-body" style="margin:0; padding:0; width:100%; font-family:${EMAIL_FONT_INLINE}; background-color:#ffffff; color:#111827; text-align:center;">
+<body class="email-body" style="margin:0; padding:0; width:100%; font-family:${EMAIL_FONT_INLINE}; background-color:#ffffff; color:#111827; text-align:left;">
 <!--[if mso]><table width="${EMAIL_LAYOUT_WIDTH}" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td><![endif]-->
-<table class="email-container" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" role="presentation" style="width:100%; max-width:${EMAIL_LAYOUT_WIDTH}px; margin:0 auto; border:1px solid #e5e7eb; border-radius:12px; text-align:left; box-sizing:border-box;">
+<table class="email-container" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" role="presentation" style="width:100%; max-width:${EMAIL_LAYOUT_WIDTH}px; margin:0 auto; text-align:left; box-sizing:border-box;">
 <tbody>
 
 <!-- Header -->
@@ -787,25 +804,15 @@ ${getEmailResponsiveStyles()}
   if (xItems.length > 0) {
     html += `
 <tr>
-<td class="email-section email-content" style="padding:16px 20px; text-align:left;">
-<h2 class="email-h2" style="margin:0 0 14px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">📱 X / Twitter</h2>`;
+<td class="email-section email-content" style="padding:8px 20px 12px; text-align:left;">
+<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">📱 X / Twitter</h2>`;
     for (const item of xItems) {
-      html += `
-<h3 class="email-h3" style="margin:14px 0 10px 0; font-size:16px; color:#111827; text-align:left; ${EMAIL_WRAP_STYLE}">${escapeHtml(item.builder)} (${escapeHtml(item.role)})</h3>
-<table class="email-card" width="100%" cellpadding="14" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="text-align:left; ${EMAIL_WRAP_STYLE}">
-<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0; width:100%; max-width:100%;">
-<tbody><tr><td class="email-card-inner" style="text-align:left; ${EMAIL_WRAP_STYLE}">
-<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7; text-align:left; ${EMAIL_WRAP_STYLE}">${escapeHtml(item.en_summary)}</p>
-</td></tr></tbody>
-</table>
-<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px; width:100%; max-width:100%;">
-<tbody><tr><td class="email-card-inner" style="text-align:left; ${EMAIL_WRAP_STYLE}">
-<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7; text-align:left; ${EMAIL_WRAP_STYLE}">${escapeHtml(item.cn_summary)}</p>
-</td></tr></tbody>
-</table>
-<p style="margin:10px 0 0 0; text-align:left;"><a class="email-link" href="${escapeHtml(item.url)}" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>`;
+      html += renderInsightItemBlock(
+        `${escapeHtml(item.builder)} (${escapeHtml(item.role)})`,
+        item.en_summary,
+        item.cn_summary,
+        item.url
+      );
     }
     html += `
 </td>
@@ -817,25 +824,15 @@ ${getEmailResponsiveStyles()}
   if (podItems.length > 0) {
     html += `
 <tr>
-<td class="email-section-tight email-content" style="padding:0 20px 20px 20px; text-align:left;">
-<h2 class="email-h2" style="margin:0 0 14px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">🎙️ Podcasts</h2>`;
+<td class="email-section-tight email-content" style="padding:0 20px 12px; text-align:left;">
+<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">🎙️ Podcasts</h2>`;
     for (const item of podItems) {
-      html += `
-<h3 class="email-h3" style="margin:14px 0 10px 0; font-size:16px; color:#111827; text-align:left; ${EMAIL_WRAP_STYLE}">${escapeHtml(item.name)}: ${escapeHtml(item.episode)}</h3>
-<table class="email-card" width="100%" cellpadding="14" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="text-align:left; ${EMAIL_WRAP_STYLE}">
-<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0; width:100%; max-width:100%;">
-<tbody><tr><td class="email-card-inner" style="text-align:left; ${EMAIL_WRAP_STYLE}">
-<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7; text-align:left; ${EMAIL_WRAP_STYLE}">${escapeHtml(item.en_summary)}</p>
-</td></tr></tbody>
-</table>
-<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px; width:100%; max-width:100%;">
-<tbody><tr><td class="email-card-inner" style="text-align:left; ${EMAIL_WRAP_STYLE}">
-<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7; text-align:left; ${EMAIL_WRAP_STYLE}">${escapeHtml(item.cn_summary)}</p>
-</td></tr></tbody>
-</table>
-<p style="margin:10px 0 0 0; text-align:left;"><a class="email-link" href="${escapeHtml(item.url)}" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>`;
+      html += renderInsightItemBlock(
+        `${escapeHtml(item.name)}: ${escapeHtml(item.episode)}`,
+        item.en_summary,
+        item.cn_summary,
+        item.url
+      );
     }
     html += `
 </td>
@@ -847,25 +844,15 @@ ${getEmailResponsiveStyles()}
   if (blogItems.length > 0) {
     html += `
 <tr>
-<td class="email-section-tight email-content" style="padding:0 20px 20px 20px; text-align:left;">
-<h2 class="email-h2" style="margin:0 0 14px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">📝 Official Blogs</h2>`;
+<td class="email-section-tight email-content" style="padding:0 20px 12px; text-align:left;">
+<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">📝 Official Blogs</h2>`;
     for (const item of blogItems) {
-      html += `
-<h3 class="email-h3" style="margin:14px 0 10px 0; font-size:16px; color:#111827; text-align:left; ${EMAIL_WRAP_STYLE}">${escapeHtml(item.name)}: ${escapeHtml(item.title)}</h3>
-<table class="email-card" width="100%" cellpadding="14" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="text-align:left; ${EMAIL_WRAP_STYLE}">
-<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0; width:100%; max-width:100%;">
-<tbody><tr><td class="email-card-inner" style="text-align:left; ${EMAIL_WRAP_STYLE}">
-<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7; text-align:left; ${EMAIL_WRAP_STYLE}">${escapeHtml(item.en_summary)}</p>
-</td></tr></tbody>
-</table>
-<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px; width:100%; max-width:100%;">
-<tbody><tr><td class="email-card-inner" style="text-align:left; ${EMAIL_WRAP_STYLE}">
-<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7; text-align:left; ${EMAIL_WRAP_STYLE}">${escapeHtml(item.cn_summary)}</p>
-</td></tr></tbody>
-</table>
-<p style="margin:10px 0 0 0; text-align:left;"><a class="email-link" href="${escapeHtml(item.url)}" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>`;
+      html += renderInsightItemBlock(
+        `${escapeHtml(item.name)}: ${escapeHtml(item.title)}`,
+        item.en_summary,
+        item.cn_summary,
+        item.url
+      );
     }
     html += `
 </td>
@@ -877,9 +864,9 @@ ${getEmailResponsiveStyles()}
   if (tw) {
     html += `
 <tr>
-<td class="email-section-tight email-content" style="padding:0 20px 20px 20px; text-align:left;">
-<h2 class="email-h2-hot" style="margin:0 0 14px 0; font-size:18px; color:#dc2626; text-align:left;">🔥 Today's Top Takeaway</h2>
-<table class="email-takeaway-wrap" width="100%" cellpadding="14" cellspacing="0" bgcolor="#fef2f2" style="border:2px solid #dc2626; border-radius:8px; width:100%; max-width:100%; box-sizing:border-box;">
+<td class="email-section-tight email-content" style="padding:0 20px 20px; text-align:left;">
+<h2 class="email-h2-hot" style="margin:0 0 16px 0; font-size:18px; color:#dc2626; text-align:left;">🔥 Today's Top Takeaway</h2>
+<table class="email-takeaway-wrap" width="100%" cellpadding="16" cellspacing="0" bgcolor="#fef2f2" style="border:2px solid #dc2626; border-radius:8px; width:100%; max-width:100%; box-sizing:border-box;">
 <tbody><tr><td style="text-align:left; ${EMAIL_WRAP_STYLE}">
 ${renderTakeawayLangBlocks(tw, 'en')}
 ${renderTakeawayLangBlocks(tw, 'cn')}
@@ -1248,20 +1235,20 @@ function prepareButtondownBody(htmlContent) {
   return html;
 }
 
-function postButtondownEmail(payload) {
-  const data = JSON.stringify(payload);
+function buttondownApiRequest(method, apiPath, payload) {
+  const data = payload ? JSON.stringify(payload) : null;
   return new Promise((resolve, reject) => {
-    const url = new URL(CONFIG.buttondown.apiUrl);
+    const url = new URL(apiPath.startsWith('http') ? apiPath : `${CONFIG.buttondown.apiBaseUrl}${apiPath}`);
     const req = https.request(
       {
         hostname: url.hostname,
-        path: url.pathname,
-        method: 'POST',
+        path: `${url.pathname}${url.search}`,
+        method,
         headers: {
           Authorization: `Token ${CONFIG.buttondown.apiKey}`,
           'Content-Type': 'application/json',
-          'Content-Length': Buffer.byteLength(data),
-          'X-Buttondown-Live-Dangerously': 'true',
+          ...(data ? { 'Content-Length': Buffer.byteLength(data) } : {}),
+          ...(method === 'POST' ? { 'X-Buttondown-Live-Dangerously': 'true' } : {}),
         },
         timeout: 90000,
       },
@@ -1271,7 +1258,7 @@ function postButtondownEmail(payload) {
         res.on('end', () => {
           let parsed = raw;
           try {
-            parsed = JSON.parse(raw);
+            parsed = raw ? JSON.parse(raw) : {};
           } catch {
             // keep raw string
           }
@@ -1286,9 +1273,49 @@ function postButtondownEmail(payload) {
     );
     req.on('error', reject);
     req.on('timeout', () => req.destroy(new Error('Buttondown API 请求超时')));
-    req.write(data);
+    if (data) req.write(data);
     req.end();
   });
+}
+
+function postButtondownEmail(payload) {
+  return buttondownApiRequest('POST', CONFIG.buttondown.apiUrl, payload);
+}
+
+async function resolveButtondownNewsletterId() {
+  if (CONFIG.buttondown.newsletterId) return CONFIG.buttondown.newsletterId;
+  const list = await buttondownApiRequest('GET', '/newsletters');
+  const results = Array.isArray(list?.results) ? list.results : Array.isArray(list) ? list : [];
+  const newsletter = results[0];
+  if (!newsletter?.id) {
+    throw new Error('未找到 Buttondown newsletter，请设置 BUTTONDOWN_NEWSLETTER_ID');
+  }
+  return newsletter.id;
+}
+
+async function ensureButtondownNewsletterTemplate() {
+  const desired = CONFIG.buttondown.template || 'naked';
+  const state = loadButtondownState();
+  if (state.newsletterTemplate === desired) return true;
+
+  try {
+    const newsletterId = await resolveButtondownNewsletterId();
+    const current = await buttondownApiRequest('GET', `/newsletters/${newsletterId}`);
+    if ((current.template || '').toLowerCase() === desired) {
+      saveButtondownState({ ...state, newsletterTemplate: desired, newsletterId });
+      return true;
+    }
+
+    console.log(`\n📬 Buttondown：将 Newsletter 模板设为 ${desired}（去掉 Modern 外层 masthead/边框）`);
+    await buttondownApiRequest('PATCH', `/newsletters/${newsletterId}`, { template: desired });
+    saveButtondownState({ ...state, newsletterTemplate: desired, newsletterId });
+    console.log('   ✅ Newsletter 模板已更新');
+    return true;
+  } catch (err) {
+    console.warn(`   ⚠️ 无法自动设置 Newsletter 模板: ${err.message}`);
+    console.warn('   邮件仍会继续发送，但可能保留 Buttondown Modern 外层样式');
+    return false;
+  }
 }
 
 async function sendViaButtondown(htmlContent, date, options = {}) {
@@ -1309,12 +1336,10 @@ async function sendViaButtondown(htmlContent, date, options = {}) {
   }
 
   const status = asDraft ? 'draft' : 'about_to_send';
-  const template = CONFIG.buttondown.template || 'naked';
   console.log(`\n📬 Buttondown：创建邮件（status=${status}）`);
   console.log(`   主题: ${subject}`);
-  if (template !== 'naked') {
-    console.log(`   提示: 邮件将使用 Newsletter 默认模板（可在 Settings → Email design 查看 Classic/Modern）`);
-  }
+
+  await ensureButtondownNewsletterTemplate();
 
   try {
     const response = await postButtondownEmail({

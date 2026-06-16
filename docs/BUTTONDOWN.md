@@ -125,23 +125,9 @@ Buttondown API 已不再接受创建邮件时的 `template` 字段（会返回 `
 
 ### 排版会受影响吗？
 
-脚本仍会发送完整 HTML 正文，并自动插入 `{{ unsubscribe_url }}` 退订链接。多数情况下用 **Modern** 即可正常阅读；若发现居中/字体被外层主题破坏，再考虑：
+脚本会发送完整 HTML 正文，并自动插入 `{{ unsubscribe_url }}` 退订链接。发信前脚本还会尝试通过 API 将 Newsletter 模板设为 **`naked`**，去掉 Buttondown Modern 外层 logo / 订阅条 / 额外边框（Settings 里找不到 Naked 时，靠这一步生效）。
 
-1. 在 **Email design** 里试 **Classic**（更简洁）
-2. 或通过 Newsletter API 把默认模板设为 `naked`（需 API Key，见下方）
-
-```bash
-# 列出 newsletter id 后 PATCH（id 形如 nl_xxx）
-curl -s -H "Authorization: Token $BUTTONDOWN_API_KEY" \
-  https://api.buttondown.com/v1/newsletters | jq '.results[0].id'
-
-curl -X PATCH "https://api.buttondown.com/v1/newsletters/nl_你的ID" \
-  -H "Authorization: Token $BUTTONDOWN_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{"template":"naked"}'
-```
-
-环境变量 `BUTTONDOWN_TEMPLATE` 仍用于脚本本地正文处理，但**不会**写入创建邮件的 API 请求。
+若手机端仍觉得行太窄、段落太挤，见 `scripts/daily-insights.js` 中邮件 HTML 生成逻辑（扁平 item 结构 + 移动端 `@media` 样式）。
 
 ---
 
