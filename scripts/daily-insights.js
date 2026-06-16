@@ -1310,15 +1310,17 @@ async function sendViaButtondown(htmlContent, date, options = {}) {
 
   const status = asDraft ? 'draft' : 'about_to_send';
   const template = CONFIG.buttondown.template || 'naked';
-  console.log(`\n📬 Buttondown：创建邮件（status=${status}, template=${template}）`);
+  console.log(`\n📬 Buttondown：创建邮件（status=${status}）`);
   console.log(`   主题: ${subject}`);
+  if (template !== 'naked') {
+    console.log(`   提示: 邮件模板请在 Buttondown → Settings → Email → Template 设为 ${template}（API 已不再接受 per-email template 字段）`);
+  }
 
   try {
     const response = await postButtondownEmail({
       subject,
       body: prepareButtondownBody(htmlContent),
       status,
-      template,
     });
 
     const emailId = response.id || response.email_id || '';
