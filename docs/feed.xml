@@ -5,8 +5,90 @@
     <link>https://cherrylin000.github.io/AI-news/</link>
     <description>每日 AI Builder 洞察摘要（中英双语）</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 03 Jul 2026 23:29:42 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jul 2026 23:15:45 GMT</lastBuildDate>
     <atom:link href="https://cherrylin000.github.io/AI-news/docs/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>每日AI洞察 | 2026-07-05</title>
+      <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-07-05.html</link>
+      <guid isPermaLink="true">https://cherrylin000.github.io/AI-news/docs/archive/2026-07-05.html</guid>
+      <pubDate>Sat, 04 Jul 2026 23:15:45 GMT</pubDate>
+      <description><![CDATA[<p>2026-07-05 | 代理自我改进与开放模型效率<br><br>Agent Self-Improvement and Open Model Efficiency<br><br>今天的讨论突出了两个关键主题：使代理能够内省和改进自身，以及开放模型在规模化实现更高效率方面的战略价值。<br><br>---<br><br>• Thariq: 与Fable合作的关键是发现自己的未知以更好地提示。<br>• Guillermo Rauch: 代理自我改进：让代理能够内省过去的运行，发现低效、错误，并生成新的提示和技能。<br>• Peter Steinberger: 如果你认为Codex设计能力差，试试“用图像生成重新想象这个设计并实现它”。</p><p><a href="https://cherrylin000.github.io/AI-news/docs/archive/2026-07-05.html">归档链接</a></p>]]></description>
+      <content:encoded><![CDATA[<!--[if mso]><table width="720" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td><![endif]-->
+<table class="email-container" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" role="presentation" style="width:100%; max-width:720px; margin:0 auto; text-align:left; box-sizing:border-box;">
+<tbody>
+
+<!-- Header -->
+<tr>
+<td class="email-header email-content" bgcolor="#f8fafc" style="border-bottom:3px solid #6366f1; padding:16px 20px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<h1 class="email-h1" style="margin:0; font-size:24px; color:#111827; line-height:1.35; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">📅 2026-07-05 | 代理自我改进与开放模型效率</h1>
+<p class="email-subtitle" style="margin:6px 0 0 0; color:#6b7280; font-size:15px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Agent Self-Improvement and Open Model Efficiency</p>
+</td>
+</tr>
+<tr>
+<td class="email-section email-content" style="padding:8px 20px 12px; text-align:left;">
+<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">📱 X / Twitter</h2>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Thariq (Claude Code @anthropicai, prev YC W20)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">The key to working with Fable is discovering my own unknowns to prompt better. Here&#039;s how.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">与Fable合作的关键是发现自己的未知以更好地提示。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/trq212/status/2073101078145724589" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Guillermo Rauch (CEO @vercel)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Agentic self-improvement: give your agent ability to introspect past runs, spot inefficiencies, errors, and produce new prompts and skills.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">代理自我改进：让代理能够内省过去的运行，发现低效、错误，并生成新的提示和技能。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/rauchg/status/2073132174958841887" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Peter Steinberger (Polyagentmous ClawFather @OpenClaw + @OpenAI)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">If you think codex sucks at design, try &#039;use imagegen to re-imagine this design and implement that&#039;.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">如果你认为Codex设计能力差，试试“用图像生成重新想象这个设计并实现它”。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/steipete/status/2073277317464682723" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-section-tight email-content" style="padding:0 20px 12px; text-align:left;">
+<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">🎙️ Podcasts</h2>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">The MAD Podcast with Matt Turck: Why NVIDIA Is Giving Away AI Models | Bryan Catanzaro</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">At the limit, efficiency is key to more intelligence. Open technologies enable innovation, like the Internet.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">在极限状态下，效率是获得更多智能的关键。开放技术促进创新，就像互联网一样。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://www.youtube.com/watch?v=Oojrfdl42LI" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-section-tight email-content" style="padding:0 20px 20px; text-align:left;">
+<h2 class="email-h2-hot" style="margin:0 0 16px 0; font-size:18px; color:#dc2626; text-align:left;">🔥 Today's Top Takeaway</h2>
+<table class="email-takeaway-wrap" width="100%" cellpadding="16" cellspacing="0" bgcolor="#fef2f2" style="border:2px solid #dc2626; border-radius:8px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-takeaway-title" style="margin:0; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Agent Self-Improvement and Open Model Efficiency Drive AI Evolution</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Today&#039;s discourse highlights two key themes: enabling agents to introspect and improve themselves, and the strategic value of open models in achieving greater efficiency at scale.</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Key Points:</strong><br><br><strong>1. Agent Observability:</strong> Give agents ability to analyze past runs and produce improved prompts/skills.<br><strong>2. Prompt Crafting:</strong> Use tools like Fable to discover unknown knowledge gaps.<br><strong>3. Leveraging ImageGen:</strong> Combine code and image generation to enhance design outputs.<br><strong>4. Efficiency at Scale:</strong> NVIDIA emphasizes efficiency as the path to more intelligence at compute limits.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Implications:</strong><br><br><strong>1. Developer Workflow:</strong> Agent self-improvement reduces manual tuning and accelerates iteration.<br><strong>2. Open Model Strategy:</strong> Open models enable broader innovation and community-driven optimization.<br><strong>3. Design &amp; Code Fusion:</strong> Multimodal prompts (image+code) unlock new creative possibilities.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Bottom line:</strong> Agentic self-improvement and open-source efficiency are shaping the next AI frontier.</td></tr></tbody></table>
+<p class="email-takeaway-title" style="margin-top:14px; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">代理自我改进与开放模型效率推动AI进化</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">今天的讨论突出了两个关键主题：使代理能够内省和改进自身，以及开放模型在规模化实现更高效率方面的战略价值。</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>关键要点：</strong><br><br><strong>1. 代理可观测性:</strong> 让代理分析过去的运行并产生改进的提示/技能。<br><strong>2. 提示工程:</strong> 使用Fable等工具发现未知的知识差距。<br><strong>3. 利用图像生成:</strong> 结合代码和图像生成以增强设计输出。<br><strong>4. 规模化效率:</strong> NVIDIA强调效率是在计算极限下获得更多智能的路径。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>启示：</strong><br><br><strong>1. 开发者工作流:</strong> 代理自我改进减少手动调整并加速迭代。<br><strong>2. 开放模型策略:</strong> 开放模型实现更广泛的创新和社区驱动的优化。<br><strong>3. 设计与代码融合:</strong> 多模态提示（图像+代码）解锁新的创意可能性。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>总结：</strong>代理自我改进和开源效率正在塑造AI的下一个前沿。</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-footer email-content" style="padding:16px; text-align:left; border-top:1px solid #e5e7eb;">
+<p class="email-footer-text" style="margin:0; color:#9ca3af; font-size:13px;">共4条高价值洞察</p>
+</td>
+</tr>
+
+</tbody></table>
+<!--[if mso]></td></tr></table><![endif]-->]]></content:encoded>
+    </item>
     <item>
       <title>每日AI洞察 | 2026-07-04</title>
       <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-07-04.html</link>
