@@ -5,8 +5,123 @@
     <link>https://cherrylin000.github.io/AI-news/</link>
     <description>每日 AI Builder 洞察摘要（中英双语）</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 29 Jul 2026 23:16:21 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 23:19:43 GMT</lastBuildDate>
     <atom:link href="https://cherrylin000.github.io/AI-news/docs/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>每日AI洞察 | 2026-07-31</title>
+      <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-07-31.html</link>
+      <guid isPermaLink="true">https://cherrylin000.github.io/AI-news/docs/archive/2026-07-31.html</guid>
+      <pubDate>Thu, 30 Jul 2026 23:19:43 GMT</pubDate>
+      <description><![CDATA[<p>2026-07-31 | AI进展与实际集成：从前沿模型到开发工具<br><br>AI Progress and Practical Integration: From Frontier Models to Development Tools<br><br>今日洞察揭示三大趋势：前沿模型突破（ARC-AGI-3）、智能的商品化（太便宜无需计量）、以及AI向开发者生态的实际集成（Apple Foundation Models、Replit）。<br><br>---<br><br>• Thibault Sottiaux: 事实证明GPT-5.6 Sol在ARC-AGI-3上达到了最先进水平，只需两个设置更改。<br>• Sam Altman: 非常接近将显著加速科学发现的模型；最佳方式是赋能科学家。<br>• Peter Steinberger:  Anthropic 在发布胜利推文前没人停下来想想为什么数字看起来这么荒谬吗？<br>• Garry Tan: 在智能时代，经验丰富的创始人如美酒般陈香。</p><p><a href="https://cherrylin000.github.io/AI-news/docs/archive/2026-07-31.html">归档链接</a></p>]]></description>
+      <content:encoded><![CDATA[<!--[if mso]><table width="720" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td><![endif]-->
+<table class="email-container" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" role="presentation" style="width:100%; max-width:720px; margin:0 auto; text-align:left; box-sizing:border-box;">
+<tbody>
+
+<!-- Header -->
+<tr>
+<td class="email-header email-content" bgcolor="#f8fafc" style="border-bottom:3px solid #6366f1; padding:16px 20px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<h1 class="email-h1" style="margin:0; font-size:24px; color:#111827; line-height:1.35; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">📅 2026-07-31 | AI进展与实际集成：从前沿模型到开发工具</h1>
+<p class="email-subtitle" style="margin:6px 0 0 0; color:#6b7280; font-size:15px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">AI Progress and Practical Integration: From Frontier Models to Development Tools</p>
+</td>
+</tr>
+<tr>
+<td class="email-section email-content" style="padding:8px 20px 12px; text-align:left;">
+<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">📱 X / Twitter</h2>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Thibault Sottiaux (Codex &amp; ChatGPT @OpenAI)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Turns out GPT-5.6 Sol is actually SoTA on ARC-AGI-3. Just took two setting changes.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">事实证明GPT-5.6 Sol在ARC-AGI-3上达到了最先进水平，只需两个设置更改。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/thsottiaux/status/2082609662231502932" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Sam Altman (AI is cool i guess)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Very close to models that will significantly accelerate scientific discovery; the best way is to empower scientists.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">非常接近将显著加速科学发现的模型；最佳方式是赋能科学家。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/sama/status/2082628413769003269" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Peter Steinberger (Polyagentmorous ClawFather)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">lol did nobody at Anthropic stop for a second and wonder why the numbers looked this absurd before posting the victory-tweet?</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"> Anthropic 在发布胜利推文前没人停下来想想为什么数字看起来这么荒谬吗？</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/steipete/status/2082617409408762124" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Garry Tan (President &amp; CEO @ycombinator)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Seasoned founders in the age of intelligence are aging like fine wine</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">在智能时代，经验丰富的创始人如美酒般陈香。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/garrytan/status/2082472533337813241" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Thibault Sottiaux (Codex &amp; ChatGPT @OpenAI)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">This week is all about intelligence too cheap to meter. Tomorrow we ship again.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">这周的主题是智能太便宜以至于无需计量。明天我们再次发布。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/thsottiaux/status/2082655731204096275" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Amjad Masad (ceo @replit. civilizationist)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">This is hands down the best AI design tool, both in taste and how fun and easy it is to use.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">这是毫无疑问最好的AI设计工具，品味佳且有趣易用。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/amasad/status/2082504898801999990" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-section-tight email-content" style="padding:0 20px 12px; text-align:left;">
+<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">🎙️ Podcasts</h2>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">AI &amp; I by Every: Best of the Pod: Wired&#039;s Kevin Kelly on Why AI Is a 50-year Overnight Success</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">AI is a fifty year overnight success. VR is still waiting for its LLM moment.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">AI是五十年的一夜成功。VR仍在等待它的LLM时刻。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-section-tight email-content" style="padding:0 20px 12px; text-align:left;">
+<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">📝 Official Blogs</h2>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Claude Blog: Building intelligent apps for Apple platforms with Claude in the Foundation Models framework</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Foundation Models framework support for Claude lets Apple developers use native framework to call Claude for complex workflows.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Claude对Foundation Models框架的支持让Apple开发者能够使用原生框架调用Claude处理复杂工作流。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://claude.com/blog/claude-for-foundation-models" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-section-tight email-content" style="padding:0 20px 20px; text-align:left;">
+<h2 class="email-h2-hot" style="margin:0 0 16px 0; font-size:18px; color:#dc2626; text-align:left;">🔥 Today's Top Takeaway</h2>
+<table class="email-takeaway-wrap" width="100%" cellpadding="16" cellspacing="0" bgcolor="#fef2f2" style="border:2px solid #dc2626; border-radius:8px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-takeaway-title" style="margin:0; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">AI is Getting Cheaper, Deeper, and More Integrated</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Today&#039;s insights reveal three converging trends: frontier model breakthroughs (ARC-AGI-3), the commoditization of intelligence (too cheap to meter), and the practical integration of AI into developer ecosystems (Apple Foundation Models, Replit).</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Key Points:</strong><br><br><strong>1. Model Breakthrough:</strong> GPT-5.6 Sol achieves SoTA on ARC-AGI-3 with minimal changes, indicating that scaling reasoning abilities is easier than anticipated.<br><strong>2. Cost Collapse:</strong> OpenAI signals a future where intelligence is too cheap to meter, echoing the &#039;software eats world&#039; playbook.<br><strong>3. Ecosystem Integration:</strong> Claude&#039;s support for Apple Foundation Models framework marks a shift from standalone apps to deeply integrated AI toolchains.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Implications:</strong><br><br><strong>1. For Developers:</strong> Building AI-native apps will shift from calling APIs to embedding models directly into device-native frameworks, enabling seamless user experiences.<br><strong>2. For Incumbents:</strong> Anthropic&#039;s disputed victory tweet and the rapid progress of OpenAI suggest that benchmarks are no longer decisive; real-world integration matters more.<br><strong>3. For Founders:</strong> Seasoned founders have an edge in the age of intelligence, as experience becomes a compounding asset.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Bottom line:</strong> AI is becoming ubiquitous, cheap, and deeply integrated—ushering in a new era where the bottleneck shifts from model capability to application design and user experience.</td></tr></tbody></table>
+<p class="email-takeaway-title" style="margin-top:14px; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">AI正变得更便宜、更深刻、更集成</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">今日洞察揭示三大趋势：前沿模型突破（ARC-AGI-3）、智能的商品化（太便宜无需计量）、以及AI向开发者生态的实际集成（Apple Foundation Models、Replit）。</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>关键要点：</strong><br><br><strong>1. 模型突破:</strong> GPT-5.6 Sol以最小改动达到ARC-AGI-3最先进水平，表明扩展推理能力比预期更易实现。<br><strong>2. 成本崩溃:</strong> OpenAI暗示未来智能将廉价到无需计量，效仿‘软件吞噬世界’的策略。<br><strong>3. 生态集成:</strong> Claude对Apple Foundation Models框架的支持标志着从独立应用向深度集成AI工具链的转变。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>启示：</strong><br><br><strong>1. 对开发者:</strong> 构建AI原生应用将从调用API转向将模型直接嵌入设备原生框架，实现无缝用户体验。<br><strong>2. 对现有玩家:</strong> Anthropic有争议的胜利推文和OpenAI的快速进步表明，基准测试不再是决定性的；实际集成更重要。<br><strong>3. 对创始人:</strong> 经验丰富的创始人在智能时代具有优势，经验成为复利资产。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>总结：</strong>AI正变得无处不在、廉价且深度集成——开启了一个新纪元，瓶颈从模型能力转向应用设计和用户体验。</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-footer email-content" style="padding:16px; text-align:left; border-top:1px solid #e5e7eb;">
+<p class="email-footer-text" style="margin:0; color:#9ca3af; font-size:13px;">共8条高价值洞察</p>
+</td>
+</tr>
+
+</tbody></table>
+<!--[if mso]></td></tr></table><![endif]-->]]></content:encoded>
+    </item>
     <item>
       <title>每日AI洞察 | 2026-07-30</title>
       <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-07-30.html</link>
