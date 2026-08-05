@@ -5,8 +5,97 @@
     <link>https://cherrylin000.github.io/AI-news/</link>
     <description>每日 AI Builder 洞察摘要（中英双语）</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 04 Aug 2026 23:27:59 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 23:19:24 GMT</lastBuildDate>
     <atom:link href="https://cherrylin000.github.io/AI-news/docs/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>每日AI洞察 | 2026-08-06</title>
+      <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-08-06.html</link>
+      <guid isPermaLink="true">https://cherrylin000.github.io/AI-news/docs/archive/2026-08-06.html</guid>
+      <pubDate>Wed, 05 Aug 2026 23:19:24 GMT</pubDate>
+      <description><![CDATA[<p>2026-08-06 | AI构建者拥抱乐观、简洁与规模化<br><br>AI Builders Embrace Optimism, Simplicity, and Scaling<br><br>今日构建者话题展现了实践乐观主义、精简产品设计，以及将药物发现等复杂领域视为可随AI扩展的工程问题。<br><br>---<br><br>• Sam Altman: Altman倡导乐观与行动，而非悲观抱怨；不尝试社会就无法进步。<br>• Josh Woodward: Notebook统一提示栏聚焦思考，避免模式切换；现已向Ultra/Pro用户推出。<br>• Guillermo Rauch: AI SDK中一行代码即可节省DeepSeek v4 Flash AI Gateway代币超90%。<br>• Garry Tan: Garry Tan：通过市场增建住房可降低房价；废除租金与资产征收会损害加州。</p><p><a href="https://cherrylin000.github.io/AI-news/docs/archive/2026-08-06.html">归档链接</a></p>]]></description>
+      <content:encoded><![CDATA[<!--[if mso]><table width="720" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td><![endif]-->
+<table class="email-container" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" role="presentation" style="width:100%; max-width:720px; margin:0 auto; text-align:left; box-sizing:border-box;">
+<tbody>
+
+<!-- Header -->
+<tr>
+<td class="email-header email-content" bgcolor="#f8fafc" style="border-bottom:3px solid #6366f1; padding:16px 20px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<h1 class="email-h1" style="margin:0; font-size:24px; color:#111827; line-height:1.35; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">📅 2026-08-06 | AI构建者拥抱乐观、简洁与规模化</h1>
+<p class="email-subtitle" style="margin:6px 0 0 0; color:#6b7280; font-size:15px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">AI Builders Embrace Optimism, Simplicity, and Scaling</p>
+</td>
+</tr>
+<tr>
+<td class="email-section email-content" style="padding:8px 20px 12px; text-align:left;">
+<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">📱 X / Twitter</h2>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Sam Altman (CEO, OpenAI)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Altman: prefer optimism and hard work over pessimism; society fails if people don&#039;t try.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Altman倡导乐观与行动，而非悲观抱怨；不尝试社会就无法进步。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/sama/status/2084663673570971990" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Josh Woodward (VP, Google Labs)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Notebook&#039;s unified prompt bar focuses on thinking, avoiding mode toggling; rolls out to Ultra/Pro.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Notebook统一提示栏聚焦思考，避免模式切换；现已向Ultra/Pro用户推出。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/joshwoodward/status/2084746170576892342" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Guillermo Rauch (CEO, Vercel)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">One line of code in AI SDK cuts DeepSeek v4 Flash AI Gateway tokens by 90% or more.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">AI SDK中一行代码即可节省DeepSeek v4 Flash AI Gateway代币超90%。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/rauchg/status/2084779435866398801" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Garry Tan (President &amp; CEO, Y Combinator)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Tan: build more housing to lower prices via markets; abolishing rent and asset seizure harms California.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Garry Tan：通过市场增建住房可降低房价；废除租金与资产征收会损害加州。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/garrytan/status/2084650011288375751" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-section-tight email-content" style="padding:0 20px 12px; text-align:left;">
+<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">🎙️ Podcasts</h2>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Training Data: Chai Discovery&#039;s Bitter Lesson: Drug Design Is Another Scaling Problem</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Chai Discovery treats drug design as a scaling problem, simplifying models to industrialize biology.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Chai Discovery将药物设计视为扩展问题，简化模型以实现生物学的工业化。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://www.youtube.com/watch?v=wv53mDmY-k0" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-section-tight email-content" style="padding:0 20px 20px; text-align:left;">
+<h2 class="email-h2-hot" style="margin:0 0 16px 0; font-size:18px; color:#dc2626; text-align:left;">🔥 Today's Top Takeaway</h2>
+<table class="email-takeaway-wrap" width="100%" cellpadding="16" cellspacing="0" bgcolor="#fef2f2" style="border:2px solid #dc2626; border-radius:8px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-takeaway-title" style="margin:0; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Optimism, Simplicity, and Scaling Across AI</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Today&#039;s builder discourse highlights a commitment to practical optimism, streamlined product design, and treating complex domains like drug discovery as engineering problems that scale with AI.</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Key Points:</strong><br><br><strong>1. Optimism Through Action:</strong> Altman urges builders to work hard rather than dwell on failure, since societal progress requires attempts.<br><strong>2. Simplicity in Product Design:</strong> Notebook demonstrates that a unified interface can outperform complex mode-switching, aligning with an engineering mindset.<br><strong>3. AI as Scaling Paradigm:</strong> Chai Discovery applies AI scaling to drug design, using abstraction layers to industrialize biology.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Implications:</strong><br><br><strong>1. Focus on Execution:</strong> Pessimistic commentary offers little value; the builder community should prioritize shipping and iterating.<br><strong>2. Minimalist UX Wins:</strong> Tools that reduce cognitive overhead, like a single prompt bar, may define next-gen AI interfaces.<br><strong>3. Broaden AI&#039;s Scope:</strong> The scaling approach can be applied beyond traditional tech to fields like drug discovery, unlocking new industries.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Bottom line:</strong> The day&#039;s insights converge on a builder ethos: stay optimistic, simplify the user experience, and apply AI scaling to untapped domains.</td></tr></tbody></table>
+<p class="email-takeaway-title" style="margin-top:14px; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">AI领域的乐观、简洁与规模化</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">今日构建者话题展现了实践乐观主义、精简产品设计，以及将药物发现等复杂领域视为可随AI扩展的工程问题。</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>关键要点：</strong><br><br><strong>1. 行动中的乐观主义:</strong> Altman敦促构建者努力行动而非沉溺于失败，因为社会进步需要尝试。<br><strong>2. 产品设计的简洁性:</strong> Notebook展示了统一界面优于复杂模式切换，契合工程思维。<br><strong>3. AI作为扩展范式:</strong> Chai Discovery将AI扩展应用于药物设计，利用抽象层实现生物学工业化。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>启示：</strong><br><br><strong>1. 聚焦执行:</strong> 悲观评论价值有限；构建者应优先发布和迭代。<br><strong>2. 极简用户体验胜出:</strong> 减少认知负担的工具（如统一提示栏）可能定义下一代AI界面。<br><strong>3. 拓展AI应用范围:</strong> 规模化方法可应用到药物发现等传统科技领域之外，开启新产业。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>总结：</strong>今日洞察汇聚于构建者精神：保持乐观，简化用户体验，并将AI规模化应用于未开发领域。</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-footer email-content" style="padding:16px; text-align:left; border-top:1px solid #e5e7eb;">
+<p class="email-footer-text" style="margin:0; color:#9ca3af; font-size:13px;">共5条高价值洞察</p>
+</td>
+</tr>
+
+</tbody></table>
+<!--[if mso]></td></tr></table><![endif]-->]]></content:encoded>
+    </item>
     <item>
       <title>每日AI洞察 | 2026-08-05</title>
       <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-08-05.html</link>
