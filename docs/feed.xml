@@ -5,8 +5,102 @@
     <link>https://cherrylin000.github.io/AI-news/</link>
     <description>每日 AI Builder 洞察摘要（中英双语）</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 09 Aug 2026 22:52:58 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 22:58:56 GMT</lastBuildDate>
     <atom:link href="https://cherrylin000.github.io/AI-news/docs/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>每日AI洞察 | 2026-08-11</title>
+      <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-08-11.html</link>
+      <guid isPermaLink="true">https://cherrylin000.github.io/AI-news/docs/archive/2026-08-11.html</guid>
+      <pubDate>Mon, 10 Aug 2026 22:58:56 GMT</pubDate>
+      <description><![CDATA[<p>2026-08-11 | AI Agent 的现状：安全、协作与自主性的现实<br><br>The State of AI Agents: Security, Collaboration, and the Reality of Autonomy<br><br>今日动态揭示了不断成熟的 AI Agent 生态：模型仍需人类监督，提示注入等安全挑战正在被解决，新工具将 Agent 的工作转化为协作产物。行业领袖也在讨论闭源模型提供商的商业可行性。<br><br>---<br><br>• Guillermo Rauch: 模型尚未实现完全自主，会犯低级错误并做出糟糕的架构决策。阅读代码的需求虽在减少，但仍有必要。大多数代码将变得像汇编一样，但我们必须尊重由这些模型支撑的全球互联网基础设施。<br>• Boris Cherny: 提示注入是针对 Agent 的首要攻击方式。Anthropic 通过训练使模型具备抵御能力，并在实践中基本解决了该问题，希望其他实验室也能跟进。<br>• Garry Tan: 从 bug、缺口、虚假声明或半成品工具入手，思考是什么隐藏机制导致了这一故障，然后修复根因，如此反复。</p><p><a href="https://cherrylin000.github.io/AI-news/docs/archive/2026-08-11.html">归档链接</a></p>]]></description>
+      <content:encoded><![CDATA[<!--[if mso]><table width="720" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td><![endif]-->
+<table class="email-container" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" role="presentation" style="width:100%; max-width:720px; margin:0 auto; text-align:left; box-sizing:border-box;">
+<tbody>
+
+<!-- Header -->
+<tr>
+<td class="email-header email-content" bgcolor="#f8fafc" style="border-bottom:3px solid #6366f1; padding:16px 20px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<h1 class="email-h1" style="margin:0; font-size:24px; color:#111827; line-height:1.35; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">📅 2026-08-11 | AI Agent 的现状：安全、协作与自主性的现实</h1>
+<p class="email-subtitle" style="margin:6px 0 0 0; color:#6b7280; font-size:15px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">The State of AI Agents: Security, Collaboration, and the Reality of Autonomy</p>
+</td>
+</tr>
+<tr>
+<td class="email-section email-content" style="padding:8px 20px 12px; text-align:left;">
+<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">📱 X / Twitter</h2>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Guillermo Rauch (CEO @ Vercel)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Models aren&#039;t at full autonomy; they make rookie mistakes and bad architectural choices. Reading code is still needed, but less so over time. Most code will become assembly-like, yet we must respect the internet infrastructure riding on these models.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">模型尚未实现完全自主，会犯低级错误并做出糟糕的架构决策。阅读代码的需求虽在减少，但仍有必要。大多数代码将变得像汇编一样，但我们必须尊重由这些模型支撑的全球互联网基础设施。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/rauchg/status/2086513316265181213" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Boris Cherny (Claude Code @ Anthropic)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Prompt injection is the top attack on agents. Anthropic trained models to resist it and largely solved it in practice. Hope others follow.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">提示注入是针对 Agent 的首要攻击方式。Anthropic 通过训练使模型具备抵御能力，并在实践中基本解决了该问题，希望其他实验室也能跟进。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/bcherny/status/2086520950259118464" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Garry Tan (President &amp; CEO @ Y Combinator)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Start from the bug, gap, false claim, or half-built tool. Ask what hidden machinery causes it, then fix root cause. Repeat.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">从 bug、缺口、虚假声明或半成品工具入手，思考是什么隐藏机制导致了这一故障，然后修复根因，如此反复。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/garrytan/status/2086615082163941460" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-section-tight email-content" style="padding:0 20px 12px; text-align:left;">
+<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">🎙️ Podcasts</h2>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Unsupervised Learning: Ep 92: xAI Co-Founder Unpacks the Future of Model Development</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Igor Babushkin (xAI co-founder) questions closed-source provider business models, urges moving beyond coding to non-verifiable domains, and bets on personal AI with local hardware.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">xAI 联合创始人 Igor Babushkin 质疑闭源模型提供商的商业模式，主张将模型能力从编程扩展到不可验证的领域，并押注于结合本地硬件的个人 AI。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://www.youtube.com/@RedpointAI" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-section-tight email-content" style="padding:0 20px 12px; text-align:left;">
+<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">📝 Official Blogs</h2>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Claude Blog: Claude Code now supports artifacts</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Claude Code artifacts turn agent work into live shareable pages (PR walkthroughs, dashboards) with version history, private by default.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Claude Code 的 Artifacts 功能将 Agent 的工作转化为实时可共享的页面（如 PR 演示、仪表板），支持版本历史并默认私有。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://claude.com/blog/artifacts-in-claude-code" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-section-tight email-content" style="padding:0 20px 20px; text-align:left;">
+<h2 class="email-h2-hot" style="margin:0 0 16px 0; font-size:18px; color:#dc2626; text-align:left;">🔥 Today's Top Takeaway</h2>
+<table class="email-takeaway-wrap" width="100%" cellpadding="16" cellspacing="0" bgcolor="#fef2f2" style="border:2px solid #dc2626; border-radius:8px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-takeaway-title" style="margin:0; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">AI Agents in the Real World: Engineering for Security, Collaboration, and Oversight</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Today&#039;s posts reveal a maturing AI agent ecosystem: models still require human oversight, security challenges like prompt injection are being addressed, and new tools turn agent work into collaborative artifacts. Industry leaders also debate the business viability of closed-source model providers.</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Key Points:</strong><br><br><strong>1. Autonomy Gap:</strong> Models still make rookie mistakes and need human reading; full autonomy remains a future goal.<br><strong>2. Security Breakthrough:</strong> Anthropic claims to have largely solved prompt injection in practice, setting a new safety benchmark.<br><strong>3. Collaborative Artifacts:</strong> Claude Code turns agent work into live, shareable pages, enhancing team collaboration and transparency.<br><strong>4. Business Realities:</strong> Closed-source model providers are questioned on their business models; open source and local models may gain ground.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Implications:</strong><br><br><strong>1. Human-in-the-Loop:</strong> High-stakes development still requires human oversight; agents are not fully autonomous yet.<br><strong>2. Security as Differentiator:</strong> Robustness against prompt injection becomes a competitive advantage for agent platforms.<br><strong>3. Lower Coordination Overhead:</strong> Artifacts reduce status-update overhead, allowing teams to focus on building.<br><strong>4. Open Models Challenge:</strong> Local and open-source models may offer attractive alternatives to closed APIs.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Bottom line:</strong> AI agents are moving from demos to production, but with real constraints: human oversight, security hardening, and collaborative tooling are the keys to unlocking their value. The narrative must balance hype with engineering reality.</td></tr></tbody></table>
+<p class="email-takeaway-title" style="margin-top:14px; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">AI Agent 的现实工程：安全、协作与人类监督</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">今日动态揭示了不断成熟的 AI Agent 生态：模型仍需人类监督，提示注入等安全挑战正在被解决，新工具将 Agent 的工作转化为协作产物。行业领袖也在讨论闭源模型提供商的商业可行性。</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>关键要点：</strong><br><br><strong>1. 自主性缺口:</strong> 模型仍会犯低级错误，需要人类阅读修正，完全自主仍是未来目标。<br><strong>2. 安全突破:</strong> Anthropic 声称已在实践中基本解决提示注入问题，树立了新的安全基准。<br><strong>3. 协作 Artifacts:</strong> Claude Code 将 Agent 的工作转化为实时可共享页面，增强了团队协作与透明度。<br><strong>4. 商业现实:</strong> 闭源模型提供商的商业模式受到质疑，开源与本地模型可能逐渐获得优势。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>启示：</strong><br><br><strong>1. 人在回路:</strong> 高风险开发仍需要人类监督，Agent 尚未完全自主。<br><strong>2. 安全成为差异化优势:</strong> 对提示注入的抵抗能力将成为 Agent 平台的竞争优势。<br><strong>3. 降低协作成本:</strong> Artifacts 功能减少了状态更新开销，让团队更专注于构建。<br><strong>4. 开源模型的挑战:</strong> 本地与开源模型可能成为闭源 API 的有力替代。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>总结：</strong>AI Agent 正从演示走向生产，但面临实际约束：人类监督、安全加固和协作工具是释放其价值的关键。行业叙事必须在炒作与工程现实之间取得平衡。</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-footer email-content" style="padding:16px; text-align:left; border-top:1px solid #e5e7eb;">
+<p class="email-footer-text" style="margin:0; color:#9ca3af; font-size:13px;">共5条高价值洞察</p>
+</td>
+</tr>
+
+</tbody></table>
+<!--[if mso]></td></tr></table><![endif]-->]]></content:encoded>
+    </item>
     <item>
       <title>每日AI洞察 | 2026-08-10</title>
       <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-08-10.html</link>
@@ -6172,138 +6266,6 @@
 <tr>
 <td class="email-footer" style="padding:20px; text-align:center; border-top:1px solid #e5e7eb;">
 <p class="email-footer-text" style="margin:0; color:#9ca3af; font-size:13px;">共8条高价值洞察</p>
-</td>
-</tr>
-
-</tbody></table>
-</td>
-</tr>
-</tbody></table>]]></content:encoded>
-    </item>
-    <item>
-      <title>每日AI洞察 | 2026-06-08</title>
-      <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-06-08.html</link>
-      <guid isPermaLink="true">https://cherrylin000.github.io/AI-news/docs/archive/2026-06-08.html</guid>
-      <pubDate>Sun, 07 Jun 2026 23:32:06 GMT</pubDate>
-      <description><![CDATA[<p>2026-06-08 | AI成本优化与模型路由成为焦点<br><br>AI Cost Optimization and Model Routing Take Center Stage<br><br>今日洞察揭示了三大趋势：企业AI通过模型路由优化成本，代理编程正变得令人上瘾且具有变革性，AI研究知识动态因人才流动和非竞争法而改变。<br><br>---<br><br>• Aaron Levie: Token成本因AI系统规模化而成为热点。企业需要模型路由来优化成本，将前沿模型用于高端任务，其他任务用低成本模型。最出色的公司将擅长评估和路由。<br>• Swyx: 一个流行理论：研究论文α和实验室出版消失是因为研究人员能通过隐性知识获得超过1亿美元。加州的不竞争条款对知识传播的影响比GitHub、arXiv和Hugging Face加起来还大。<br>• Peter Yang: 这种代理编程的“瘾”比电子游戏还强。</p><p><a href="https://cherrylin000.github.io/AI-news/docs/archive/2026-06-08.html">归档链接</a></p>]]></description>
-      <content:encoded><![CDATA[<table width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
-<tbody><tr>
-<td>
-<table class="email-container" width="100%" cellpadding="0" cellspacing="0" align="center" bgcolor="#ffffff" style="max-width:720px; width:100%; border:1px solid #e5e7eb; border-radius:8px;">
-<tbody>
-
-<!-- Header -->
-<tr>
-<td class="email-header" bgcolor="#f8fafc" style="border-bottom:3px solid #6366f1; padding:24px;">
-<h1 class="email-h1" style="margin:0; font-size:26px; color:#111827; line-height:1.35;">📅 2026-06-08 | AI成本优化与模型路由成为焦点</h1>
-<p class="email-subtitle" style="margin:8px 0 0 0; color:#6b7280; font-size:15px;">AI Cost Optimization and Model Routing Take Center Stage</p>
-</td>
-</tr>
-<tr>
-<td class="email-section" style="padding:24px 20px;">
-<h2 class="email-h2" style="margin:0 0 16px 0; font-size:20px; color:#6366f1; padding-left:14px; border-left:4px solid #6366f1;">📱 X / Twitter</h2>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:17px; color:#111827;">Aaron Levie (CEO @Box)</h3>
-<table class="email-card" width="100%" cellpadding="16" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px;">
-<tbody><tr><td>
-<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0;">
-<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
-<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">Token costs are becoming a hot topic as AI systems scale. Companies will need model routing to optimize costs, using frontier models for high-end tasks and lower-cost models for others. The best players will excel at evaluations and routing.</p>
-</td></tr></tbody>
-</table>
-<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px;">
-<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
-<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">Token成本因AI系统规模化而成为热点。企业需要模型路由来优化成本，将前沿模型用于高端任务，其他任务用低成本模型。最出色的公司将擅长评估和路由。</p>
-</td></tr></tbody>
-</table>
-<p style="margin:12px 0 0 0;"><a class="email-link" href="https://x.com/levie/status/2063320673217609936" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:17px; color:#111827;">Swyx (Builder at AI Engineer)</h3>
-<table class="email-card" width="100%" cellpadding="16" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px;">
-<tbody><tr><td>
-<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0;">
-<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
-<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">A popular theory: research paper alpha and lab publishing died because researchers could get &gt;$100M for tacit knowledge. California&#039;s non-noncompetes have a bigger impact on knowledge spreading than GitHub, arXiv, and Hugging Face combined.</p>
-</td></tr></tbody>
-</table>
-<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px;">
-<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
-<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">一个流行理论：研究论文α和实验室出版消失是因为研究人员能通过隐性知识获得超过1亿美元。加州的不竞争条款对知识传播的影响比GitHub、arXiv和Hugging Face加起来还大。</p>
-</td></tr></tbody>
-</table>
-<p style="margin:12px 0 0 0;"><a class="email-link" href="https://x.com/swyx/status/2063432747432268259" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:17px; color:#111827;">Peter Yang (Product @Roblox)</h3>
-<table class="email-card" width="100%" cellpadding="16" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px;">
-<tbody><tr><td>
-<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0;">
-<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
-<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">This agentic coding crack is more addictive than video games.</p>
-</td></tr></tbody>
-</table>
-<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px;">
-<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
-<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">这种代理编程的“瘾”比电子游戏还强。</p>
-</td></tr></tbody>
-</table>
-<p style="margin:12px 0 0 0;"><a class="email-link" href="https://x.com/petergyang/status/2063486871037153558" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-</td>
-</tr>
-<tr>
-<td class="email-section-tight" style="padding:0 20px 24px 20px;">
-<h2 class="email-h2" style="margin:0 0 16px 0; font-size:20px; color:#6366f1; padding-left:14px; border-left:4px solid #6366f1;">🎙️ Podcasts</h2>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:17px; color:#111827;">Unsupervised Learning: Ep 89: AI Research Legend’s Honest Assessment of Where We Are</h3>
-<table class="email-card" width="100%" cellpadding="16" cellspacing="0" bgcolor="#f9fafb" style="border:1px solid #e5e7eb; border-radius:8px;">
-<tbody><tr><td>
-<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:0;">
-<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
-<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">Lucas Kaiser, coauthor of the Transformer paper, discusses reasoning vs generalization, why Anthropic focused on coding, and the open vs closed source model gap. He suggests reasoning alone may not be enough for generalization.</p>
-</td></tr></tbody>
-</table>
-<table width="100%" cellpadding="0" cellspacing="0" style="margin-top:12px;">
-<tbody><tr><td class="email-card-inner" style="padding-left:14px;">
-<p class="email-text" style="margin:0; color:#333333; font-size:14px; line-height:1.7;">Transformer论文合著者Lucas Kaiser讨论了推理与泛化、为何Anthropic专注编程，以及开源与闭源模型差距。他认为仅靠推理可能不足以实现泛化。</p>
-</td></tr></tbody>
-</table>
-<p style="margin:12px 0 0 0;"><a class="email-link" href="https://www.youtube.com/watch?v=N1geOimmdDo" style="color:#6366f1; text-decoration:none; font-size:13px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-</td>
-</tr>
-<tr>
-<td class="email-section-tight" style="padding:0 20px 24px 20px;">
-<h2 class="email-h2-warn" style="margin:0 0 16px 0; font-size:20px; color:#f59e0b;">⚡ Quick Hits | 快讯速览</h2>
-<table class="quick-hits-table" width="100%" cellpadding="0" cellspacing="0" style="border:1px solid #e5e7eb; border-radius:8px; overflow:hidden;">
-<tbody>
-<tr bgcolor="#f59e0b">
-<th style="padding:12px 14px; text-align:left; color:#ffffff; font-size:14px; font-weight:600;">Builder</th>
-<th style="padding:12px 14px; text-align:left; color:#ffffff; font-size:14px; font-weight:600;">Insight</th>
-<th style="padding:12px 14px; text-align:left; color:#ffffff; font-size:14px; font-weight:600;">洞察</th>
-</tr>
-<tr class="quick-hits-row" bgcolor="#ffffff">
-<td class="email-text" style="padding:12px 14px; color:#333333; font-size:14px;"><strong>Amjad Masad</strong><br>(Replit)</td>
-<td class="email-text" style="padding:12px 14px; color:#333333; font-size:14px;">Standing by your beliefs helps filter out sociopaths from your life.</td>
-<td class="email-text" style="padding:12px 14px; color:#333333; font-size:14px;">坚持信仰能帮你从生活中筛除反社会者。</td>
-</tr>
-<tr class="quick-hits-row" bgcolor="#ffffff">
-<td class="email-text" style="padding:12px 14px; color:#333333; font-size:14px;"><strong>Nikunj Kothari</strong><br>(FPV Ventures)</td>
-<td class="email-text" style="padding:12px 14px; color:#333333; font-size:14px;">World models and low latency are key for AI growth, starting with games and simulation.</td>
-<td class="email-text" style="padding:12px 14px; color:#333333; font-size:14px;">世界模型和低延迟是AI增长的关键，从游戏和仿真开始。</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-<tr>
-<td class="email-section-tight" style="padding:0 20px 24px 20px;">
-<h2 class="email-h2-hot" style="margin:0 0 16px 0; font-size:22px; color:#dc2626;">🔥 Today's Top Takeaway</h2>
-<div style="background:#fef2f2; border:2px solid #dc2626; padding:16px; border-radius:8px;">
-<p class="email-takeaway-title" style="margin:0; font-weight:600; color:#991b1b; font-size:18px;">AI Shifts from Capability to Cost-Efficiency and Knowledge Diffusion</p><p class="email-takeaway-block" style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;">Today&#039;s insights reveal three key trends: enterprise AI is focusing on cost optimization through model routing, agentic coding is becoming addictive and transformative, and the dynamics of AI research knowledge are shifting due to talent mobility and non-compete laws.</p><p class="email-takeaway-block" style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>Key Points:</strong><br><br><strong>1. Cost Optimization Through Model Routing:</strong> As token costs become a major concern, companies need to route tasks to the right models—using frontier models for high-value work and cheaper models for routine tasks.<br><strong>2. Agentic Coding Addiction:</strong> Developer engagement with AI-driven coding tools is surpassing that of video games, signaling a paradigm shift in software development.<br><strong>3. Knowledge Transfer Paradox:</strong> California&#039;s non-compete ban has a greater effect on spreading AI knowledge than open-source platforms, as researchers monetize tacit knowledge through startups.<br></p><p class="email-takeaway-block" style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>Implications:</strong><br><br><strong>1. For AI Companies:</strong> Differentiation will come from superior evaluation and routing capabilities, not just model performance.<br><strong>2. For Researchers:</strong> Tacit knowledge is now a valuable asset; non-competes may hinder open science more than expected.<br><strong>3. For Developers:</strong> Agentic coding tools are reshaping productivity, but may introduce new addiction-like behaviors.<br></p><p class="email-takeaway-block" style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>Bottom line:</strong> The AI industry is maturing from a focus on raw capability to operational efficiency and knowledge management, with model routing and talent mobility becoming key competitive advantages.</p><p class="email-takeaway-title" style="margin-top:16px; font-weight:600; color:#991b1b; font-size:18px;">AI从能力转向成本效率与知识扩散</p><p class="email-takeaway-block" style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;">今日洞察揭示了三大趋势：企业AI通过模型路由优化成本，代理编程正变得令人上瘾且具有变革性，AI研究知识动态因人才流动和非竞争法而改变。</p><p class="email-takeaway-block" style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>关键要点：</strong><br><br><strong>1. 通过模型路由优化成本:</strong> 随着token成本成为主要问题，企业需要将任务路由到正确的模型——用前沿模型处理高价值工作，用低成本模型处理常规任务。<br><strong>2. 代理编程成瘾:</strong> 开发者对AI驱动编程工具的参与度已超过电子游戏，标志着软件开发范式的转变。<br><strong>3. 知识转移悖论:</strong> 加州的不竞争禁令对传播AI知识的影响力超过开源平台，因为研究者通过初创公司将隐性知识变现。<br></p><p class="email-takeaway-block" style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>启示：</strong><br><br><strong>1. 对AI公司:</strong> 差异化将来自卓越的评估和路由能力，而不仅仅是模型性能。<br><strong>2. 对研究人员:</strong> 隐性知识现在是宝贵资产；非竞争条款对开放科学的阻碍可能超出预期。<br><strong>3. 对开发者:</strong> 代理编程工具正在重塑生产力，但可能引入新的成瘾行为。<br></p><p class="email-takeaway-block" style="margin-top:12px; padding:8px; background:#fee2e2; border-radius:4px; color:#333333; font-size:14px; line-height:1.7;"><strong>总结：</strong>AI行业正从关注原始能力转向运营效率和知识管理，模型路由和人才流动成为关键竞争优势。</p>
-</div>
-</td>
-</tr>
-<tr>
-<td class="email-footer" style="padding:20px; text-align:center; border-top:1px solid #e5e7eb;">
-<p class="email-footer-text" style="margin:0; color:#9ca3af; font-size:13px;">共4条高价值洞察</p>
 </td>
 </tr>
 
