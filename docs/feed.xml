@@ -5,8 +5,130 @@
     <link>https://cherrylin000.github.io/AI-news/</link>
     <description>每日 AI Builder 洞察摘要（中英双语）</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 15 Sep 2026 00:41:18 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 00:25:52 GMT</lastBuildDate>
     <atom:link href="https://cherrylin000.github.io/AI-news/docs/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>每日AI洞察 | 2026-09-16</title>
+      <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-09-16.html</link>
+      <guid isPermaLink="true">https://cherrylin000.github.io/AI-news/docs/archive/2026-09-16.html</guid>
+      <pubDate>Wed, 16 Sep 2026 00:25:52 GMT</pubDate>
+      <description><![CDATA[<p>2026-09-16 | Agent 重塑技术栈：计算原语、验证器与安全围栏<br><br>Agents Rewrite the Stack: Compute Primitives, Verifiers, and Containment<br><br>今日信号指向同一主题：Agent 不再是现有基础设施上的功能层，而是在倒逼新的计算原语、新的质量控制机制与新的安全边界。Vercel 挖来 Cloud Run 缔造者做 Agent 原生计算；Anthropic 公开围栏架构与复盘报告；OpenAI 预告 Codex 达 DevDay 级别发布，同时征询该砍掉什么功能。<br><br>---<br><br>• Guillermo Rauch: Cloud Run 缔造者 Steren 加入 Vercel，掌舵 Fluid 计算产品线。Rauch 断言：Serverless 是云的上一章，Agent 是下一前沿，需要为其全新设计的计算原语。<br>• Guillermo Rauch: Agent 的水平取决于你给它的校验器、编译���、类型系统和 linter。shadcn/lint 让 Agent 遵守设计系统规则。结论：验证器+技能正在成为新的『框架』。<br>• Boris Cherny: Claude Mods 正式落地，社区已有人做出『Claude 内跑俄罗斯方块』模组，生态扩展速度惊人，技术细节与更多 Demo 在 issue 中。<br>• Thibault Sottiaux: OpenAI 本周发布密度将达到 DevDay 2025 级别的量级，Codex 侧将有密集更新。</p><p><a href="https://cherrylin000.github.io/AI-news/docs/archive/2026-09-16.html">归档链接</a></p>]]></description>
+      <content:encoded><![CDATA[<!--[if mso]><table width="720" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td><![endif]-->
+<table class="email-container" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" role="presentation" style="width:100%; max-width:720px; margin:0 auto; text-align:left; box-sizing:border-box;">
+<tbody>
+
+<!-- Header -->
+<tr>
+<td class="email-header email-content" bgcolor="#f8fafc" style="border-bottom:3px solid #6366f1; padding:16px 20px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<h1 class="email-h1" style="margin:0; font-size:24px; color:#111827; line-height:1.35; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">📅 2026-09-16 | Agent 重塑技术栈：计算原语、验证器与安全围栏</h1>
+<p class="email-subtitle" style="margin:6px 0 0 0; color:#6b7280; font-size:15px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Agents Rewrite the Stack: Compute Primitives, Verifiers, and Containment</p>
+</td>
+</tr>
+<tr>
+<td class="email-section email-content" style="padding:8px 20px 12px; text-align:left;">
+<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">📱 X / Twitter</h2>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Guillermo Rauch (CEO @ Vercel)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Welcoming Steren, creator of Google Cloud Run, to Vercel. He will lead the Fluid family of compute products... Agents are the next frontier, and they require new compute primitives designed for them.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Cloud Run 缔造者 Steren 加入 Vercel，掌舵 Fluid 计算产品线。Rauch 断言：Serverless 是云的上一章，Agent 是下一前沿，需要为其全新设计的计算原语。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/rauchg/status/2099514906366328902" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Guillermo Rauch (CEO @ Vercel)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Agents are only as good as the proof-checkers, compilers, type systems, and linters you give them. shadcn/lint helps agents stay on track with the rules of your design system. Meta: verifiers + skills are the new &#039;frameworks&#039;!</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Agent 的水平取决于你给它的校验器、编译���、类型系统和 linter。shadcn/lint 让 Agent 遵守设计系统规则。结论：验证器+技能正在成为新的『框架』。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/rauchg/status/2099540886409695346" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Boris Cherny (Claude Code @ Anthropic)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Claude Mods are landing now. Someone already built a Tetris-in-Claude mod. See issue for the latest community update, technical details, and more cool demos.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Claude Mods 正式落地，社区已有人做出『Claude 内跑俄罗斯方块』模组，生态扩展速度惊人，技术细节与更多 Demo 在 issue 中。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/bcherny/status/2099551291601248485" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Thibault Sottiaux (Codex &amp; ChatGPT @ OpenAI)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">This week will also be a level of ships that you could have expected for DevDay 2025. Crazy</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">OpenAI 本周发布密度将达到 DevDay 2025 级别的量级，Codex 侧将有密集更新。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/thsottiaux/status/2099744972195131850" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Thibault Sottiaux (Codex &amp; ChatGPT @ OpenAI)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">What&#039;s a feature we should remove from Codex that isn&#039;t useful anymore?</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">OpenAI 公开向社区征询：Codex 里哪些功能已无用应当砍掉？产品开始做减法，转向高价值路径。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/thsottiaux/status/2099393115241300166" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Josh Woodward (VP @ Google / Gemini)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">2 months ago, we launched a Gemini power user group to test early features in the app. 20+ features tested later, your feedback has been incredible. A new cohort is now getting early access to what&#039;s next for Daily Brief &amp; Personal Intelligence.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Gemini 上线高级用户测试组两个月，已测 20+ 功能。新一批用户将提前体验 Daily Brief 与 Personal Intelligence，个人化 Agent 进入快迭代期。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/joshwoodward/status/2099558443078365287" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-section-tight email-content" style="padding:0 20px 12px; text-align:left;">
+<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">🎙️ Podcasts</h2>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">AI &amp; I by Every: How a Professional Writer Writes With AI</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">We&#039;re previewing the release of an experimental new plugin called Compound Writing, which helps you write with AI the way that we do internally. It&#039;s inspired by Kieran Klassen&#039;s Compound Engineering.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Every 推出实验性插件 Compound Writing，灵感来自 Compound Engineering，把团队内部的 AI 写作方法论产品化，让专业写作者与 AI 协作可复制。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-section-tight email-content" style="padding:0 20px 12px; text-align:left;">
+<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">📝 Official Blogs</h2>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Anthropic Engineering: How we contain Claude across products</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Twelve months ago, we&#039;d have rejected out of hand the idea of granting Claude access sufficient to take down an internal Anthropic service. Today that level of access is routine... Our telemetry showed users approved roughly 93% of permission prompts.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Anthropic 披露 Agent 安全架构：一年前不可想象的权限现已常态化，风险从『人类逐次审批』（93% 被无脑通过）转向沙箱、虚拟机与出网管控的『围栏式』设计。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://www.anthropic.com/engineering/how-we-contain-claude" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Anthropic Engineering: An update on recent Claude Code quality reports</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">We&#039;ve traced these reports to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork. The API was not impacted. All three issues have now been resolved as of April 20.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Anthropic 复盘 Claude Code 质量下滑：三个独立变更（推理档位、上下文清理 Bug、简洁性提示词）叠加造成『普遍退化』错觉，已全部修复并将重置全订阅额度。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://www.anthropic.com/engineering/april-23-postmortem" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-section-tight email-content" style="padding:0 20px 20px; text-align:left;">
+<h2 class="email-h2-hot" style="margin:0 0 16px 0; font-size:18px; color:#dc2626; text-align:left;">🔥 Today's Top Takeaway</h2>
+<table class="email-takeaway-wrap" width="100%" cellpadding="16" cellspacing="0" bgcolor="#fef2f2" style="border:2px solid #dc2626; border-radius:8px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-takeaway-title" style="margin:0; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">The Agent Stack Is Being Rebuilt From the Ground Up</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Today&#039;s signals converge on one theme: agents are no longer a feature layer on top of existing infrastructure—they are forcing new compute primitives, new quality-control mechanisms, and new security boundaries. Vercel hires Cloud Run&#039;s creator for agent-native compute; Anthropic publishes deep detail on containment architecture and a public postmortem; OpenAI signals a DevDay-scale ship week for Codex while asking users what to cut.</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Key Points:</strong><br><br><strong>1. New Compute Primitives:</strong> Vercel&#039;s hire of Google Cloud Run&#039;s creator to lead Fluid compute signals that serverless primitives are insufficient for agents, which need sandboxes, long-running state, and per-agent isolation.<br><strong>2. Verifiers as the New Frameworks:</strong> Rauch argues agents are only as good as their linters, type systems and proof-checkers—shifting value from prompt scaffolding to deterministic guardrails and reusable skills.<br><strong>3. Containment Over Approval:</strong> Anthropic reports ~93% of permission prompts were blindly approved, so it is pivoting to sandboxes, VMs and egress controls—bounding what an agent can do rather than watching what it does.<br><strong>4. Transparency as Trust Capital:</strong> A detailed postmortem on Claude Code regressions plus usage-limit resets shows top labs now compete on how openly they disclose and fix quality failures.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Implications:</strong><br><br><strong>1. Build for Bounded Autonomy:</strong> Design agent systems around capability boundaries (sandbox, egress, scoped tokens) rather than human review loops, which degrade under approval fatigue.<br><strong>2. Invest in Verifier Infrastructure:</strong> Treat linters, schemas, tests and design-system rules as first-class agent inputs—they are the highest-leverage way to raise agent output quality.<br><strong>3. Expect Rapid, Modular Shipping:</strong> With DevDay-scale release cadence and community mod ecosystems (Claude Mods), integration speed—not feature breadth—becomes the differentiator.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Bottom line:</strong> Agents are no longer integrated into the old stack—they are replacing its foundations. Winners will be those who ship agent-native compute, deterministic verifiers, and hard containment boundaries in the same breath.</td></tr></tbody></table>
+<p class="email-takeaway-title" style="margin-top:14px; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Agent 技术栈正在被从底层重建</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">今日信号指向同一主题：Agent 不再是现有基础设施上的功能层，而是在倒逼新的计算原语、新的质量控制机制与新的安全边界。Vercel 挖来 Cloud Run 缔造者做 Agent 原生计算；Anthropic 公开围栏架构与复盘报告；OpenAI 预告 Codex 达 DevDay 级别发布，同时征询该砍掉什么功能。</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>关键要点：</strong><br><br><strong>1. 新的计算原语:</strong> Vercel 引入 Cloud Run 缔造者执掌 Fluid 计算产品，说明 Serverless 原语不足以支撑 Agent——它们需要沙箱、长时运行状态与逐 Agent 隔离。<br><strong>2. 验证器成为新框架:</strong> Rauch 认为 Agent 的水平取决于其 linter、类型系统与校验器，价值正从提示词脚手架转向确定性护栏与可复用技能。<br><strong>3. 围栏优于审批:</strong> Anthropic 数据显示约 93% 的权限请求被无意识通过，因此转向沙箱、虚拟机与出网管控——限制 Agent 能做什么，而非盯着它做了什么。<br><strong>4. 透明度即信任资本:</strong> Claude Code 质量退化的详尽复盘与额度重置表明，头部实验室的竞争已包含『公开披露并修复质量问题』的能力。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>启示：</strong><br><br><strong>1. 为有限自主性而设计:</strong> 围绕能力边界（沙箱、出网策略、受限凭证）而非人工审核环来设计 Agent 系统，后者会在审批疲劳下失效。<br><strong>2. 投资验证器基础设施:</strong> 把 linter、Schema、测试与设计系统规则当作一等公民的 Agent 输入，这是提升产出质量最高杠杆的手段。<br><strong>3. 适应高频模块化发布:</strong> 在 DevDay 级发布节奏与社区模组生态（Claude Mods）之下，集成速度而非功能广度将成为差异化关键。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>总结：</strong>Agent 不再是对旧栈的集成，而是在替换其地基。赢家将是那些同时交付 Agent 原生计算、确定性验证器与硬性安全围栏的团队。</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-footer email-content" style="padding:16px; text-align:left; border-top:1px solid #e5e7eb;">
+<p class="email-footer-text" style="margin:0; color:#9ca3af; font-size:13px;">共9条高价值洞察</p>
+</td>
+</tr>
+
+</tbody></table>
+<!--[if mso]></td></tr></table><![endif]-->]]></content:encoded>
+    </item>
     <item>
       <title>每日AI洞察 | 2026-09-15</title>
       <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-09-15.html</link>
@@ -5961,107 +6083,6 @@
 <tr>
 <td class="email-footer email-content" style="padding:16px; text-align:left; border-top:1px solid #e5e7eb;">
 <p class="email-footer-text" style="margin:0; color:#9ca3af; font-size:13px;">共8条高价值洞察</p>
-</td>
-</tr>
-
-</tbody></table>
-<!--[if mso]></td></tr></table><![endif]-->]]></content:encoded>
-    </item>
-    <item>
-      <title>每日AI洞察 | 2026-07-17</title>
-      <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-07-17.html</link>
-      <guid isPermaLink="true">https://cherrylin000.github.io/AI-news/docs/archive/2026-07-17.html</guid>
-      <pubDate>Thu, 16 Jul 2026 23:12:41 GMT</pubDate>
-      <description><![CDATA[<p>2026-07-17 | 代理时代：自动化即基础设施与协作调试的转变<br><br>Agent Era: Automation as Infrastructure &amp; The Shift to Collaborative Debugging<br><br>今日洞察汇聚于一个主题：随着AI代理能力增强，工程师最高杠杆的工作是将领域知识编码为可复用基础设施——CLAUDE.md文件、lint规则、制品——让代理和人类都能在极少上下文中高效贡献。同时，产品领导者正努力平衡自主性（无限使用）与安全性（文件删除），而初创公司即便成功也面临无情挑战。<br><br>---<br><br>• Boris Cherny: 自动化倍增产出。代理时代必须将领域知识编码为基础设施（如CLAUDE.md、技能），让代理和非工程师从第一天就能贡献。<br>• Thariq: 理想提示技巧：薄提示、厚制品+上下文、薄技能。<br>• Thibault Sottiaux: GPT-5.6删除文件多数因全权限模式且无沙箱防护。正在更新开发者消息并增加安全措施。<br>• Thibault Sottiaux: Codex Plus/Pro已取消5小时限制数天。询问用户是否更好或难以管理周限额。</p><p><a href="https://cherrylin000.github.io/AI-news/docs/archive/2026-07-17.html">归档链接</a></p>]]></description>
-      <content:encoded><![CDATA[<!--[if mso]><table width="720" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td><![endif]-->
-<table class="email-container" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" role="presentation" style="width:100%; max-width:720px; margin:0 auto; text-align:left; box-sizing:border-box;">
-<tbody>
-
-<!-- Header -->
-<tr>
-<td class="email-header email-content" bgcolor="#f8fafc" style="border-bottom:3px solid #6366f1; padding:16px 20px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<h1 class="email-h1" style="margin:0; font-size:24px; color:#111827; line-height:1.35; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">📅 2026-07-17 | 代理时代：自动化即基础设施与协作调试的转变</h1>
-<p class="email-subtitle" style="margin:6px 0 0 0; color:#6b7280; font-size:15px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Agent Era: Automation as Infrastructure &amp; The Shift to Collaborative Debugging</p>
-</td>
-</tr>
-<tr>
-<td class="email-section email-content" style="padding:8px 20px 12px; text-align:left;">
-<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">📱 X / Twitter</h2>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Boris Cherny (Claude Code @anthropicai)</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Automation multiplies output. Agents make it critical to encode domain knowledge as infrastructure (CLAUDE.md, skills) so agents and non-engineers can contribute day one.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">自动化倍增产出。代理时代必须将领域知识编码为基础设施（如CLAUDE.md、技能），让代理和非工程师从第一天就能贡献。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/bcherny/status/2077460395279692197" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Thariq (Claude Code @anthropicai)</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Ideal prompting technique: thin prompts, thick artifacts + context, thin skills.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">理想提示技巧：薄提示、厚制品+上下文、薄技能。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/trq212/status/2077539537992229076" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Thibault Sottiaux (Codex &amp; ChatGPT @OpenAI)</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">GPT-5.6 file deletion mostly caused by full access mode without sandboxing. Fixing developer messages and adding harness safeguards.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">GPT-5.6删除文件多数因全权限模式且无沙箱防护。正在更新开发者消息并增加安全措施。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/thsottiaux/status/2077630111499882637" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Thibault Sottiaux (Codex &amp; ChatGPT @OpenAI)</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">No 5h limit in Codex plus/pro for a few days. Asking users if it&#039;s better or hard to manage weekly limit.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Codex Plus/Pro已取消5小时限制数天。询问用户是否更好或难以管理周限额。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/thsottiaux/status/2077632589498913087" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-</td>
-</tr>
-<tr>
-<td class="email-section-tight email-content" style="padding:0 20px 12px; text-align:left;">
-<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">🎙️ Podcasts</h2>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">AI &amp; I by Every: The Founder of a $1.5B AI Company on What Comes After the First Wave of AI Apps</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Granolah CEO: meeting notes not the end; we are in early steps of a computing revolution. Startups are knife fights even when working.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Granolah CEO：会议记录不是终点；我们处于计算革命的早期阶段。创业即使在顺境中也像刀战一样艰难。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-</td>
-</tr>
-<tr>
-<td class="email-section-tight email-content" style="padding:0 20px 12px; text-align:left;">
-<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">📝 Official Blogs</h2>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Claude Blog: Claude Code now supports artifacts</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Claude Code captures work as live, shareable visual pages (artifacts) that update in place, enabling teams to collaborate without status meetings.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Claude Code将工作捕捉为实时可共享的可视化页面（制品），并可原地更新，使团队无需状态会议即可协作。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://claude.com/blog/artifacts-in-claude-code" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-</td>
-</tr>
-<tr>
-<td class="email-section-tight email-content" style="padding:0 20px 20px; text-align:left;">
-<h2 class="email-h2-hot" style="margin:0 0 16px 0; font-size:18px; color:#dc2626; text-align:left;">🔥 Today's Top Takeaway</h2>
-<table class="email-takeaway-wrap" width="100%" cellpadding="16" cellspacing="0" bgcolor="#fef2f2" style="border:2px solid #dc2626; border-radius:8px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-takeaway-title" style="margin:0; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Automation as Infrastructure in the Agent Era</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Today&#039;s insights converge on the theme that as AI agents become more capable, the highest-leverage work for engineers is to encode domain knowledge into reusable infrastructure—CLAUDE.md files, lint rules, artifacts—so that agents and humans alike can contribute effectively with minimal context. Meanwhile, product leaders are grappling with balancing autonomy (unlimited usage) with safety (file deletions), and startups face relentless challenges even when successful.</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Key Points:</strong><br><br><strong>1. Domain Knowledge as Infrastructure:</strong> Boris Cherny argues that domain knowledge previously locked in people&#039;s heads must now be encoded as code comments, CLAUDE.md, skills, and memories, enabling agents and new contributors to be productive from day one.<br><strong>2. Thin Prompts, Thick Context:</strong> Thariq&#039;s prompting technique highlights the shift: instead of overloading prompts, invest in rich artifacts and context files that agents can leverage autonomously.<br><strong>3. Safety vs. Autonomy:</strong> Thibault&#039;s post-mortem on GPT-5.6 file deletions underscores the tension between full-access modes and safety, with solutions focusing on better developer guidance and harness safeguards.<br><strong>4. Artifacts as Collaboration Tools:</strong> Claude Code&#039;s new artifacts feature turns agent sessions into live, shareable pages (e.g., incident timelines, PR walkthroughs) that update in place, replacing status meetings.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Implications:</strong><br><br><strong>1. New Engineering Mindset:</strong> Teams must shift from one-off automation to building a knowledge infrastructure layer (docs, rules, skills) that agents consume. This is the new &#039;highest leverage&#039; activity.<br><strong>2. Product Design Tensions:</strong> As AI tools remove usage limits (like Codex&#039;s 5h cap), users struggle with self-regulation. Product teams need to design intuitive guardrails rather than hard restrictions.<br><strong>3. Debugging Becomes Collaborative:</strong> Artifacts enable real-time sharing of agent work, turning debugging from a solo activity to a team sport, reducing context-switching and status updates.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Bottom line:</strong> To win in the agent era, invest in automation infrastructure: encode knowledge as reusable artifacts, thin prompts, and robust guardrails. The companies that treat AI as a collaborative partner—not just a tool—will unlock step-change productivity.</td></tr></tbody></table>
-<p class="email-takeaway-title" style="margin-top:14px; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">代理时代将自动化视为基础设施</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">今日洞察汇聚于一个主题：随着AI代理能力增强，工程师最高杠杆的工作是将领域知识编码为可复用基础设施——CLAUDE.md文件、lint规则、制品——让代理和人类都能在极少上下文中高效贡献。同时，产品领导者正努力平衡自主性（无限使用）与安全性（文件删除），而初创公司即便成功也面临无情挑战。</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>关键要点：</strong><br><br><strong>1. 领域知识即基础设施:</strong> Boris Cherny主张，原本锁在人脑中的领域知识现在必须编码为代码注释、CLAUDE.md、技能和记忆，使代理和新贡献者从第一天就能高效工作。<br><strong>2. 薄提示，厚上下文:</strong> Thariq的提示技巧凸显了转变：不要过度加载提示，而是投资于丰富的制品和上下文文件，让代理能自主利用。<br><strong>3. 安全性与自主性的平衡:</strong> Thibault对GPT-5.6删除文件的复盘强调了全权限模式与安全性之间的张力，解决方案聚焦于更好的开发者指导和工具安全措施。<br><strong>4. 制品作为协作工具:</strong> Claude Code的新制品功能将代理会话转化为实时可共享的页面（如事件时间线、PR说明），并能原地更新，替代状态会议。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>启示：</strong><br><br><strong>1. 新的工程思维:</strong> 团队必须从一次性自动化转向构建知识基础设施层（文档、规则、技能），由代理消费。这是新的“最高杠杆”活动。<br><strong>2. 产品设计张力:</strong> 随着AI工具取消使用限制（如Codex的5小时限制），用户难以自我管理。产品团队需要设计直观的护栏而非硬性限制。<br><strong>3. 调试变为协作:</strong> 制品使代理工作的实时共享成为可能，将调试从个人活动转变为团队运动，减少上下文切换和状态更新。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>总结：</strong>在代理时代取胜，需投资于自动化基础设施：将知识编码为可复用制品、薄提示和稳固的护栏。那些将AI视为协作伙伴而非工具的公司，将解锁指数级生产力。</td></tr></tbody></table>
-</td></tr></tbody></table>
-</td>
-</tr>
-<tr>
-<td class="email-footer email-content" style="padding:16px; text-align:left; border-top:1px solid #e5e7eb;">
-<p class="email-footer-text" style="margin:0; color:#9ca3af; font-size:13px;">共6条高价值洞察</p>
 </td>
 </tr>
 
