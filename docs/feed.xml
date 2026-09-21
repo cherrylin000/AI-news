@@ -5,8 +5,104 @@
     <link>https://cherrylin000.github.io/AI-news/</link>
     <description>每日 AI Builder 洞察摘要（中英双语）</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 20 Sep 2026 00:10:15 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 00:18:14 GMT</lastBuildDate>
     <atom:link href="https://cherrylin000.github.io/AI-news/docs/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>每日AI洞察 | 2026-09-21</title>
+      <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-09-21.html</link>
+      <guid isPermaLink="true">https://cherrylin000.github.io/AI-news/docs/archive/2026-09-21.html</guid>
+      <pubDate>Mon, 21 Sep 2026 00:18:14 GMT</pubDate>
+      <description><![CDATA[<p>2026-09-21 | Agent优先的商业与递归自我改进<br><br>Agent-First Commerce Meets Recursive Self-Improvement<br><br>今日信号指向同一个重构：产品必须为Agent而非仅为人而建，同时AI自身正走向递归自我改进。投资人靠亲手编码跟上节奏，构建者发布速度前所未有。<br><br>---<br><br>• Aaron Levie: 个人Agent是『构建Agent想要的东西』的终极形态。你要争夺的不再是用户注意力，而是Agent的注意力。这是自App Store以来消费科技最大的洗牌机会。<br>• Nikunj Kothari: 我每天花约2小时编程、折腾项目。变化太快，不亲手做就无法理解下一步：模型研究、基础设施、应用层三个层次的判断力都来自动手。<br>• Guillermo Rauch: 这轮AI浪潮最酷的一点是所有人都对『动手构建』充满热情。人们想创造和发布，而不只是消费。<br>• Thibault Sottiaux: 2026将是Linux桌面之年——开发者工具链与AI编码正把桌面端重新推向主流。</p><p><a href="https://cherrylin000.github.io/AI-news/docs/archive/2026-09-21.html">归档链接</a></p>]]></description>
+      <content:encoded><![CDATA[<!--[if mso]><table width="720" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td><![endif]-->
+<table class="email-container" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" role="presentation" style="width:100%; max-width:720px; margin:0 auto; text-align:left; box-sizing:border-box;">
+<tbody>
+
+<!-- Header -->
+<tr>
+<td class="email-header email-content" bgcolor="#f8fafc" style="border-bottom:3px solid #6366f1; padding:16px 20px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<h1 class="email-h1" style="margin:0; font-size:24px; color:#111827; line-height:1.35; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">📅 2026-09-21 | Agent优先的商业与递归自我改进</h1>
+<p class="email-subtitle" style="margin:6px 0 0 0; color:#6b7280; font-size:15px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Agent-First Commerce Meets Recursive Self-Improvement</p>
+</td>
+</tr>
+<tr>
+<td class="email-section email-content" style="padding:8px 20px 12px; text-align:left;">
+<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">📱 X / Twitter</h2>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Aaron Levie (CEO, Box)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Personal agents are the ultimate &#039;build something that agents want&#039;. The new attention you compete for is not the user&#039;s but the agent&#039;s. Biggest consumer tech shakeup since the App Store.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">个人Agent是『构建Agent想要的东西』的终极形态。你要争夺的不再是用户注意力，而是Agent的注意力。这是自App Store以来消费科技最大的洗牌机会。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/levie/status/2101427997597446636" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Nikunj Kothari (Partner, FPV Ventures)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">I spend ~2 hours a day programming and tinkering. Things move so fast that without doing this, I don&#039;t see how folks learn what&#039;s coming: model research, infra, app layer.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">我每天花约2小时编程、折腾项目。变化太快，不亲手做就无法理解下一步：模型研究、基础设施、应用层三个层次的判断力都来自动手。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/nikunj/status/2101340098356990058" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Guillermo Rauch (CEO, Vercel)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">The coolest thing about the recent AI wave is that everyone is excited about building. The people want to create and ship, not just consume.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">这轮AI浪潮最酷的一点是所有人都对『动手构建』充满热情。人们想创造和发布，而不只是消费。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/rauchg/status/2101397206595231765" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Thibault Sottiaux (Codex &amp; ChatGPT, OpenAI)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">2026 is the year of linux desktop</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">2026将是Linux桌面之年——开发者工具链与AI编码正把桌面端重新推向主流。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/thsottiaux/status/2101431497437950458" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Peter Yang (AI tutorials &amp; interviews creator)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">My next podcast is with the product lead for ChatGPT Finances at OpenAI, sharing six practical personal finance prompts: tax savings, credit card rewards, FIRE forecasts.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">下期播客请到OpenAI ChatGPT Finances产品负责人，分享六个实用个人理财提示词：主动节税、信用卡奖励最大化、财务自由路径交互预测等。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/petergyang/status/2101342055352201519" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-section-tight email-content" style="padding:0 20px 12px; text-align:left;">
+<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">🎙️ Podcasts</h2>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">The MAD Podcast with Matt Turck: When AI Improves Itself | Richard Socher (Recursive)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Anything you can simulate, AI will solve. Before you know it, you&#039;re in this recursive self improvement loop - a great unlock. Socher raised $650M for Recursive and argues science has stalled.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">『任何可被模拟的东西，AI终将解决』——很快我们就进入递归自我改进循环，这是一个巨大解锁。Socher为Recursive融资6.5亿美元，并在新书中论证科学进步已停滞。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://www.youtube.com/@DataDrivenNYC/videos" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-section-tight email-content" style="padding:0 20px 20px; text-align:left;">
+<h2 class="email-h2-hot" style="margin:0 0 16px 0; font-size:18px; color:#dc2626; text-align:left;">🔥 Today's Top Takeaway</h2>
+<table class="email-takeaway-wrap" width="100%" cellpadding="16" cellspacing="0" bgcolor="#fef2f2" style="border:2px solid #dc2626; border-radius:8px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-takeaway-title" style="margin:0; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">The Agent Is the New Customer</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Today&#039;s feed converges on one reframe: products must now be built for agents, not just people, while AI itself moves toward recursive self-improvement. Investors are getting hands dirty to keep up, and builders are shipping faster than ever.</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Key Points:</strong><br><br><strong>1. Agent-first distribution:</strong> Levie: MCP, CLI and agent-navigable sites determine who wins commerce; the attention to capture belongs to the agent.<br><strong>2. Investors must build:</strong> Nikunj codes 2h/day across model research, infra and app layer - the only way to see what&#039;s next.<br><strong>3. RSI as the next unlock:</strong> Socher&#039;s Recursive ($650M) bets that simulatable domains get solved, feeding a self-improvement loop.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Implications:</strong><br><br><strong>1. Rebuild for machine readers:</strong> API, schema, checkout flow and docs should assume an agent is the primary visitor and buyer.<br><strong>2. Hands-on beats hearsay:</strong> Fund and operator edge increasingly comes from daily tinkering, not only founder conversations.<br><strong>3. Watch the coding bottleneck:</strong> With everyone building, tooling, review and context layers - not models - may be the constraint.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Bottom line:</strong> Value is shifting from human attention to agent attention, and the fastest learners are those who build daily.</td></tr></tbody></table>
+<p class="email-takeaway-title" style="margin-top:14px; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Agent正在成为新的『客户』</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">今日信号指向同一个重构：产品必须为Agent而非仅为人而建，同时AI自身正走向递归自我改进。投资人靠亲手编码跟上节奏，构建者发布速度前所未有。</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>关键要点：</strong><br><br><strong>1. Agent优先的分发:</strong> Levie认为MCP、CLI与可被Agent操作的网站决定商业胜负，要争夺的注意力属于Agent。<br><strong>2. 投资人必须动手构建:</strong> Nikunj每天编码2小时，横跨模型研究、基础设施与应用层，这是看清未来的唯一方式。<br><strong>3. 递归自我改进成为下一个解锁点:</strong> Socher的Recursive融资6.5亿美元，押注可被模拟的领域终将被解决，从而形成自改进循环。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>启示：</strong><br><br><strong>1. 为机器读者重建产品:</strong> API、结构化数据、结账流程与文档都应默认首要访客和买家是Agent。<br><strong>2. 动手胜过道听途说:</strong> 基金与操盘者的优势越来越来自每日折腾，而非只靠与创始人聊天。<br><strong>3. 关注编码瓶颈:</strong> 当所有人都在构建，真正的瓶颈可能是工具链、代码评审与上下文层，而非模型本身。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>总结：</strong>价值正从人类注意力转向Agent注意力，而学得最快的人，是那些每天动手构建的人。</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-footer email-content" style="padding:16px; text-align:left; border-top:1px solid #e5e7eb;">
+<p class="email-footer-text" style="margin:0; color:#9ca3af; font-size:13px;">共6条高价值洞察</p>
+</td>
+</tr>
+
+</tbody></table>
+<!--[if mso]></td></tr></table><![endif]-->]]></content:encoded>
+    </item>
     <item>
       <title>每日AI洞察 | 2026-09-20</title>
       <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-09-20.html</link>
@@ -6005,95 +6101,6 @@
 <tr>
 <td class="email-footer email-content" style="padding:16px; text-align:left; border-top:1px solid #e5e7eb;">
 <p class="email-footer-text" style="margin:0; color:#9ca3af; font-size:13px;">共7条高价值洞察</p>
-</td>
-</tr>
-
-</tbody></table>
-<!--[if mso]></td></tr></table><![endif]-->]]></content:encoded>
-    </item>
-    <item>
-      <title>每日AI洞察 | 2026-07-22</title>
-      <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-07-22.html</link>
-      <guid isPermaLink="true">https://cherrylin000.github.io/AI-news/docs/archive/2026-07-22.html</guid>
-      <pubDate>Tue, 21 Jul 2026 23:13:53 GMT</pubDate>
-      <description><![CDATA[<p>2026-07-22 | AI即代码与无护城河创新<br><br>AI as Code &amp; Moat-less Innovation<br><br>今日造物主强调AI揭示了现实的代码本质，而行业领袖则认为没有企业能依赖静态优势——持续创新才是唯一的护城河。<br><br>---<br><br>• Guillermo Rauch: AI的最大启示：一切都是代码。幻灯片是代码，设计是代码，视频是代码，Excel自动化是代码，宇宙也由代码构成。<br>• Peter Yang: 禁止中国AI模型将和禁止中国电动车一样搬起石头砸自己的脚。<br>• Amjad Masad: 首个由编码代理实际发货的物理产品？<br>• Garry Tan: 算力主宰一切。</p><p><a href="https://cherrylin000.github.io/AI-news/docs/archive/2026-07-22.html">归档链接</a></p>]]></description>
-      <content:encoded><![CDATA[<!--[if mso]><table width="720" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td><![endif]-->
-<table class="email-container" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" role="presentation" style="width:100%; max-width:720px; margin:0 auto; text-align:left; box-sizing:border-box;">
-<tbody>
-
-<!-- Header -->
-<tr>
-<td class="email-header email-content" bgcolor="#f8fafc" style="border-bottom:3px solid #6366f1; padding:16px 20px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<h1 class="email-h1" style="margin:0; font-size:24px; color:#111827; line-height:1.35; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">📅 2026-07-22 | AI即代码与无护城河创新</h1>
-<p class="email-subtitle" style="margin:6px 0 0 0; color:#6b7280; font-size:15px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">AI as Code &amp; Moat-less Innovation</p>
-</td>
-</tr>
-<tr>
-<td class="email-section email-content" style="padding:8px 20px 12px; text-align:left;">
-<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">📱 X / Twitter</h2>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Guillermo Rauch (CEO @ Vercel)</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">The big lesson from AI is that everything is code. A slide deck is code. Design is code. That cool promo video? Code. Excel automation? Code. The universe? Probably made of code too.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">AI的最大启示：一切都是代码。幻灯片是代码，设计是代码，视频是代码，Excel自动化是代码，宇宙也由代码构成。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/rauchg/status/2079274102129304026" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Peter Yang (AI Educator)</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Banning Chinese models will be the same self own as banning Chinese EVs.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">禁止中国AI模型将和禁止中国电动车一样搬起石头砸自己的脚。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/petergyang/status/2079273815004303477" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Amjad Masad (CEO @ Replit)</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">First physical product shipped by a coding agent?</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">首个由编码代理实际发货的物理产品？</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/amasad/status/2079282869063786541" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Garry Tan (President &amp; CEO @ Y Combinator)</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Compute rules everything around me CREAM</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">算力主宰一切。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/garrytan/status/2079240755135357356" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-</td>
-</tr>
-<tr>
-<td class="email-section-tight email-content" style="padding:0 20px 12px; text-align:left;">
-<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">🎙️ Podcasts</h2>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">No Priors: Travel Through the Lens of AI with Booking.com CEO Glenn Fogel</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">There is no such thing as a moat. The only way to win long term is to continue to develop new services, new ways to do things.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">护城河不存在。长期胜利的唯一途径是持续开发新服务和做事新方法。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://www.youtube.com/watch?v=8nj_0wZkbtA" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-</td>
-</tr>
-<tr>
-<td class="email-section-tight email-content" style="padding:0 20px 20px; text-align:left;">
-<h2 class="email-h2-hot" style="margin:0 0 16px 0; font-size:18px; color:#dc2626; text-align:left;">🔥 Today's Top Takeaway</h2>
-<table class="email-takeaway-wrap" width="100%" cellpadding="16" cellspacing="0" bgcolor="#fef2f2" style="border:2px solid #dc2626; border-radius:8px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-takeaway-title" style="margin:0; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">The Convergence of Everything as Code and the Death of Moats</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Today&#039;s builders emphasize that AI reveals the fundamental code-nature of reality, while industry leaders argue that no business can rely on static advantages—continuous innovation is the only moat.</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Key Points:</strong><br><br><strong>1. Everything is Code:</strong> AI teaches that all creative and analytical outputs can be represented as code, opening up new possibilities for automation and abstraction.<br><strong>2. Compute as King:</strong> Garry Tan&#039;s reiteration that &#039;compute rules everything&#039; underscores the critical resource for AI progress.<br><strong>3. No Static Advantage:</strong> Booking.com CEO states unequivocally that no moat protects against innovation; only relentless innovation sustains leadership.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Implications:</strong><br><br><strong>1. For Builders:</strong> Embrace the mindset that every problem is a coding problem; leverage AI agents to ship physical products as Amjad suggests.<br><strong>2. For Strategists:</strong> Avoid complacency—competitive advantage is transient. Invest in continuous product evolution and AI-driven services.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Bottom line:</strong> Today&#039;s feed reveals a consensus: AI is redefining the boundaries of what can be automated, and staying ahead requires treating everything as code while recognizing that moats are illusions.</td></tr></tbody></table>
-<p class="email-takeaway-title" style="margin-top:14px; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">万物皆代码与护城河消亡的交汇</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">今日造物主强调AI揭示了现实的代码本质，而行业领袖则认为没有企业能依赖静态优势——持续创新才是唯一的护城河。</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>关键要点：</strong><br><br><strong>1. 万物皆代码:</strong> AI告诉我们所有创意和分析输出都可表示为代码，为自动化和抽象开辟新可能。<br><strong>2. 算力为王:</strong> Garry Tan重申&#039;算力主宰一切&#039;，凸显AI进步的关键资源。<br><strong>3. 无静态优势:</strong> Booking.com CEO明确表示没有护城河能抵御创新，只有持续创新才能维持领导地位。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>启示：</strong><br><br><strong>1. 对造物主:</strong> 拥抱每个问题都是编码问题的思维；像Amjad建议的那样利用AI代理交付物理产品。<br><strong>2. 对战略家:</strong> 避免自满——竞争优势是暂时的。投资于持续的产品演化和AI驱动服务。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>总结：</strong>今日动态揭示共识：AI正在重新定义可自动化的边界，保持领先需要将一切视为代码，同时认识到护城河是幻象。</td></tr></tbody></table>
-</td></tr></tbody></table>
-</td>
-</tr>
-<tr>
-<td class="email-footer email-content" style="padding:16px; text-align:left; border-top:1px solid #e5e7eb;">
-<p class="email-footer-text" style="margin:0; color:#9ca3af; font-size:13px;">共5条高价值洞察</p>
 </td>
 </tr>
 
