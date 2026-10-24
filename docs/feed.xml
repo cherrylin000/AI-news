@@ -5,8 +5,104 @@
     <link>https://cherrylin000.github.io/AI-news/</link>
     <description>每日 AI Builder 洞察摘要（中英双语）</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 23 Oct 2026 00:42:29 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 00:45:51 GMT</lastBuildDate>
     <atom:link href="https://cherrylin000.github.io/AI-news/docs/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>每日AI洞察 | 2026-10-24</title>
+      <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-10-24.html</link>
+      <guid isPermaLink="true">https://cherrylin000.github.io/AI-news/docs/archive/2026-10-24.html</guid>
+      <pubDate>Sat, 24 Oct 2026 00:45:51 GMT</pubDate>
+      <description><![CDATA[<p>2026-10-24 | 智能体默认化、开放标准与经验驱动的超级智能<br><br>Agentic Defaults, Open Standards, and Experience-Based Superintelligence<br><br>今日动态显示，智能体AI正从可选实验转为默认运行模式；厂商将协议捐赠给中立基金会，云分发成熟。安全与经验学习仍是关键分水岭。<br><br>---<br><br>• Claude: Claude网页、桌面和移动端在Pro、Max、Team计划将默认自动模式；自动检查拦截高风险操作，可随时切回手动。<br>• Thibault Sottiaux: Decisions API正式可用，OpenResponses加入Linux基金会，性能提升，Uber全面投入Codex与work。<br>• Claude: Anthropic管理的Claude模型在Google Cloud正式可用，提供完整Claude平台功能、Google Cloud IAM、计费与承诺管理。<br>• Boris Cherny: Agent Skills始于Claude Code实验；随着行业采用增加，Anthropic将其捐赠给Agentic AI基金会，与MCP并列。</p><p><a href="https://cherrylin000.github.io/AI-news/docs/archive/2026-10-24.html">归档链接</a></p>]]></description>
+      <content:encoded><![CDATA[<!--[if mso]><table width="720" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td><![endif]-->
+<table class="email-container" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" role="presentation" style="width:100%; max-width:720px; margin:0 auto; text-align:left; box-sizing:border-box;">
+<tbody>
+
+<!-- Header -->
+<tr>
+<td class="email-header email-content" bgcolor="#f8fafc" style="border-bottom:3px solid #6366f1; padding:16px 20px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<h1 class="email-h1" style="margin:0; font-size:24px; color:#111827; line-height:1.35; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">📅 2026-10-24 | 智能体默认化、开放标准与经验驱动的超级智能</h1>
+<p class="email-subtitle" style="margin:6px 0 0 0; color:#6b7280; font-size:15px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Agentic Defaults, Open Standards, and Experience-Based Superintelligence</p>
+</td>
+</tr>
+<tr>
+<td class="email-section email-content" style="padding:8px 20px 12px; text-align:left;">
+<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">📱 X / Twitter</h2>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Claude (Anthropic AI assistant)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Claude web, desktop and mobile sessions will default to auto mode on Pro, Max and Team; automated checks block risky actions, with manual switch available.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Claude网页、桌面和移动端在Pro、Max、Team计划将默认自动模式；自动检查拦截高风险操作，可随时切回手动。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/claudeai/status/2113360845409583307" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Thibault Sottiaux (Codex &amp; ChatGPT @OpenAI)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Decisions API is GA, OpenResponses joined the Linux Foundation, performance improved, and Uber is going all-in on Codex and work.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Decisions API正式可用，OpenResponses加入Linux基金会，性能提升，Uber全面投入Codex与work。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/thsottiaux/status/2113492187770175603" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Claude (Anthropic AI assistant)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Claude Models on Google Cloud, Anthropic-managed, are generally available with full Claude Platform features, Google Cloud IAM, billing and commitment retirement.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Anthropic管理的Claude模型在Google Cloud正式可用，提供完整Claude平台功能、Google Cloud IAM、计费与承诺管理。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/claudeai/status/2113380122468454765" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Boris Cherny (Claude @anthropicai)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Agent Skills began as a Claude Code experiment; as industry adoption grew, Anthropic donated it to the Agentic AI Foundation alongside MCP.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Agent Skills始于Claude Code实验；随着行业采用增加，Anthropic将其捐赠给Agentic AI基金会，与MCP并列。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/bcherny/status/2113333859907747871" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Guillermo Rauch (@vercel CEO)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">It is time to kill static credentials; even if breaches happen, thieves should only get self-destructing keys. The industry should do for OIDC what TLS did for encryption.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">是时候淘汰静态凭据；即使发生泄露，窃贼也只能拿到自毁密钥。行业应像TLS普及加密那样推动OIDC。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/rauchg/status/2113399539227136084" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-section-tight email-content" style="padding:0 20px 12px; text-align:left;">
+<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">🎙️ Podcasts</h2>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Training Data: David Silver and Lasse Espeholt of Ineffable Intelligence: A Superlearner for the Age of Experience</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">David Silver argues superintelligence will come from systems that learn and discover knowledge forever through experience and reinforcement learning, not only the LLM human-data path.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">David Silver认为超级智能将来自通过经验与强化学习持续发现知识的系统，而非仅依赖LLM的人类数据路径。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-section-tight email-content" style="padding:0 20px 20px; text-align:left;">
+<h2 class="email-h2-hot" style="margin:0 0 16px 0; font-size:18px; color:#dc2626; text-align:left;">🔥 Today's Top Takeaway</h2>
+<table class="email-takeaway-wrap" width="100%" cellpadding="16" cellspacing="0" bgcolor="#fef2f2" style="border:2px solid #dc2626; border-radius:8px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-takeaway-title" style="margin:0; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Agents Go Default; Standards and Experience Compete</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Today&#039;s feed shows agentic AI moving from opt-in experiments to default operating mode, while vendors donate protocols to neutral foundations and cloud distribution matures. Security and learning-from-experience remain the fault lines.</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Key Points:</strong><br><br><strong>1. Default agentic UX:</strong> Claude is making auto mode the default, replacing step-by-step approval with automated risk checks and a manual fallback.<br><strong>2. Open standards mature:</strong> Agent Skills was donated to the Agentic AI Foundation, OpenResponses joined the Linux Foundation, and Vercel pushes OIDC over static credentials.<br><strong>3. Experience-based superintelligence:</strong> David Silver argues RL systems that keep learning from experience may be the path beyond human-data-trained LLMs.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Implications:</strong><br><br><strong>1. Security must be redesigned:</strong> Auto agents require granular action checks, short-lived credentials, and clear manual override paths for enterprises.<br><strong>2. Protocols become strategic:</strong> Neutral foundations and cloud distribution will influence which agent standards scale across vendors.<br><strong>3. Hybrid learning race:</strong> Labs may combine LLM scale with experience-learning loops to pursue continual discovery and adaptation.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Bottom line:</strong> The agent era is being standardized and secured in public—defaults will decide adoption as much as model quality.</td></tr></tbody></table>
+<p class="email-takeaway-title" style="margin-top:14px; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">智能体走向默认；标准与经验并进</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">今日动态显示，智能体AI正从可选实验转为默认运行模式；厂商将协议捐赠给中立基金会，云分发成熟。安全与经验学习仍是关键分水岭。</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>关键要点：</strong><br><br><strong>1. 智能体默认体验:</strong> Claude将自动模式设为默认，用自动风险检查替代逐步审批，并保留手动回退。<br><strong>2. 开放标准成熟:</strong> Agent Skills捐赠给Agentic AI基金会，OpenResponses加入Linux基金会，Vercel推动OIDC替代静态凭据。<br><strong>3. 经验驱动超级智能:</strong> David Silver认为持续从经验中学习的强化学习系统，可能是超越人类数据训练LLM的路径。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>启示：</strong><br><br><strong>1. 安全需重新设计:</strong> 自动智能体要求细粒度操作检查、短期凭据和企业级手动接管路径。<br><strong>2. 协议成为战略资产:</strong> 中立基金会与云分发将影响哪些智能体标准能跨厂商扩展。<br><strong>3. 混合学习竞赛:</strong> 实验室可能结合LLM规模与经验学习循环，追求持续发现与适应。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>总结：</strong>智能体时代正通过公开标准与安全默认值成型——默认设置将与模型能力一样决定采用速度。</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-footer email-content" style="padding:16px; text-align:left; border-top:1px solid #e5e7eb;">
+<p class="email-footer-text" style="margin:0; color:#9ca3af; font-size:13px;">共6条高价值洞察</p>
+</td>
+</tr>
+
+</tbody></table>
+<!--[if mso]></td></tr></table><![endif]-->]]></content:encoded>
+    </item>
     <item>
       <title>每日AI洞察 | 2026-10-23</title>
       <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-10-23.html</link>
@@ -5950,107 +6046,6 @@
 <tr>
 <td class="email-footer email-content" style="padding:16px; text-align:left; border-top:1px solid #e5e7eb;">
 <p class="email-footer-text" style="margin:0; color:#9ca3af; font-size:13px;">共5条高价值洞察</p>
-</td>
-</tr>
-
-</tbody></table>
-<!--[if mso]></td></tr></table><![endif]-->]]></content:encoded>
-    </item>
-    <item>
-      <title>每日AI洞察 | 2026-08-22</title>
-      <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-08-22.html</link>
-      <guid isPermaLink="true">https://cherrylin000.github.io/AI-news/docs/archive/2026-08-22.html</guid>
-      <pubDate>Fri, 21 Aug 2026 22:45:53 GMT</pubDate>
-      <description><![CDATA[<p>2026-08-22 | AI代理进入企业级：安全、架构与合作伙伴关系<br><br>AI Agents Enter the Enterprise: Safety, Architecture, and Partnerships<br><br>今日信息聚焦于AI代理平台的成熟：Anthropic应对质量回退并推出托管代理，OpenAI加强订阅合规同时发布新图像功能，Replit与OpenAI正式合作。同时，脑机接口的进展暗示了未来的基底独立。<br><br>---<br><br>• Thibault Sottiaux: 我们不会未经透明沟通就更改使用限制。通过sub2api将订阅转为API流量的用户会被反欺诈系统标记。使用ChatGPT登录官方或开源客户端是合规的。<br>• Boris Cherny: 针对Mythos级模型的企业安全方案正在开发中。客户掌控数据，Anthropic不保留任何数据。今年秋季推出。<br>• Amjad Masad: 与OpenAI的合作早该达成。PG在Replit进YC之前请Sam招募我们。Sam讲述了这段往事。</p><p><a href="https://cherrylin000.github.io/AI-news/docs/archive/2026-08-22.html">归档链接</a></p>]]></description>
-      <content:encoded><![CDATA[<!--[if mso]><table width="720" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td><![endif]-->
-<table class="email-container" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" role="presentation" style="width:100%; max-width:720px; margin:0 auto; text-align:left; box-sizing:border-box;">
-<tbody>
-
-<!-- Header -->
-<tr>
-<td class="email-header email-content" bgcolor="#f8fafc" style="border-bottom:3px solid #6366f1; padding:16px 20px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<h1 class="email-h1" style="margin:0; font-size:24px; color:#111827; line-height:1.35; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">📅 2026-08-22 | AI代理进入企业级：安全、架构与合作伙伴关系</h1>
-<p class="email-subtitle" style="margin:6px 0 0 0; color:#6b7280; font-size:15px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">AI Agents Enter the Enterprise: Safety, Architecture, and Partnerships</p>
-</td>
-</tr>
-<tr>
-<td class="email-section email-content" style="padding:8px 20px 12px; text-align:left;">
-<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">📱 X / Twitter</h2>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Thibault Sottiaux (Codex &amp; ChatGPT @OpenAI)</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">We don&#039;t change usage limits without transparency. sub2api abuse is flagged by fraud prevention. Sign in with ChatGPT is fine.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">我们不会未经透明沟通就更改使用限制。通过sub2api将订阅转为API流量的用户会被反欺诈系统标记。使用ChatGPT登录官方或开源客户端是合规的。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/thsottiaux/status/2090675027670978569" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Boris Cherny (Claude Code @anthropicai)</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Enterprise safety for Mythos-class models in development. Customers control their data; Anthropic retains none. Coming this fall.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">针对Mythos级模型的企业安全方案正在开发中。客户掌控数据，Anthropic不保留任何数据。今年秋季推出。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/bcherny/status/2090537902912815536" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Amjad Masad (CEO @replit)</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Partnership with OpenAI long overdue. PG asked Sam to recruit us pre-YC. Sam tells the story.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">与OpenAI的合作早该达成。PG在Replit进YC之前请Sam招募我们。Sam讲述了这段往事。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/amasad/status/2090514571513708874" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-</td>
-</tr>
-<tr>
-<td class="email-section-tight email-content" style="padding:0 20px 12px; text-align:left;">
-<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">🎙️ Podcasts</h2>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">No Priors: From Restoring Sight to Reimagining the Brain, with Max Hodak</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Max Hodak (Science, ex-Neuralink) discusses the Prima retinal prosthesis, regulatory approval in Europe, and substrate independence. He sees brains as computers and potential alignment between AI and neuroscience.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Max Hodak（Science创始人，前Neuralink）讨论了恢复视力的视网膜假体Prima、其在欧洲的监管批准，以及基底独立的探索。他认为大脑是计算机，并看到AI与神经科学对齐的潜力。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://www.youtube.com/watch?v=7HXqMepjvy8" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-</td>
-</tr>
-<tr>
-<td class="email-section-tight email-content" style="padding:0 20px 12px; text-align:left;">
-<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">📝 Official Blogs</h2>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Anthropic Engineering: An update on recent Claude Code quality reports</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Postmortem of three changes affecting Claude Code, Agent SDK, and Cowork. Issues: reasoning effort change, thinking-clearing bug, verbosity prompt hurting coding quality. Reverted/fixed by Apr 20.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">对影响Claude Code、Agent SDK和Cowork的三个变更的复盘。问题包括推理强度调整、清除思维的bug、冗长度提示词损害编码质量。截至4月20日已回滚或修复。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://www.anthropic.com/engineering/april-23-postmortem" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Anthropic Engineering: Scaling Managed Agents: Decoupling the brain from the hands</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Managed Agents virtualize session, harness, sandbox for long-horizon tasks. Decoupling components avoids &#039;pets&#039;, like OS abstractions outlasting hardware.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">托管代理虚拟化会话、执行框架、沙箱以支持长时任务。解耦组件避免&#039;宠物&#039;，如同操作系统抽象超越硬件。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://www.anthropic.com/engineering/managed-agents" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-</td>
-</tr>
-<tr>
-<td class="email-section-tight email-content" style="padding:0 20px 20px; text-align:left;">
-<h2 class="email-h2-hot" style="margin:0 0 16px 0; font-size:18px; color:#dc2626; text-align:left;">🔥 Today's Top Takeaway</h2>
-<table class="email-takeaway-wrap" width="100%" cellpadding="16" cellspacing="0" bgcolor="#fef2f2" style="border:2px solid #dc2626; border-radius:8px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-takeaway-title" style="margin:0; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">AI Agents Enter the Enterprise: Safety, Architecture, and Partnerships</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Today&#039;s feed centers on the maturation of AI agent platforms—Anthropic addresses quality regressions and launches managed agents, OpenAI tightens subscription compliance while shipping new image capabilities, and Replit formalizes a partnership with OpenAI. Meanwhile, brain-computer interface progress hints at future substrate independence.</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Key Points:</strong><br><br><strong>1. Enterprise trust is non-negotiable:</strong> Data ownership and infrastructure control are required for enterprise AI adoption, as seen in Anthropic&#039;s Fable safeguards and Claude Code enterprise updates.<br><strong>2. Agent infrastructure is being re-architected:</strong> Anthropic&#039;s Managed Agents decouple brain from hands, virtualizing sessions, harnesses, and sandboxes for long-running tasks.<br><strong>3. Subscription economics require clear guardrails:</strong> OpenAI flags sub2api abuse while encouraging official and OSS clients, balancing flexibility and compliance.<br><strong>4. AI partnerships intensify:</strong> Replit-OpenAI collaboration highlights the app-dev platform race.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Implications:</strong><br><br><strong>1. For developers:</strong> Watch for contract and usage policy changes; use supported integration paths to avoid flags.<br><strong>2. For enterprises:</strong> Demand data residency and control; new solutions like Managed Agents may simplify deployment.<br><strong>3. For AI vendors:</strong> Transparency about changes is critical to maintain trust; proactive communication and postmortems are best practices.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Bottom line:</strong> AI agent platforms are racing to earn enterprise trust through transparent operations, robust infrastructure, and strategic partnerships, while pushing the boundaries of multimodal generation and brain interfaces.</td></tr></tbody></table>
-<p class="email-takeaway-title" style="margin-top:14px; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">AI代理进入企业级：安全、架构与合作伙伴关系</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">今日信息聚焦于AI代理平台的成熟：Anthropic应对质量回退并推出托管代理，OpenAI加强订阅合规同时发布新图像功能，Replit与OpenAI正式合作。同时，脑机接口的进展暗示了未来的基底独立。</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>关键要点：</strong><br><br><strong>1. 企业信任不可妥协:</strong> 数据所有权和基础设施控制是企业采用AI的关键，如Anthropic的Fable安全措施和Claude Code企业更新。<br><strong>2. 代理架构正在重构:</strong> Anthropic的托管代理将大脑与手解耦，虚拟化会话、执行框架和沙箱以支持长期任务。<br><strong>3. 订阅经济需要明确边界:</strong> OpenAI标记sub2api滥用，但鼓励官方和开源客户端，在灵活性和合规性之间取得平衡。<br><strong>4. AI合作加剧:</strong> Replit与OpenAI的合作突显了应用开发平台之争。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>启示：</strong><br><br><strong>1. 对开发者:</strong> 关注合同和使用政策变化；使用受支持的集成路径以避免被标记。<br><strong>2. 对企业:</strong> 要求数据驻留和控制权；类似托管代理的新解决方案可能简化部署。<br><strong>3. 对AI供应商:</strong> 变更透明度对维持信任至关重要；主动沟通和事后复盘是最佳实践。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>总结：</strong>AI代理平台正通过透明运营、稳健的基础设施和战略合作来赢得企业信任，同时推动多模态生成和脑机接口的发展。</td></tr></tbody></table>
-</td></tr></tbody></table>
-</td>
-</tr>
-<tr>
-<td class="email-footer email-content" style="padding:16px; text-align:left; border-top:1px solid #e5e7eb;">
-<p class="email-footer-text" style="margin:0; color:#9ca3af; font-size:13px;">共6条高价值洞察</p>
 </td>
 </tr>
 
