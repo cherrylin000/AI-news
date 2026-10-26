@@ -5,8 +5,97 @@
     <link>https://cherrylin000.github.io/AI-news/</link>
     <description>每日 AI Builder 洞察摘要（中英双语）</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 25 Oct 2026 00:21:54 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 00:26:29 GMT</lastBuildDate>
     <atom:link href="https://cherrylin000.github.io/AI-news/docs/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>每日AI洞察 | 2026-10-26</title>
+      <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-10-26.html</link>
+      <guid isPermaLink="true">https://cherrylin000.github.io/AI-news/docs/archive/2026-10-26.html</guid>
+      <pubDate>Mon, 26 Oct 2026 00:26:29 GMT</pubDate>
+      <description><![CDATA[<p>2026-10-26 | AI的真正瓶颈：引导力、成本与人类连接<br><br>AI&#039;s Real Bottleneck: Guidance, Cost, and Human Connection<br><br>今日信号不在于更大的模型，而在于构建者如何引导模型、为智能定价，并守住学习与协作中人的部分。<br><br>---<br><br>• Guillermo Rauch: 有时你会过度引导AI，有时又引导不足；如何管理这种超能力，是我最看重的第0项技能。<br>• Ryo Lu: 我担心我们正在让逃避这种开始变得更容易……有时这种便利有帮助，但若一直选择它，友谊又从何开始？<br>• Guillermo Rauch: 我意外地喜欢模型们的工程词汇：门控、证据、元凶、持久、溯源、契约……我在想，为了高效产出，*最小可行英语*究竟是什么。简化技术英语约有900个核准词，我猜我们需要更少。<br>• Swyx: 我们正在为新的@latentspacepod编辑团队招聘作者、审稿人和记者……我会把这版内容放进每位新员工的欢迎包。</p><p><a href="https://cherrylin000.github.io/AI-news/docs/archive/2026-10-26.html">归档链接</a></p>]]></description>
+      <content:encoded><![CDATA[<!--[if mso]><table width="720" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td><![endif]-->
+<table class="email-container" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" role="presentation" style="width:100%; max-width:720px; margin:0 auto; text-align:left; box-sizing:border-box;">
+<tbody>
+
+<!-- Header -->
+<tr>
+<td class="email-header email-content" bgcolor="#f8fafc" style="border-bottom:3px solid #6366f1; padding:16px 20px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<h1 class="email-h1" style="margin:0; font-size:24px; color:#111827; line-height:1.35; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">📅 2026-10-26 | AI的真正瓶颈：引导力、成本与人类连接</h1>
+<p class="email-subtitle" style="margin:6px 0 0 0; color:#6b7280; font-size:15px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">AI&#039;s Real Bottleneck: Guidance, Cost, and Human Connection</p>
+</td>
+</tr>
+<tr>
+<td class="email-section email-content" style="padding:8px 20px 12px; text-align:left;">
+<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">📱 X / Twitter</h2>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Guillermo Rauch (CEO @ Vercel)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">There’ll be times where you over-guide the AI... There’ll be times where you under-guide the AI... How well you manage this superpower is the #0 skill I look for.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">有时你会过度引导AI，有时又引导不足；如何管理这种超能力，是我最看重的第0项技能。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/rauchg/status/2114085432749347086" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Ryo Lu (Designer @ Cursor, Notion, Stripe)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">i worry we are making it easier to avoid that beginning. ... sometimes that ease helps. but if we keep choosing it, where do the friendships begin?</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">我担心我们正在让逃避这种开始变得更容易……有时这种便利有帮助，但若一直选择它，友谊又从何开始？</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/ryolu_/status/2114187405251219954" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Guillermo Rauch (CEO @ Vercel)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">I oddly love the models&#039; engineering vernacular: gate, evidence, culprit, durable, provenance, contract… ... I wonder what the *minimum viable English* in fact is to be productive. ASD-STE100 Simplified Technical English contains ~900 approved words. I suspect we need far fewer.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">我意外地喜欢模型们的工程词汇：门控、证据、元凶、持久、溯源、契约……我在想，为了高效产出，*最小可行英语*究竟是什么。简化技术英语约有900个核准词，我猜我们需要更少。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/rauchg/status/2114164830403989880" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Swyx (Founder, smol.ai; Latent Space)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">we are hiring writers, reviewers and reporters for the new @latentspacepod editorial team ... and i’m gonna put a version of this in the welcome package for everyone we hire</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">我们正在为新的@latentspacepod编辑团队招聘作者、审稿人和记者……我会把这版内容放进每位新员工的欢迎包。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/swyx/status/2114145315196711194" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-section-tight email-content" style="padding:0 20px 12px; text-align:left;">
+<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">🎙️ Podcasts</h2>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">The MAD Podcast with Matt Turck: Jev: The AI That Makes Decisions, Not Text - and Why It Changes Everything (Diogo Almeida)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">We push the boundaries of intelligence per second, but I think the future is going to be intelligence per dollar primarily... the idea that intelligence per dollar has dropped to orders of magnitude is what will make the Jevolution unstoppable.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">我们不断突破每秒智能的边界，但我认为未来主要看每美元智能……每美元智能提升数个数量级，将让Jev革命不可阻挡。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://www.youtube.com/@DataDrivenNYC/videos" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-section-tight email-content" style="padding:0 20px 20px; text-align:left;">
+<h2 class="email-h2-hot" style="margin:0 0 16px 0; font-size:18px; color:#dc2626; text-align:left;">🔥 Today's Top Takeaway</h2>
+<table class="email-takeaway-wrap" width="100%" cellpadding="16" cellspacing="0" bgcolor="#fef2f2" style="border:2px solid #dc2626; border-radius:8px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-takeaway-title" style="margin:0; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">From Model Capability to Guidance and Intelligence Economics</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Today&#039;s signal is less about bigger models than about how builders steer them, price intelligence, and protect the human parts of learning and collaboration.</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Key Points:</strong><br><br><strong>1. Guidance is the #0 skill:</strong> Rauch says over- and under-guiding AI are both failure modes; managing that balance is the top skill.<br><strong>2. Intelligence per dollar:</strong> Jev&#039;s Diogo Almeida argues cost, not raw intelligence per second, will make AI ubiquitous and unlock new apps.<br><strong>3. Human struggle as moat:</strong> Ryo Lu warns that frictionless agents may reduce the shared struggle that builds taste, judgment, and friendships.<br><strong>4. Engineering language matters:</strong> Rauch sees model vernacular as debugging/audit language and asks whether productive English can be far smaller than 900 words.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Implications:</strong><br><br><strong>1. For builders:</strong> Optimize for steering loops, evals, and cost per outcome—not just model IQ.<br><strong>2. For product teams:</strong> Design AI to create more reasons to engage with the world and other people, not fewer.<br><strong>3. For AI media:</strong> Editorial teams around AI are maturing; expect more reporting and review layers as the field commercializes.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Bottom line:</strong> The winning AI products will pair powerful models with better human guidance, lower cost per useful decision, and deliberate space for human connection.</td></tr></tbody></table>
+<p class="email-takeaway-title" style="margin-top:14px; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">从模型能力转向引导力与智能经济学</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">今日信号不在于更大的模型，而在于构建者如何引导模型、为智能定价，并守住学习与协作中人的部分。</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>关键要点：</strong><br><br><strong>1. 引导力是第0项技能:</strong> Rauch认为过度引导与引导不足都是失败模式；管理这一平衡是最重要的技能。<br><strong>2. 每美元智能:</strong> Jev的Diogo Almeida认为，成本而非每秒原始智能，将让AI普及并解锁新应用。<br><strong>3. 人类挣扎是护城河:</strong> Ryo Lu警告，无摩擦的代理可能减少共同挣扎，而后者塑造品味、判断力与友谊。<br><strong>4. 工程语言很重要:</strong> Rauch将模型词汇视为调试/审计语言，并追问高效英语是否远少于900词。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>启示：</strong><br><br><strong>1. 对构建者:</strong> 优化引导闭环、评估与单次结果成本，而不只是模型智商。<br><strong>2. 对产品团队:</strong> 设计AI时，应创造更多进入世界和接触他人的理由，而非更少。<br><strong>3. 对AI媒体:</strong> AI编辑团队正在成熟；随着领域商业化，将出现更多报道与审阅层。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>总结：</strong>胜出的AI产品将把强大模型与更好的人类引导、更低的单次有效���策成本，以及刻意保留的人际连接空间结合起来。</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-footer email-content" style="padding:16px; text-align:left; border-top:1px solid #e5e7eb;">
+<p class="email-footer-text" style="margin:0; color:#9ca3af; font-size:13px;">共5条高价值洞察</p>
+</td>
+</tr>
+
+</tbody></table>
+<!--[if mso]></td></tr></table><![endif]-->]]></content:encoded>
+    </item>
     <item>
       <title>每日AI洞察 | 2026-10-25</title>
       <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-10-25.html</link>
@@ -5951,95 +6040,6 @@
 <tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>关键要点：</strong><br><br><strong>1. 效率成为焦点:</strong> OpenAI的Thibault Sottiaux预测，AI被视为基础设施后，2026年模型效率和可靠性将成为关键。<br><strong>2. 记录系统必须革新:</strong> YC的Garry Tan警告，传统记录系统须成为AI的“控制装置”，否则将被智能体取代。<br><strong>3. AI工具中的开放协议与Unix哲学:</strong> Vercel的Guillermo Rauch提倡使用开放协议（MCP、Skills、Plugins）和Unix式组合来构建可扩展的AI工具。<br><strong>4. 原生平台集成:</strong> Anthropic的Swift包将Claude带到Apple的Foundation Models框架中，实现设备端+云的混合AI工作流。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
 <tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>启示：</strong><br><br><strong>1. 可靠性成为差异化优势:</strong> 随着企业依赖AI进行核心运营，AI的可靠性将成为竞争优势。<br><strong>2. 智能体优先的设计:</strong> 产品需要面向智能体的界面，而不仅仅是面向人类，才能保持相关性。<br><strong>3. 开放生态胜出:</strong> 工具应采用开放标准和可组合性，而不是单体封闭设计。<br><strong>4. AI进入操作系统框架:</strong> AI将成为操作系统级开发者框架中的一等公民。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
 <tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>总结：</strong>今日信号表明AI技术栈正在成熟：效率与可靠性成为必备，智能体正在重塑系统设计，AI被原生构建到开发者平台中。</td></tr></tbody></table>
-</td></tr></tbody></table>
-</td>
-</tr>
-<tr>
-<td class="email-footer email-content" style="padding:16px; text-align:left; border-top:1px solid #e5e7eb;">
-<p class="email-footer-text" style="margin:0; color:#9ca3af; font-size:13px;">共5条高价值洞察</p>
-</td>
-</tr>
-
-</tbody></table>
-<!--[if mso]></td></tr></table><![endif]-->]]></content:encoded>
-    </item>
-    <item>
-      <title>每日AI洞察 | 2026-08-24</title>
-      <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-08-24.html</link>
-      <guid isPermaLink="true">https://cherrylin000.github.io/AI-news/docs/archive/2026-08-24.html</guid>
-      <pubDate>Sun, 23 Aug 2026 22:41:25 GMT</pubDate>
-      <description><![CDATA[<p>2026-08-24 | 智能体网络与AI效率的艺术<br><br>The Agentic Web and the Art of AI Efficiency<br><br>今日动态揭示了从单纯模型规模扩展转向AI产品工程及其连接基础设施的趋势。OpenAI解决Codex中的现实低效问题，微软推动协议驱动的智能体网络。同时，构建者们尽管领先，却始终感觉落后。<br><br>---<br><br>• Thibault Sottiaux: OpenAI的Codex团队发现了导致速率限制的低效问题：多压缩会话中的图片使用、Computer History的高p95使用率，以及一个标题生成功能。修复将于明天发布，并重置所有付费订阅的使用量。<br>• Zara Zhang: 每个在使用AI方面领先的人都觉得自己落后了。<br>• Peter Yang: 在Codex或Claude Code中打开Chrome标签页，告诉AI断开与Google账户连接的应用。我刚刚移除了拥有我数据的一半应用。<br>• Nikunj Kothari: 激怒投资者然后发送SAFE文件期望他们打款，这不是投资运作的方式。</p><p><a href="https://cherrylin000.github.io/AI-news/docs/archive/2026-08-24.html">归档链接</a></p>]]></description>
-      <content:encoded><![CDATA[<!--[if mso]><table width="720" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td><![endif]-->
-<table class="email-container" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" role="presentation" style="width:100%; max-width:720px; margin:0 auto; text-align:left; box-sizing:border-box;">
-<tbody>
-
-<!-- Header -->
-<tr>
-<td class="email-header email-content" bgcolor="#f8fafc" style="border-bottom:3px solid #6366f1; padding:16px 20px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<h1 class="email-h1" style="margin:0; font-size:24px; color:#111827; line-height:1.35; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">📅 2026-08-24 | 智能体网络与AI效率的艺术</h1>
-<p class="email-subtitle" style="margin:6px 0 0 0; color:#6b7280; font-size:15px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">The Agentic Web and the Art of AI Efficiency</p>
-</td>
-</tr>
-<tr>
-<td class="email-section email-content" style="padding:8px 20px 12px; text-align:left;">
-<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">📱 X / Twitter</h2>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Thibault Sottiaux (Codex &amp; ChatGPT @OpenAI)</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">OpenAI&#039;s Codex team found inefficiencies causing rate limits: images in long sessions, high p95 usage for Computer History, and a title generation feature. Fixes ship tomorrow with full usage reset for paid subs.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">OpenAI的Codex团队发现了导致速率限制的低效问题：多压缩会话中的图片使用、Computer History的高p95使用率，以及一个标题生成功能。修复将于明天发布，并重置所有付费订阅的使用量。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/thsottiaux/status/2091407991736332689" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Zara Zhang (Builder, Harvard &#039;17)</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Everyone who&#039;s ahead in using AI thinks they&#039;re behind.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">每个在使用AI方面领先的人都觉得自己落后了。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/zarazhangrui/status/2091338374447763481" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Peter Yang (AI educator &amp; content creator)</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Use Codex or Claude Code with a Chrome tab open to disconnect apps from your Google account. I just removed half the apps that had my data.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">在Codex或Claude Code中打开Chrome标签页，告诉AI断开与Google账户连接的应用。我刚刚移除了拥有我数据的一半应用。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/petergyang/status/2091331251211059468" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Nikunj Kothari (Partner @fpvventures)</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Ragebaiting investors and then sending SAFE docs to wire money is not how investing works.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">激怒投资者然后发送SAFE文件期望他们打款，这不是投资运作的方式。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/nikunj/status/2091381756012511244" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-</td>
-</tr>
-<tr>
-<td class="email-section-tight email-content" style="padding:0 20px 12px; text-align:left;">
-<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">🎙️ Podcasts</h2>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">AI &amp; I by Every: Microsoft’s Vision for an Internet Made for Agents With CTO Kevin Scott (Best of the Pod)</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Kevin Scott envisions an agentic web where agents interact via standard protocols, similar to the internet. He stresses internal systems at Microsoft adopting a common protocol and confirms scaling laws remain intact.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">凯文·斯科特设想了一个智能体网络，智能体��过标准协议进行交互，类似于互联网。他强调微软内部系统采用通用协议，并确认规模法则依然有效。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-</td>
-</tr>
-<tr>
-<td class="email-section-tight email-content" style="padding:0 20px 20px; text-align:left;">
-<h2 class="email-h2-hot" style="margin:0 0 16px 0; font-size:18px; color:#dc2626; text-align:left;">🔥 Today's Top Takeaway</h2>
-<table class="email-takeaway-wrap" width="100%" cellpadding="16" cellspacing="0" bgcolor="#fef2f2" style="border:2px solid #dc2626; border-radius:8px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-takeaway-title" style="margin:0; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">AI&#039;s Next Phase: From Models to Systems and Ecosystems</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Today&#039;s feed reveals a shift from pure model scaling to the engineering of AI products and the infrastructure that connects them. OpenAI tackles real-world inefficiencies in Codex, while Microsoft pushes for a protocol-driven agentic web. At the same time, builders grapple with a persistent feeling of falling behind despite leading the curve.</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Key Points:</strong><br><br><strong>1. Scaling Challenges in Production AI:</strong> OpenAI&#039;s Codex team found inefficiencies in image handling, Computer History usage, and title generation, leading to rate limits and a full usage reset for paid users.<br><strong>2. The Rise of the Agentic Web:</strong> Kevin Scott argues agents need an internet-like ecosystem with standard protocols for tools and data, and internal systems should speak the same protocol.<br><strong>3. Perception Gap Among AI Builders:</strong> Even those ahead in AI adoption feel behind, indicating the field&#039;s pace and the psychological challenge of constant learning.<br><strong>4. Practical AI for Everyday Life:</strong> From revoking app permissions to building cancer-care skills, AI is being applied to personal and practical domains.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Implications:</strong><br><br><strong>1. Infrastructure Efficiency Becomes Critical:</strong> As AI usage scales, companies must invest in optimizing resource consumption to maintain user trust and service reliability.<br><strong>2. Protocol Standardization Is the Next Frontier:</strong> The agentic web will require shared protocols for interoperability, similar to how HTTP enabled the human web.<br><strong>3. Mindset and Education Need to Catch Up:</strong> Addressing the perception gap is vital; developers need frameworks to measure their true progress and avoid burnout.<br><strong>4. Niche AI Applications with Human Impact:</strong> AI skills like /fuck-cancer show the potential for highly personalized, mission-driven tools that address real-world challenges.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Bottom line:</strong> AI is entering its systems engineering era — where efficiency, protocols, and practical utility are as important as model capability. The builders who thrive will be those who manage infrastructure intelligently and maintain a grounded perspective on their own progress.</td></tr></tbody></table>
-<p class="email-takeaway-title" style="margin-top:14px; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">AI的下一个阶段：从模型到系统与生态</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">今日动态揭示了从单纯模型规模扩展转向AI产品工程及其连接基础设施的趋势。OpenAI解决Codex中的现实低效问题，微软推动协议驱动的智能体网络。同时，构建者们尽管领先，却始终感觉落后。</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>关键要点：</strong><br><br><strong>1. 生产级AI的扩展挑战:</strong> OpenAI的Codex团队发现图片处理、Computer History使用和标题生成方面的低效问题，导致速率限制，并为付费用户重置全部使用量。<br><strong>2. 智能体网络的崛起:</strong> 凯文·斯科特认为智能体需要一个类似互联网的生态系统，标准协议连接工具和数据，内部系统应使用统一协议。<br><strong>3. AI构建者的认知差距:</strong> 即使领先者也会觉得落后，这反映了AI领域的快节奏和持续学习的心理挑战。<br><strong>4. AI在日常生活中的实际应用:</strong> 从撤销应用权限到构建癌症护理技能，AI正被应用于个人和实用领域。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>启示：</strong><br><br><strong>1. 基础设施效率至关重要:</strong> 随着AI使用规模的扩大，公司必须优化资源消耗，以维护用户信任和服务可靠性。<br><strong>2. 协议标准化是下一个前沿:</strong> 智能体网络需要共享协议以实现互操作性，就像HTTP支撑了人类网络一样。<br><strong>3. 心态与教育需要跟上:</strong> 解决认知差距至关重要；开发者需要有效的衡量框架来认识自身进步，避免倦怠。<br><strong>4. 具有人文关怀的垂直AI应用:</strong> 像/fuck-cancer这样的AI技能展示了高度个性化、使命驱动的工具应对现实挑战的潜力。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>总结：</strong>AI正进入系统工程时代——效率、协议和实际效用与模型能力同等重要。能够在智能基础设施管理上做得更好并保持务实自我认知的构建者，将最终胜出。</td></tr></tbody></table>
 </td></tr></tbody></table>
 </td>
 </tr>
