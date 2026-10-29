@@ -5,8 +5,85 @@
     <link>https://cherrylin000.github.io/AI-news/</link>
     <description>每日 AI Builder 洞察摘要（中英双语）</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 28 Oct 2026 01:26:06 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 01:51:03 GMT</lastBuildDate>
     <atom:link href="https://cherrylin000.github.io/AI-news/docs/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>每日AI洞察 | 2026-10-29</title>
+      <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-10-29.html</link>
+      <guid isPermaLink="true">https://cherrylin000.github.io/AI-news/docs/archive/2026-10-29.html</guid>
+      <pubDate>Thu, 29 Oct 2026 01:51:03 GMT</pubDate>
+      <description><![CDATA[<p>2026-10-29 | 智能体从代码走向操作系统<br><br>Agents Move From Code to the Operating System<br><br>今日动态指向智能体成为新的软件层：AI原生操作系统界面、智能体友好的开源分发，以及前沿AI价值向新发现转移。<br><br>---<br><br>• Thariq: 打造AI原生macOS Dock，支持写作/编程等自定义模式；智能体可实时分类活动与通知并自动执行操作。<br>• Thariq: 需要新的开源分发方式：用户可用智能体修改代码，同时自动合并上游更新。<br>• Amjad Masad: 投资前沿AI应押注新发现与医学等应用，因为编程和多数知识工作正被次前沿模型快速饱和。<br>• Swyx: 自估错失约5亿美元机会：作为TypeScript CLI维护者，本可能早期押注Claude Code。</p><p><a href="https://cherrylin000.github.io/AI-news/docs/archive/2026-10-29.html">归档链接</a></p>]]></description>
+      <content:encoded><![CDATA[<!--[if mso]><table width="720" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td><![endif]-->
+<table class="email-container" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" role="presentation" style="width:100%; max-width:720px; margin:0 auto; text-align:left; box-sizing:border-box;">
+<tbody>
+
+<!-- Header -->
+<tr>
+<td class="email-header email-content" bgcolor="#f8fafc" style="border-bottom:3px solid #6366f1; padding:16px 20px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<h1 class="email-h1" style="margin:0; font-size:24px; color:#111827; line-height:1.35; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">📅 2026-10-29 | 智能体从代码走向操作系统</h1>
+<p class="email-subtitle" style="margin:6px 0 0 0; color:#6b7280; font-size:15px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Agents Move From Code to the Operating System</p>
+</td>
+</tr>
+<tr>
+<td class="email-section email-content" style="padding:8px 20px 12px; text-align:left;">
+<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">📱 X / Twitter</h2>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Thariq (Formerly Claude Code @ Anthropic)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Experimenting with an AI-native macOS dock with custom modes (writing, building); the agent customizes mode behavior and uses jev to classify activity/notifications in real time.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">打造AI原生macOS Dock，支持写作/编程等自定义模式；智能体可实时分类活动与通知并自动执行操作。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/trq212/status/2115135857669881939" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Thariq (Formerly Claude Code @ Anthropic)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">There needs to be a new way to distribute open-source software so people can modify via agents while upstream changes merge automatically.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">需要新的开源分发方式：用户可用智能体修改代码，同时自动合并上游更新。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/trq212/status/2115188992861970693" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Amjad Masad (CEO @ Replit)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">If investing in frontier AI, underwrite mostly on new discovery and applications like medicine, because coding and most knowledge work are quickly saturated by sub-frontier models.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">投资前沿AI应押注新发现与医学等应用，因为编程和多数知识工作正被次前沿模型快速饱和。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/amasad/status/2115207856496480261" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Swyx (Affiliations @smol_ai, @cognition, @temporalio)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Estimates a $500M &#039;bag fumble&#039;; would likely have been on Claude Code early as a TypeScript CLI maintainer.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">自估错失约5亿美元机会：作为TypeScript CLI维护者，本可能早期押注Claude Code。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/swyx/status/2115089887959359988" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-section-tight email-content" style="padding:0 20px 20px; text-align:left;">
+<h2 class="email-h2-hot" style="margin:0 0 16px 0; font-size:18px; color:#dc2626; text-align:left;">🔥 Today's Top Takeaway</h2>
+<table class="email-takeaway-wrap" width="100%" cellpadding="16" cellspacing="0" bgcolor="#fef2f2" style="border:2px solid #dc2626; border-radius:8px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-takeaway-title" style="margin:0; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Agents Become the Software Substrate</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Builders converge on agents as a new software layer: AI-native OS interfaces, agent-friendly open-source distribution, and frontier AI value pivoting toward new discovery.</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Key Points:</strong><br><br><strong>1. System-Level Agents:</strong> Agents move beyond coding into OS-level HCI, orchestrating notifications and workflows.<br><strong>2. Open Source Needs Agent Plumbing:</strong> Distribution must let users modify via agents while keeping upstream synced.<br><strong>3. Frontier Value Shifts:</strong> Coding and knowledge work saturate; new discovery such as medicine becomes the frontier bet.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Implications:</strong><br><br><strong>1. For Builders:</strong> Design agent-native interfaces and upstream merge workflows as first-class features.<br><strong>2. For Investors:</strong> Underwrite frontier bets on discovery and domain applications, not saturated coding.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Bottom line:</strong> Agents are becoming the substrate of software interaction and distribution, while frontier competition shifts to discovery.</td></tr></tbody></table>
+<p class="email-takeaway-title" style="margin-top:14px; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">智能体成为软件基础层</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">今日动态指向智能体成为新的软件层：AI原生操作系统界面、智能体友好的开源分发，以及前沿AI价值向新发现转移。</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>关键要点：</strong><br><br><strong>1. 系统级智能体:</strong> 智能体从编码扩展到操作系统级人机交互，编排通知与工作流。<br><strong>2. 开源需要智能体管道:</strong> 分发机制须支持用户用智能体修改，同时保持上游同步。<br><strong>3. 前沿价值转移:</strong> 编程与知识工作饱和，医学等新发现成为前沿押注。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>启示：</strong><br><br><strong>1. 对开发者:</strong> 将智能体原生界面与上游合并工作流作为首要功能设计。<br><strong>2. 对投资者:</strong> 前沿押注应聚焦新发现与行业应用，而非已饱和的编程。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>总结：</strong>智能体正成为软件交互与分发的基础设施，前沿竞争转向新发现。</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-footer email-content" style="padding:16px; text-align:left; border-top:1px solid #e5e7eb;">
+<p class="email-footer-text" style="margin:0; color:#9ca3af; font-size:13px;">共4条高价值洞察</p>
+</td>
+</tr>
+
+</tbody></table>
+<!--[if mso]></td></tr></table><![endif]-->]]></content:encoded>
+    </item>
     <item>
       <title>每日AI洞察 | 2026-10-28</title>
       <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-10-28.html</link>
@@ -5942,102 +6019,6 @@
 <tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>关键要点：</strong><br><br><strong>1. Claude扩展浏览器自主性:</strong> Claude in Chrome全面可用，通过分类器验证操作以防止提示注入。<br><strong>2. Cowork内置浏览器:</strong> Claude可以在独立浏览器中处理网页任务，维护用户隐私和控制。<br><strong>3. 企业AI使命:</strong> 百亿美元对冲基金CEO公开宣称&#039;使用ChatGPT不是作弊&#039;，将AI融入公司文化。<br><strong>4. 快速创新步伐:</strong> OpenAI员工强调极高的执行速度，将多年进展压缩到数周。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
 <tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>启示：</strong><br><br><strong>1. 浏览器智能体成为标准界面:</strong> 基于浏览器的智能体可能成为AI与现有网络工具和遗留系统交互的标准界面。<br><strong>2. 安全是信任的关键:</strong> 提示注入分类器��安全措施对于自主智能体获得信任和采用至关重要。<br><strong>3. 高层领导力至关重要:</strong> 高层领导力对AI采用至关重要；CEO必须以身作则并设定明确期望。<br><strong>4. 持续发布节奏:</strong> AI实验室的快速迭代表明我们将看到持续的功能发布，挑战组织保持同步。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
 <tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>总结：</strong>AI正在从对话走向行动——能够浏览、填表和操作软件的智能体已成为现实，并辅以安全机制和高管指令。信息很明确：拥抱AI，否则将被抛在后面。</td></tr></tbody></table>
-</td></tr></tbody></table>
-</td>
-</tr>
-<tr>
-<td class="email-footer email-content" style="padding:16px; text-align:left; border-top:1px solid #e5e7eb;">
-<p class="email-footer-text" style="margin:0; color:#9ca3af; font-size:13px;">共6条高价值洞察</p>
-</td>
-</tr>
-
-</tbody></table>
-<!--[if mso]></td></tr></table><![endif]-->]]></content:encoded>
-    </item>
-    <item>
-      <title>每日AI洞察 | 2026-08-27</title>
-      <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-08-27.html</link>
-      <guid isPermaLink="true">https://cherrylin000.github.io/AI-news/docs/archive/2026-08-27.html</guid>
-      <pubDate>Thu, 27 Aug 2026 03:22:23 GMT</pubDate>
-      <description><![CDATA[<p>2026-08-27 | AI 的下一个前沿：芯片、记忆与智能体搜索<br><br>AI&#039;s Next Frontier: Chips, Memory, and Agentic Search<br><br>今日动态揭示了三大汇聚趋势：OpenAI 自研芯片暗示计算层面的优化，Anthropic 的跨工具记忆让 AI 携带上下文无处不在，Parag Agrawal 对智能体优先网络的愿景标志着 AI 与信息交互方式的转变。<br><br>---<br><br>• Sam Altman: 我们造了一颗芯片，而且速度很快。<br>• Claude: Claude 现在在聊天和 Claude Cowork 之间拥有统一记忆，内容由你决定。<br>• Thibault Sottiaux: 这个需求很大。与 Pro $100 计划类似，但为团队和小公司设计。<br>• Peter Yang: 我开源了 /fuck-cancer，一个帮助患者和照护者应对癌症诊断与治疗的 AI 技能。</p><p><a href="https://cherrylin000.github.io/AI-news/docs/archive/2026-08-27.html">归档链接</a></p>]]></description>
-      <content:encoded><![CDATA[<!--[if mso]><table width="720" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td><![endif]-->
-<table class="email-container" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" role="presentation" style="width:100%; max-width:720px; margin:0 auto; text-align:left; box-sizing:border-box;">
-<tbody>
-
-<!-- Header -->
-<tr>
-<td class="email-header email-content" bgcolor="#f8fafc" style="border-bottom:3px solid #6366f1; padding:16px 20px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<h1 class="email-h1" style="margin:0; font-size:24px; color:#111827; line-height:1.35; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">📅 2026-08-27 | AI 的下一个前沿：芯片、记忆与智能体搜索</h1>
-<p class="email-subtitle" style="margin:6px 0 0 0; color:#6b7280; font-size:15px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">AI&#039;s Next Frontier: Chips, Memory, and Agentic Search</p>
-</td>
-</tr>
-<tr>
-<td class="email-section email-content" style="padding:8px 20px 12px; text-align:left;">
-<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">📱 X / Twitter</h2>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Sam Altman (CEO, OpenAI)</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">we made a chip and it is fast</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">我们造了一颗芯片，而且速度很快。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/sama/status/2092339694210040187" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Claude (AI by Anthropic)</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Claude now has one memory across chat and Claude Cowork, and you decide what&#039;s in it.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Claude 现在在聊天和 Claude Cowork 之间拥有统一记忆，内容由你决定。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/claudeai/status/2092299704864284888" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Thibault Sottiaux (Codex &amp; ChatGPT @OpenAI)</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">So much demand for this one. Works similar to the Pro $100 plan but designed for teams and small companies.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">这个需求很大。与 Pro $100 计划类似，但为团队和小公司设计。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/thsottiaux/status/2092345330272780499" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Peter Yang (AI content creator)</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">I&#039;m open-sourcing /fuck-cancer, an AI skill that helps patients and caregivers navigate cancer diagnosis and treatment.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">我开源了 /fuck-cancer，一个帮助患者和照护者应对癌症诊断与治疗的 AI 技能。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/petergyang/status/2092249012913258946" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Google Labs (Google&#039;s AI experiments hub)</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Play with Putty is a collaborative vibe coding tool that lets you build tools and websites together in real time.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Play with Putty 是一款协作式 vibe coding 工具，可让你实时共同构建工具和网站。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/GoogleLabs/status/2092293667688173593" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-</td>
-</tr>
-<tr>
-<td class="email-section-tight email-content" style="padding:0 20px 12px; text-align:left;">
-<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">🎙️ Podcasts</h2>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Training Data: Parallel&#039;s Parag Agrawal: Building a New Web for AI Agents</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Human click data is a bug, and agent doing work with search should rely on agent feedback, not human feedback.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">人类点击数据是一个 bug，使用搜索的智能体应依赖智能体反馈，而非人类反馈。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-</td>
-</tr>
-<tr>
-<td class="email-section-tight email-content" style="padding:0 20px 20px; text-align:left;">
-<h2 class="email-h2-hot" style="margin:0 0 16px 0; font-size:18px; color:#dc2626; text-align:left;">🔥 Today's Top Takeaway</h2>
-<table class="email-takeaway-wrap" width="100%" cellpadding="16" cellspacing="0" bgcolor="#fef2f2" style="border:2px solid #dc2626; border-radius:8px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-takeaway-title" style="margin:0; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">The Agentic AI Stack Is Taking Shape</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Today&#039;s feed reveals three converging trends: OpenAI&#039;s custom chip hints at compute-level optimization, Anthropic&#039;s cross-tool memory shows AI carrying context everywhere, and Parag Agrawal&#039;s vision of an agent-first web signals a shift in how AI will interact with information.</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Key Points:</strong><br><br><strong>1. Custom Hardware:</strong> OpenAI&#039;s chip marks a move toward purpose-built AI infrastructure.<br><strong>2. Persistent Memory:</strong> Claude&#039;s unified memory enables AI to retain context across platforms.<br><strong>3. Agentic Search:</strong> Parallel argues search should be redesigned for AI agents, not humans.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Implications:</strong><br><br><strong>1. AI-Human Collaboration:</strong> Open-source tools like /fuck-cancer show AI&#039;s potential in high-stakes human domains.<br><strong>2. Team Workflows:</strong> ChatGPT&#039;s team plan and Google&#039;s collaborative coding tool point to group AI adoption.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Bottom line:</strong> AI is moving from single interactions to a persistent, agent-centric ecosystem—with the hardware, memory, and search architecture to match.</td></tr></tbody></table>
-<p class="email-takeaway-title" style="margin-top:14px; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">智能体 AI 技术栈正在成形</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">今日动态揭示了三大汇聚趋势：OpenAI 自研芯片暗示计算层面的优化，Anthropic 的跨工具记忆让 AI 携带上下文无处不在，Parag Agrawal 对智能体优先网络的愿景标志着 AI 与信息交互方式的转变。</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>关键要点：</strong><br><br><strong>1. 定制硬件:</strong> OpenAI 的芯片标志着向专用 AI 基础设施的转变。<br><strong>2. 持久记忆:</strong> Claude 的统一记忆让 AI 跨平台保留上下文。<br><strong>3. 智能体搜索:</strong> Parallel 认为搜索应为 AI 智能体而重新设计，而非为人类。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>启示：</strong><br><br><strong>1. AI 与人类协作:</strong> /fuck-cancer 等开源工具展示了 AI 在重大人类领域的潜力。<br><strong>2. 团队工作流:</strong> ChatGPT 团队版和 Google 的协作编程工具指向群体 AI 应用。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>总结：</strong>AI 正从单次交互走向持久、智能体中心的生态系统——配套的硬件、记忆和搜索架构也在同步演进。</td></tr></tbody></table>
 </td></tr></tbody></table>
 </td>
 </tr>
