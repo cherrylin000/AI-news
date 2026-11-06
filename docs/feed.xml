@@ -5,8 +5,97 @@
     <link>https://cherrylin000.github.io/AI-news/</link>
     <description>每日 AI Builder 洞察摘要（中英双语）</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 05 Nov 2026 02:31:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 02:31:33 GMT</lastBuildDate>
     <atom:link href="https://cherrylin000.github.io/AI-news/docs/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>每日AI洞察 | 2026-11-06</title>
+      <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-11-06.html</link>
+      <guid isPermaLink="true">https://cherrylin000.github.io/AI-news/docs/archive/2026-11-06.html</guid>
+      <pubDate>Fri, 06 Nov 2026 02:31:33 GMT</pubDate>
+      <description><![CDATA[<p>2026-11-06 | 智能体重写软件，也重写产品与安全规则<br><br>Agents Rewrite Software—and the Rules of Product &amp; Security<br><br>今日信号显示，AI正从辅助编码转向智能体主导的软件重构。产品人才向OpenAI集中，构建者预测AI将重写、测试、加固并文档化大多数软件；播客则提醒智能体泛滥已显混乱，控制与验证成为稀缺层。<br><br>---<br><br>• Cat Wu: 我将加入OpenAI负责核心产品管理，打造支持你和团队、并让你保持控制的智能体。<br>• Guillermo Rauch: AI将重写一切软件，多次重写，使其快速、低成本且安全；我们正见证软件工程的真正诞生。<br>• Thibault Sottiaux: 我们已组建世界级网络安全团队，未来数周至数月将分享更多工作。<br>• Thariq: 期待苹果允许应用为你构建快捷指令。</p><p><a href="https://cherrylin000.github.io/AI-news/docs/archive/2026-11-06.html">归档链接</a></p>]]></description>
+      <content:encoded><![CDATA[<!--[if mso]><table width="720" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td><![endif]-->
+<table class="email-container" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" role="presentation" style="width:100%; max-width:720px; margin:0 auto; text-align:left; box-sizing:border-box;">
+<tbody>
+
+<!-- Header -->
+<tr>
+<td class="email-header email-content" bgcolor="#f8fafc" style="border-bottom:3px solid #6366f1; padding:16px 20px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<h1 class="email-h1" style="margin:0; font-size:24px; color:#111827; line-height:1.35; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">📅 2026-11-06 | 智能体重写软件，也重写产品与安全规则</h1>
+<p class="email-subtitle" style="margin:6px 0 0 0; color:#6b7280; font-size:15px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Agents Rewrite Software—and the Rules of Product &amp; Security</p>
+</td>
+</tr>
+<tr>
+<td class="email-section email-content" style="padding:8px 20px 12px; text-align:left;">
+<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">📱 X / Twitter</h2>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Cat Wu (Product lead, Core Products at OpenAI; formerly Claude Code at Anthropic)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">I’m joining OpenAI to lead product management for Core Products... we’ll build agents that have your back and your team’s, and keep you in control.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">我将加入OpenAI负责核心产品管理，打造支持你和团队、并让你保持控制的智能体。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/_catwu/status/2118137612577968402" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Guillermo Rauch (CEO, Vercel)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">AI will rewrite it all. Many times. It will make it fast, cost-efficient, and secure... we are witnessing the true birth of software engineering.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">AI将重写一切软件，多次重写，使其快速、低成本且安全；我们正见证软件工程的真正诞生。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/rauchg/status/2118166970273292299" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Thibault Sottiaux (Codex &amp; ChatGPT at OpenAI)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">We’ve assembled a world class cyber team and I’m excited for us to share more about our work over the weeks and months.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">我们已组建世界级网络安全团队，未来数周至数月将分享更多工作。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/thsottiaux/status/2118146794362405231" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Thariq (Formerly Claude Code at Anthropic)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">manifesting Apple lets apps build Shortcuts for you</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">期待苹果允许应用为你构建快捷指令。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/trq212/status/2118124218839859700" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-section-tight email-content" style="padding:0 20px 12px; text-align:left;">
+<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">🎙️ Podcasts</h2>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">AI &amp; I by Every: The Inside Story of the 50 Who Built Modern AI With Kevin Roose</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">We had to fact check the AIs, and now the AIs fact check me... I have agents now that are correcting my other agents. It&#039;s a huge mess.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">过去我们要核查AI，现在AI核查我；智能体之间互相纠正，局面混乱。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-section-tight email-content" style="padding:0 20px 20px; text-align:left;">
+<h2 class="email-h2-hot" style="margin:0 0 16px 0; font-size:18px; color:#dc2626; text-align:left;">🔥 Today's Top Takeaway</h2>
+<table class="email-takeaway-wrap" width="100%" cellpadding="16" cellspacing="0" bgcolor="#fef2f2" style="border:2px solid #dc2626; border-radius:8px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-takeaway-title" style="margin:0; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">The Agentic Software Stack: Rewrite, Verify, Control</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Today’s signals point to a shift from AI-assisted coding to agent-driven software overhaul. Product leaders are consolidating at OpenAI, while builders predict AI will rewrite, test, secure, and document most software. The podcast adds a caution: agent sprawl is already messy, so control and verification become the scarce layer.</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Key Points:</strong><br><br><strong>1. Talent &amp; product focus:</strong> Cat Wu joins OpenAI Core Products to build agents that keep users in control.<br><strong>2. Software rewrite thesis:</strong> Rauch says most human-made software is slow, insecure, under-specified; AI will rewrite and formally verify it.<br><strong>3. Security becomes explicit:</strong> OpenAI’s Codex/ChatGPT team highlights a world-class cyber team.<br><strong>4. Agent sprawl is real:</strong> Kevin Roose describes AIs fact-checking him and agents correcting agents—&#039;a huge mess.&#039;<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Implications:</strong><br><br><strong>1. Control layer wins:</strong> Products that let teams govern, verify, and audit agents will matter as much as model quality.<br><strong>2. Security is a feature:</strong> AI-generated code must ship with formal verification, load testing, and memory-safety hardening baked in.<br><strong>3. OS integration is next:</strong> Apple Shortcuts-type hooks could turn every app into an agent-accessible tool.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Bottom line:</strong> The next AI product battle is not just who writes code fastest, but who can rewrite, verify, secure, and govern software at scale.</td></tr></tbody></table>
+<p class="email-takeaway-title" style="margin-top:14px; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">智能体软件栈：重写、验证、控制</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">今日信号显示，AI正从辅助编码转向智能体主导的软件重构。产品人才向OpenAI集中，构建者预测AI将重写、测试、加固并文档化大多数软件；播客则提醒智能体泛滥已显混乱，控制与验证成为稀缺层。</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>关键要点：</strong><br><br><strong>1. 人才与产品聚焦:</strong> Cat Wu加入OpenAI核心产品，打造让用户保持控制的智能体。<br><strong>2. 软件重写论:</strong> Rauch认为多数人造软件慢、不安全、规格不足，AI将重写并形式化验证。<br><strong>3. 安全被显性化:</strong> OpenAI Codex/ChatGPT团队强调世界级网络安全团队。<br><strong>4. 智能体泛滥真实存在:</strong> Kevin Roose称AI核查他，智能体互相纠正，局面混乱。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>启示：</strong><br><br><strong>1. 控制层胜出:</strong> 让团队治理、验证、审计智能体的产品，重要性将不亚于模型质量。<br><strong>2. 安全即功能:</strong> AI生成代码必须内置形式化验证、负载测试与内存安全加固。<br><strong>3. 操作系统集成是下一步:</strong> 类似苹果快捷指令的接口可能让每个应用成为智能体可调用的工具。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>总结：</strong>下一场AI产品战不只是谁写代码更快，而是谁能规模化地重写、验证、加固并治理软件。</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-footer email-content" style="padding:16px; text-align:left; border-top:1px solid #e5e7eb;">
+<p class="email-footer-text" style="margin:0; color:#9ca3af; font-size:13px;">共5条高价值洞察</p>
+</td>
+</tr>
+
+</tbody></table>
+<!--[if mso]></td></tr></table><![endif]-->]]></content:encoded>
+    </item>
     <item>
       <title>每日AI洞察 | 2026-11-05</title>
       <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-11-05.html</link>
@@ -5837,95 +5926,6 @@
 <tr>
 <td class="email-footer email-content" style="padding:16px; text-align:left; border-top:1px solid #e5e7eb;">
 <p class="email-footer-text" style="margin:0; color:#9ca3af; font-size:13px;">共6条高价值洞察</p>
-</td>
-</tr>
-
-</tbody></table>
-<!--[if mso]></td></tr></table><![endif]-->]]></content:encoded>
-    </item>
-    <item>
-      <title>每日AI洞察 | 2026-09-04</title>
-      <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-09-04.html</link>
-      <guid isPermaLink="true">https://cherrylin000.github.io/AI-news/docs/archive/2026-09-04.html</guid>
-      <pubDate>Fri, 04 Sep 2026 00:08:43 GMT</pubDate>
-      <description><![CDATA[<p>2026-09-04 | AI代理超越对话：桌面自动化、Slack助手与AI原生写作<br><br>AI Agents Move Beyond the Chat Window: Desktop Automation, Slack Assistants, and AI-Native Writing<br><br>今日动态揭示了一个重大跨越：AI助手不再局限于聊天窗口。它们现在可以操作你的桌面、分析Slack中的数据、充当你的主浏览器，甚至像专业人士一样写作——这标志着代理式工作流的新时代。<br><br>---<br><br>• Claude (@claudeai): Claude现在可以在后台操作你的电脑，在Claude Cowork和Claude Code中替你点击、输入、打开应用，同时你可以处理其他事务。<br>• Boris Cherny (@bcherny): Fable 5.1让Claude Tag更加实用：它能够根据指标表格和Slack数据快速构建领导层演示文稿，发现供应商报告与数据不一致，并在继续操作前标记出来。<br>• Josh Woodward (@joshwoodward): Gemini 3.8 Flash正在向Gemini App用户推出。<br>• Thibault Sottiaux (@thsottiaux): ChatGPT桌面应用现在成了我的主浏览器，我的生产力达到了前所未有的高度。</p><p><a href="https://cherrylin000.github.io/AI-news/docs/archive/2026-09-04.html">归档链接</a></p>]]></description>
-      <content:encoded><![CDATA[<!--[if mso]><table width="720" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td><![endif]-->
-<table class="email-container" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" role="presentation" style="width:100%; max-width:720px; margin:0 auto; text-align:left; box-sizing:border-box;">
-<tbody>
-
-<!-- Header -->
-<tr>
-<td class="email-header email-content" bgcolor="#f8fafc" style="border-bottom:3px solid #6366f1; padding:16px 20px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<h1 class="email-h1" style="margin:0; font-size:24px; color:#111827; line-height:1.35; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">📅 2026-09-04 | AI代理超越对话：桌面自动化、Slack助手与AI原生写作</h1>
-<p class="email-subtitle" style="margin:6px 0 0 0; color:#6b7280; font-size:15px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">AI Agents Move Beyond the Chat Window: Desktop Automation, Slack Assistants, and AI-Native Writing</p>
-</td>
-</tr>
-<tr>
-<td class="email-section email-content" style="padding:8px 20px 12px; text-align:left;">
-<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">📱 X / Twitter</h2>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Claude (@claudeai) (Anthropic)</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Claude can now use your computer in the background in Claude Cowork and Claude Code. It clicks, types, and opens apps like you would while you work on something else.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Claude现在可以在后台操作你的电脑，在Claude Cowork和Claude Code中替你点击、输入、打开应用，同时你可以处理其他事务。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/claudeai/status/2095226833293685100" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Boris Cherny (@bcherny) (Claude Code @ Anthropic)</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Fable 5.1 makes Claude Tag more useful: it builds a last-minute leadership deck from a metrics spreadsheet and Slack data, spots a vendor report that disagrees, and flags it before moving on.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Fable 5.1让Claude Tag更加实用：它能够根据指标表格和Slack数据快速构建领导层演示文稿，发现供应商报告与数据不一致，并在继续操作前标记出来。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/bcherny/status/2095276133214491086" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Josh Woodward (@joshwoodward) (VP, Google (Gemini))</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">3.8 Flash rolling out to GeminiApp.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Gemini 3.8 Flash正在向Gemini App用户推出。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/joshwoodward/status/2095177483129917849" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Thibault Sottiaux (@thsottiaux) (Codex &amp; ChatGPT @ OpenAI)</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">The ChatGPT desktop app is now my main browser and my productivity has never been higher.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">ChatGPT桌面应用现在成了我的主浏览器，我的生产力达到了前所未有的高度。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/thsottiaux/status/2095288416292487289" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-</td>
-</tr>
-<tr>
-<td class="email-section-tight email-content" style="padding:0 20px 12px; text-align:left;">
-<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">🎙️ Podcasts</h2>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">AI &amp; I by Every: How a Professional Writer Writes With AI</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Katie Parrott built Compound Writing, an experimental plugin that lets you write with AI the way Every does internally, inspired by Kieran Klassen&#039;s Compound Engineering.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Katie Parrott构建了Compound Writing插件，这是一个实验性插件，让你能够像Every内部一样用AI写作，灵感来自Kieran Klassen的Compound Engineering概念。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-</td>
-</tr>
-<tr>
-<td class="email-section-tight email-content" style="padding:0 20px 20px; text-align:left;">
-<h2 class="email-h2-hot" style="margin:0 0 16px 0; font-size:18px; color:#dc2626; text-align:left;">🔥 Today's Top Takeaway</h2>
-<table class="email-takeaway-wrap" width="100%" cellpadding="16" cellspacing="0" bgcolor="#fef2f2" style="border:2px solid #dc2626; border-radius:8px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-takeaway-title" style="margin:0; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">AI Is Shifting from Conversation to Action</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Today&#039;s posts reveal a major leap: AI assistants are no longer confined to chat windows. They now operate your desktop, analyze data in Slack, act as your primary browser, and even write like a professional—signaling a new era of agentic workflows.</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Key Points:</strong><br><br><strong>1. Background Desktop Automation:</strong> Claude can now use your computer in the background, performing clicks, typing, and app switching while you focus on other work.<br><strong>2. AI as Primary Interface:</strong> OpenAI&#039;s ChatGPT desktop app is being used as a main browser, indicating the rise of AI-native UIs for daily productivity.<br><strong>3. Contextual AI Agents in Collaboration:</strong> Claude Tag in Slack can surface data discrepancies and build deliverables from spreadsheets, pushing AI into analytical team workflows.<br><strong>4. AI-Native Writing Tools:</strong> Compound Writing moves beyond autocomplete—it structures an entire writing process based on how professional writers actually use AI.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Implications:</strong><br><br><strong>1. Rethinking Personal Computing:</strong> If AI can control your desktop, the operating system itself becomes an agentic substrate, not just a GUI.<br><strong>2. Productivity Metrics Change:</strong> The new metric is not &#039;how many tabs you can handle&#039; but &#039;how many agents you effectively delegate to.&#039;<br><strong>3. Tools Must Be Built Agent-First:</strong> Slack, spreadsheets, and browsers are becoming execution environments for AI, so design needs to prioritize machine-readable context and actions.<br><strong>4. Writing Workflows Get Compounded:</strong> Compound methods apply engineering principles to writing—breaking large tasks into smaller, AI-assisted compounds that scale quality.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Bottom line:</strong> The AI trend has evolved from answering questions to taking actions across your computer, collaboration tools, and creative workflows. The future belongs to those who can effectively orchestrate AI agents, not just chat with them.</td></tr></tbody></table>
-<p class="email-takeaway-title" style="margin-top:14px; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">AI正在从对话转向执行</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">今日动态揭示了一个重大跨越：AI助手不再局限于聊天窗口。它们现在可以操作你的桌面、分析Slack中的数据、充当你的主浏览器，甚至像专业人士一样写作——这标志着代理式工作流的新时代。</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>关键要点：</strong><br><br><strong>1. 后台桌面自动化:</strong> Claude现在可以在后台操作你的电脑，执行点击、输入和切换应用，同时你专注其他工作。<br><strong>2. AI成为主界面:</strong> OpenAI的ChatGPT桌面应用被当作主浏览器使用，表明AI原生界面正在成为日常生产力的新入口。<br><strong>3. 融入协作场景的AI代理:</strong> Slack中的Claude Tag能发现数据矛盾并快速生成交付物，把AI推进到分析型团队工作流中。<br><strong>4. AI原生写作工具:</strong> Compound Writing不再只是自动补全，它根据专业作者使用AI的真实方式，构建出完整的写作流程。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>启示：</strong><br><br><strong>1. 重新思考个人计算:</strong> 如果AI能够控制你的桌面，操作系统本身就成为代理式操作的基础平台，而不仅仅是图形界面。<br><strong>2. 生产力衡量标准改变:</strong> 新的生产力指标不是“你能同时打开多少标签页”，而是“你能有效委派给多少个AI代理”。<br><strong>3. 工具需要为AI优先设计:</strong> Slack、电子表格和浏览器正成为AI的执行环境，因此设计需要优先考虑机器可读的上下文和操作接口。<br><strong>4. 写作流程的复合化:</strong> 复合方法将工程原则引入写作——将大型任务分解为更小的、AI辅助的复合单元，从而扩展质量。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>总结：</strong>AI趋势已从回答问题进化为在电脑、协作工具和创意工作中采取行动。未来属于那些能有效编排AI代理的人，而不仅仅是与它们聊天的人。</td></tr></tbody></table>
-</td></tr></tbody></table>
-</td>
-</tr>
-<tr>
-<td class="email-footer email-content" style="padding:16px; text-align:left; border-top:1px solid #e5e7eb;">
-<p class="email-footer-text" style="margin:0; color:#9ca3af; font-size:13px;">共5条高价值洞察</p>
 </td>
 </tr>
 
