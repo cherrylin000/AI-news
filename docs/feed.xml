@@ -5,8 +5,104 @@
     <link>https://cherrylin000.github.io/AI-news/</link>
     <description>每日 AI Builder 洞察摘要（中英双语）</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 14 Nov 2026 02:28:58 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 01:58:08 GMT</lastBuildDate>
     <atom:link href="https://cherrylin000.github.io/AI-news/docs/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>每日AI洞察 | 2026-11-15</title>
+      <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-11-15.html</link>
+      <guid isPermaLink="true">https://cherrylin000.github.io/AI-news/docs/archive/2026-11-15.html</guid>
+      <pubDate>Sun, 15 Nov 2026 01:58:08 GMT</pubDate>
+      <description><![CDATA[<p>2026-11-15 | 智能体基础设施成熟：工作流、成本与持续学习<br><br>Agent Infrastructure Matures: Workflows, Cost, and Continual Learning<br><br>今日 Builder 信号显示智能体基础设施正走向成熟：Vercel 推出持久化工作流，Replit 扩展爆款 AI 页面，成本基准倾向 Opus 5.5；实用 AI 技能进入医疗，Trajectory 推动持续学习从批量更新走向在线闭环。<br><br>---<br><br>• Guillermo Rauch: Workflow SDK 5 与 Vercel Workflows 是智能体的重大进步：首步与步间时延大幅改善，并诞生 durable-harness。<br>• Amjad Masad: 与 StandWithJensen 页面所有者合作，该页由 Replit 构建托管；提高速率限制后，现在应能扩展。<br>• Garry Tan: 建议 Claude Code 默认用 Opus 5.5：52 个编码任务上 Fable 5.2 解决率相近（82.7% vs 84.6%），但每个解决任务成本高 2.80 倍。<br>• Peter Yang: 若亲友患癌或长期疾病：上传全部病历，安装免费 /fuck-cancer 技能，指向文件夹生成一页简报并研究临床试验。</p><p><a href="https://cherrylin000.github.io/AI-news/docs/archive/2026-11-15.html">归档链接</a></p>]]></description>
+      <content:encoded><![CDATA[<!--[if mso]><table width="720" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td><![endif]-->
+<table class="email-container" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" role="presentation" style="width:100%; max-width:720px; margin:0 auto; text-align:left; box-sizing:border-box;">
+<tbody>
+
+<!-- Header -->
+<tr>
+<td class="email-header email-content" bgcolor="#f8fafc" style="border-bottom:3px solid #6366f1; padding:16px 20px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<h1 class="email-h1" style="margin:0; font-size:24px; color:#111827; line-height:1.35; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">📅 2026-11-15 | 智能体基础设施成熟：工作流、成本与持续学习</h1>
+<p class="email-subtitle" style="margin:6px 0 0 0; color:#6b7280; font-size:15px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Agent Infrastructure Matures: Workflows, Cost, and Continual Learning</p>
+</td>
+</tr>
+<tr>
+<td class="email-section email-content" style="padding:8px 20px 12px; text-align:left;">
+<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">📱 X / Twitter</h2>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Guillermo Rauch (@vercel CEO)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Workflow SDK 5 and Vercel Workflows are a monumental step forward for agents. Time to first step and time between steps massively improved; durable-harness was born.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Workflow SDK 5 与 Vercel Workflows 是智能体的重大进步：首步与步间时延大幅改善，并诞生 durable-harness。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/rauchg/status/2121277727940776114" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Amjad Masad (CEO @replit)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Worked with the owner of the StandWithJensen page, which is built and hosted on Replit, to raise the rate limit. It should now scale!</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">与 StandWithJensen 页面所有者合作，该页由 Replit 构建托管；提高速率限制后，现在应能扩展。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/amasad/status/2121389001546567837" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Garry Tan (President &amp; CEO @ycombinator)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Keep Opus 5.5 as your coding default in Claude Code. On 52 coding tasks, Fable 5.2 solved about as many (82.7% vs 84.6%) but cost 2.80x as much per solved task.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">建议 Claude Code 默认用 Opus 5.5：52 个编码任务上 Fable 5.2 解决率相近（82.7% vs 84.6%），但每个解决任务成本高 2.80 倍。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/garrytan/status/2121464508225053153" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Peter Yang (Practical AI tutorials and interviews)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">If you know a loved one suffering from cancer or another long-term illness: upload all medical records, install my free /fuck-cancer skill, point it at the folder to create a one-page brief and research clinical trials.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">若亲友患癌或长期疾病：上传全部病历，安装免费 /fuck-cancer 技能，指向文件夹生成一页简报并研究临床试验。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/petergyang/status/2121430386685395022" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Guillermo Rauch (@vercel CEO)</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Vercel Sandbox is inevitable</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Vercel Sandbox 势在必行</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/rauchg/status/2121347136965210286" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-section-tight email-content" style="padding:0 20px 12px; text-align:left;">
+<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">🎙️ Podcasts</h2>
+<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Training Data: A Model For Everyone: How Ronak From Trajectory Is Building Products For Continual Learning</h3>
+<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Trajectory&#039;s Ronak compares today&#039;s agents to pseudo continual learning: like MapQuest vs Google Maps. The goal is to put training, eval, and deployment in one place, close the loop, and gather new traces.</p>
+<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Trajectory 的 Ronak 称当前智能体处于“伪持续学习”：像 MapQuest 对比 Google Maps。目标是把训练、评估、部署合一，闭环并采集新轨迹。</p>
+<p style="margin:0; text-align:left;"><a class="email-link" href="https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-section-tight email-content" style="padding:0 20px 20px; text-align:left;">
+<h2 class="email-h2-hot" style="margin:0 0 16px 0; font-size:18px; color:#dc2626; text-align:left;">🔥 Today's Top Takeaway</h2>
+<table class="email-takeaway-wrap" width="100%" cellpadding="16" cellspacing="0" bgcolor="#fef2f2" style="border:2px solid #dc2626; border-radius:8px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
+<p class="email-takeaway-title" style="margin:0; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Agents Shift From Demos to Durable, Cost-Aware, Continuously Learning Systems</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Today&#039;s builder signals show agent infrastructure maturing: Vercel ships durable workflows, Replit scales a viral AI-built page, and cost benchmarks favor Opus 5.5. Practical AI skills reach healthcare, while Trajectory pushes continual learning from batch updates to online loops.</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Key Points:</strong><br><br><strong>1. Durable agent workflows:</strong> Vercel Workflow SDK 5 improves step latency, security, scale reliability, and reusable durability logs.<br><strong>2. Cost-aware model selection:</strong> Opus 5.5 matches Fable 5.2 on coding tasks at much lower cost per solved task, making default choice matter.<br><strong>3. Continual learning and real-world skills:</strong> Trajectory targets train-eval-deploy loops; Peter Yang shows AI skills solving concrete healthcare workflows.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Implications:</strong><br><br><strong>1. Build for reliability first:</strong> Agent products need durable execution, security, and disaster recovery before scaling.<br><strong>2. Benchmark cost per outcome:</strong> Teams should track cost per solved task, not just raw accuracy, when choosing coding models.<br><strong>3. Close the data loop:</strong> Winning products will turn production traces into continuous model improvement.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Bottom line:</strong> The agent stack is consolidating around durable execution, outcome-based cost efficiency, and closed-loop learning—while practical AI skills move into high-stakes domains.</td></tr></tbody></table>
+<p class="email-takeaway-title" style="margin-top:14px; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">智能体从演示走向可靠、成本敏感、持续学习的系统</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">今日 Builder 信号显示智能体基础设施正走向成熟：Vercel 推出持久化工作流，Replit 扩展爆款 AI 页面，成本基准倾向 Opus 5.5；实用 AI 技能进入医疗，Trajectory 推动持续学习从批量更新走向在线闭环。</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>关键要点：</strong><br><br><strong>1. 持久化智能体工作流:</strong> Vercel Workflow SDK 5 改善步骤时延、安全、规模化可靠性与可复用持久化日志。<br><strong>2. 成本敏感的模型选择:</strong> Opus 5.5 在编码任务上媲美 Fable 5.2，但每个解决任务成本低得多，默认选择很关键。<br><strong>3. 持续学习与真实场景技能:</strong> Trajectory 瞄准训练-评估-部署闭环；Peter Yang 展示 AI 技能解决具体医疗工作流。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>启示：</strong><br><br><strong>1. 优先构建可靠性:</strong> 智能体产品在扩展前需要持久执行、安全与灾难恢复能力。<br><strong>2. 按结果衡量成本:</strong> 选择编码模型时应追踪每个解决任务的成本，而非只看原始准确率。<br><strong>3. 闭合数据闭环:</strong> 胜出的产品会把生产轨迹转化为持续的模型改进。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
+<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>总结：</strong>智能体栈正围绕持久执行、基于结果的成本效率与闭环学习整合，同时实用 AI 技能进入高风险领域。</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td class="email-footer email-content" style="padding:16px; text-align:left; border-top:1px solid #e5e7eb;">
+<p class="email-footer-text" style="margin:0; color:#9ca3af; font-size:13px;">共6条高价值洞察</p>
+</td>
+</tr>
+
+</tbody></table>
+<!--[if mso]></td></tr></table><![endif]-->]]></content:encoded>
+    </item>
     <item>
       <title>每日AI洞察 | 2026-11-14</title>
       <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-11-14.html</link>
@@ -5823,109 +5919,6 @@
 <tr>
 <td class="email-footer email-content" style="padding:16px; text-align:left; border-top:1px solid #e5e7eb;">
 <p class="email-footer-text" style="margin:0; color:#9ca3af; font-size:13px;">共8条高价值洞察</p>
-</td>
-</tr>
-
-</tbody></table>
-<!--[if mso]></td></tr></table><![endif]-->]]></content:encoded>
-    </item>
-    <item>
-      <title>每日AI洞察 | 2026-09-13</title>
-      <link>https://cherrylin000.github.io/AI-news/docs/archive/2026-09-13.html</link>
-      <guid isPermaLink="true">https://cherrylin000.github.io/AI-news/docs/archive/2026-09-13.html</guid>
-      <pubDate>Sun, 13 Sep 2026 00:02:01 GMT</pubDate>
-      <description><![CDATA[<p>2026-09-13 | Astra密集发布、评测回归真实、Agent开始拥有银行账户<br><br>Astra Ships, Evals Get Real, Agents Get Bank Accounts<br><br>OpenAI的Astra平台一周连发五款产品，同时修复质量回归并吸纳Git AI团队；Anthropic的Claude Code指出单看基准分数会误导，并推出插件评测；Coinbase CEO勾勒了面向AI Agent的金融层。<br><br>---<br><br>• Thibault Sottiaux: 已定位并修复：技能触发过频、导致提前停止的上下文管理实验（约4-5千用户受影响），以及配置错误的引擎造成的质量下降。<br>• Thibault Sottiaux: 本周由Astra驱动发布：Images 2.5、GPT-Live-1、Agents API、Data Agent、ChatGPT金融服务版——而DevDay还没到。<br>• Thibault Sottiaux: 欢迎Git AI团队加入OpenAI。他们开发了开源工具，帮助开发者理解编码Agent如何影响代码库；Git AI将保持开源并持续投入。<br>• Thariq: 如今仅凭通过/失败分数几乎无法解读评测；许多失败源于过于严苛的隐藏测试，模型的答案有时比预期结果更合理。</p><p><a href="https://cherrylin000.github.io/AI-news/docs/archive/2026-09-13.html">归档链接</a></p>]]></description>
-      <content:encoded><![CDATA[<!--[if mso]><table width="720" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td><![endif]-->
-<table class="email-container" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" role="presentation" style="width:100%; max-width:720px; margin:0 auto; text-align:left; box-sizing:border-box;">
-<tbody>
-
-<!-- Header -->
-<tr>
-<td class="email-header email-content" bgcolor="#f8fafc" style="border-bottom:3px solid #6366f1; padding:16px 20px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<h1 class="email-h1" style="margin:0; font-size:24px; color:#111827; line-height:1.35; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">📅 2026-09-13 | Astra密集发布、评测回归真实、Agent开始拥有银行账户</h1>
-<p class="email-subtitle" style="margin:6px 0 0 0; color:#6b7280; font-size:15px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Astra Ships, Evals Get Real, Agents Get Bank Accounts</p>
-</td>
-</tr>
-<tr>
-<td class="email-section email-content" style="padding:8px 20px 12px; text-align:left;">
-<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">📱 X / Twitter</h2>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Thibault Sottiaux (Codex &amp; ChatGPT @OpenAI)</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Found and fixed: overly-triggering skills, an opt-in context management experiment causing early stops (est. 4-5k users), and badly configured engines degrading quality.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">已定位并修复：技能触发过频、导致提前停止的上下文管理实验（约4-5千用户受影响），以及配置错误的引擎造成的质量下降。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/thsottiaux/status/2098612714704891959" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Thibault Sottiaux (Codex &amp; ChatGPT @OpenAI)</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Astra powered ships this week: Images 2.5, GPT-Live-1, Agents API, Data Agent, ChatGPT for Financial Services — and yet it&#039;s not yet DevDay.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">本周由Astra驱动发布：Images 2.5、GPT-Live-1、Agents API、Data Agent、ChatGPT金融服务版——而DevDay还没到。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/thsottiaux/status/2098639827084480864" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Thibault Sottiaux (Codex &amp; ChatGPT @OpenAI)</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Welcoming the Git AI team to OpenAI. They built an open-source tool helping developers understand how coding agents contribute to their codebase; Git AI stays open source.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">欢迎Git AI团队加入OpenAI。他们开发了开源工具，帮助开发者理解编码Agent如何影响代码库；Git AI将保持开源并持续投入。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/thsottiaux/status/2098569976143806918" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Thariq (Claude Code @anthropicai)</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">It&#039;s basically impossible to interpret evals by looking at just the pass/fail scores these days; many failures come from overly strict hidden tests.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">如今仅凭通过/失败分数几乎无法解读评测；许多失败源于过于严苛的隐藏测试，模型的答案有时比预期结果更合理。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/trq212/status/2098490139798655427" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Thariq (Claude Code @anthropicai)</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Feedback: hard to know if your skills still work with new model releases. Plugin evals are here — run `claude plugin eval init` in your plugin folder.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">用户反馈难以判断技能在新模型发布后是否仍有效。插件评测来了：在插件目录运行 `claude plugin eval init`。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/trq212/status/2098531560643539440" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">Zara Zhang (Builder / Writer)</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">The idea of a &quot;one-person company&quot; is overrated. Building something new can be profoundly lonely; it&#039;s easy to lose motivation without someone tied to the mast with you.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">“一人公司”的概念被高估了。创造新事物可能极度孤独，若无人与你同舟共济，极易失去动力。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://x.com/zarazhangrui/status/2098483800456179923" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-</td>
-</tr>
-<tr>
-<td class="email-section-tight email-content" style="padding:0 20px 12px; text-align:left;">
-<h2 class="email-h2" style="margin:0 0 16px 0; font-size:17px; color:#6366f1; text-align:left; padding-left:14px; border-left:4px solid #6366f1;">🎙️ Podcasts</h2>
-<h3 class="email-h3" style="margin:20px 0 12px 0; font-size:16px; color:#111827; text-align:left; line-height:1.45; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">No Priors: Coinbase&#039;s Everything Exchange: Agentic Finance, Stablecoins, and Tokenization with CEO Brian Armstrong</h3>
-<table class="email-item" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td class="email-item-body" style="padding:0 0 20px 0; border-bottom:1px solid #e5e7eb; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-text" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">~76% of agent ecommerce transactions we see are under 30¢. We don&#039;t want the AIs to be unbanked — agents get their own financial accounts; the agentic economy will be bigger than the human economy.</p>
-<p class="email-text email-text-last" style="margin:0 0 14px 0; color:#333333; font-size:15px; line-height:1.75; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">我们看到的Agent电商交易中约76%低于30美分。不能让AI“无银行账户”——Agent将拥有自己的金融账户，Agent经济终将超过人类经济。</p>
-<p style="margin:0; text-align:left;"><a class="email-link" href="https://www.youtube.com/watch?v=uLDK4l_-gUE" style="color:#6366f1; text-decoration:none; font-size:14px;">🔗 原文链接</a></p>
-</td></tr></tbody></table>
-</td>
-</tr>
-<tr>
-<td class="email-section-tight email-content" style="padding:0 20px 20px; text-align:left;">
-<h2 class="email-h2-hot" style="margin:0 0 16px 0; font-size:18px; color:#dc2626; text-align:left;">🔥 Today's Top Takeaway</h2>
-<table class="email-takeaway-wrap" width="100%" cellpadding="16" cellspacing="0" bgcolor="#fef2f2" style="border:2px solid #dc2626; border-radius:8px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">
-<p class="email-takeaway-title" style="margin:0; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">From Model Launches to Agent Economies</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">OpenAI&#039;s Astra shipped five products in one week while its team fixed quality regressions and absorbed the Git AI team; Anthropic&#039;s Claude Code argued benchmark scores alone mislead and shipped plugin evals; Coinbase&#039;s CEO outlined a financial layer for AI agents.</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Key Points:</strong><br><br><strong>1. Astra&#039;s shipping cadence:</strong> Images 2.5, GPT-Live-1, Agents API, Data Agent and ChatGPT for Financial Services landed in a single week — before DevDay.<br><strong>2. Evals under scrutiny:</strong> Pass/fail scores hide overly strict hidden tests; plugin evals let developers verify skills against each new model release.<br><strong>3. Agent payments:</strong> 76% of agent commerce transactions are under 30¢, so agents need their own accounts and sub-dollar payment rails.<br><strong>4. Agent code attribution:</strong> OpenAI keeps Git AI open source to show where coding agents actually contribute to a codebase.<br><strong>5. The human factor:</strong> Zara Zhang: AI amplifies one person, but loneliness — not capability — is the real limiter of solo builders.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Implications:</strong><br><br><strong>1. Quality ops is the new launch discipline:</strong> Shipping fast now requires public resets, experiment rollbacks and root-cause fixes alongside the feature drop.<br><strong>2. Evaluation becomes a product surface:</strong> Tooling that tests prompts/skills against new models will be a first-class developer workflow, not an afterthought.<br><strong>3. Design for sub-dollar agent traffic:</strong> Pricing, fees and settlement must work at cents scale, or agent-driven commerce stalls before it scales.<br><strong>4. Attribution for AI-written code:</strong> Enterprises will demand visibility into what agents changed — measurement becomes part of the adoption story.<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>Bottom line:</strong> Shipping speed is no longer the differentiator; the winners pair rapid model releases with honest evaluation, attribution and infrastructure built for agent-native economics.</td></tr></tbody></table>
-<p class="email-takeaway-title" style="margin-top:14px; font-weight:600; color:#991b1b; font-size:17px; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">从模型发布到Agent经济：速度与真实质量的竞赛</p><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:0; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;">OpenAI的Astra平台一周连发五款产品，同时修复质量回归并吸纳Git AI团队；Anthropic的Claude Code指出单看基准分数会误导，并推出插件评测；Coinbase CEO勾勒了面向AI Agent的金融层。</td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>关键要点：</strong><br><br><strong>1. Astra的发布节奏:</strong> Images 2.5、GPT-Live-1、Agents API、Data Agent与ChatGPT金融服务版一周内全部落地，DevDay都还没开。<br><strong>2. 评测体系受质疑:</strong> 通过/失败分数掩盖了过严的隐藏测试；插件评测让开发者能针对每次新模型发布验证技能是否仍有效。<br><strong>3. Agent支付:</strong> 76%的Agent电商交易低于30美分，Agent需要独立账户与支持亚美元级的支付通道。<br><strong>4. Agent代码归因:</strong> OpenAI将Git AI保持开源，用于呈现编码Agent在代码库中的实际贡献。<br><strong>5. 人的因素:</strong> Zara Zhang：AI放大了个人能力，但真正限制独立开发者的是孤独感而非能力。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>启示：</strong><br><br><strong>1. 质量运维成为新的发布纪律:</strong> 快速发布的同时必须公开重置、回滚实验并做根因修复，功能上线与质量修复是一体两面。<br><strong>2. 评测正在产品化:</strong> 针对新模型验证提示词/技能的工具将成为一线开发流程，而非事后补丁。<br><strong>3. 为亚美元级Agent流量设计:</strong> 定价、手续费与结算必须支持分级别支付，否则Agent驱动的商业规模会卡在起点。<br><strong>4. AI代码的归因需求:</strong> 企业会要求看清Agent改了什么，度量能力将成为推动采纳的关键一环。<br></td></tr></tbody></table><table class="email-takeaway-block" width="100%" cellpadding="8" cellspacing="0" bgcolor="#fee2e2" style="margin-top:10px; border-radius:4px; width:100%; max-width:100%; box-sizing:border-box;">
-<tbody><tr><td style="color:#333333; font-size:14px; line-height:1.7; text-align:left; word-wrap:break-word; overflow-wrap:break-word; word-break:break-word; max-width:100%; box-sizing:border-box;"><strong>总结：</strong>发布速度已不再是差异化优势；真正的赢家会把快速模型迭代与诚实的评测、归因机制，以及为Agent原生经济构建的基础设施结合在一起。</td></tr></tbody></table>
-</td></tr></tbody></table>
-</td>
-</tr>
-<tr>
-<td class="email-footer email-content" style="padding:16px; text-align:left; border-top:1px solid #e5e7eb;">
-<p class="email-footer-text" style="margin:0; color:#9ca3af; font-size:13px;">共7条高价值洞察</p>
 </td>
 </tr>
 
